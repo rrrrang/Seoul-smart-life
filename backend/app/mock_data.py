@@ -5,6 +5,10 @@
 지역 코드는 팀 슬랙(희구님, 10/13)의 3글자 코드를 따랐어요.
 """
 
+import hashlib
+import json
+from pathlib import Path
+
 # 5개 평가 영역 키 (팀 공통 약속)
 DOMAINS = ["economy", "energy", "comfort", "health", "safety"]
 
@@ -65,3 +69,27 @@ MOCK_SCORES = {
     "jng": {"economy": 75, "energy": 91, "comfort": 79, "health": 59, "safety": 66},
     "jnn": {"economy": 58, "energy": 65, "comfort": 85, "health": 84, "safety": 66},
 }
+
+# 각 자치구에 "자치구 단위"라는 표시를 붙임
+for _r in REGIONS:
+    _r["spatial_unit"] = "district"
+
+# 서울 행정동 426개 (코드는 행정안전부 10자리 행정동 코드)
+# 출처: vuski/admdongkor 2025-01-01 기준 행정동 목록
+DONGS = json.loads((Path(__file__).parent / "data" / "seoul_dongs.json").read_text(encoding="utf-8"))
+for _d in DONGS:
+    _d["spatial_unit"] = "dong"
+
+
+def _mock_offset(code: str, domain: str) -> int:
+    """코드마다 항상 같은 -10~+10 사이 숫자를 만듦 (실행할 때마다 바뀌지 않게)."""
+    digest = hashlib.md5(f"{code}:{domain}".encode()).digest()
+    return digest[0] % 21 - 10
+
+
+# 행정동 가짜 점수: 소속 자치구 점수에서 조금씩(-10~+10) 다르게
+for _d in DONGS:
+    _parent = MOCK_SCORES[_d["parent_region_code"]]
+    MOCK_SCORES[_d["region_code"]] = {
+        dom: max(0, min(100, _parent[dom] + _mock_offset(_d["region_code"], dom))) for dom in DOMAINS
+    }

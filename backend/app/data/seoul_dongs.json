@@ -1,0 +1,2132 @@
+[
+ {
+  "region_code": "1111051500",
+  "name_ko": "청운효자동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111053000",
+  "name_ko": "사직동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111054000",
+  "name_ko": "삼청동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111055000",
+  "name_ko": "부암동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111056000",
+  "name_ko": "평창동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111057000",
+  "name_ko": "무악동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111058000",
+  "name_ko": "교남동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111060000",
+  "name_ko": "가회동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111061500",
+  "name_ko": "종로1·2·3·4가동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111063000",
+  "name_ko": "종로5·6가동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111064000",
+  "name_ko": "이화동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111065000",
+  "name_ko": "혜화동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111067000",
+  "name_ko": "창신1동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111068000",
+  "name_ko": "창신2동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111069000",
+  "name_ko": "창신3동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111070000",
+  "name_ko": "숭인1동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1111071000",
+  "name_ko": "숭인2동",
+  "parent_region_code": "jno"
+ },
+ {
+  "region_code": "1114052000",
+  "name_ko": "소공동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114054000",
+  "name_ko": "회현동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114055000",
+  "name_ko": "명동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114057000",
+  "name_ko": "필동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114058000",
+  "name_ko": "장충동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114059000",
+  "name_ko": "광희동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114060500",
+  "name_ko": "을지로동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114061500",
+  "name_ko": "신당동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114062500",
+  "name_ko": "다산동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114063500",
+  "name_ko": "약수동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114064500",
+  "name_ko": "청구동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114065000",
+  "name_ko": "신당5동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114066500",
+  "name_ko": "동화동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114067000",
+  "name_ko": "황학동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1114068000",
+  "name_ko": "중림동",
+  "parent_region_code": "jng"
+ },
+ {
+  "region_code": "1117051000",
+  "name_ko": "후암동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117052000",
+  "name_ko": "용산2가동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117053000",
+  "name_ko": "남영동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117055500",
+  "name_ko": "청파동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117056000",
+  "name_ko": "원효로1동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117057000",
+  "name_ko": "원효로2동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117058000",
+  "name_ko": "효창동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117059000",
+  "name_ko": "용문동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117062500",
+  "name_ko": "한강로동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117063000",
+  "name_ko": "이촌1동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117064000",
+  "name_ko": "이촌2동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117065000",
+  "name_ko": "이태원1동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117066000",
+  "name_ko": "이태원2동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117068500",
+  "name_ko": "한남동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117069000",
+  "name_ko": "서빙고동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1117070000",
+  "name_ko": "보광동",
+  "parent_region_code": "ysn"
+ },
+ {
+  "region_code": "1120052000",
+  "name_ko": "왕십리2동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120053500",
+  "name_ko": "왕십리도선동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120054000",
+  "name_ko": "마장동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120055000",
+  "name_ko": "사근동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120056000",
+  "name_ko": "행당1동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120057000",
+  "name_ko": "행당2동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120058000",
+  "name_ko": "응봉동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120059000",
+  "name_ko": "금호1가동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120061500",
+  "name_ko": "금호2·3가동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120062000",
+  "name_ko": "금호4가동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120064500",
+  "name_ko": "옥수동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120065000",
+  "name_ko": "성수1가1동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120066000",
+  "name_ko": "성수1가2동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120067000",
+  "name_ko": "성수2가1동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120069000",
+  "name_ko": "성수2가3동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120072000",
+  "name_ko": "송정동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1120079000",
+  "name_ko": "용답동",
+  "parent_region_code": "sdg"
+ },
+ {
+  "region_code": "1121571000",
+  "name_ko": "화양동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121573000",
+  "name_ko": "군자동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121574000",
+  "name_ko": "중곡1동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121575000",
+  "name_ko": "중곡2동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121576000",
+  "name_ko": "중곡3동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121577000",
+  "name_ko": "중곡4동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121578000",
+  "name_ko": "능동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121581000",
+  "name_ko": "광장동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121582000",
+  "name_ko": "자양1동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121583000",
+  "name_ko": "자양2동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121584000",
+  "name_ko": "자양3동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121584700",
+  "name_ko": "자양4동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121585000",
+  "name_ko": "구의1동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121586000",
+  "name_ko": "구의2동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1121587000",
+  "name_ko": "구의3동",
+  "parent_region_code": "gwj"
+ },
+ {
+  "region_code": "1123053600",
+  "name_ko": "용신동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123054500",
+  "name_ko": "제기동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123056000",
+  "name_ko": "전농1동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123057000",
+  "name_ko": "전농2동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123060000",
+  "name_ko": "답십리1동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123061000",
+  "name_ko": "답십리2동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123065000",
+  "name_ko": "장안1동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123066000",
+  "name_ko": "장안2동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123070500",
+  "name_ko": "청량리동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123071000",
+  "name_ko": "회기동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123072000",
+  "name_ko": "휘경1동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123073000",
+  "name_ko": "휘경2동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123074000",
+  "name_ko": "이문1동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1123075000",
+  "name_ko": "이문2동",
+  "parent_region_code": "ddm"
+ },
+ {
+  "region_code": "1126052000",
+  "name_ko": "면목2동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126054000",
+  "name_ko": "면목4동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126055000",
+  "name_ko": "면목5동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126056500",
+  "name_ko": "면목본동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126057000",
+  "name_ko": "면목7동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126057500",
+  "name_ko": "면목3·8동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126058000",
+  "name_ko": "상봉1동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126059000",
+  "name_ko": "상봉2동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126060000",
+  "name_ko": "중화1동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126061000",
+  "name_ko": "중화2동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126062000",
+  "name_ko": "묵1동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126063000",
+  "name_ko": "묵2동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126065500",
+  "name_ko": "망우본동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126066000",
+  "name_ko": "망우3동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126068000",
+  "name_ko": "신내1동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1126069000",
+  "name_ko": "신내2동",
+  "parent_region_code": "jnn"
+ },
+ {
+  "region_code": "1129052500",
+  "name_ko": "성북동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129055500",
+  "name_ko": "삼선동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129057500",
+  "name_ko": "동선동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129058000",
+  "name_ko": "돈암1동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129059000",
+  "name_ko": "돈암2동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129060000",
+  "name_ko": "안암동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129061000",
+  "name_ko": "보문동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129062000",
+  "name_ko": "정릉1동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129063000",
+  "name_ko": "정릉2동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129064000",
+  "name_ko": "정릉3동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129065000",
+  "name_ko": "정릉4동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129066000",
+  "name_ko": "길음1동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129068500",
+  "name_ko": "길음2동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129070500",
+  "name_ko": "종암동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129071500",
+  "name_ko": "월곡1동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129072500",
+  "name_ko": "월곡2동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129076000",
+  "name_ko": "장위1동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129077000",
+  "name_ko": "장위2동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129078000",
+  "name_ko": "장위3동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1129081000",
+  "name_ko": "석관동",
+  "parent_region_code": "sbk"
+ },
+ {
+  "region_code": "1130553400",
+  "name_ko": "삼양동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130553500",
+  "name_ko": "미아동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130554500",
+  "name_ko": "송중동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130555500",
+  "name_ko": "송천동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130557500",
+  "name_ko": "삼각산동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130559500",
+  "name_ko": "번1동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130560300",
+  "name_ko": "번2동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130560800",
+  "name_ko": "번3동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130561500",
+  "name_ko": "수유1동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130562500",
+  "name_ko": "수유2동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130563500",
+  "name_ko": "수유3동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130564500",
+  "name_ko": "우이동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1130566000",
+  "name_ko": "인수동",
+  "parent_region_code": "gnb"
+ },
+ {
+  "region_code": "1132051100",
+  "name_ko": "창1동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132051200",
+  "name_ko": "창2동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132051300",
+  "name_ko": "창3동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132051400",
+  "name_ko": "창4동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132051500",
+  "name_ko": "창5동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132052100",
+  "name_ko": "도봉1동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132052200",
+  "name_ko": "도봉2동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132066000",
+  "name_ko": "쌍문1동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132067000",
+  "name_ko": "쌍문2동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132068000",
+  "name_ko": "쌍문3동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132068100",
+  "name_ko": "쌍문4동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132069000",
+  "name_ko": "방학1동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132070000",
+  "name_ko": "방학2동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1132071000",
+  "name_ko": "방학3동",
+  "parent_region_code": "dbg"
+ },
+ {
+  "region_code": "1135056000",
+  "name_ko": "월계1동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135057000",
+  "name_ko": "월계2동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135058000",
+  "name_ko": "월계3동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135059500",
+  "name_ko": "공릉1동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135060000",
+  "name_ko": "공릉2동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135061100",
+  "name_ko": "하계1동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135061200",
+  "name_ko": "하계2동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135061900",
+  "name_ko": "중계본동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135062100",
+  "name_ko": "중계1동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135062400",
+  "name_ko": "중계4동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135062500",
+  "name_ko": "중계2·3동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135063000",
+  "name_ko": "상계1동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135064000",
+  "name_ko": "상계2동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135066500",
+  "name_ko": "상계3·4동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135067000",
+  "name_ko": "상계5동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135069500",
+  "name_ko": "상계6·7동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135070000",
+  "name_ko": "상계8동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135071000",
+  "name_ko": "상계9동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1135072000",
+  "name_ko": "상계10동",
+  "parent_region_code": "nwn"
+ },
+ {
+  "region_code": "1138051000",
+  "name_ko": "녹번동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138052000",
+  "name_ko": "불광1동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138053000",
+  "name_ko": "불광2동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138055100",
+  "name_ko": "갈현1동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138055200",
+  "name_ko": "갈현2동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138056000",
+  "name_ko": "구산동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138057000",
+  "name_ko": "대조동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138058000",
+  "name_ko": "응암1동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138059000",
+  "name_ko": "응암2동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138060000",
+  "name_ko": "응암3동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138062500",
+  "name_ko": "역촌동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138063100",
+  "name_ko": "신사1동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138063200",
+  "name_ko": "신사2동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138064000",
+  "name_ko": "증산동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138065000",
+  "name_ko": "수색동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1138069000",
+  "name_ko": "진관동",
+  "parent_region_code": "eyp"
+ },
+ {
+  "region_code": "1141052000",
+  "name_ko": "천연동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141055500",
+  "name_ko": "북아현동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141056500",
+  "name_ko": "충현동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141058500",
+  "name_ko": "신촌동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141061500",
+  "name_ko": "연희동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141062000",
+  "name_ko": "홍제1동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141064000",
+  "name_ko": "홍제3동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141065500",
+  "name_ko": "홍제2동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141066000",
+  "name_ko": "홍은1동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141068500",
+  "name_ko": "홍은2동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141069000",
+  "name_ko": "남가좌1동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141070000",
+  "name_ko": "남가좌2동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141071000",
+  "name_ko": "북가좌1동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1141072000",
+  "name_ko": "북가좌2동",
+  "parent_region_code": "sdm"
+ },
+ {
+  "region_code": "1144055500",
+  "name_ko": "아현동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144056500",
+  "name_ko": "공덕동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144058500",
+  "name_ko": "도화동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144059000",
+  "name_ko": "용강동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144060000",
+  "name_ko": "대흥동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144061000",
+  "name_ko": "염리동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144063000",
+  "name_ko": "신수동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144065500",
+  "name_ko": "서강동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144066000",
+  "name_ko": "서교동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144068000",
+  "name_ko": "합정동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144069000",
+  "name_ko": "망원1동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144070000",
+  "name_ko": "망원2동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144071000",
+  "name_ko": "연남동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144072000",
+  "name_ko": "성산1동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144073000",
+  "name_ko": "성산2동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1144074000",
+  "name_ko": "상암동",
+  "parent_region_code": "map"
+ },
+ {
+  "region_code": "1147051000",
+  "name_ko": "목1동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147052000",
+  "name_ko": "목2동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147053000",
+  "name_ko": "목3동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147054000",
+  "name_ko": "목4동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147055000",
+  "name_ko": "목5동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147056000",
+  "name_ko": "신월1동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147057000",
+  "name_ko": "신월2동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147058000",
+  "name_ko": "신월3동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147059000",
+  "name_ko": "신월4동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147060000",
+  "name_ko": "신월5동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147061000",
+  "name_ko": "신월6동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147061100",
+  "name_ko": "신월7동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147062000",
+  "name_ko": "신정1동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147063000",
+  "name_ko": "신정2동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147064000",
+  "name_ko": "신정3동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147065000",
+  "name_ko": "신정4동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147067000",
+  "name_ko": "신정6동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1147068000",
+  "name_ko": "신정7동",
+  "parent_region_code": "ycn"
+ },
+ {
+  "region_code": "1150051000",
+  "name_ko": "염창동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150052000",
+  "name_ko": "등촌1동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150053000",
+  "name_ko": "등촌2동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150053500",
+  "name_ko": "등촌3동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150054000",
+  "name_ko": "화곡1동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150055000",
+  "name_ko": "화곡2동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150056000",
+  "name_ko": "화곡3동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150057000",
+  "name_ko": "화곡4동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150059000",
+  "name_ko": "화곡본동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150059100",
+  "name_ko": "화곡6동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150059300",
+  "name_ko": "화곡8동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150060300",
+  "name_ko": "가양1동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150060400",
+  "name_ko": "가양2동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150060500",
+  "name_ko": "가양3동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150061100",
+  "name_ko": "발산1동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150061500",
+  "name_ko": "우장산동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150062000",
+  "name_ko": "공항동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150063000",
+  "name_ko": "방화1동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150064000",
+  "name_ko": "방화2동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1150064100",
+  "name_ko": "방화3동",
+  "parent_region_code": "gns"
+ },
+ {
+  "region_code": "1153051000",
+  "name_ko": "신도림동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153052000",
+  "name_ko": "구로1동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153053000",
+  "name_ko": "구로2동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153054000",
+  "name_ko": "구로3동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153055000",
+  "name_ko": "구로4동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153056000",
+  "name_ko": "구로5동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153059500",
+  "name_ko": "가리봉동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153072000",
+  "name_ko": "고척1동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153073000",
+  "name_ko": "고척2동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153074000",
+  "name_ko": "개봉1동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153075000",
+  "name_ko": "개봉2동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153076000",
+  "name_ko": "개봉3동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153077000",
+  "name_ko": "오류1동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153078000",
+  "name_ko": "오류2동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153079000",
+  "name_ko": "수궁동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1153080000",
+  "name_ko": "항동",
+  "parent_region_code": "gro"
+ },
+ {
+  "region_code": "1154551000",
+  "name_ko": "가산동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154561000",
+  "name_ko": "독산1동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154562000",
+  "name_ko": "독산2동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154563000",
+  "name_ko": "독산3동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154564000",
+  "name_ko": "독산4동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154567000",
+  "name_ko": "시흥1동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154568000",
+  "name_ko": "시흥2동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154569000",
+  "name_ko": "시흥3동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154570000",
+  "name_ko": "시흥4동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1154571000",
+  "name_ko": "시흥5동",
+  "parent_region_code": "gch"
+ },
+ {
+  "region_code": "1156051500",
+  "name_ko": "영등포본동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156053500",
+  "name_ko": "영등포동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156054000",
+  "name_ko": "여의동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156055000",
+  "name_ko": "당산1동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156056000",
+  "name_ko": "당산2동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156058500",
+  "name_ko": "도림동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156060500",
+  "name_ko": "문래동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156061000",
+  "name_ko": "양평1동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156062000",
+  "name_ko": "양평2동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156063000",
+  "name_ko": "신길1동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156065000",
+  "name_ko": "신길3동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156066000",
+  "name_ko": "신길4동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156067000",
+  "name_ko": "신길5동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156068000",
+  "name_ko": "신길6동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156069000",
+  "name_ko": "신길7동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156070000",
+  "name_ko": "대림1동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156071000",
+  "name_ko": "대림2동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1156072000",
+  "name_ko": "대림3동",
+  "parent_region_code": "ydp"
+ },
+ {
+  "region_code": "1159051000",
+  "name_ko": "노량진1동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159052000",
+  "name_ko": "노량진2동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159053000",
+  "name_ko": "상도1동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159054000",
+  "name_ko": "상도2동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159055000",
+  "name_ko": "상도3동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159056000",
+  "name_ko": "상도4동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159060500",
+  "name_ko": "흑석동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159062000",
+  "name_ko": "사당1동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159063000",
+  "name_ko": "사당2동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159064000",
+  "name_ko": "사당3동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159065000",
+  "name_ko": "사당4동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159065100",
+  "name_ko": "사당5동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159066000",
+  "name_ko": "대방동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159067000",
+  "name_ko": "신대방1동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1159068000",
+  "name_ko": "신대방2동",
+  "parent_region_code": "djk"
+ },
+ {
+  "region_code": "1162052500",
+  "name_ko": "보라매동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162054500",
+  "name_ko": "청림동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162056500",
+  "name_ko": "성현동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162057500",
+  "name_ko": "행운동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162058500",
+  "name_ko": "낙성대동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162059500",
+  "name_ko": "청룡동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162060500",
+  "name_ko": "은천동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162061500",
+  "name_ko": "중앙동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162062500",
+  "name_ko": "인헌동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162063000",
+  "name_ko": "남현동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162064500",
+  "name_ko": "서원동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162065500",
+  "name_ko": "신원동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162066500",
+  "name_ko": "서림동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162068500",
+  "name_ko": "신사동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162069500",
+  "name_ko": "신림동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162071500",
+  "name_ko": "난향동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162072500",
+  "name_ko": "조원동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162073500",
+  "name_ko": "대학동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162074500",
+  "name_ko": "삼성동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162076500",
+  "name_ko": "미성동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1162077500",
+  "name_ko": "난곡동",
+  "parent_region_code": "gwk"
+ },
+ {
+  "region_code": "1165051000",
+  "name_ko": "서초1동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165052000",
+  "name_ko": "서초2동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165053000",
+  "name_ko": "서초3동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165053100",
+  "name_ko": "서초4동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165054000",
+  "name_ko": "잠원동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165055000",
+  "name_ko": "반포본동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165056000",
+  "name_ko": "반포1동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165057000",
+  "name_ko": "반포2동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165058000",
+  "name_ko": "반포3동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165058100",
+  "name_ko": "반포4동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165059000",
+  "name_ko": "방배본동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165060000",
+  "name_ko": "방배1동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165061000",
+  "name_ko": "방배2동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165062000",
+  "name_ko": "방배3동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165062100",
+  "name_ko": "방배4동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165065100",
+  "name_ko": "양재1동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165065200",
+  "name_ko": "양재2동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1165066000",
+  "name_ko": "내곡동",
+  "parent_region_code": "sch"
+ },
+ {
+  "region_code": "1168051000",
+  "name_ko": "신사동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168052100",
+  "name_ko": "논현1동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168053100",
+  "name_ko": "논현2동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168054500",
+  "name_ko": "압구정동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168056500",
+  "name_ko": "청담동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168058000",
+  "name_ko": "삼성1동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168059000",
+  "name_ko": "삼성2동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168060000",
+  "name_ko": "대치1동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168061000",
+  "name_ko": "대치2동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168063000",
+  "name_ko": "대치4동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168064000",
+  "name_ko": "역삼1동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168065000",
+  "name_ko": "역삼2동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168065500",
+  "name_ko": "도곡1동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168065600",
+  "name_ko": "도곡2동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168066000",
+  "name_ko": "개포1동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168067000",
+  "name_ko": "개포2동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168067500",
+  "name_ko": "개포3동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168069000",
+  "name_ko": "개포4동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168070000",
+  "name_ko": "세곡동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168072000",
+  "name_ko": "일원본동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168073000",
+  "name_ko": "일원1동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1168075000",
+  "name_ko": "수서동",
+  "parent_region_code": "gnm"
+ },
+ {
+  "region_code": "1171051000",
+  "name_ko": "풍납1동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171052000",
+  "name_ko": "풍납2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171053100",
+  "name_ko": "거여1동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171053200",
+  "name_ko": "거여2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171054000",
+  "name_ko": "마천1동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171055000",
+  "name_ko": "마천2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171056100",
+  "name_ko": "방이1동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171056200",
+  "name_ko": "방이2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171056600",
+  "name_ko": "오륜동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171057000",
+  "name_ko": "오금동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171058000",
+  "name_ko": "송파1동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171059000",
+  "name_ko": "송파2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171060000",
+  "name_ko": "석촌동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171061000",
+  "name_ko": "삼전동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171062000",
+  "name_ko": "가락본동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171063100",
+  "name_ko": "가락1동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171063200",
+  "name_ko": "가락2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171064100",
+  "name_ko": "문정1동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171064200",
+  "name_ko": "문정2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171064600",
+  "name_ko": "장지동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171064700",
+  "name_ko": "위례동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171065000",
+  "name_ko": "잠실본동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171067000",
+  "name_ko": "잠실2동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171068000",
+  "name_ko": "잠실3동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171069000",
+  "name_ko": "잠실4동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171071000",
+  "name_ko": "잠실6동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1171072000",
+  "name_ko": "잠실7동",
+  "parent_region_code": "spg"
+ },
+ {
+  "region_code": "1174051500",
+  "name_ko": "강일동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174052500",
+  "name_ko": "상일제1동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174052600",
+  "name_ko": "상일제2동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174053000",
+  "name_ko": "명일1동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174054000",
+  "name_ko": "명일2동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174055000",
+  "name_ko": "고덕1동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174056000",
+  "name_ko": "고덕2동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174057000",
+  "name_ko": "암사1동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174058000",
+  "name_ko": "암사2동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174059000",
+  "name_ko": "암사3동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174060000",
+  "name_ko": "천호1동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174061000",
+  "name_ko": "천호2동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174062000",
+  "name_ko": "천호3동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174064000",
+  "name_ko": "성내1동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174065000",
+  "name_ko": "성내2동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174066000",
+  "name_ko": "성내3동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174068500",
+  "name_ko": "길동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174069000",
+  "name_ko": "둔촌1동",
+  "parent_region_code": "gnd"
+ },
+ {
+  "region_code": "1174070000",
+  "name_ko": "둔촌2동",
+  "parent_region_code": "gnd"
+ }
+]
