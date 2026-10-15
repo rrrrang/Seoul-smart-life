@@ -1,0 +1,164 @@
+/* 사이드바 CSS: 로고와 메뉴 버튼의 배치 및 선택 상태 스타일입니다. 기존 선택자와 속성은 그대로 유지합니다. */
+
+/* =========================================
+   1. 사이드바 전체 영역
+========================================= */
+/* 사이드바 전체 영역 */
+
+.sidebar {
+  width: 225px; /* 사이드바 너비 고정 */
+  flex-shrink: 0; /* 화면이 줄어도 너비 유지 */
+  background: #ffffff; /* 흰색 배경 */
+  border-right: 1px solid #e3e6ef; /* 오른쪽 구분선 */
+}
+
+/* =========================================
+   2. 로고 영역
+========================================= */
+
+.sidebar-logo {
+  height: 75px; /* 로고 영역 높이 */
+
+  display: flex; /* 로고 아이콘과 텍스트 가로 배치 */
+  align-items: center; /* 세로 중앙 정렬 */
+  gap: 10px; /* 아이콘과 글자 사이 간격 */
+
+  padding: 0 19px; /* 좌우 여백 */
+  border-bottom: 1px solid #e3e6ef; /* 아래 구분선 */
+
+  font-size: 15px; /* 로고 글자 크기 */
+  font-weight: 700; /* 글자 굵기 */
+  white-space: nowrap; /* 글자가 다음 줄로 넘어가지 않도록 설정 */
+}
+
+/* 집 모양 아이콘을 감싸는 원형 배경 */
+.logo-icon {
+  width: 33px; /* 아이콘 배경 너비 */
+  height: 33px; /* 아이콘 배경 높이 */
+
+  display: flex; /* 내부 아이콘 정렬 */
+  align-items: center; /* 세로 중앙 */
+  justify-content: center; /* 가로 중앙 */
+
+  flex-shrink: 0; /* 아이콘 크기 축소 방지 */
+  border-radius: 30%; /* 원형으로 표시 */
+  background: #4f46e5; /* 보라색 배경 */
+}
+
+/* 로고 텍스트 전체 */
+.logo-text {
+  display: flex;
+  flex-direction: column; /* 제목과 설명 세로 배치 */
+  gap: 5px;
+  min-width: 0;
+}
+
+/* Seoul Smart Life 제목 */
+.logo-text span {
+  color: #171b33;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* 제목 아래 설명 */
+.logo-text p {
+  margin: 0; /* p 태그 기본 여백 제거 */
+  color: #8b90a7;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 0.9;
+  overflow-wrap: anywhere;
+}
+
+/* =========================================
+   3. 사이드바 메뉴 영역
+========================================= */
+
+.sidebar-nav {
+  padding: 16px 11px; /* 메뉴 전체 내부 여백 */
+}
+
+/* 환경 진단, 설정 등의 메뉴 그룹 */
+.menu-group {
+  margin-bottom: 20px; /* 그룹 사이 간격 */
+}
+
+/* 메뉴 그룹 제목 */
+.menu-title {
+  margin: 0 8px 10px; /* 위 0, 좌우 8px, 아래 10px */
+  color: #8b90a7; /* 회색 글자 */
+  font-size: 11px; /* 작은 제목 */
+  font-weight: 600; /* 글자 굵기 */
+}
+
+/* 개별 메뉴 버튼 */
+/* 사이드 메뉴 선택 상태 */
+.menu-item {
+  display: block; /* 한 줄을 차지하도록 설정 */
+  width: 100%; /* 부모 너비 전체 사용 */
+
+  padding: 11px 10px; /* 상하 11px, 좌우 10px */
+  border: none; /* 기본 테두리 제거 */
+  border-radius: 9px; /* 버튼 모서리 둥글게 */
+
+  background: transparent; /* 기본 배경 투명 */
+  color: #565e7c; /* 기본 메뉴 글자 색상 */
+
+  text-align: left; /* 글자 왼쪽 정렬 */
+  font-size: 12px; /* 글자 크기 */
+  cursor: pointer; /* 마우스 올리면 손가락 모양 */
+}
+
+/* 메뉴에 마우스를 올렸을 때 */
+.menu-item:hover {
+  background: #f4f5fa; /* 연한 회색 배경 */
+}
+
+/* 현재 선택된 메뉴 */
+.menu-item.active {
+  background: #eef0fc; /* 연보라색 배경 */
+  color: #171b33; /* 진한 글자 색상 */
+  font-weight: 700; /* 글자를 굵게 표시 */
+}
+
+/* =========================================
+   4. 모바일 반응형
+========================================= */
+
+@media (max-width: 768px) {
+  /* 사이드바를 화면 상단으로 이동 */
+  .sidebar {
+    width: 100%; /* 모바일 화면 전체 너비 */
+    border-right: none; /* 오른쪽 테두리 제거 */
+    border-bottom: 1px solid #e3e6ef; /* 아래 구분선 */
+  }
+
+  /* 모바일에서는 메뉴를 가로로 배치 */
+  .sidebar-nav {
+    display: flex; /* 메뉴 그룹 가로 배치 */
+    gap: 12px; /* 그룹 사이 간격 */
+
+    overflow-x: auto; /* 메뉴가 넘치면 가로 스크롤 */
+    padding: 10px; /* 내부 여백 */
+  }
+
+  /* 메뉴 그룹도 가로 배치 */
+  .menu-group {
+    display: flex;
+    gap: 4px; /* 메뉴 버튼 사이 간격 */
+    margin: 0;
+    flex-shrink: 0; /* 메뉴 그룹 축소 방지 */
+  }
+
+  /* 모바일에서는 환경 진단, 설정 제목 숨김 */
+  .menu-title {
+    display: none;
+  }
+
+  /* 모바일 메뉴 너비를 글자에 맞게 변경 */
+  .menu-item {
+    width: auto;
+    white-space: nowrap; /* 메뉴 글자 줄바꿈 방지 */
+  }
+}
