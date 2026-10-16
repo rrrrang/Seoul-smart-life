@@ -2,7 +2,7 @@
 
 가짜(Mock) 데이터로 돌아가는 FastAPI 서버예요. 서울 25개 자치구와 426개 행정동의 목록과 5개 점수를 돌려줘요.
 
-- 자치구 코드: `gnm`(강남구)처럼 3글자 (팀 슬랙 코드표)
+- 자치구 코드: `11680`(강남구)처럼 숫자 5자리 (시군구 코드, 팀 DB의 `sigungu_code`와 같음). 예전 3글자 코드(`gnm`)로 불러도 돼요
 - 행정동 코드: `1111051500`(청운효자동)처럼 숫자 10자리 (행정안전부 행정동 코드, `app/data/seoul_dongs.json`)
 
 ## 만들어진 API
@@ -11,10 +11,10 @@
 | `GET /api/health` | 서버가 살아 있는지 확인 |
 | `GET /api/regions` | 25개 자치구 목록 |
 | `GET /api/regions?level=dong` | 426개 행정동 목록 |
-| `GET /api/regions?level=dong&parent=jno` | 종로구의 행정동 목록 |
-| `GET /api/regions/gnm` | 강남구 정보 (행정동 코드도 가능) |
-| `GET /api/regions/gnm/scores` | 강남구 5개 점수 (가짜, 행정동 코드도 가능) |
-| `GET /api/compare?codes=gnm,map` | 여러 지역(2~5개) 점수 비교 (가짜, 구·동 섞어도 가능) |
+| `GET /api/regions?level=dong&parent=11110` | 종로구의 행정동 목록 |
+| `GET /api/regions/11680` | 강남구 정보 (행정동 코드도 가능) |
+| `GET /api/regions/11680/scores` | 강남구 5개 점수 (가짜, 행정동 코드도 가능) |
+| `GET /api/compare?codes=11680,11440` | 여러 지역(2~5개) 점수 비교 (가짜, 구·동 섞어도 가능) |
 
 ## 윈도우에서 실행하기 (처음 한 번)
 1. **Python 3.11 설치**: https://www.python.org/downloads/ 에서 받아 설치해요.

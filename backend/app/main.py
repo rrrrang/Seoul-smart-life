@@ -19,8 +19,10 @@ app.add_middleware(
 )
 
 # 지역 코드로 빨리 찾을 수 있게 사전으로 바꿔 둠 (자치구 25개 + 행정동 426개)
-# 자치구 코드: "gnm" 같은 3글자 / 행정동 코드: "1111051500" 같은 숫자 10자리
+# 자치구 코드: "11680" 같은 숫자 5자리 / 행정동 코드: "1111051500" 같은 숫자 10자리
 REGIONS_BY_CODE = {r["region_code"]: r for r in REGIONS + DONGS}
+# 예전 3글자 코드("gnm")로 불러도 찾을 수 있게 별명으로 추가
+REGIONS_BY_CODE.update({r["short_code"]: r for r in REGIONS})
 
 
 def find_region(region_code: str) -> dict:
@@ -43,16 +45,17 @@ def list_regions(level: str = "district", parent: str | None = None):
 
     - /api/regions                     → 자치구 25개
     - /api/regions?level=dong           → 행정동 426개 전체
-    - /api/regions?level=dong&parent=jno → 종로구의 행정동만
+    - /api/regions?level=dong&parent=11110 → 종로구의 행정동만
     """
     if level == "district":
         items = REGIONS
     elif level == "dong":
         items = DONGS
         if parent is not None:
-            if find_region(parent)["spatial_unit"] != "district":  # 없는 코드면 404
-                raise HTTPException(status_code=422, detail="parent에는 자치구 코드(예: jno)를 넣어 주세요.")
-            items = [d for d in DONGS if d["parent_region_code"] == parent]
+            parent_region = find_region(parent)  # 없는 코드면 404
+            if parent_region["spatial_unit"] != "district":
+                raise HTTPException(status_code=422, detail="parent에는 자치구 코드(예: 11110)를 넣어 주세요.")
+            items = [d for d in DONGS if d["parent_region_code"] == parent_region["region_code"]]
     else:
         raise HTTPException(status_code=422, detail="level은 district(자치구) 또는 dong(행정동)만 쓸 수 있어요.")
     return {"level": level, "count": len(items), "items": items, "is_mock": True}
@@ -68,18 +71,19 @@ def get_region(region_code: str):
 def compare_regions(codes: str):
     """여러 지역의 5개 점수를 한 번에 비교 (2~5개). 자치구·행정동 코드 모두 가능.
 
-    예: /api/compare?codes=gnm,map
+    예: /api/compare?codes=11680,11440
         /api/compare?codes=1111051500,1111053000
     """
-    # "gnm, map" → ["gnm", "map"] (공백 제거, 중복 제거, 순서 유지)
-    code_list = list(dict.fromkeys(c.strip() for c in codes.split(",") if c.strip()))
-    if not 2 <= len(code_list) <= 5:
-        raise HTTPException(status_code=422, detail="비교할 지역은 2~5개를 골라 주세요.")
+    # "11680, 11440" → 지역 목록 (공백 제거, 없는 코드면 404)
+    regions = [find_region(c.strip()) for c in codes.split(",") if c.strip()]
+    # 같은 지역이 두 번 들어가면 하나만 남김 ("gnm"과 "11680"도 같은 지역), 순서는 유지
+    regions = list({r["region_code"]: r for r in regions}.values())
+    if not 2 <= len(regions) <= 5:
+        raise HTTPException(status_code=422, detail="비교할 지역은 서로 다른 2~5개를 골라 주세요.")
 
     items = []
-    for code in code_list:
-        region = find_region(code)
-        scores = MOCK_SCORES[code]
+    for region in regions:
+        scores = MOCK_SCORES[region["region_code"]]
         items.append({"region": region, "scores": {d: scores[d] for d in DOMAINS}})
     return {"domains": DOMAINS, "items": items, "is_mock": True}
 
@@ -88,7 +92,7 @@ def compare_regions(codes: str):
 def get_region_scores(region_code: str):
     """지역(자치구 또는 행정동) 하나의 5개 영역 점수 (지금은 가짜 점수)."""
     region = find_region(region_code)
-    scores = MOCK_SCORES[region_code]
+    scores = MOCK_SCORES[region["region_code"]]
     return {
         "region": region,
         "scores": {d: scores[d] for d in DOMAINS},
