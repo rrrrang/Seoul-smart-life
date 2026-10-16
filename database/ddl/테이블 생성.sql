@@ -98,7 +98,7 @@ create table if not exists fact_energy_building(
  	region_code      VARCHAR(10) NOT NULL REFERENCES dim_region (region_code),
     base_ym          CHAR(6)     NOT NULL,
     electricity_Mwh  NUMERIC(14,2),
-    gas_m³          NUMERIC(14,2),
+    gas_thousand_m3  NUMERIC(14,2),
     building_count   INTEGER,
     avg_building_age NUMERIC(5,1),
     source_level     VARCHAR(20)  NOT NULL CHECK (source_level IN ('HJD','SGG')),
