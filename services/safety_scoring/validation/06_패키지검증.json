@@ -1,0 +1,32 @@
+{
+  "package": "essential_9_files_plus_validation",
+  "core_file_count": 9,
+  "validation_file_count": 7,
+  "total_file_count": 16,
+  "checked_date": "2026-10-19",
+  "current_checks": {
+    "recomputed_equals_saved": true,
+    "core_code_data_json_unchanged": true,
+    "isolated_python_standard_library_only": true,
+    "run_from_outside_package": true,
+    "linked_dongs": 427,
+    "profiles": 26,
+    "grades": {
+      "1": 49,
+      "2": 98,
+      "3": 80,
+      "4": 167,
+      "5": 33
+    },
+    "forecast_artifact_count": 0
+  },
+  "historical_tests": {
+    "test_count": 20,
+    "tests_passed": true,
+    "log": "05_테스트_실행로그.txt",
+    "test_source_in_current_package": false,
+    "scope": "이전 전체 묶음의 테스트 통과 기록 보존. 이번 최소 묶음에서는 재계산·대조를 새로 실행."
+  },
+  "delivery_json_sha256": "c0df28a13f8addcafbdbc00dd522833071eed8446e611dc6b3dc6b69cfaaa0c1",
+  "git_upload_performed": false
+}

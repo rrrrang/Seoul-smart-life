@@ -1,0 +1,77 @@
+[
+  {
+    "path": "data/safety_scoring_input.json",
+    "bytes": 450676,
+    "sha256": "0b11dcaa9ec8277edf2bab4f74a22a4a0e83415c225b6aa16463930d2f190dd8"
+  },
+  {
+    "path": "data/서울_지역_기준.csv",
+    "bytes": 24662,
+    "sha256": "312ccc09f7d889dd62fa48098b592bb29d2ffd76f9534941d10126f25916a49a"
+  },
+  {
+    "path": "README.txt",
+    "bytes": 4625,
+    "sha256": "0d06976ec00a5b4604f735f51c492a442b06bb2d06980733b86636d5b782f040"
+  },
+  {
+    "path": "results/safety_scores.json",
+    "bytes": 1486470,
+    "sha256": "c0df28a13f8addcafbdbc00dd522833071eed8446e611dc6b3dc6b69cfaaa0c1"
+  },
+  {
+    "path": "src/backend_contract.py",
+    "bytes": 3772,
+    "sha256": "4f107e4535696690983551d4065054db105ac0108337e38532fb08c8e51df845"
+  },
+  {
+    "path": "src/build_safety.py",
+    "bytes": 2208,
+    "sha256": "3393485d0404ff1389e62c4af4eb800ee3840c7806f36131dd6b30f75ac9bcbe"
+  },
+  {
+    "path": "src/evaluation_contract.py",
+    "bytes": 3619,
+    "sha256": "d435eaf700bc4d0cc2b880f39390b4d0d91b244d5766ffcfb54618b4342021c3"
+  },
+  {
+    "path": "src/safety_grading.py",
+    "bytes": 3798,
+    "sha256": "f53c0a3f857528b2f1192b33d631dc37ce7fd5a3f2a41470d9740df335d30a92"
+  },
+  {
+    "path": "src/safety_scoring.py",
+    "bytes": 7524,
+    "sha256": "452029ea1fbe6e673de69c3827fc4745a10b2dc8daa4184bbed966c8674b52d9"
+  },
+  {
+    "path": "validation/01_행정동_등급분포.csv",
+    "bytes": 285,
+    "sha256": "41ab446f0eabaec1e18fd555c28157aacc35c844ad7b15aa00b633efffd68104"
+  },
+  {
+    "path": "validation/02_427행정동_점수등급.csv",
+    "bytes": 51711,
+    "sha256": "98d706bb9702d0d2d87995a18c2f7eb4b60c6425953d064bafc22e1e96383611"
+  },
+  {
+    "path": "validation/03_1등급_5등급_산출근거.csv",
+    "bytes": 2781,
+    "sha256": "1ff5b6badef52ba7221fd1ad62c583f0155cdfe1220fed1d7874f2e68c14c2fc"
+  },
+  {
+    "path": "validation/04_결과재현_실행로그.txt",
+    "bytes": 317,
+    "sha256": "e1cf3963f302ffd53054c22ca32016de96b52e2b7bfe37755ed2fbc160e6b9e7"
+  },
+  {
+    "path": "validation/05_테스트_실행로그.txt",
+    "bytes": 2239,
+    "sha256": "3d36e08adc7126f6a03599f5d3186b1a1087add11495adc752c054356f64023c"
+  },
+  {
+    "path": "validation/06_패키지검증.json",
+    "bytes": 997,
+    "sha256": "3e9560df8a06fd3b5947b6cb86328ba00a99f41aaf7b6de3d88bcd182381e31f"
+  }
+]
