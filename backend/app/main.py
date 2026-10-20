@@ -49,14 +49,8 @@ def health():
     return {"status": "ok"}
 
 
-@app.get("/api/regions")
-def list_regions(level: str = "district", parent: str | None = None):
-    """지역 목록.
-
-    - /api/regions                     → 자치구 25개
-    - /api/regions?level=dong           → 행정동 427개 전체
-    - /api/regions?level=dong&parent=11110 → 종로구의 행정동만
-    """
+def regions_by_level(level: str, parent: str | None) -> list[dict]:
+    """level(district/dong)과 parent(자치구 코드)에 맞는 지역 목록."""
     if level == "district":
         items = REGIONS
     elif level == "dong":
@@ -68,7 +62,38 @@ def list_regions(level: str = "district", parent: str | None = None):
             items = [d for d in DONGS if d["parent_region_code"] == parent_region["region_code"]]
     else:
         raise HTTPException(status_code=422, detail="level은 district(자치구) 또는 dong(행정동)만 쓸 수 있어요.")
+    return items
+
+
+@app.get("/api/regions")
+def list_regions(level: str = "district", parent: str | None = None):
+    """지역 목록.
+
+    - /api/regions                     → 자치구 25개
+    - /api/regions?level=dong           → 행정동 427개 전체
+    - /api/regions?level=dong&parent=11110 → 종로구의 행정동만
+    """
+    items = regions_by_level(level, parent)
     return {"level": level, "count": len(items), "items": items, "is_mock": True}
+
+
+@app.get("/api/scores")
+def list_scores(level: str = "district", parent: str | None = None):
+    """여러 지역의 5개 점수를 한 번에 (순위·지도 색칠용).
+
+    - /api/scores                      → 자치구 25개 점수
+    - /api/scores?level=dong            → 행정동 427개 점수
+    - /api/scores?level=dong&parent=11110 → 종로구 행정동 점수만
+    """
+    items = [region_scores(r) for r in regions_by_level(level, parent)]
+    return {
+        "level": level,
+        "domains": DOMAINS,
+        "count": len(items),
+        "items": items,
+        "is_mock": True,
+        "mock_domains": MOCK_DOMAINS,
+    }
 
 
 @app.get("/api/regions/{region_code}")

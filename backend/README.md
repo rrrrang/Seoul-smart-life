@@ -19,6 +19,8 @@
 | `GET /api/regions?level=dong&parent=11110` | 종로구의 행정동 목록 |
 | `GET /api/regions/11680` | 강남구 정보 (행정동 코드도 가능) |
 | `GET /api/regions/11680/scores` | 강남구 5개 점수 (치안만 진짜, 행정동 코드도 가능) |
+| `GET /api/scores` | 25개 자치구 점수 한 번에 (순위·지도용) |
+| `GET /api/scores?level=dong` | 427개 행정동 점수 한 번에 (`&parent=11110`으로 구 하나만도 가능) |
 | `GET /api/compare?codes=11680,11440` | 여러 지역(2~5개) 점수 비교 (치안만 진짜, 구·동 섞어도 가능) |
 
 ## 윈도우에서 실행하기 (처음 한 번)
