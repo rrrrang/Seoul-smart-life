@@ -1,7 +1,7 @@
-"""가짜(Mock) 데이터.
+"""지역 목록과 점수 데이터.
 
-진짜 데이터가 나오기 전까지 프론트 개발용으로 쓰는 값이에요.
-점수는 실제 통계가 아니라 임의로 정한 숫자예요.
+- 치안(safety): 진짜 점수 (동현님 치안 점수 결과, app/data/safety_scores.json)
+- 나머지 4개 영역: 아직 가짜(Mock) 점수. 진짜 점수가 나오면 하나씩 바꿔요.
 지역 코드는 팀 DB 설계(database/ddl)와 프론트에 맞춰 공식 코드를 써요.
 - 자치구: 시군구 코드 5자리 (예: 11680 = 강남구)
 - 행정동: 행정동 코드 10자리 (예: 1111051500 = 청운효자동)
@@ -14,6 +14,8 @@ from pathlib import Path
 
 # 5개 평가 영역 키 (팀 공통 약속)
 DOMAINS = ["economy", "energy", "comfort", "health", "safety"]
+# 아직 가짜 점수인 영역 (진짜 점수가 들어오면 여기서 빼요)
+MOCK_DOMAINS = ["economy", "energy", "comfort", "health"]
 
 # 서울 25개 자치구 (region_code = 시군구 코드 5자리)
 REGIONS = [
@@ -77,9 +79,11 @@ MOCK_SCORES = {
 for _r in REGIONS:
     _r["spatial_unit"] = "district"
 
-# 서울 행정동 426개 (코드는 행정안전부 10자리 행정동 코드)
-# 출처: vuski/admdongkor 2025-01-01 기준 행정동 목록
-DONGS = json.loads((Path(__file__).parent / "data" / "seoul_dongs.json").read_text(encoding="utf-8"))
+DATA_DIR = Path(__file__).parent / "data"
+
+# 서울 행정동 427개 (코드는 행정안전부 10자리 행정동 코드)
+# 출처: 팀 기준표 서울_지역_기준.csv (1번 데이터 담당 제공)
+DONGS = json.loads((DATA_DIR / "seoul_dongs.json").read_text(encoding="utf-8"))
 for _d in DONGS:
     _d["spatial_unit"] = "dong"
 
@@ -96,3 +100,18 @@ for _d in DONGS:
     MOCK_SCORES[_d["region_code"]] = {
         dom: max(0, min(100, _parent[dom] + _mock_offset(_d["region_code"], dom))) for dom in DOMAINS
     }
+
+# ── 진짜 치안 점수로 바꾸기 ──
+# 행정동: 파일에 있는 점수 그대로 (소수 첫째 자리까지), 등급(1~5)도 함께 저장
+SAFETY = json.loads((DATA_DIR / "safety_scores.json").read_text(encoding="utf-8"))["scores"]
+SAFETY_GRADES = {}
+for _d in DONGS:
+    _s = SAFETY[_d["region_code"]]
+    MOCK_SCORES[_d["region_code"]]["safety"] = round(_s["score"], 1)
+    SAFETY_GRADES[_d["region_code"]] = _s["grade"]
+
+# 자치구: 소속 행정동 치안 점수의 평균 (자치구 등급은 따로 없어서 None)
+for _r in REGIONS:
+    _dong_scores = [SAFETY[d["region_code"]]["score"] for d in DONGS
+                    if d["parent_region_code"] == _r["region_code"]]
+    MOCK_SCORES[_r["region_code"]]["safety"] = round(sum(_dong_scores) / len(_dong_scores), 1)

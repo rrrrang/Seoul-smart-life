@@ -1,20 +1,25 @@
 # Seoul Smart Life 백엔드 시작용 코드
 
-가짜(Mock) 데이터로 돌아가는 FastAPI 서버예요. 서울 25개 자치구와 426개 행정동의 목록과 5개 점수를 돌려줘요.
+서울 25개 자치구와 427개 행정동의 목록과 5개 점수를 돌려주는 FastAPI 서버예요.
+
+- **치안(safety) 점수는 진짜**예요. 동현님 치안 점수 결과(`services/safety_scoring/results/safety_scores.json`)를 `app/data/safety_scores.json`에 옮겨 왔어요.
+  - 행정동: 그 점수 그대로 (소수 첫째 자리까지) + `safety_grade`(1~5등급, 1등급이 가장 좋음)
+  - 자치구: 소속 행정동 점수의 평균 (`safety_grade`는 `null`)
+- 나머지 4개(economy, energy, comfort, health)는 아직 **가짜 점수**예요. 응답의 `mock_domains`에 가짜인 영역이 적혀 있어요.
 
 - 자치구 코드: `11680`(강남구)처럼 숫자 5자리 (시군구 코드, 팀 DB의 `sigungu_code`와 같음). 예전 3글자 코드(`gnm`)로 불러도 돼요
-- 행정동 코드: `1111051500`(청운효자동)처럼 숫자 10자리 (행정안전부 행정동 코드, `app/data/seoul_dongs.json`)
+- 행정동 코드: `1111051500`(청운효자동)처럼 숫자 10자리 (팀 기준표 `서울_지역_기준.csv`의 427개, `app/data/seoul_dongs.json`)
 
 ## 만들어진 API
 | 주소 | 하는 일 |
 |---|---|
 | `GET /api/health` | 서버가 살아 있는지 확인 |
 | `GET /api/regions` | 25개 자치구 목록 |
-| `GET /api/regions?level=dong` | 426개 행정동 목록 |
+| `GET /api/regions?level=dong` | 427개 행정동 목록 |
 | `GET /api/regions?level=dong&parent=11110` | 종로구의 행정동 목록 |
 | `GET /api/regions/11680` | 강남구 정보 (행정동 코드도 가능) |
-| `GET /api/regions/11680/scores` | 강남구 5개 점수 (가짜, 행정동 코드도 가능) |
-| `GET /api/compare?codes=11680,11440` | 여러 지역(2~5개) 점수 비교 (가짜, 구·동 섞어도 가능) |
+| `GET /api/regions/11680/scores` | 강남구 5개 점수 (치안만 진짜, 행정동 코드도 가능) |
+| `GET /api/compare?codes=11680,11440` | 여러 지역(2~5개) 점수 비교 (치안만 진짜, 구·동 섞어도 가능) |
 
 ## 윈도우에서 실행하기 (처음 한 번)
 1. **Python 3.11 설치**: https://www.python.org/downloads/ 에서 받아 설치해요.
@@ -52,6 +57,7 @@ uvicorn app.main:app --reload
 | 파일 | 내용 |
 |---|---|
 | `app/main.py` | API 주소들 |
-| `app/mock_data.py` | 25개 구·426개 동 목록과 가짜 점수 |
-| `app/data/seoul_dongs.json` | 서울 행정동 426개 (코드, 이름, 소속 구) |
+| `app/mock_data.py` | 25개 구·427개 동 목록과 점수 (치안은 진짜) |
+| `app/data/seoul_dongs.json` | 서울 행정동 427개 (코드, 이름, 소속 구) |
+| `app/data/safety_scores.json` | 행정동 427개 진짜 치안 점수와 등급 |
 | `requirements.txt` | 설치할 프로그램 목록 |

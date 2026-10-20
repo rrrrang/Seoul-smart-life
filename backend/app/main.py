@@ -6,7 +6,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.mock_data import DOMAINS, DONGS, MOCK_SCORES, REGIONS
+from app.mock_data import DOMAINS, DONGS, MOCK_DOMAINS, MOCK_SCORES, REGIONS, SAFETY_GRADES
 
 app = FastAPI(title="Seoul Smart Life API", version="0.1.0")
 
@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 지역 코드로 빨리 찾을 수 있게 사전으로 바꿔 둠 (자치구 25개 + 행정동 426개)
+# 지역 코드로 빨리 찾을 수 있게 사전으로 바꿔 둠 (자치구 25개 + 행정동 427개)
 # 자치구 코드: "11680" 같은 숫자 5자리 / 행정동 코드: "1111051500" 같은 숫자 10자리
 REGIONS_BY_CODE = {r["region_code"]: r for r in REGIONS + DONGS}
 # 예전 3글자 코드("gnm")로 불러도 찾을 수 있게 별명으로 추가
@@ -33,6 +33,16 @@ def find_region(region_code: str) -> dict:
     return region
 
 
+def region_scores(region: dict) -> dict:
+    """지역 하나의 5개 점수 + 치안 등급(행정동만, 1등급이 가장 좋음)."""
+    scores = MOCK_SCORES[region["region_code"]]
+    return {
+        "region": region,
+        "scores": {d: scores[d] for d in DOMAINS},
+        "safety_grade": SAFETY_GRADES.get(region["region_code"]),
+    }
+
+
 @app.get("/api/health")
 def health():
     """서버가 살아 있는지 확인."""
@@ -44,7 +54,7 @@ def list_regions(level: str = "district", parent: str | None = None):
     """지역 목록.
 
     - /api/regions                     → 자치구 25개
-    - /api/regions?level=dong           → 행정동 426개 전체
+    - /api/regions?level=dong           → 행정동 427개 전체
     - /api/regions?level=dong&parent=11110 → 종로구의 행정동만
     """
     if level == "district":
@@ -81,20 +91,12 @@ def compare_regions(codes: str):
     if not 2 <= len(regions) <= 5:
         raise HTTPException(status_code=422, detail="비교할 지역은 서로 다른 2~5개를 골라 주세요.")
 
-    items = []
-    for region in regions:
-        scores = MOCK_SCORES[region["region_code"]]
-        items.append({"region": region, "scores": {d: scores[d] for d in DOMAINS}})
-    return {"domains": DOMAINS, "items": items, "is_mock": True}
+    items = [region_scores(r) for r in regions]
+    return {"domains": DOMAINS, "items": items, "is_mock": True, "mock_domains": MOCK_DOMAINS}
 
 
 @app.get("/api/regions/{region_code}/scores")
 def get_region_scores(region_code: str):
-    """지역(자치구 또는 행정동) 하나의 5개 영역 점수 (지금은 가짜 점수)."""
+    """지역(자치구 또는 행정동) 하나의 5개 영역 점수 (치안만 진짜, 나머지는 가짜)."""
     region = find_region(region_code)
-    scores = MOCK_SCORES[region["region_code"]]
-    return {
-        "region": region,
-        "scores": {d: scores[d] for d in DOMAINS},
-        "is_mock": True,
-    }
+    return {**region_scores(region), "is_mock": True, "mock_domains": MOCK_DOMAINS}
