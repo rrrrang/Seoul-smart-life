@@ -235,3 +235,19 @@ CREATE TABLE IF NOT EXISTS fact_population_dong (
     child_population_ratio DOUBLE PRECISION
 );
 
+-- 기온 월별 --
+CREATE TABLE fact_weather_monthly (
+    sigungu_code VARCHAR(5) NOT NULL,
+    base_date DATE NOT NULL,
+    avg_temp NUMERIC,
+    max_temp NUMERIC,
+    min_temp NUMERIC,
+    source_level VARCHAR(10) NOT NULL DEFAULT 'SGG',
+
+    CONSTRAINT fact_weather_monthly_pkey
+        PRIMARY KEY (sigungu_code, base_date),
+
+    CONSTRAINT fk_weather_monthly_sigungu
+        FOREIGN KEY (sigungu_code)
+        REFERENCES dim_sigungu(sigungu_code)
+);
