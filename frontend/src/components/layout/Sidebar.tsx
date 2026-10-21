@@ -1,7 +1,3 @@
-/*
- * 사이드바: 활성 메뉴를 표시하고 페이지 전환 이벤트를 부모에게 전달합니다.
- * 안내: 실행 로직은 변경하지 않고 설명 주석만 추가한 버전입니다.
- */
 import "../../CSS/Sidebar.css";
 
 type SidebarProps = {
@@ -19,11 +15,18 @@ const menuGroups = [
       "지역 비교",
     ],
   },
-  {
-    title: "설정",
-    menus: ["가중치 설정"],
-  },
 ];
+
+// 환경 노출 항목
+// [환경 지표] 오른쪽 정보 패널에서 사용할 항목 및 표시 단위입니다.
+const exposureItems = [
+  { label: "PM2.5", unit: "µg/m³" },
+  { label: "PM10", unit: "µg/m³" },
+  { label: "소음 (주간)", unit: "dB" },
+  { label: "평균 기온", unit: "°C" },
+  { label: "평균 습도", unit: "%" },
+];
+
 
 // [메뉴 동작] 선택 메뉴에 따라 활성 스타일을 갱신하도록 부모에게 알립니다.
 export default function Sidebar({
@@ -80,6 +83,20 @@ export default function Sidebar({
           </div>
         ))}
       </nav>
+
+      {/* 사이드바 하단 환경 지표 */}
+      <div className="sidebar-exposure">
+        <h3>환경 노출 지표</h3>
+      
+        {exposureItems.map((item) => (
+          <div className="sidebar-exposure-item" key={item.label}>
+            <span>{item.label}</span>
+            <span className="sidebar-exposure-value">
+              -- {item.unit}
+            </span>
+          </div>
+        ))}
+      </div>
     </aside>
   );
 }
