@@ -1,8 +1,4 @@
-/* 메인 화면 CSS: 진단 카드, 지도 및 오른쪽 패널의 레이아웃을 설정합니다. 기존 선택자와 속성은 그대로 유지합니다. */
-
-/* =========================================
-   1. 전체 영역
-========================================= */
+/* 1. 전체 영역 */
 .mainpage {
   display: flex;
   flex-direction: column;
@@ -10,9 +6,7 @@
   width: 100%;
 }
 
-/* =========================================
-   2. AI 환경 진단 안내 바
-========================================= */
+/* 2. AI 환경 진단 안내 바 */
 
 /* 진단 영역 전체 */
 /* AI 진단 지표 카드 */
@@ -143,9 +137,7 @@
   text-align: right;
 }
 
-/* =========================================
-   3. 지도 + 오른쪽 패널 레이아웃
-========================================= */
+/* 3. 지도 + 오른쪽 패널 레이아웃 */
 /* 메인 지도와 분석 패널 2열 배치 */
 .mainpage-grid {
   display: grid;
@@ -187,18 +179,14 @@
   overflow: hidden;
 }
 
-/* =========================================
-   4. 오른쪽 분석 패널
-========================================= */
+/* 4. 오른쪽 분석 패널 */
 .mainpage-right {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* =========================================
-   5. AI 추천 인사이트
-========================================= */
+/* 5. AI 추천 인사이트 */
 .insight-content {
   margin-bottom: 12px;
   padding: 14px;
@@ -230,9 +218,7 @@
   color: #4338ca;
 }
 
-/* =========================================
-   6. 환경 노출 현황
-========================================= */
+/* 6. 환경 노출 현황 */
 .exposure-list {
   display: flex;
   flex-direction: column;
@@ -272,9 +258,7 @@
   font-size: 10px;
 }
 
-/* =========================================
-   7. 반응형 디자인
-========================================= */
+/* 7. 반응형 디자인 */
 
 /* 태블릿: 지도와 분석 패널 세로 배치 */
 @media (max-width: 1100px) {
@@ -320,4 +304,82 @@
     align-items: flex-start;
     flex-direction: column;
   }
+}
+@media (min-width: 1101px) {
+  /* 두 열을 같은 높이로 배치 */
+  .mainpage-grid { align-items: stretch; }
+  .mainpage-right {
+    height: 100%;
+    min-height: 0;
+  }
+}
+.district-ranking-card {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.district-ranking-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: #64748b;
+  font-size: 12px;
+}
+.district-ranking-filter select {
+  min-width: 0;
+  max-width: 65%;
+  padding: 8px 10px;
+  border: 1px solid #e3e6ef;
+  border-radius: 8px;
+  background: #fff;
+  color: #171b33;
+  font-size: 12px;
+}
+.district-ranking-list {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 3px;
+}
+.district-ranking-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 8px;
+  margin-bottom: 6px;
+  border: 1px solid #e3e6ef;
+  border-radius: 8px;
+  background: #fff;
+  color: #171b33;
+  cursor: pointer;
+  text-align: left;
+  font-size: 12px;
+}
+.district-ranking-row:hover,
+.district-ranking-row.is-selected { background: #f0efff; border-color: #bbb5f7; }
+.district-ranking-position {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #eeeaff;
+  color: #6159ca;
+  font-weight: 700;
+}
+.district-ranking-name { flex: 1; min-width: 0; font-weight: 600; }
+.district-ranking-row strong { white-space: nowrap; color: #4f46e5; }
+.district-ranking-empty { margin: 16px 0; font-size: 12px; color: #8b90a7; line-height: 1.6; }
+.district-ranking-footnote { margin: 10px 0 0; font-size: 10px; color: #8b90a7; line-height: 1.5; }
+
+@media (max-width: 1100px) {
+  .district-ranking-list { max-height: 340px; }
 }
