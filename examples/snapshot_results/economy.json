@@ -31,7 +31,7 @@
       "domain_metadata": {
         "economy": {
           "source_file": "economy/results/economy_scores.json",
-          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
           "artifact_kind": "result_snapshot",
           "status": "estimated",
           "original_spatial_units": [
@@ -77,6 +77,8 @@
                 "method": "xgb_depth3_shrink50"
               }
             },
+            "grade": 1,
+            "grade_label": "1등급",
             "cold_start_fallback": false,
             "measurement": "economic_activity_concentration_estimate",
             "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -130,7 +132,7 @@
       "domain_metadata": {
         "economy": {
           "source_file": "economy/results/economy_scores.json",
-          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
           "artifact_kind": "result_snapshot",
           "status": "estimated",
           "original_spatial_units": [
@@ -176,6 +178,8 @@
                 "method": "xgb_depth3_shrink50"
               }
             },
+            "grade": 1,
+            "grade_label": "1등급",
             "cold_start_fallback": false,
             "measurement": "economic_activity_concentration_estimate",
             "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -229,7 +233,7 @@
       "domain_metadata": {
         "economy": {
           "source_file": "economy/results/economy_scores.json",
-          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
           "artifact_kind": "result_snapshot",
           "status": "estimated",
           "original_spatial_units": [
@@ -275,6 +279,8 @@
                 "method": "xgb_depth3_shrink50"
               }
             },
+            "grade": 1,
+            "grade_label": "1등급",
             "cold_start_fallback": false,
             "measurement": "economic_activity_concentration_estimate",
             "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -328,7 +334,7 @@
       "domain_metadata": {
         "economy": {
           "source_file": "economy/results/economy_scores.json",
-          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
           "artifact_kind": "result_snapshot",
           "status": "estimated",
           "original_spatial_units": [
@@ -374,6 +380,8 @@
                 "method": "xgb_depth3_shrink50"
               }
             },
+            "grade": 1,
+            "grade_label": "1등급",
             "cold_start_fallback": false,
             "measurement": "economic_activity_concentration_estimate",
             "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -427,7 +435,7 @@
       "domain_metadata": {
         "economy": {
           "source_file": "economy/results/economy_scores.json",
-          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
           "artifact_kind": "result_snapshot",
           "status": "estimated",
           "original_spatial_units": [
@@ -473,6 +481,8 @@
                 "method": "xgb_depth3_shrink50"
               }
             },
+            "grade": 1,
+            "grade_label": "1등급",
             "cold_start_fallback": false,
             "measurement": "economic_activity_concentration_estimate",
             "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -521,11 +531,11 @@
     "PARTIAL_DOMAIN_RECOMMENDATION"
   ],
   "target_month": "2026-10",
-  "snapshot_version": "snapshot-a35156385a4ac438",
+  "snapshot_version": "snapshot-6a8725379768d0e3",
   "file_hashes": {
     "economy/model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
     "economy/data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
-    "economy/results/economy_scores.json": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a"
+    "economy/results/economy_scores.json": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d"
   },
   "domain_metadata": {
     "economy": {
@@ -550,7 +560,57 @@
       },
       "interpretation": "경제활동의 면적 대비 집중도 추정. 주민 소득·집값·상승하락 예측이 아님.",
       "validation_scope": "2026-06/08 reconstructed-data retrospective recheck, not prospective validation",
-      "direction_prediction_available": false
+      "direction_prediction_available": false,
+      "grade_rules": {
+        "method": "fixed_score_intervals",
+        "best_grade": 1,
+        "worst_grade": 5,
+        "score_rounding_before_grading": false,
+        "missing_score_grade": null,
+        "bands": [
+          {
+            "grade": 1,
+            "label": "1등급",
+            "min_score": 80,
+            "max_score": 100,
+            "min_inclusive": true,
+            "max_inclusive": true
+          },
+          {
+            "grade": 2,
+            "label": "2등급",
+            "min_score": 60,
+            "max_score": 80,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 3,
+            "label": "3등급",
+            "min_score": 40,
+            "max_score": 60,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 4,
+            "label": "4등급",
+            "min_score": 20,
+            "max_score": 40,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 5,
+            "label": "5등급",
+            "min_score": 0,
+            "max_score": 20,
+            "min_inclusive": true,
+            "max_inclusive": false
+          }
+        ],
+        "interpretation": "현재월 경제활동 집중도 추정점수의 고정 구간 등급. 1등급이 가장 높으며 주민 소득이나 집값 상승을 뜻하지 않음."
+      }
     }
   },
   "is_mock": false

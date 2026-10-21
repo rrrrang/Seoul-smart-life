@@ -2,7 +2,7 @@
 
 작성일: 2026-10-21
 입력 저장소: https://github.com/rrrrang/Seoul-smart-life
-확인한 입력 기준 커밋: `894d022`
+확인한 입력 기준 커밋: `8b50b82` (작업 중 추가된 경제 5등급 정보를 반영)
 개발·검증 환경: Python 3.11.17
 결론: 현재 제공된 경제·에너지·건강·치안 4개 영역을 각각 또는 함께 추천할 수 있다. 쾌적은 자료가 없어 미연결이다. 전체 5대 영역 서비스나 실제 데이터용 LLM 설명의 완성을 뜻하지 않는다.
 
@@ -108,10 +108,10 @@ cd C:\Users\human\Desktop\Seoul_Smart_Life\.publish-repo
 
 | 검증 | 결과 |
 |---|---|
-| 추천·LLM 기존 82개 + 새 연결 29개, Python 3.11 | **111개 통과**. Git 사본에서 `111 passed in 6.34s` |
+| 추천·LLM 기존 82개 + 새 연결 29개, Python 3.11 | **111개 통과**. 최신 입력 반영 후 Git 사본에서 `111 passed in 6.60s` |
 | 저장소 전체 `python -m pytest -q --tb=short` | 수집 단계 미완료. 기존 `ai_modeling/economy/tests/test_economy.py`가 요구하는 `joblib`이 현재 추천 전용 가상환경에 없어 `ModuleNotFoundError` 발생. 전체 저장소 테스트가 모두 통과했다고 주장하지 않음 |
 | 단계별 CLI 경제·에너지·건강·치안·네 영역 결합 | 5개 실행 모두 성공, JSON 저장 |
-| 원래 `ai_modeling/test_integration.py` | 8개 통과 |
+| 원래 `ai_modeling/test_integration.py` | 최신 경제 등급 검사 포함 11개 통과 |
 | 원래 치안 계약 테스트, Python 3.12 | 19개 통과 |
 | 원래 치안 `build_safety.py --verify`, Python 3.12 | 427행 재계산 일치 |
 | 원래 치안 테스트, Python 3.11 | 19개 중 18개 통과, 정확 일치 검사 1개 실패. 아래에 원인 기록 |
@@ -121,6 +121,8 @@ cd C:\Users\human\Desktop\Seoul_Smart_Life\.publish-repo
 치안 Python 3.11의 실패 항목은 `test_saved_result_reproduces_from_packaged_statistics`와 그 내부 `verify_saved()`의 정확 JSON 동일성 검사다. 저장 결과와 3.11 재계산 결과 사이에서 수치 차이 58개(행정동 치안 점수 55개 포함)가 관찰됐으며 최대 치안 점수 차이는 약 `1.4210854715202004e-14`다. Python 3.12에서는 동일 검사와 19개 테스트가 모두 통과했다. 추천 연결은 전달된 JSON을 그대로 사용하므로 이 검사 실패를 숨기거나 원본 결과를 덮어써서 없애지 않았다. 평가 담당자에게 런타임별 부동소수점 합산과 정확 동일성 검사의 호환성 검토를 전달해야 한다.
 
 추천 전용 검증 명령은 `python -m pytest tests/ai_recommendation -q`다. upstream 영역 모델들은 별도 버전의 학습·추론 의존성과 환경을 사용한다. 전체 저장소 테스트 수집을 피하도록 프로젝트 전역 테스트 설정을 새로 추가하지 않았으며, 추천 테스트와 원래 영역 테스트 결과를 구분해 기록한다.
+
+업로드 전 팀원이 경제 점수에 추가한 5등급 변경을 감지해 최신 `main`을 반영했다. 경제의 `grade`, `grade_label` 등은 원래 메타데이터와 함께 보존되며, 결과 JSON 5개도 최신 제공본의 해시로 다시 생성했다.
 
 독립 리뷰에서 문자열 `"false"`로 시범·참고점수 허용 검사를 우회할 수 있는 문제가 발견됐다. 실제 `bool`만 받도록 수정하고 8개 회귀 사례를 추가했다. 경제가 아닌 영역에서 임의 미래 제공월을 지정할 수 있던 부분도 제공월 검사와 회귀 테스트로 보강했다.
 
