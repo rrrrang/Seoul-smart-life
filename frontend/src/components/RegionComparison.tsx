@@ -1,512 +1,196 @@
-
 import { useEffect, useMemo, useState } from "react";
-import SeoulMap from "./SeoulMap";
-import "../CSS/MainPage.css";
-import { fetchDongScores } from "../services/regionApi";
+import { mockDongScores, calculateTotalScore, type DongScore } from "../data/mockDongScores";
+import "../CSS/RegionComparison.css";
 
-// ==========================================
-// 1. 기본 설정
-// ==========================================
-
-// 기존 자치구 점수 데이터
-// 행정동 색상은 dongScores를 통해 별도로 전달
-const regionScores: { district: string; score: number }[] = [];
-
-// 메인페이지 기본 가중치
-// 상세분석에서 설정한 기본 가중치와 동일
-const DEFAULT_WEIGHTS = {
-  economy: 20,
-  energy: 15,
-  comfort: 25,
-  health: 20,
-  safety: 20,
-};
-
-// 지도에 전달할 행정동 점수 타입
-type DongMapScore = {
-  dongCode: string;
-  score: number;
-};
-
-// 백엔드 API 데이터의 필드 형태
-type ApiDongScore = {
-  dongCode?: string;
-  dong_code?: string;
-  region_code?: string;
-  code?: string;
-  score?: number | null;
-  total_score?: number | null;
-  overall_score?: number | null;
-  scores?: Record<string, unknown>;
-};
-
-// [추가] 오른쪽 자치구 순위 패널의 평가 항목
-const RANK_METRICS = [
-  { key: "overall", label: "종합점수" },
+// 실제 서버 데이터 연동 시 이 배열 대신 API 응답을 넘겨주면 됩니다.
+// 지역 식별은 이름이 아닌 행정동 코드(adm_cd2)를 기준으로 합니다.
+type DongOption = { code: string; name: string; district: string };
+type ChartMode = "bar" | "radar";
+const metrics = [
   { key: "economy", label: "경제 활력도" },
   { key: "energy", label: "에너지 소비효율" },
   { key: "comfort", label: "생활 쾌적도" },
   { key: "health", label: "건강 안전도" },
   { key: "safety", label: "치안 안전도" },
 ] as const;
+const defaultWeights = { economy: 20, energy: 15, comfort: 25, health: 20, safety: 20 };
 
-type RankMetric = (typeof RANK_METRICS)[number]["key"];
-type DistrictRanking = { district: string; score: number; count: number };
-
-// [추가] 점수 데이터의 가능한 배열 포맷을 추출
-function getScoreItems(response: unknown): ApiDongScore[] {
-  if (Array.isArray(response)) return response as ApiDongScore[];
-  if (!response || typeof response !== "object") return [];
-  const root = response as Record<string, unknown>;
-  const items = root.items ?? root.data ?? root.scores;
-  return Array.isArray(items) ? (items as ApiDongScore[]) : [];
-}
-
-// [추가] 자치구 순위용 행정동 점수 조회 (자료가 없으면 계산하지 않음)
-function metricScore(item: ApiDongScore, metric: RankMetric): number | null {
-  if (metric === "overall") {
-    if (item.scores && typeof item.scores === "object") {
-      const calculated = calculateScore(item.scores);
-      if (calculated !== null) return calculated;
-    }
-    const raw = item.score ?? item.total_score ?? item.overall_score;
-    return typeof raw === "number" && Number.isFinite(raw) && raw >= 0 && raw <= 100
-      ? raw : null;
-  }
-  const value = item.scores?.[metric];
-  return typeof value === "number" && Number.isFinite(value) && value >= 0 && value <= 100
-    ? value : null;
-}
-
-// 부모 컴포넌트에서 전달받는 데이터 타입
-type MainPageProps = {
-  selectedDistrict: string | null;
-  onDistrictClick: (district: string) => void;
-  onDistrictDoubleClick: (district: string) => void;
+type GeoFeature = {
+  properties?: Record<string, unknown>;
 };
+type GeoJson = { features?: GeoFeature[] };
 
-// ==========================================
-// 2. 백엔드 점수 계산 함수
-// ==========================================
-
-// 5개 항목 점수로 가중평균 계산
-function calculateScore(
-  scores: Record<string, unknown>
-): number | null {
-  const keys = [
-    "economy",
-    "energy",
-    "comfort",
-    "health",
-    "safety",
-  ] as const;
-
-  const totalWeight = Object.values(DEFAULT_WEIGHTS).reduce(
-    (sum, weight) => sum + weight,
-    0
-  );
-
-  if (totalWeight === 0) return null;
-
-  let weightedSum = 0;
-
+// GeoJSON마다 다른 행정동 이름 필드를 안전하게 처리합니다.
+function getText(properties: Record<string, unknown>, keys: string[]): string {
   for (const key of keys) {
-    const value = scores[key];
-
-    // 점수가 누락된 행정동은 계산하지 않음
-    if (
-      typeof value !== "number" ||
-      !Number.isFinite(value) ||
-      value < 0 ||
-      value > 100
-    ) {
-      return null;
-    }
-
-    weightedSum += value * DEFAULT_WEIGHTS[key];
+    const value = properties[key];
+    if (typeof value === "string" && value.trim()) return value.trim();
   }
-
-  return weightedSum / totalWeight;
+  return "";
 }
 
-// ==========================================
-// 3. 백엔드 응답을 지도 데이터로 변환
-// ==========================================
-
-// 응답 형태가 배열이거나 {items: []}인 경우 처리
-function normalizeDongScores(response: unknown): DongMapScore[] {
-  let items: unknown[] = [];
-
-  if (Array.isArray(response)) {
-    items = response;
-  } else if (
-    response !== null &&
-    typeof response === "object"
-  ) {
-    const result = response as Record<string, unknown>;
-
-    if (Array.isArray(result.items)) {
-      items = result.items;
-    } else if (Array.isArray(result.data)) {
-      items = result.data;
-    } else if (Array.isArray(result.scores)) {
-      items = result.scores;
-    }
-  }
-
-  const dongScores: DongMapScore[] = [];
-
-  for (const item of items) {
-    if (!item || typeof item !== "object") continue;
-
-    const dong = item as ApiDongScore;
-
-    // GeoJSON adm_cd2와 매칭할 행정동 코드
-    const dongCode = String(
-      dong.dongCode ??
-      dong.dong_code ??
-      dong.region_code ??
-      dong.code ??
-      ""
-    );
-
-    if (!dongCode) continue;
-
-    // 개별 평가 점수 데이터 확인
-    const scores = dong.scores;
-
-    // 5개 항목이 있으면 기본 가중치로 계산
-    let score: number | null =
-      scores && typeof scores === "object"
-        ? calculateScore(scores)
-        : null;
-
-    // 이미 백엔드에서 계산한 종합점수가 있으면 사용
-    if (score === null) {
-      const total =
-        dong.score ??
-        dong.total_score ??
-        dong.overall_score;
-
-      if (
-        typeof total === "number" &&
-        Number.isFinite(total) &&
-        total >= 0 &&
-        total <= 100
-      ) {
-        score = total;
-      }
-    }
-
-    if (score === null) continue;
-
-    dongScores.push({
-      dongCode,
-      score,
-    });
-  }
-
-  return dongScores;
+function scoreOf(data: DongScore | undefined, key: (typeof metrics)[number]["key"]): number | null {
+  const value = data?.scores[key];
+  return typeof value === "number" && Number.isFinite(value) && value >= 0 && value <= 100 ? value : null;
 }
 
-// ==========================================
-// 4. 메인페이지
-// ==========================================
+function RadarChart({ a, b }: { a?: DongScore; b?: DongScore }) {
+  const center = 150;
+  const radius = 100;
+  const point = (i: number, value: number) => {
+    const angle = -Math.PI / 2 + (2 * Math.PI * i) / 5;
+    return `${center + Math.cos(angle) * radius * (value / 100)},${center + Math.sin(angle) * radius * (value / 100)}`;
+  };
+  const polygon = (data: DongScore) => metrics.map((item, i) => point(i, scoreOf(data, item.key) ?? 0)).join(" ");
+  // 누락된 지표가 있다면 그래프를 그리지 않습니다.
+  if (!a || !b || metrics.some((m) => scoreOf(a, m.key) === null || scoreOf(b, m.key) === null)) {
+    return <div className="comparison-pending">두 지역의 5개 지표가 모두 연결되면 레이더 차트를 표시합니다.</div>;
+  }
+  return (
+    <div className="comparison-radar-wrap">
+      <svg viewBox="-22 -20 344 342" role="img" aria-label="지역 A와 B의 다섯 지표 레이더 차트">
+        {[20, 40, 60, 80, 100].map((v) => (
+          <polygon key={v} points={metrics.map((_, i) => point(i, v)).join(" ")} fill="none" stroke="#dde1eb" strokeWidth="1" />
+        ))}
+        {metrics.map((metric, i) => {
+          const angle = -Math.PI / 2 + (2 * Math.PI * i) / 5;
+          return (
+            <g key={metric.key}>
+              <line x1={center} y1={center} x2={center + Math.cos(angle) * radius} y2={center + Math.sin(angle) * radius} stroke="#dde1eb" />
+              <text x={center + Math.cos(angle) * (radius + 22)} y={center + Math.sin(angle) * (radius + 22)} textAnchor="middle" dominantBaseline="middle" fontSize="11" fill="#5c6477">{["경제", "에너지", "쾌적", "건강", "치안"][i]}</text>
+            </g>
+          );
+        })}
+        <polygon points={polygon(a)} fill="#64748b" fillOpacity="0.15" stroke="#64748b" strokeWidth="2.5" />
+        <polygon points={polygon(b)} fill="#6457db" fillOpacity="0.15" stroke="#6457db" strokeWidth="2.5" />
+      </svg>
+      <div className="comparison-legend"><span><i className="legend-a" /> 지역 A</span><span><i className="legend-b" /> 지역 B</span></div>
+    </div>
+  );
+}
 
-export default function MainPage({
-  selectedDistrict,
-  onDistrictClick,
-  onDistrictDoubleClick,
-}: MainPageProps) {
+export default function RegionComparison() {
+  const [options, setOptions] = useState<DongOption[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(false);
+  const [regionA, setRegionA] = useState("");
+  const [regionB, setRegionB] = useState("");
+  const [chartMode, setChartMode] = useState<ChartMode>("bar");
 
-  // 백엔드에서 가져온 행정동별 종합점수
-  const [dongScores, setDongScores] = useState<DongMapScore[]>([]);
-
-  // API 요청 진행 상태
-  const [isLoading, setIsLoading] = useState(true);
-
-  // API 오류 메시지
-  const [apiError, setApiError] = useState<string | null>(null);
-
-  // [추가] 순위용 원본 점수/GeoJSON 지역명 매핑/선택 지표
-  const [rankSource, setRankSource] = useState<unknown>(null);
-  const [dongDistrictMap, setDongDistrictMap] = useState<Record<string, string>>({});
-  const [rankMetric, setRankMetric] = useState<RankMetric>("overall");
-
-  // [추가] 기존 지도에서 쓰는 GeoJSON의 자치구 이름을 사용해 코드 일치 여부 확인
-  useEffect(() => {
-    const controller = new AbortController();
-    fetch("/data/seoul_dong.geojson", { signal: controller.signal })
-      .then((r) => {
-        if (!r.ok) throw new Error(`행정동 GeoJSON 로드 실패: ${r.status}`);
-        return r.json();
-      })
-      .then((geojson: { features?: { properties?: { adm_cd2?: string | number; sggnm?: string } }[] }) => {
-        const mapped: Record<string, string> = {};
-        for (const feature of geojson.features ?? []) {
-          const code = String(feature.properties?.adm_cd2 ?? "");
-          const district = feature.properties?.sggnm ?? "";
-          if (code && district) mapped[code] = district;
-        }
-        setDongDistrictMap(mapped);
-      })
-      .catch((error) => {
-        if (!controller.signal.aborted) console.error("순위 지역명 매핑 오류:", error);
-      });
-    return () => controller.abort();
-  }, []);
-
-  // [추가] 행정동 점수를 자치구별 단순 평균으로 집계한 순위 (0~100점)
-  const districtRankings = useMemo<DistrictRanking[]>(() => {
-    const totals = new Map<string, { sum: number; count: number }>();
-    for (const item of getScoreItems(rankSource)) {
-      const code = String(item.dongCode ?? item.dong_code ?? item.region_code ?? item.code ?? "");
-      const district = dongDistrictMap[code];
-      const score = metricScore(item, rankMetric);
-      if (!district || score === null) continue;
-      const current = totals.get(district) ?? { sum: 0, count: 0 };
-      current.sum += score;
-      current.count += 1;
-      totals.set(district, current);
-    }
-    return [...totals].map(([district, value]) => ({
-      district, score: value.sum / value.count, count: value.count,
-    })).sort((a, b) => b.score - a.score || a.district.localeCompare(b.district, "ko"));
-  }, [rankSource, dongDistrictMap, rankMetric]);
-
-
-  // ==========================================
-  // 5. 백엔드 행정동 데이터 가져오기
-  // ==========================================
-
+  // 지도 GeoJSON에서 실제 행정동 선택 목록을 가져옵니다.
   useEffect(() => {
     let cancelled = false;
-
-    async function loadDongScores() {
-      try {
-        setIsLoading(true);
-        setApiError(null);
-
-        // 백엔드 전체 행정동 점수 API 호출
-        const response = await fetchDongScores();
-
+    fetch("/data/seoul_dong.geojson")
+      .then((response) => {
+        if (!response.ok) throw new Error("행정동 GeoJSON을 불러올 수 없습니다.");
+        return response.json() as Promise<GeoJson>;
+      })
+      .then((json) => {
         if (cancelled) return;
-
-        // API 응답 확인
-        console.log("백엔드 행정동 점수 응답:", response);
-
-        // [추가] 동일한 API 응답을 자치구 순위에도 재사용
-        setRankSource(response);
-
-        // 지도에서 사용할 점수 데이터로 변환
-        const formattedScores = normalizeDongScores(response);
-
-        console.log(
-          "지도에 전달할 행정동 점수:",
-          formattedScores
-        );
-
-        // React 상태에 저장
-        setDongScores(formattedScores);
-
-        if (formattedScores.length === 0) {
-          setApiError(
-            "점수 데이터 형식 또는 행정동 코드를 확인해 주세요."
-          );
+        const dedup = new Map<string, DongOption>();
+        for (const feature of json.features ?? []) {
+          const p = feature.properties ?? {};
+          const code = String(p.adm_cd2 ?? "").trim();
+          const name = getText(p, ["adm_nm", "admnm", "adm_name", "dong_name", "dongName", "행정동명"]);
+          const district = getText(p, ["sggnm", "sgg_nm", "district", "시군구명"]);
+          // adm_nm 값이 '서울특별시 종로구 청운효자동'처럼 전체 경로인 경우에는 마지막 이름을 사용합니다.
+          const shortName = name.split(/\s+/).at(-1) ?? "";
+          if (code && shortName) dedup.set(code, { code, name: shortName, district });
         }
-
-      } catch (error) {
-        if (cancelled) return;
-
-        console.error("행정동 점수 API 오류:", error);
-
-        setApiError(
-          error instanceof Error
-            ? error.message
-            : "백엔드 연결에 실패했습니다."
-        );
-
-      } finally {
+        // 점수 데이터에만 등록된 동도 선택 가능하도록 병합합니다.
+        for (const dong of mockDongScores) {
+          if (!dedup.has(dong.dongCode)) dedup.set(dong.dongCode, { code: dong.dongCode, name: dong.dongName, district: dong.district });
+        }
+        setOptions([...dedup.values()].sort((x, y) => x.district.localeCompare(y.district, "ko") || x.name.localeCompare(y.name, "ko")));
+      })
+      .catch(() => {
         if (!cancelled) {
-          setIsLoading(false);
+          setLoadError(true);
+          setOptions(mockDongScores.map((d) => ({ code: d.dongCode, name: d.dongName, district: d.district })));
         }
-      }
-    }
-
-    loadDongScores();
-
-    // 컴포넌트 종료 후 상태 업데이트 방지
-    return () => {
-      cancelled = true;
-    };
+      })
+      .finally(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
   }, []);
 
-  // ==========================================
-  // 6. 기존 메인페이지 UI
-  // ==========================================
+  const selectedA = options.find((item) => item.code === regionA);
+  const selectedB = options.find((item) => item.code === regionB);
+  const scoreA = mockDongScores.find((item) => item.dongCode === regionA);
+  const scoreB = mockDongScores.find((item) => item.dongCode === regionB);
+  // 비교 페이지는 현재 기본 가중치를 사용합니다. 이후 App의 공통 가중치 상태로 교체할 수 있습니다.
+  const totalA = useMemo(() => scoreA ? calculateTotalScore(scoreA.scores, defaultWeights) : null, [scoreA]);
+  const totalB = useMemo(() => scoreB ? calculateTotalScore(scoreB.scores, defaultWeights) : null, [scoreB]);
+  const ready = selectedA && selectedB && regionA !== regionB;
 
   return (
-    <div className="mainpage">
+    <section className="comparison-page">
+      <header className="comparison-header">
+        <div className="comparison-heading-icon">✦</div>
+        <div><h1>지역 비교 분석</h1><p>두 행정동의 생활환경 지표를 비교하고 강점과 차이를 확인하세요.</p></div>
+        <span className="comparison-status">분석 데이터 연동 예정</span>
+      </header>
 
-      {/* ==========================================
-          1. AI 환경 진단 안내 바
-      ========================================== */}
-      <section className="diagnosis-section">
-
-        <div className="diagnosis-header">
-          <div className="diagnosis-title">
-
-            <div className="diagnosis-icon">✦</div>
-
-            <div>
-              <h2>AI 모델 기반 환경 진단</h2>
-              <p>서울시 5대 환경 지표 기반 분석</p>
-            </div>
-
-          </div>
-
-          {/* 백엔드 가데이터 연결 상태 */}
-          <span className="diagnosis-status">
-            {isLoading
-              ? "데이터 불러오는 중"
-              : apiError
-                ? "데이터 연결 확인 필요"
-                : "테스트 데이터 연결"}
-          </span>
+      <section className="comparison-card comparison-select-card" aria-label="비교 지역 선택">
+        <div className="comparison-section-heading"><h2>비교할 지역 선택</h2><p>행정동 단위로 두 지역을 선택하세요.</p></div>
+        <div className="comparison-select-grid">
+          <label>지역 A
+            <select value={regionA} onChange={(e) => setRegionA(e.target.value)} disabled={loading}>
+              <option value="">{loading ? "행정동 목록 불러오는 중..." : "행정동을 선택하세요"}</option>
+              {options.map((option) => <option key={option.code} value={option.code}>{option.district ? `${option.district} · ` : ""}{option.name}</option>)}
+            </select>
+          </label>
+          <span className="comparison-vs">VS</span>
+          <label>지역 B
+            <select value={regionB} onChange={(e) => setRegionB(e.target.value)} disabled={loading}>
+              <option value="">{loading ? "행정동 목록 불러오는 중..." : "행정동을 선택하세요"}</option>
+              {options.map((option) => <option key={option.code} value={option.code}>{option.district ? `${option.district} · ` : ""}{option.name}</option>)}
+            </select>
+          </label>
         </div>
-
-        <div className="diagnosis-grid">
-          {[
-            ["📈", "경제 활력도", "상권·일자리"],
-            ["⚡", "에너지 소비효율", "에너지·효율"],
-            ["🌿", "생활 쾌적도", "환경·녹지"],
-            ["❤️", "건강 안전도", "의료·건강"],
-            ["🛡️", "치안 안전도", "안전·범죄"],
-          ].map(([icon, title, desc]) => (
-
-            <div className="diagnosis-card" key={title}>
-              <div className="diagnosis-cardbox">
-
-                <div className="diagnosis-info">
-                  <span className="diagnosis-card-icon">
-                    {icon}
-                  </span>
-
-                  <h3>{title}</h3>
-                  <p>{desc}</p>
-                </div>
-
-                <strong>분석 대기</strong>
-              </div>
-            </div>
-
-          ))}
-        </div>
+        {loadError && <p className="comparison-note">행정동 목록 파일을 읽지 못했습니다. public/data/seoul_dong.geojson 경로를 확인해 주세요.</p>}
+        {regionA && regionB && regionA === regionB && <p className="comparison-note">서로 다른 행정동을 선택해 주세요.</p>}
       </section>
 
-      {/* ==========================================
-          2. 지도 + 오른쪽 분석 패널
-      ========================================== */}
-      <div className="mainpage-grid">
-
-        {/* 왼쪽: 서울 지도 */}
-        <section className="mainpage-card map-card">
-
-          <div className="card-heading">
-            <div>
-              <h2>생활환경 평가 지도</h2>
-
-              <p>
-                {selectedDistrict
-                  ? `선택 지역: ${selectedDistrict}`
-                  : "지도에서 분석할 지역을 선택하세요."}
-              </p>
-            </div>
-          </div>
-
-          {/* 백엔드 점수 전달 및 기존 지도 재사용 */}
-          <SeoulMap
-            data={regionScores}
-            selectedDistrict={selectedDistrict}
-            onDistrictClick={onDistrictClick}
-            onDistrictDoubleClick={onDistrictDoubleClick}
-            dongScores={dongScores}
-          />
-
-        </section>
-
-        {/* ==========================================
-            3. 오른쪽 AI 분석 패널
-        ========================================== */}
-        <div className="mainpage-right">
-          {/* [추가] AI 인사이트 아래 자치구별 순위 패널 — 기존 인사이트 유지 */}
-          <section className="mainpage-card district-ranking-card">
-            <div className="card-heading">
-              <h2>자치구별 환경 진단 순위</h2>
-              <p>백엔드 행정동 점수의 자치구별 단순 평균 · 테스트 데이터</p>
-            </div>
-            <label className="district-ranking-filter">
-              <span>평가 항목</span>
-              <select
-                value={rankMetric}
-                onChange={(event) => setRankMetric(event.target.value as RankMetric)}
-              >
-                {RANK_METRICS.map((metric) => (
-                  <option key={metric.key} value={metric.key}>{metric.label}</option>
-                ))}
-              </select>
-            </label>
-
-            <div className="district-ranking-list">
-              {isLoading ? (
-                <p className="district-ranking-empty">순위를 불러오는 중...</p>
-              ) : districtRankings.length === 0 ? (
-                <p className="district-ranking-empty">
-                  표시 가능한 순위가 없습니다. API 점수와 GeoJSON 행정동 코드를 확인해 주세요.
-                </p>
-              ) : (
-                districtRankings.map((item, index) => (
-                  <button
-                    type="button"
-                    className={`district-ranking-row${selectedDistrict === item.district ? " is-selected" : ""}`}
-                    key={item.district}
-                    onClick={() => onDistrictClick(item.district)}
-                    title={`${item.count}개 행정동 점수 평균`}
-                  >
-                    <span className="district-ranking-position">{index + 1}</span>
-                    <span className="district-ranking-name">{item.district}</span>
-                    <strong>{item.score.toFixed(1)}점</strong>
-                  </button>
-                ))
-              )}
-            </div>
-            <p className="district-ranking-footnote">
-              점수가 있는 행정동만 집계 · 실제 AI 결과가 아닌 테스트 데이터
-            </p>
+      <div className="comparison-score-grid">
+        {([{ title: "지역 A 종합점수", region: selectedA, total: totalA }, { title: "지역 B 종합점수", region: selectedB, total: totalB }] as const).map((item) => (
+          <section className="comparison-card comparison-score-card" key={item.title}>
+            <span className="comparison-muted">{item.title}</span>
+            <h2>{item.region ? `${item.region.district} ${item.region.name}` : "지역 선택 대기"}</h2>
+            <div className="comparison-big-score">{ready && item.total !== null ? item.total.toFixed(1) : "--"}<span> / 100점</span></div>
+            <p className="comparison-muted">{ready && item.total !== null ? "기본 가중치 적용" : "평가 점수 데이터 연동 대기"}</p>
           </section>
-          <section className="mainpage-card insight-card">
-            <div className="card-heading">
-              <h2>✦ AI 추천 인사이트</h2>
-            </div>
-            <div className="insight-content">
-              <h3>분석 결과</h3>
-              <p>
-                {selectedDistrict
-                  ? `${selectedDistrict}의 AI 분석 결과는 모델 연동 후 제공됩니다.`
-                  : "지도에서 지역을 선택하면 분석 결과가 표시됩니다."}
-              </p>
-            </div>
-            <div className="insight-content warning">
-              <h3>주의할 점</h3>
-              <p>
-                환경 및 생활안전 관련 주요 지표를
-                분석한 뒤 안내할 예정입니다.
-              </p>
-            </div>
-          </section>
-        </div>
-
+        ))}
       </div>
-    </div>
+
+      <section className="comparison-card comparison-chart-card">
+        <div className="comparison-chart-header">
+          <div className="comparison-section-heading"><h2>항목별 생활환경 비교</h2><p>경제·에너지·쾌적·건강·치안의 5개 지표를 비교합니다.</p></div>
+          <div className="comparison-tabs" role="group" aria-label="그래프 유형">
+            <button type="button" className={chartMode === "bar" ? "active" : ""} aria-pressed={chartMode === "bar"} onClick={() => setChartMode("bar")}>막대그래프</button>
+            <button type="button" className={chartMode === "radar" ? "active" : ""} aria-pressed={chartMode === "radar"} onClick={() => setChartMode("radar")}>레이더 차트</button>
+          </div>
+        </div>
+        {!ready ? <div className="comparison-pending">비교할 두 행정동을 선택하면 분석 결과를 확인할 수 있습니다.</div> : chartMode === "radar" ? <RadarChart a={scoreA} b={scoreB} /> : (
+          <div className="comparison-bars">
+            <div className="comparison-legend"><span><i className="legend-a" /> {selectedA.name}</span><span><i className="legend-b" /> {selectedB.name}</span></div>
+            {metrics.map((m) => {
+              const a = scoreOf(scoreA, m.key);
+              const b = scoreOf(scoreB, m.key);
+              return <div className="comparison-metric" key={m.key}>
+                <h3>{m.label}</h3>
+                <div className="comparison-bar-row"><span>A</span><div className="comparison-track"><div className="comparison-fill-a" style={{ width: `${a ?? 0}%` }} /></div><strong>{a === null ? "--" : a.toFixed(1)}</strong></div>
+                <div className="comparison-bar-row"><span>B</span><div className="comparison-track"><div className="comparison-fill-b" style={{ width: `${b ?? 0}%` }} /></div><strong>{b === null ? "--" : b.toFixed(1)}</strong></div>
+              </div>;
+            })}
+            {(!scoreA || !scoreB) && <p className="comparison-note">선택한 행정동의 평가 점수는 아직 연결되지 않았습니다.</p>}
+          </div>
+        )}
+      </section>
+
+      <section className="comparison-card comparison-insight">
+        <h2>✦ AI 비교 인사이트</h2>
+        <p>분석 데이터가 연결되면 두 지역의 강점, 취약 지표, 종합점수 차이 및 추천 근거를 이곳에 표시합니다.</p>
+      </section>
+    </section>
   );
 }
