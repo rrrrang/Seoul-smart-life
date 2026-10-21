@@ -1,0 +1,82 @@
+{
+  "release_id": "economy-nowcast-20261021",
+  "output_status": "estimated",
+  "runtime_scope": "current_month_economic_activity_concentration",
+  "model_validation_scope": "retrospective_recheck_not_prospective_validation",
+  "snapshot_available_as_of": "2026-10-21",
+  "target_month": "2026-10",
+  "input_period": [
+    "2024-08",
+    "2026-09"
+  ],
+  "expected_regions": 427,
+  "region_contract": {
+    "region_code": "6-digit string",
+    "sigungu_code": "5-digit string"
+  },
+  "source_months": {
+    "commute": "2026-09",
+    "employment": "2026-08",
+    "licensing": "2026-09"
+  },
+  "source_lags_months": {
+    "commute": 1,
+    "employment": 2,
+    "licensing": 1
+  },
+  "selected_methods": {
+    "commute": "median3",
+    "employment": "last_known",
+    "licensing": "xgb_depth3_shrink50"
+  },
+  "normalization": {
+    "commute": {
+      "log_density_p05": 7.0105068076596275,
+      "log_density_p95": 10.063686133786627,
+      "regions": 425,
+      "period": "2024-08/2025-05",
+      "method": "per-dong median log1p density then cross-dong 5th/95th quantiles"
+    },
+    "employment": {
+      "log_density_p05": 5.6364623310375,
+      "log_density_p95": 10.233176976869283,
+      "regions": 425,
+      "period": "2024-08/2025-05",
+      "method": "per-dong median log1p density then cross-dong 5th/95th quantiles"
+    },
+    "licensing": {
+      "log_density_p05": 4.126364042227578,
+      "log_density_p95": 6.962262552395443,
+      "regions": 425,
+      "period": "2024-08/2025-05",
+      "method": "per-dong median log1p density then cross-dong 5th/95th quantiles"
+    }
+  },
+  "weights": {
+    "commute": 0.3333333333333333,
+    "employment": 0.3333333333333333,
+    "licensing": 0.3333333333333333
+  },
+  "area_reference_date": "2025-12-31",
+  "source_scope": {
+    "commute": "weekdays, work-purpose destination movement; not all foot traffic",
+    "employment": "members of publicly available corporate National Pension workplaces; not total jobs or residents income",
+    "licensing": "five-sector registered active candidates reconstructed from current records; not all establishments or verified actual operation"
+  },
+  "known_exclusions": {
+    "commute_suspect_months": [
+      "2025-03",
+      "2025-04"
+    ],
+    "split_dongs_before_202508": [
+      "230515",
+      "230533"
+    ],
+    "employment_history_reset": "2025-12"
+  },
+  "artifact_sha256": {
+    "data/monthly_inputs.csv": "ddcc16f7689ba3d502a7ec26452bbcdd73767f1cd3818f9a684e125f23c3f7d6",
+    "data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
+    "models/licensing.joblib": "85e5fb5ec369c1dd77be6061248f408b0c592e863ce19e40b1da8e6ff9ba82bf"
+  }
+}

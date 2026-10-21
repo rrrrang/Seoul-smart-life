@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "release_scope": "executable current-month activity concentration estimate, not prospective accuracy certification",
+  "region_count": 427,
+  "unit_tests_passed": 21,
+  "independent_runtime_checks_passed": 32,
+  "full_precision_reference_replay": {
+    "reference": "repaired October 2026 fixed-model output",
+    "rows": 427,
+    "max_abs_score_difference": 1.4210854715202004e-14
+  },
+  "retraining_reproduction": {
+    "training_rows": 9797,
+    "cutoff": "2026-09",
+    "target_month": "2026-10",
+    "max_abs_xgboost_log_delta_difference": 0.0
+  },
+  "test_period": [
+    "2026-06",
+    "2026-07",
+    "2026-08"
+  ],
+  "test_rows": 1281,
+  "evaluation_scope": "previously inspected reconstructed-history retrospective recheck",
+  "selected_model": {
+    "mae_score": 0.5816052101926118,
+    "mean_monthly_rmse": 0.9403672835934099,
+    "mean_monthly_direction_balanced_accuracy": 0.43458720135153445
+  },
+  "latest_value_baseline": {
+    "mae_score": 0.6768610449172856,
+    "mean_monthly_rmse": 0.9348158692984264,
+    "mean_monthly_direction_balanced_accuracy": 0.5123118358965284
+  },
+  "direction_prediction_exposed": false,
+  "root_schema": {
+    "domains": 5,
+    "items": 427,
+    "is_mock": false,
+    "metadata.economy.status": "estimated"
+  },
+  "source_inputs_and_fitted_model_byte_preserved_from_package_build": true,
+  "checked_files_sha256": {
+    "economy.py": "af823e252dacbfcd6c377980868a5b247276c3a83ab4209217a2fc055c913b6a",
+    "model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
+    "MODEL_DESIGN.txt": "29e6ecfa16746ea4e63131206c0efebf5fb4be8e785347a0ac082e6d11e7a2c4",
+    "README.txt": "475b7684259b39821bda8713437b43e7cb0badb79e7fc1a03bc2db1d0345cbc3",
+    "requirements.txt": "5ad41a0c5bf4a5548b1e189a578ba6fb2cac6ff886207a522501e2bdff065245",
+    "data/monthly_inputs.csv": "ddcc16f7689ba3d502a7ec26452bbcdd73767f1cd3818f9a684e125f23c3f7d6",
+    "data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
+    "models/licensing.joblib": "85e5fb5ec369c1dd77be6061248f408b0c592e863ce19e40b1da8e6ff9ba82bf",
+    "results/economy_scores.json": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+    "tests/test_economy.py": "8866d2271439a36621f23d52d262c261e93a19acdf63d87139915205c85286b0",
+    "validation/monthly_metrics.csv": "41132882110ad7544daa43c71395b7e290dae8a7b57c5ec3c31dd31de613686d"
+  }
+}
