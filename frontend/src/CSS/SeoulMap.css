@@ -1,13 +1,11 @@
 /* 서울 지도 CSS: 지도 컨테이너, 로딩 및 에러 표시 등의 스타일입니다. 기존 선택자와 속성은 그대로 유지합니다. */
 
-/* =========================================
-   1. 카카오 지도 컨테이너
-========================================= */
+/* 1. 카카오 지도 컨테이너 */
 /* 지도 컨테이너 */
 .seoul-map-container {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
   border-radius: 12px;
   overflow: hidden;
   background: #f8fafc;
@@ -19,9 +17,74 @@
   height: 100%;
 }
 
-/* =========================================
-   2. 서울 자치구 이름
-========================================= */
+/* 범례 전체 박스 */
+.map-legend {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  padding: 14px 25px;
+  background: #252630;
+  color: #ffffff;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+
+  font-size: 12px;
+  font-weight: 600;
+
+  /* 지도 확대·클릭 이벤트 방해 방지 */
+  pointer-events: none;
+}
+
+/* 범례 한 줄 */
+.map-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  white-space: nowrap;
+}
+
+/* 색상 표시 */
+.legend-color {
+  display: inline-block;
+  width: 14px;
+  height: 11px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* 1등급 */
+.legend-grade1 {
+  background: #16a34a;
+}
+
+/* 2등급 */
+.legend-grade2 {
+  background: #65a30d;
+}
+
+/* 3등급 */
+.legend-grade3 {
+  background: #eab308;
+}
+
+/* 4등급 */
+.legend-grade4 {
+  background: #f97316;
+}
+
+/* 5등급 */
+.legend-grade5 {
+  background: #ef4444;
+}
+
+/* 2. 서울 자치구 이름 */
 .district-map-label {
   padding: 3px 6px;
   background: rgba(255, 255, 255, 0.88);
@@ -33,9 +96,7 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
 }
 
-/* =========================================
-   3. 선택한 자치구 표시
-========================================= */
+/* 3. 선택한 자치구 표시 */
 .selected-region-label {
   position: absolute;
   top: 12px;
@@ -49,9 +110,7 @@
   font-weight: 600;
 }
 
-/* =========================================
-   4. 오류 메시지
-========================================= */
+/* 4. 오류 메시지 */
 /* 지도 오류 표시 */
 .map-error {
   position: absolute;
@@ -65,9 +124,7 @@
 }
 
 
-/* =========================================
-   지도 로딩 화면
-========================================= */
+/* 지도 로딩 화면 */
 
 /* 로딩 중 지도 위를 덮는 화면 */
 .map-loading {
