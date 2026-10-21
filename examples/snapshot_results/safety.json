@@ -1,0 +1,1223 @@
+{
+  "selected_domains": [
+    "safety"
+  ],
+  "unavailable_domains": [
+    "economy",
+    "energy",
+    "comfort",
+    "health"
+  ],
+  "normalized_weights": {
+    "economy": 0.0,
+    "energy": 0.0,
+    "comfort": 0.0,
+    "health": 0.0,
+    "safety": 1.0
+  },
+  "selected_max_points": 20,
+  "items": [
+    {
+      "region_code": "290525",
+      "region_name": "성북동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 1,
+      "personalized_score_100": 90.416667,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 90.416667
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 18.083333
+      },
+      "selected_total_points": 18.083333,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ]
+    },
+    {
+      "region_code": "290555",
+      "region_name": "삼선동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 2,
+      "personalized_score_100": 90.416667,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 90.416667
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 18.083333
+      },
+      "selected_total_points": 18.083333,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ]
+    },
+    {
+      "region_code": "290575",
+      "region_name": "동선동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 3,
+      "personalized_score_100": 90.416667,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 90.416667
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 18.083333
+      },
+      "selected_total_points": 18.083333,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ]
+    },
+    {
+      "region_code": "290580",
+      "region_name": "돈암제1동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 4,
+      "personalized_score_100": 90.416667,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 90.416667
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 18.083333
+      },
+      "selected_total_points": 18.083333,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ]
+    },
+    {
+      "region_code": "290590",
+      "region_name": "돈암제2동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 5,
+      "personalized_score_100": 90.416667,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 90.416667
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": 18.083333
+      },
+      "selected_total_points": 18.083333,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 90.416667
+        }
+      ]
+    }
+  ],
+  "excluded": [],
+  "warnings": [
+    "COMFORT_NOT_DELIVERED",
+    "CONTEXT_ASSIGNED_SAFETY",
+    "FIXED_SNAPSHOT_NOT_LIVE_DATA",
+    "PARTIAL_DOMAIN_RECOMMENDATION"
+  ],
+  "target_month": "2026-10",
+  "snapshot_version": "snapshot-0e8c7f87bdff147d",
+  "file_hashes": {
+    "economy/model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
+    "economy/data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
+    "safety/results/safety_scores.json": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16"
+  },
+  "domain_metadata": {
+    "safety": {
+      "snapshot_id": "crime2025_cctv20260630_police20251231",
+      "weights": {
+        "crime": 0.8,
+        "cctv": 0.1,
+        "police": 0.1
+      },
+      "source_periods": {
+        "crime": "2025",
+        "population": "2025-01/2025-12 month-end mean",
+        "cctv": "2026-06-30",
+        "police": "2025-12-31",
+        "jurisdiction_mapping": "2025-12-31"
+      },
+      "comparison": {
+        "crime_regions": 25,
+        "cctv_districts": 25,
+        "police_regions": 25,
+        "profiles": 26,
+        "linked_dongs": 427
+      },
+      "interpretation": "관할권역·자치구 상대점수를 행정동에 연결. 동 자체 실측점수나 피해확률이 아님.",
+      "profiles": [
+        {
+          "profile_id": "POL2025_19__11290",
+          "jurisdiction_id": "POL2025_19",
+          "jurisdiction_name": "성북·종암 관할권역",
+          "sigungu_code": "11290",
+          "sigungu_name": "성북구",
+          "crime_score": 100.0,
+          "cctv_score": 50.0,
+          "police_score": 54.166666666666664,
+          "score": 90.41666666666667,
+          "dong_count": 20,
+          "profile_rank": 1,
+          "grade": 1,
+          "grade_label": "1등급"
+        },
+        {
+          "profile_id": "POL2025_11__11320",
+          "jurisdiction_id": "POL2025_11",
+          "jurisdiction_name": "도봉 관할권역",
+          "sigungu_code": "11320",
+          "sigungu_name": "도봉구",
+          "crime_score": 91.66666666666667,
+          "cctv_score": 12.5,
+          "police_score": 62.5,
+          "score": 80.83333333333334,
+          "dong_count": 14,
+          "profile_rank": 2,
+          "grade": 1,
+          "grade_label": "1등급"
+        },
+        {
+          "profile_id": "POL2025_13__11590",
+          "jurisdiction_id": "POL2025_13",
+          "jurisdiction_name": "동작 관할권역",
+          "sigungu_code": "11590",
+          "sigungu_name": "동작구",
+          "crime_score": 95.83333333333333,
+          "cctv_score": 20.833333333333332,
+          "police_score": 20.833333333333332,
+          "score": 80.83333333333334,
+          "dong_count": 15,
+          "profile_rank": 2,
+          "grade": 1,
+          "grade_label": "1등급"
+        },
+        {
+          "profile_id": "POL2025_17__11380",
+          "jurisdiction_id": "POL2025_17",
+          "jurisdiction_name": "서부 관할권역",
+          "sigungu_code": "11380",
+          "sigungu_name": "은평구",
+          "crime_score": 87.5,
+          "cctv_score": 41.666666666666664,
+          "police_score": 33.333333333333336,
+          "score": 77.5,
+          "dong_count": 9,
+          "profile_rank": 4,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_16__11410",
+          "jurisdiction_id": "POL2025_16",
+          "jurisdiction_name": "서대문 관할권역",
+          "sigungu_code": "11410",
+          "sigungu_name": "서대문구",
+          "crime_score": 79.16666666666667,
+          "cctv_score": 37.5,
+          "police_score": 66.66666666666667,
+          "score": 73.75000000000001,
+          "dong_count": 14,
+          "profile_rank": 5,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_18__11200",
+          "jurisdiction_id": "POL2025_18",
+          "jurisdiction_name": "성동 관할권역",
+          "sigungu_code": "11200",
+          "sigungu_name": "성동구",
+          "crime_score": 66.66666666666667,
+          "cctv_score": 75.0,
+          "police_score": 91.66666666666667,
+          "score": 70.00000000000001,
+          "dong_count": 17,
+          "profile_rank": 6,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_10__11350",
+          "jurisdiction_id": "POL2025_10",
+          "jurisdiction_name": "노원 관할권역",
+          "sigungu_code": "11350",
+          "sigungu_name": "노원구",
+          "crime_score": 83.33333333333333,
+          "cctv_score": 4.166666666666667,
+          "police_score": 0.0,
+          "score": 67.08333333333334,
+          "dong_count": 19,
+          "profile_rank": 7,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_02__11740",
+          "jurisdiction_id": "POL2025_02",
+          "jurisdiction_name": "강동 관할권역",
+          "sigungu_code": "11740",
+          "sigungu_name": "강동구",
+          "crime_score": 75.0,
+          "cctv_score": 29.166666666666668,
+          "police_score": 8.333333333333334,
+          "score": 63.75,
+          "dong_count": 19,
+          "profile_rank": 8,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_04__11500",
+          "jurisdiction_id": "POL2025_04",
+          "jurisdiction_name": "강서 관할권역",
+          "sigungu_code": "11500",
+          "sigungu_name": "강서구",
+          "crime_score": 70.83333333333333,
+          "cctv_score": 8.333333333333334,
+          "police_score": 29.166666666666668,
+          "score": 60.416666666666664,
+          "dong_count": 20,
+          "profile_rank": 9,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_08__11545",
+          "jurisdiction_id": "POL2025_08",
+          "jurisdiction_name": "금천 관할권역",
+          "sigungu_code": "11545",
+          "sigungu_name": "금천구",
+          "crime_score": 54.166666666666664,
+          "cctv_score": 83.33333333333333,
+          "police_score": 50.0,
+          "score": 56.66666666666667,
+          "dong_count": 10,
+          "profile_rank": 10,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_24__11380",
+          "jurisdiction_id": "POL2025_24",
+          "jurisdiction_name": "은평 관할권역",
+          "sigungu_code": "11380",
+          "sigungu_name": "은평구",
+          "crime_score": 62.5,
+          "cctv_score": 41.666666666666664,
+          "police_score": 12.5,
+          "score": 55.416666666666664,
+          "dong_count": 7,
+          "profile_rank": 11,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_03__11305",
+          "jurisdiction_id": "POL2025_03",
+          "jurisdiction_name": "강북 관할권역",
+          "sigungu_code": "11305",
+          "sigungu_name": "강북구",
+          "crime_score": 45.833333333333336,
+          "cctv_score": 87.5,
+          "police_score": 83.33333333333333,
+          "score": 53.75000000000001,
+          "dong_count": 13,
+          "profile_rank": 12,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_25__11260",
+          "jurisdiction_id": "POL2025_25",
+          "jurisdiction_name": "중랑 관할권역",
+          "sigungu_code": "11260",
+          "sigungu_name": "중랑구",
+          "crime_score": 50.0,
+          "cctv_score": 79.16666666666667,
+          "police_score": 41.666666666666664,
+          "score": 52.083333333333336,
+          "dong_count": 16,
+          "profile_rank": 13,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_21__11470",
+          "jurisdiction_id": "POL2025_21",
+          "jurisdiction_name": "양천 관할권역",
+          "sigungu_code": "11470",
+          "sigungu_name": "양천구",
+          "crime_score": 58.333333333333336,
+          "cctv_score": 16.666666666666668,
+          "police_score": 16.666666666666668,
+          "score": 50.00000000000001,
+          "dong_count": 18,
+          "profile_rank": 14,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_07__11530",
+          "jurisdiction_id": "POL2025_07",
+          "jurisdiction_name": "구로 관할권역",
+          "sigungu_code": "11530",
+          "sigungu_name": "구로구",
+          "crime_score": 37.5,
+          "cctv_score": 62.5,
+          "police_score": 37.5,
+          "score": 40.0,
+          "dong_count": 16,
+          "profile_rank": 15,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_12__11230",
+          "jurisdiction_id": "POL2025_12",
+          "jurisdiction_name": "동대문 관할권역",
+          "sigungu_code": "11230",
+          "sigungu_name": "동대문구",
+          "crime_score": 29.166666666666668,
+          "cctv_score": 45.833333333333336,
+          "police_score": 87.5,
+          "score": 36.66666666666667,
+          "dong_count": 15,
+          "profile_rank": 16,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_05__11620",
+          "jurisdiction_id": "POL2025_05",
+          "jurisdiction_name": "관악 관할권역",
+          "sigungu_code": "11620",
+          "sigungu_name": "관악구",
+          "crime_score": 33.333333333333336,
+          "cctv_score": 66.66666666666667,
+          "police_score": 25.0,
+          "score": 35.83333333333334,
+          "dong_count": 21,
+          "profile_rank": 17,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_20__11710",
+          "jurisdiction_id": "POL2025_20",
+          "jurisdiction_name": "송파 관할권역",
+          "sigungu_code": "11710",
+          "sigungu_name": "송파구",
+          "crime_score": 41.666666666666664,
+          "cctv_score": 0.0,
+          "police_score": 4.166666666666667,
+          "score": 33.75,
+          "dong_count": 27,
+          "profile_rank": 18,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_06__11215",
+          "jurisdiction_id": "POL2025_06",
+          "jurisdiction_name": "광진 관할권역",
+          "sigungu_code": "11215",
+          "sigungu_name": "광진구",
+          "crime_score": 25.0,
+          "cctv_score": 54.166666666666664,
+          "police_score": 79.16666666666667,
+          "score": 33.333333333333336,
+          "dong_count": 15,
+          "profile_rank": 19,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_15__11650",
+          "jurisdiction_id": "POL2025_15",
+          "jurisdiction_name": "방배·서초 관할권역",
+          "sigungu_code": "11650",
+          "sigungu_name": "서초구",
+          "crime_score": 20.833333333333332,
+          "cctv_score": 25.0,
+          "police_score": 70.83333333333333,
+          "score": 26.25,
+          "dong_count": 18,
+          "profile_rank": 20,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_01__11680",
+          "jurisdiction_id": "POL2025_01",
+          "jurisdiction_name": "강남·수서 관할권역",
+          "sigungu_code": "11680",
+          "sigungu_name": "강남구",
+          "crime_score": 16.666666666666668,
+          "cctv_score": 58.333333333333336,
+          "police_score": 58.333333333333336,
+          "score": 25.000000000000004,
+          "dong_count": 22,
+          "profile_rank": 21,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_23__11170",
+          "jurisdiction_id": "POL2025_23",
+          "jurisdiction_name": "용산 관할권역",
+          "sigungu_code": "11170",
+          "sigungu_name": "용산구",
+          "crime_score": 4.166666666666667,
+          "cctv_score": 95.83333333333333,
+          "police_score": 95.83333333333333,
+          "score": 22.5,
+          "dong_count": 16,
+          "profile_rank": 22,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_22__11560",
+          "jurisdiction_id": "POL2025_22",
+          "jurisdiction_name": "영등포 관할권역",
+          "sigungu_code": "11560",
+          "sigungu_name": "영등포구",
+          "crime_score": 8.333333333333334,
+          "cctv_score": 70.83333333333333,
+          "police_score": 75.0,
+          "score": 21.25,
+          "dong_count": 18,
+          "profile_rank": 23,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_09__11140",
+          "jurisdiction_id": "POL2025_09",
+          "jurisdiction_name": "남대문·종로·중부·혜화 관할권역",
+          "sigungu_code": "11140",
+          "sigungu_name": "중구",
+          "crime_score": 0.0,
+          "cctv_score": 100.0,
+          "police_score": 100.0,
+          "score": 20.0,
+          "dong_count": 15,
+          "profile_rank": 24,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_09__11110",
+          "jurisdiction_id": "POL2025_09",
+          "jurisdiction_name": "남대문·종로·중부·혜화 관할권역",
+          "sigungu_code": "11110",
+          "sigungu_name": "종로구",
+          "crime_score": 0.0,
+          "cctv_score": 91.66666666666667,
+          "police_score": 100.0,
+          "score": 19.166666666666668,
+          "dong_count": 17,
+          "profile_rank": 25,
+          "grade": 5,
+          "grade_label": "5등급"
+        },
+        {
+          "profile_id": "POL2025_14__11440",
+          "jurisdiction_id": "POL2025_14",
+          "jurisdiction_name": "마포 관할권역",
+          "sigungu_code": "11440",
+          "sigungu_name": "마포구",
+          "crime_score": 12.5,
+          "cctv_score": 33.333333333333336,
+          "police_score": 45.833333333333336,
+          "score": 17.916666666666668,
+          "dong_count": 16,
+          "profile_rank": 26,
+          "grade": 5,
+          "grade_label": "5등급"
+        }
+      ],
+      "grade_rules": {
+        "method": "fixed_score_intervals",
+        "best_grade": 1,
+        "worst_grade": 5,
+        "score_rounding_before_grading": false,
+        "missing_score_grade": null,
+        "bands": [
+          {
+            "grade": 1,
+            "label": "1등급",
+            "min_score": 80,
+            "max_score": 100,
+            "min_inclusive": true,
+            "max_inclusive": true
+          },
+          {
+            "grade": 2,
+            "label": "2등급",
+            "min_score": 60,
+            "max_score": 80,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 3,
+            "label": "3등급",
+            "min_score": 40,
+            "max_score": 60,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 4,
+            "label": "4등급",
+            "min_score": 20,
+            "max_score": 40,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 5,
+            "label": "5등급",
+            "min_score": 0,
+            "max_score": 20,
+            "min_inclusive": true,
+            "max_inclusive": false
+          }
+        ],
+        "interpretation": "기존 상대 치안점수의 고정 구간 등급. 등급별 인원·동 수를 같게 나누는 방식이 아니며 절대적 안전이나 피해확률을 뜻하지 않음."
+      }
+    }
+  },
+  "is_mock": false
+}

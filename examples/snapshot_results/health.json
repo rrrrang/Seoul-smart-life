@@ -1,0 +1,1136 @@
+{
+  "selected_domains": [
+    "health"
+  ],
+  "unavailable_domains": [
+    "economy",
+    "energy",
+    "comfort",
+    "safety"
+  ],
+  "normalized_weights": {
+    "economy": 0.0,
+    "energy": 0.0,
+    "comfort": 0.0,
+    "health": 1.0,
+    "safety": 0.0
+  },
+  "selected_max_points": 20,
+  "items": [
+    {
+      "region_code": "110640",
+      "region_name": "이화동",
+      "sigungu_code": "11110",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 65.0267647577899,
+        "safety": null
+      },
+      "domain_metadata": {
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "종로구",
+              "region_code": "110640",
+              "region_name": "이화동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "7593.0",
+              "elderly_population_pct": "19.913077834847886",
+              "medical_institution_count": "14",
+              "clinic_count": "6",
+              "pharmacy_count": "12",
+              "physician_count": "1571.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "1498.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "49.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "18.43803503226656",
+              "clinics_per_10000": "7.902015013828525",
+              "pharmacies_per_10000": "15.804030027657053",
+              "physicians_per_10000": "2069.0109311207693",
+              "inpatient_beds_per_10000": "1972.869748452522",
+              "emergency_beds_per_10000": "64.53312261293296",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "1",
+              "hospitals_per_10000": "1.3170025023047545",
+              "designated_emergency_institution_count": "1",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "1",
+              "emergency_roster_present": "1",
+              "institutions_with_emergency_bed_records": "2",
+              "explicit_24h_guidance_institution_count": "1",
+              "unknown_operating_hours_institution_count": "0",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "공식 지정 응급의료기관 소재; 응급실 병상 기록 기관 소재",
+              "emergency_presence_score": "100.0",
+              "sigungu_code": "11110",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "19.913077834847886",
+              "confirmed_elderly_population": "1512",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        }
+      },
+      "rank": 1,
+      "personalized_score_100": 65.026765,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 65.026765,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 13.005353,
+        "safety": null
+      },
+      "selected_total_points": 13.005353,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "health",
+          "score": 65.0267647577899,
+          "contribution": 65.026765
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 65.0267647577899,
+          "contribution": 65.026765
+        }
+      ]
+    },
+    {
+      "region_code": "710620",
+      "region_name": "가락본동",
+      "sigungu_code": "11710",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 57.63745959766781,
+        "safety": null
+      },
+      "domain_metadata": {
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "송파구",
+              "region_code": "710620",
+              "region_name": "가락본동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "24808.0",
+              "elderly_population_pct": "19.751693002257337",
+              "medical_institution_count": "75",
+              "clinic_count": "28",
+              "pharmacy_count": "22",
+              "physician_count": "210.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "1303.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "5.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "30.23218316672041",
+              "clinics_per_10000": "11.28668171557562",
+              "pharmacies_per_10000": "8.868107062237987",
+              "physicians_per_10000": "84.65011286681717",
+              "inpatient_beds_per_10000": "525.2337955498226",
+              "emergency_beds_per_10000": "2.015478877781361",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "False",
+              "pharmacy_source_link_complete": "False",
+              "excluded_unmapped_medical_candidate_count": "1",
+              "excluded_unmapped_pharmacy_candidate_count": "1",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "11",
+              "hospitals_per_10000": "4.434053531118994",
+              "designated_emergency_institution_count": "1",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "1",
+              "emergency_roster_present": "1",
+              "institutions_with_emergency_bed_records": "1",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "1",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "False",
+              "emergency_resource_note": "공식 지정 응급의료기관 소재; 응급실 병상 기록 기관 소재",
+              "emergency_presence_score": "100.0",
+              "sigungu_code": "11710",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "False",
+              "previous_elderly_population_pct": "19.751693002257337",
+              "confirmed_elderly_population": "4900",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        }
+      },
+      "rank": 2,
+      "personalized_score_100": 57.63746,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 57.63746,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 11.527492,
+        "safety": null
+      },
+      "selected_total_points": 11.527492,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "health",
+          "score": 57.63745959766781,
+          "contribution": 57.63746
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 57.63745959766781,
+          "contribution": 57.63746
+        }
+      ]
+    },
+    {
+      "region_code": "110580",
+      "region_name": "교남동",
+      "sigungu_code": "11110",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 57.106442365941504,
+        "safety": null
+      },
+      "domain_metadata": {
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "종로구",
+              "region_code": "110580",
+              "region_name": "교남동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "9612.0",
+              "elderly_population_pct": "19.29879317519767",
+              "medical_institution_count": "22",
+              "clinic_count": "11",
+              "pharmacy_count": "15",
+              "physician_count": "447.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "834.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "31.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "22.888056595921764",
+              "clinics_per_10000": "11.444028297960882",
+              "pharmacies_per_10000": "15.60549313358302",
+              "physicians_per_10000": "465.04369538077407",
+              "inpatient_beds_per_10000": "867.665418227216",
+              "emergency_beds_per_10000": "32.25135247607158",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "2",
+              "hospitals_per_10000": "2.080732417811069",
+              "designated_emergency_institution_count": "2",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "2",
+              "emergency_roster_present": "1",
+              "institutions_with_emergency_bed_records": "2",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "2",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "공식 지정 응급의료기관 소재; 응급실 병상 기록 기관 소재",
+              "emergency_presence_score": "100.0",
+              "sigungu_code": "11110",
+              "medical_eligible": "True",
+              "age_eligible": "False",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "",
+              "confirmed_elderly_population": "1855",
+              "confirmed_elderly_age_band_count": "7",
+              "missing_elderly_age_band_count": "1",
+              "missing_elderly_age_bands": "100세 이상",
+              "elderly_ratio_data_status": "일부연령미확인_확인분만계산",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        }
+      },
+      "rank": 3,
+      "personalized_score_100": 57.106442,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 57.106442,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 11.421288,
+        "safety": null
+      },
+      "selected_total_points": 11.421288,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "health",
+          "score": 57.106442365941504,
+          "contribution": 57.106442
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 57.106442365941504,
+          "contribution": 57.106442
+        }
+      ]
+    },
+    {
+      "region_code": "350695",
+      "region_name": "상계6.7동",
+      "sigungu_code": "11350",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 57.009478585082434,
+        "safety": null
+      },
+      "domain_metadata": {
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "노원구",
+              "region_code": "350695",
+              "region_name": "상계6.7동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "30214.0",
+              "elderly_population_pct": "20.01059111670087",
+              "medical_institution_count": "181",
+              "clinic_count": "107",
+              "pharmacy_count": "39",
+              "physician_count": "407.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "675.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "23.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "59.9060038392798",
+              "clinics_per_10000": "35.414046468524525",
+              "pharmacies_per_10000": "12.907923479181836",
+              "physicians_per_10000": "134.70576553915402",
+              "inpatient_beds_per_10000": "223.4063679089164",
+              "emergency_beds_per_10000": "7.612365128748262",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "1",
+              "public_health_facilities_per_10000": "0.3309723969020984",
+              "hospital_count": "3",
+              "hospitals_per_10000": "0.992917190706295",
+              "designated_emergency_institution_count": "1",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "1",
+              "emergency_roster_present": "1",
+              "institutions_with_emergency_bed_records": "1",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "1",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "공식 지정 응급의료기관 소재; 응급실 병상 기록 기관 소재",
+              "emergency_presence_score": "100.0",
+              "sigungu_code": "11350",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "20.01059111670087",
+              "confirmed_elderly_population": "6046",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        }
+      },
+      "rank": 4,
+      "personalized_score_100": 57.009479,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 57.009479,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 11.401896,
+        "safety": null
+      },
+      "selected_total_points": 11.401896,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "health",
+          "score": 57.009478585082434,
+          "contribution": 57.009479
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 57.009478585082434,
+          "contribution": 57.009479
+        }
+      ]
+    },
+    {
+      "region_code": "680655",
+      "region_name": "도곡1동",
+      "sigungu_code": "11680",
+      "category_scores": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 56.636947891000446,
+        "safety": null
+      },
+      "domain_metadata": {
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "강남구",
+              "region_code": "680655",
+              "region_name": "도곡1동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "20885.0",
+              "elderly_population_pct": "17.064879099832417",
+              "medical_institution_count": "92",
+              "clinic_count": "50",
+              "pharmacy_count": "24",
+              "physician_count": "614.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "1134.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "34.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "44.0507541297582",
+              "clinics_per_10000": "23.94062724443381",
+              "pharmacies_per_10000": "11.491501077328229",
+              "physicians_per_10000": "293.9909025616471",
+              "inpatient_beds_per_10000": "542.9734259037587",
+              "emergency_beds_per_10000": "16.279626526214987",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "False",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "2",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "7",
+              "hospitals_per_10000": "3.3516878142207327",
+              "designated_emergency_institution_count": "1",
+              "other_emergency_roster_institution_count": "1",
+              "emergency_roster_institution_count": "2",
+              "emergency_roster_present": "1",
+              "institutions_with_emergency_bed_records": "2",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "2",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "False",
+              "emergency_resource_note": "공식 지정 응급의료기관 소재; 기타 응급실 운영 병원 명단에 포함; 응급실 병상 기록 기관 소재",
+              "emergency_presence_score": "100.0",
+              "sigungu_code": "11680",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "False",
+              "previous_elderly_population_pct": "17.064879099832417",
+              "confirmed_elderly_population": "3564",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        }
+      },
+      "rank": 5,
+      "personalized_score_100": 56.636948,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 56.636948,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": null,
+        "comfort": null,
+        "health": 11.32739,
+        "safety": null
+      },
+      "selected_total_points": 11.32739,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "health",
+          "score": 56.636947891000446,
+          "contribution": 56.636948
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 56.636947891000446,
+          "contribution": 56.636948
+        }
+      ]
+    }
+  ],
+  "excluded": [],
+  "warnings": [
+    "COMFORT_NOT_DELIVERED",
+    "CONTEXT_ASSIGNED_HEALTH_AIR",
+    "FIXED_SNAPSHOT_NOT_LIVE_DATA",
+    "PARTIAL_DOMAIN_RECOMMENDATION",
+    "PROVISIONAL_HEALTH"
+  ],
+  "target_month": "2026-10",
+  "snapshot_version": "snapshot-84c8eddd348b4e39",
+  "file_hashes": {
+    "economy/model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
+    "economy/data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
+    "health/reference/current_scores.csv": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+    "health/MANIFEST.json": "717fbb14971c0f98cbc208f85eaf643a48b95556ac1cc2b8d897872ecbb2bbc5",
+    "health/config/deployment_metadata.json": "ae1ff8c17df1546746f4322c321094d6c53e21f7e8a41dbbe864cf580f7c9214",
+    "health/config/model_spec.json": "759daf1eb3651b9bad1b42773a583a69b94774e63b47407e2f6d07a6e85079c4",
+    "health/data/health_snapshot.csv": "6d8d91bf2c32e04b1fbbd8d2c0083ccfe00a51bc528f4c6f348e8290d5cb4f99"
+  },
+  "domain_metadata": {
+    "health": {
+      "deployment": {
+        "domain": "health",
+        "package_version": "independent-domain-v1-region-schema",
+        "forecast_quarter": "2026Q4",
+        "production_approved": false,
+        "training_performed": false,
+        "health_as_of": "2026-09-30",
+        "health_required_columns": [
+          "행정동코드",
+          "자치구",
+          "행정동명",
+          "의료자료기준",
+          "인구기준",
+          "행정동주소DB기준",
+          "기준자료_연결확인",
+          "총인구",
+          "고령인구비율_pct",
+          "의과병원수",
+          "일반의원수",
+          "약국수",
+          "의과의사수",
+          "일반입원병상수",
+          "공공보건기관수",
+          "의과의사수_원본빈값수",
+          "일반입원병상수_원본빈값수",
+          "공식지정응급기관수",
+          "기타응급실운영병원_명단기관수",
+          "응급실병상기록_기관수",
+          "운영시간미확인_기관수"
+        ],
+        "health_numeric_columns": [
+          "총인구",
+          "고령인구비율_pct",
+          "의과병원수",
+          "일반의원수",
+          "약국수",
+          "의과의사수",
+          "일반입원병상수",
+          "공공보건기관수",
+          "의과의사수_원본빈값수",
+          "일반입원병상수_원본빈값수",
+          "공식지정응급기관수",
+          "기타응급실운영병원_명단기관수",
+          "응급실병상기록_기관수",
+          "운영시간미확인_기관수"
+        ],
+        "medical_forecast_trained": false
+      },
+      "model_spec": {
+        "as_of": "2026-09-30",
+        "score_kind": "월별 노출·의료 대응의 상대 참고지수",
+        "component_dates": {
+          "observed_air": "2026Q3",
+          "medical_facilities": "2026-06",
+          "population_vulnerability": "2026Q2",
+          "emergency_roster": "2026-09-10"
+        },
+        "exposure": {
+          "pollutants": [
+            "pm10",
+            "pm2.5",
+            "o3"
+          ],
+          "quarter_aggregation": "3개 월값이 모두 있을 때 월별 값의 산술평균",
+          "reference": "2024Q1~2025Q4 자치구별 분기값; 각 물질 5·95 분위수 경계 고정",
+          "direction": "cost",
+          "weights": "역사 기준 완전행의 CRITIC; 상관 중복 점검",
+          "absolute_air_grade_supported": false,
+          "source_units_confirmed": false,
+          "within_district_spatial_resolution": false
+        },
+        "response": {
+          "base_supply_count": 6,
+          "base_supply_denominator": "총인구 1만 명당",
+          "emergency_indicator": "any_designated_or_roster_or_er_bed_record",
+          "emergency_score": {
+            "observed_present": 100,
+            "not_in_complete_source_lists": 0,
+            "unknown": null
+          },
+          "emergency_double_count": false,
+          "indicator_count": 7,
+          "weights": "347동 기준 7개 항목 엔트로피를 새로 계산; 기존 6개 비율을 그대로 복사하지 않음",
+          "sensitivity_methods": [
+            "동일 7항목",
+            "CRITIC 7항목"
+          ],
+          "old_weights_reused": false,
+          "operating_hours_unknown_as_closed": false
+        },
+        "vulnerability": {
+          "column": "고령인구비율_pct",
+          "required_for_composite_grade": true,
+          "direct_penalty": false,
+          "disease_target": false,
+          "role": "수요·취약성 설명. 연령별 실제 이용량 없이 적정 필요량·질병·상호작용 계수를 만들지 않음",
+          "full_vulnerability_adjusted_score_ready": false
+        },
+        "climate": {
+          "station_mapping_confirmed": false,
+          "heatwave_days_from_monthly_means": false,
+          "enabled_in_dong_score": false,
+          "role": "관측소 월 통계 설명; 동별 기후 위해 점수는 비활성"
+        },
+        "prototype_axes": [
+          "exposure_safety",
+          "medical_response"
+        ],
+        "prototype_axis_weights": {
+          "exposure_safety": 0.5,
+          "medical_response": 0.5
+        },
+        "weights_status": "시범 비교용 동일 축 비중; 논문 고정값·최적 중요도·인과효과가 아님",
+        "axis_weight_sensitivity": [
+          [
+            0.25,
+            0.75
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.75,
+            0.25
+          ]
+        ],
+        "prototype_score_formula": "0.5 * exposure_safety + 0.5 * medical_response",
+        "unavailable_component_renormalization": false,
+        "missing_age_composite_grade": null,
+        "full_plan_health_score_ready": false,
+        "air_forecast": {
+          "unit": "자치구·월",
+          "targets": [
+            "pm10",
+            "pm2.5",
+            "o3"
+          ],
+          "input": [
+            "target_lag1",
+            "target_lag2",
+            "target_lag3",
+            "target_lag12",
+            "past3_mean",
+            "month_sin",
+            "month_cos"
+          ],
+          "models": [
+            "RandomForestRegressor",
+            "HistGradientBoostingRegressor(loss=poisson)"
+          ],
+          "baselines": [
+            "전월동일",
+            "전년동월동일"
+          ],
+          "selection_metric": "선택검증의 자치구 평균 MAE",
+          "split": {
+            "initial_train": [
+              "2025-01",
+              "2025-06"
+            ],
+            "selection": [
+              "2025-07",
+              "2025-09"
+            ],
+            "calibration": [
+              "2025-10",
+              "2025-12"
+            ],
+            "test": [
+              "2026-01",
+              "2026-06"
+            ],
+            "monitoring_only": [
+              "2026-07",
+              "2026-09"
+            ]
+          },
+          "deployment_training_end": "2026-06",
+          "deployment_calibration": [
+            "2026-07",
+            "2026-09"
+          ],
+          "deployment_predict_month": "2026-10",
+          "raw_october_rows_used": false,
+          "current_health_score_blended_with_future_prediction": false
+        }
+      },
+      "artifact_kind": "reference_snapshot",
+      "is_forecast": false,
+      "note": "배포된 검증용 현재점수 스냅샷을 재사용하며 모델을 새로 추론하지 않음"
+    }
+  },
+  "is_mock": false
+}

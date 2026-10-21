@@ -1,0 +1,12 @@
+# Local Python environments and generated caches
+.venv/
+.venv311/
+.python/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Credentials are supplied by the process environment, never committed
+.env
+.env.*
+!.env.example

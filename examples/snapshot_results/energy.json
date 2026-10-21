@@ -1,0 +1,754 @@
+{
+  "selected_domains": [
+    "energy"
+  ],
+  "unavailable_domains": [
+    "economy",
+    "comfort",
+    "health",
+    "safety"
+  ],
+  "normalized_weights": {
+    "economy": 0.0,
+    "energy": 1.0,
+    "comfort": 0.0,
+    "health": 0.0,
+    "safety": 0.0
+  },
+  "selected_max_points": 20,
+  "items": [
+    {
+      "region_code": "680750",
+      "region_name": "수서동",
+      "sigungu_code": "11680",
+      "category_scores": {
+        "economy": null,
+        "energy": 85.71046850181955,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "680750",
+              "quarter": "2026Q2",
+              "sigungu_name": "강남구",
+              "region_name": "수서동",
+              "source_group": "1168060000",
+              "months": "3",
+              "electricity_MWh": "7540.106666666667",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "159.42484673521852",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "1031407.8454",
+              "residential_area_m2": "473279.4754",
+              "all_weighted_age": "27.285068",
+              "residential_weighted_age": "29.295215",
+              "nonresidential_mainuse_share_pct": "54.11325621471756",
+              "apartment_residential_share_pct": "15.837977",
+              "approval_missing_pct": "0.0",
+              "households": "7564.0",
+              "single_share_pct": "52.49867794817557",
+              "log_all_area": "13.846436236672362",
+              "log_households": "8.931287626222456",
+              "electricity_kWh_per_household": "996.8411775074916",
+              "gas_m3_per_household": "21.076790948601072",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1168075000:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        }
+      },
+      "rank": 1,
+      "personalized_score_100": 85.710469,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 85.710469,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": 17.142094,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 17.142094,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "energy",
+          "score": 85.71046850181955,
+          "contribution": 85.710469
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "energy",
+          "score": 85.71046850181955,
+          "contribution": 85.710469
+        }
+      ]
+    },
+    {
+      "region_code": "500605",
+      "region_name": "가양제3동",
+      "sigungu_code": "11500",
+      "category_scores": {
+        "economy": null,
+        "energy": 84.83820743818059,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "500605",
+              "quarter": "2026Q2",
+              "sigungu_name": "강서구",
+              "region_name": "가양제3동",
+              "source_group": "1150051000",
+              "months": "3",
+              "electricity_MWh": "6644.38025",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "166.52244127249358",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "898358.01",
+              "residential_area_m2": "660831.37",
+              "all_weighted_age": "29.018403",
+              "residential_weighted_age": "32.663923",
+              "nonresidential_mainuse_share_pct": "26.44008706506663",
+              "apartment_residential_share_pct": "97.470583",
+              "approval_missing_pct": "3.5398230088495577",
+              "households": "7529.0",
+              "single_share_pct": "50.4051002789215",
+              "log_all_area": "13.708325055808947",
+              "log_households": "8.92665032079394",
+              "electricity_kWh_per_household": "882.5050139460752",
+              "gas_m3_per_household": "22.117471280713715",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1150060500:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        }
+      },
+      "rank": 2,
+      "personalized_score_100": 84.838207,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 84.838207,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": 16.967641,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 16.967641,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "energy",
+          "score": 84.83820743818059,
+          "contribution": 84.838207
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "energy",
+          "score": 84.83820743818059,
+          "contribution": 84.838207
+        }
+      ]
+    },
+    {
+      "region_code": "500604",
+      "region_name": "가양제2동",
+      "sigungu_code": "11500",
+      "category_scores": {
+        "economy": null,
+        "energy": 80.43387377114568,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "500604",
+              "quarter": "2026Q2",
+              "sigungu_name": "강서구",
+              "region_name": "가양제2동",
+              "source_group": "1150051000",
+              "months": "3",
+              "electricity_MWh": "6644.38025",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "166.52244127249358",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "745252.53",
+              "residential_area_m2": "489608.71",
+              "all_weighted_age": "29.433794",
+              "residential_weighted_age": "32.9159",
+              "nonresidential_mainuse_share_pct": "34.302979152583355",
+              "apartment_residential_share_pct": "94.91063",
+              "approval_missing_pct": "0.9345794392523364",
+              "households": "7897.0",
+              "single_share_pct": "61.16246675952893",
+              "log_all_area": "13.521479748194649",
+              "log_households": "8.974364841846596",
+              "electricity_kWh_per_household": "841.3803026465747",
+              "gas_m3_per_household": "21.086797679181156",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1150060400:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        }
+      },
+      "rank": 3,
+      "personalized_score_100": 80.433874,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 80.433874,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": 16.086775,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 16.086775,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "energy",
+          "score": 80.43387377114568,
+          "contribution": 80.433874
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "energy",
+          "score": 80.43387377114568,
+          "contribution": 80.433874
+        }
+      ]
+    },
+    {
+      "region_code": "680690",
+      "region_name": "개포4동",
+      "sigungu_code": "11680",
+      "category_scores": {
+        "economy": null,
+        "energy": 75.20231904007298,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "680690",
+              "quarter": "2026Q2",
+              "sigungu_name": "강남구",
+              "region_name": "개포4동",
+              "source_group": "1168060000",
+              "months": "3",
+              "electricity_MWh": "9963.519",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "390.2313449871465",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "1233822.5491",
+              "residential_area_m2": "738981.8641",
+              "all_weighted_age": "24.4269",
+              "residential_weighted_age": "21.094937",
+              "nonresidential_mainuse_share_pct": "40.10630907669476",
+              "apartment_residential_share_pct": "54.423317",
+              "approval_missing_pct": "0.1748251748251748",
+              "households": "10049.0",
+              "single_share_pct": "36.36182704746741",
+              "log_all_area": "14.02562848221842",
+              "log_households": "9.215327913487222",
+              "electricity_kWh_per_household": "991.4935814508906",
+              "gas_m3_per_household": "38.83285351648388",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1168069000:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        }
+      },
+      "rank": 4,
+      "personalized_score_100": 75.202319,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 75.202319,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": 15.040464,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 15.040464,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "energy",
+          "score": 75.20231904007298,
+          "contribution": 75.202319
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "energy",
+          "score": 75.20231904007298,
+          "contribution": 75.202319
+        }
+      ]
+    },
+    {
+      "region_code": "440740",
+      "region_name": "상암동",
+      "sigungu_code": "11440",
+      "category_scores": {
+        "economy": null,
+        "energy": 73.23692824843117,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "440740",
+              "quarter": "2026Q2",
+              "sigungu_name": "마포구",
+              "region_name": "상암동",
+              "source_group": "1144074000",
+              "months": "3",
+              "electricity_MWh": "173089.27",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "906.8597948586118",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "3403101.281",
+              "residential_area_m2": "951080.876",
+              "all_weighted_age": "16.221929",
+              "residential_weighted_age": "19.46627",
+              "nonresidential_mainuse_share_pct": "72.05252510966922",
+              "apartment_residential_share_pct": "89.855778",
+              "approval_missing_pct": "1.1612903225806452",
+              "households": "12793.0",
+              "single_share_pct": "38.4585320096928",
+              "log_all_area": "15.040198009158312",
+              "log_households": "9.456731590010085",
+              "electricity_kWh_per_household": "13529.99843664504",
+              "gas_m3_per_household": "70.88718790421417",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1144074000:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        }
+      },
+      "rank": 5,
+      "personalized_score_100": 73.236928,
+      "contributions": {
+        "economy": 0.0,
+        "energy": 73.236928,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": null,
+        "energy": 14.647386,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 14.647386,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "energy",
+          "score": 73.23692824843117,
+          "contribution": 73.236928
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "energy",
+          "score": 73.23692824843117,
+          "contribution": 73.236928
+        }
+      ]
+    }
+  ],
+  "excluded": [],
+  "warnings": [
+    "COMFORT_NOT_DELIVERED",
+    "FIXED_SNAPSHOT_NOT_LIVE_DATA",
+    "PARTIAL_DOMAIN_RECOMMENDATION",
+    "PROVISIONAL_ENERGY"
+  ],
+  "target_month": "2026-10",
+  "snapshot_version": "snapshot-30c18b4c0a95e221",
+  "file_hashes": {
+    "economy/model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
+    "economy/data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
+    "energy/reference/current_scores.csv": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+    "energy/MANIFEST.json": "7c04da21b7406fdeb8d94781d48daadf39d0e2acfa69966963eabfe2ba14ade0",
+    "energy/config/deployment_metadata.json": "9c5d55f71e00b375a5a3197c0f2988cd73a46d41e6f52d1b8890e6dde62b2343",
+    "energy/config/model_spec.json": "b02e50f6d3f7f77503be2f15270090d4f252e525a8833a67a62d836f95e129ae",
+    "energy/data/energy_quarter.csv": "e30447421eeb600d229f2b34217e9d188b24f92a27d3e4a3ec4619b3a280a28c"
+  },
+  "domain_metadata": {
+    "energy": {
+      "deployment": {
+        "domain": "energy",
+        "package_version": "independent-domain-v1-region-schema",
+        "forecast_quarter": "2026Q4",
+        "production_approved": false,
+        "training_performed": false,
+        "energy_latest_actual": "2026Q2",
+        "energy_validation_reasons": {
+          "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+          "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+        },
+        "additional_refit": {
+          "origins": 3,
+          "minimum_passed": true,
+          "score_MAE": 2.745160698909986,
+          "annual_score_MAE": 2.632071151018524
+        }
+      },
+      "model_spec": {
+        "scope": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+        "unit": "행정동·분기",
+        "latest_evaluable_quarter": "2026Q2",
+        "targets": [
+          "electricity_MWh",
+          "gas_1000m3"
+        ],
+        "required_core_columns": [
+          "all_area_m2",
+          "all_weighted_age",
+          "nonresidential_mainuse_share_pct",
+          "households",
+          "single_share_pct",
+          "temperature_C",
+          "quarter_sin",
+          "quarter_cos"
+        ],
+        "transformations": {
+          "all_area_m2": "log1p",
+          "households": "log1p"
+        },
+        "excluded_as_predictors": [
+          "admin_code",
+          "district",
+          "source_group",
+          "목표기간 전기·가스",
+          "사용량 lag",
+          "타 연료 목표기간 사용량"
+        ],
+        "models": [
+          "RandomForestRegressor",
+          "HistGradientBoostingRegressor(loss=poisson)"
+        ],
+        "initial_parameters": {
+          "random_state": 42,
+          "random_forest": {
+            "n_estimators": 200,
+            "max_depth": 6,
+            "min_samples_leaf": 10
+          },
+          "hist_gradient_boosting": {
+            "max_iter": 200,
+            "max_depth": 3,
+            "min_samples_leaf": 10,
+            "l2_regularization": 1
+          }
+        },
+        "baselines": [
+          "학습자료 분기별 중앙값",
+          "StandardScaler + PoissonRegressor"
+        ],
+        "split": {
+          "initial_train": [
+            "2024Q1",
+            "2025Q2"
+          ],
+          "selection": [
+            "2025Q3"
+          ],
+          "calibration": [
+            "2025Q4"
+          ],
+          "test": [
+            "2026Q1",
+            "2026Q2"
+          ]
+        },
+        "refit_before_test_through": "2025Q3",
+        "no_refit_on_calibration_or_test_before_scoring": true,
+        "spatial_diagnostic": "train 내부 source_group 분리 3-fold; 시간시험과 별도 결과",
+        "fit_sample_weight": "1 / 해당분기·source_group 내 동 수",
+        "selection_metric": "선택검증의 source_group 평균 MAE",
+        "score_formula": "100 * expected / (expected + actual)",
+        "score_validity": "finite(expected)>0 AND finite(actual)>=0 AND 3개월 관측·8개 조건 완전",
+        "fuel_combine": "2025Q4 출처그룹 평균 항목점수로 CRITIC 재계산·고정. 두 연료 모두 필수",
+        "old_weights_reused": false,
+        "interval": {
+          "nominal_coverage": 0.9,
+          "method": "보정구간 log1p 실제-예측 절대오차의 0.90 분위수; 아래 0 제한",
+          "guaranteed_coverage": false,
+          "reason": "시간·공간 의존 및 재구성 데이터. 시험의 실제 포함률·폭을 보고"
+        },
+        "approval_gate": [
+          "시간시험에서 기준모형 대비 이득과 분기·구별 오차 확인",
+          "범위 밖·누락·기준 왜곡 점검",
+          "물리적 효율·주거 효율로 단정하지 않도록 범위 검토"
+        ]
+      },
+      "artifact_kind": "reference_snapshot",
+      "is_forecast": false,
+      "note": "배포된 검증용 현재점수 스냅샷을 재사용하며 모델을 새로 추론하지 않음"
+    }
+  },
+  "is_mock": false
+}

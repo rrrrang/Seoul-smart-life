@@ -1,0 +1,557 @@
+{
+  "selected_domains": [
+    "economy"
+  ],
+  "unavailable_domains": [
+    "energy",
+    "comfort",
+    "health",
+    "safety"
+  ],
+  "normalized_weights": {
+    "economy": 1.0,
+    "energy": 0.0,
+    "comfort": 0.0,
+    "health": 0.0,
+    "safety": 0.0
+  },
+  "selected_max_points": 20,
+  "items": [
+    {
+      "region_code": "110615",
+      "region_name": "종로1.2.3.4가동",
+      "sigungu_code": "11110",
+      "category_scores": {
+        "economy": 99.99999999999999,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        }
+      },
+      "rank": 1,
+      "personalized_score_100": 100.0,
+      "contributions": {
+        "economy": 100.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": 20.0,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 20.0,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ]
+    },
+    {
+      "region_code": "140520",
+      "region_name": "소공동",
+      "sigungu_code": "11140",
+      "category_scores": {
+        "economy": 99.99999999999999,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        }
+      },
+      "rank": 2,
+      "personalized_score_100": 100.0,
+      "contributions": {
+        "economy": 100.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": 20.0,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 20.0,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ]
+    },
+    {
+      "region_code": "140540",
+      "region_name": "회현동",
+      "sigungu_code": "11140",
+      "category_scores": {
+        "economy": 99.99999999999999,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        }
+      },
+      "rank": 3,
+      "personalized_score_100": 100.0,
+      "contributions": {
+        "economy": 100.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": 20.0,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 20.0,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ]
+    },
+    {
+      "region_code": "140550",
+      "region_name": "명동",
+      "sigungu_code": "11140",
+      "category_scores": {
+        "economy": 99.99999999999999,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        }
+      },
+      "rank": 4,
+      "personalized_score_100": 100.0,
+      "contributions": {
+        "economy": 100.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": 20.0,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 20.0,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ]
+    },
+    {
+      "region_code": "140605",
+      "region_name": "을지로동",
+      "sigungu_code": "11140",
+      "category_scores": {
+        "economy": 99.99999999999999,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        }
+      },
+      "rank": 5,
+      "personalized_score_100": 100.0,
+      "contributions": {
+        "economy": 100.0,
+        "energy": 0.0,
+        "comfort": 0.0,
+        "health": 0.0,
+        "safety": 0.0
+      },
+      "domain_points_20": {
+        "economy": 20.0,
+        "energy": null,
+        "comfort": null,
+        "health": null,
+        "safety": null
+      },
+      "selected_total_points": 20.0,
+      "five_domain_total_points": null,
+      "strengths": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "economy",
+          "score": 99.99999999999999,
+          "contribution": 100.0
+        }
+      ]
+    }
+  ],
+  "excluded": [],
+  "warnings": [
+    "COMFORT_NOT_DELIVERED",
+    "ECONOMY_ESTIMATED",
+    "FIXED_SNAPSHOT_NOT_LIVE_DATA",
+    "PARTIAL_DOMAIN_RECOMMENDATION"
+  ],
+  "target_month": "2026-10",
+  "snapshot_version": "snapshot-a35156385a4ac438",
+  "file_hashes": {
+    "economy/model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
+    "economy/data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
+    "economy/results/economy_scores.json": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a"
+  },
+  "domain_metadata": {
+    "economy": {
+      "status": "estimated",
+      "target_month": "2026-10",
+      "as_of": "2026-10-21",
+      "data_snapshot_as_of": "2026-10-21",
+      "source_periods": {
+        "commute": "2026-09",
+        "employment": "2026-08",
+        "licensing": "2026-09"
+      },
+      "selected_methods": {
+        "commute": "median3",
+        "employment": "last_known",
+        "licensing": "xgb_depth3_shrink50"
+      },
+      "weights": {
+        "commute": 0.3333333333333333,
+        "employment": 0.3333333333333333,
+        "licensing": 0.3333333333333333
+      },
+      "interpretation": "경제활동의 면적 대비 집중도 추정. 주민 소득·집값·상승하락 예측이 아님.",
+      "validation_scope": "2026-06/08 reconstructed-data retrospective recheck, not prospective validation",
+      "direction_prediction_available": false
+    }
+  },
+  "is_mock": false
+}
