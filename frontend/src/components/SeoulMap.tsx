@@ -1,7 +1,3 @@
-/*
- * 카카오 지도 컴포넌트: SDK 로딩, 구/동 GeoJSON 경계, 지도 확대 및 클릭 이벤트를 담당합니다.
- * 안내: 실행 로직은 변경하지 않고 설명 주석만 추가한 버전입니다.
- */
 import { useEffect, useRef, useState } from "react";
 import "../CSS/SeoulMap.css";
 
@@ -28,6 +24,7 @@ type Props = {
   // 상세분석에서 확대할 자치구
   focusDistrict?: string | null;
   resetKey?: number;
+  dongScores?: { dongCode: string; score: number }[];
 };
 
 // GeoJSON 좌표는 [경도, 위도] 순서
@@ -159,6 +156,7 @@ export default function SeoulMap({
   onDistrictDoubleClick,
   focusDistrict,
   resetKey,
+  dongScores = [],
 }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
   const [map, setMap] = useState<any>(null);
@@ -354,9 +352,16 @@ export default function SeoulMap({
   
         const kakao = window.kakao;
 
-        // AI 모델 연동 전: 행정동별 분석 점수 저장 공간
-        const dongScoreMap = new Map<string, number>();
+        // 백엔드에서 전달받은 행정동별 종합점수를 코드 기준으로 조회
+        const dongScoreMap = new Map(dongScores.map((item) => [item.dongCode, item.score]));
   
+        console.log("백엔드 데이터 개수:", dongScores.length);
+        console.log("백엔드 데이터 예시:", dongScores.slice(0, 3));
+        console.log(
+          "GeoJSON 행정동 코드:",
+          geojson.features[0]?.properties?.adm_cd2
+        );
+        
         for (const feature of geojson.features) {
 
           // 상세분석에서는 선택된 구의 행정동만 표시
@@ -392,9 +397,11 @@ export default function SeoulMap({
           
               // AI 분석 점수에 따른 색상
               fillColor: score !== undefined ? getColor(score) : "#ffffff",
-              fillOpacity: score !== undefined ? 0.45 : 0,
+              fillOpacity: score !== undefined ? 0.45 : 0.2,
           
+              // 행정동 폴리곤은 색상 전용이며 클릭은 자치구가 처리
               clickable: false,
+              zIndex: 3,
             });
           
             dongPolygons.push(polygon);
@@ -411,7 +418,7 @@ export default function SeoulMap({
       cancelled = true;
       dongPolygons.forEach((polygon) => polygon.setMap(null));
     };
-  }, [map, focusDistrict]);
+  }, [map, focusDistrict, dongScores]);
 
   // 3. 자치구 Polygon, 지역명 오버레이 생성
   useEffect(() => {
@@ -420,6 +427,8 @@ export default function SeoulMap({
     const kakao = window.kakao;
     const polygons: any[] = [];
     const outsidePolygons: any[] = [];
+    // 자치구 이름 오버레이: 해당 useEffect 생성/정리 범위에서 관리
+    const districtLabels: any[] = [];
     const scoreMap = new Map(data.map((item) => [item.district, item.score]));
 
     // 서울 외부 영역에 반투명 회색 음영 적용
@@ -438,6 +447,7 @@ export default function SeoulMap({
       return feature.geometry.coordinates.map((polygon) => polygon[0]);
     });
     
+    // 서울 외부 지역을 회색으로 덮는 마스크(Polygon)
     const mask = new kakao.maps.Polygon({
       map,
       path: [
@@ -465,43 +475,88 @@ export default function SeoulMap({
         for (const rings of polygonGroups) {
           if (!rings.length) continue;
           const paths = rings.map(convertRing);
+          // 자치구 폴리곤은 클릭 이벤트를 담당하고, 행정동 색상은 가리지 않습니다.
+          // 백엔드 점수 로딩과 관계없이 같은 폴리곤을 유지합니다.
           const polygon = new kakao.maps.Polygon({
             map,
             path: paths,
-            strokeWeight: 1,
-            strokeColor: "#00ffea",
+            strokeWeight: 2,
+            strokeColor: "#00b8a9",
             strokeOpacity: 0.85,
             fillColor: score !== undefined ? getColor(score) : "#ffffff",
-            fillOpacity: score !== undefined ? 0.35 : 0.03,
+            fillOpacity: 0.01,
+            clickable: true,
+            zIndex: 4,
           });
           // 자치구 클릭 / 더블클릭 구분
+          // 자치구 클릭 / 더블클릭 감지
           kakao.maps.event.addListener(polygon, "click", () => {
             const now = Date.now();
             const lastClick = lastClickRef.current;
           
-            // 같은 자치구를 400ms 이내에 두 번 클릭한 경우
+            console.log("클릭 감지:", name);
+          
+            // 같은 자치구를 연속으로 클릭했는지 확인
             if (
               lastClick &&
               lastClick.district === name &&
-              now - lastClick.time <= 400
+              now - lastClick.time < 650
             ) {
               lastClickRef.current = null;
           
-              // 상세분석 페이지로 이동
-              onDoubleClickRef.current?.(name);
-            } else {
-              // 첫 번째 클릭: 지역 선택만
-              lastClickRef.current = {
-                district: name,
-                time: now,
-              };
+              console.log("더블클릭 성공:", name);
           
-              onClickRef.current?.(name);
+              onDoubleClickRef.current?.(name);
+              return;
             }
+          
+            // 첫 번째 클릭
+            lastClickRef.current = {
+              district: name,
+              time: now,
+            };
+          
+            onClickRef.current?.(name);
           });
 
-polygons.push(polygon);
+          polygons.push(polygon);
         }
+
+        // 자치구별 오버레이는 한 번만 생성 (MultiPolygon 중복 표시 방지)
+        // 모든 외곽 좌표로 중심 위치를 계산합니다.
+        const labelBounds = new kakao.maps.LatLngBounds();
+        for (const rings of polygonGroups) {
+          if (rings.length === 0) continue;
+          const outerRing = rings[0];
+          for (const [lng, lat] of outerRing) {
+            labelBounds.extend(new kakao.maps.LatLng(lat, lng));
+          }
+        }
+
+        const labelElement = document.createElement("div");
+        labelElement.className = "district-map-label";
+        labelElement.textContent = name;
+        // 오버레이가 자치구 클릭과 더블클릭을 가로막지 않도록 설정
+        labelElement.style.pointerEvents = "none";
+
+        // 자치구 경계의 남서쪽, 북동쪽 좌표 가져오기
+        const sw = labelBounds.getSouthWest();
+        const ne = labelBounds.getNorthEast();
+        
+        // 자치구 중심 좌표 계산
+        const centerLat = (sw.getLat() + ne.getLat()) / 2;
+        const centerLng = (sw.getLng() + ne.getLng()) / 2;
+        
+        // 자치구 이름 오버레이 생성
+        const labelOverlay = new kakao.maps.CustomOverlay({
+          map,
+          position: new kakao.maps.LatLng(centerLat, centerLng),
+          content: labelElement,
+          yAnchor: 0.5,
+          zIndex: 5,
+        });
+        
+        districtLabels.push(labelOverlay);
       }
       setPolygonsReady(true);
     } catch (err) {
@@ -511,6 +566,9 @@ polygons.push(polygon);
     return () => {
       polygons.forEach((polygon) => polygon.setMap(null));
       outsidePolygons.forEach((polygon) => polygon.setMap(null));
+
+      // 자치구 이름 오버레이 제거
+      districtLabels.forEach((label) => label.setMap(null));
     };
   }, [map, geoData, data]);
 
@@ -520,6 +578,36 @@ polygons.push(polygon);
   return (
     <div className="seoul-map-container">
       <div ref={mapRef} className="kakao-map" />
+
+      {/* ========================================
+          지도 우측 하단 등급 범례
+      ======================================== */}
+      <div className="map-legend">
+        <div className="map-legend-item">
+          <span className="legend-color legend-grade1" />
+          <span>1등급</span>
+        </div>
+      
+        <div className="map-legend-item">
+          <span className="legend-color legend-grade2" />
+          <span>2등급</span>
+        </div>
+      
+        <div className="map-legend-item">
+          <span className="legend-color legend-grade3" />
+          <span>3등급</span>
+        </div>
+      
+        <div className="map-legend-item">
+          <span className="legend-color legend-grade4" />
+          <span>4등급</span>
+        </div>
+      
+        <div className="map-legend-item">
+          <span className="legend-color legend-grade5" />
+          <span>5등급</span>
+        </div>
+      </div>
 
       {isLoading && (
         <div className="map-loading" role="status" aria-live="polite">
