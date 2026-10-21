@@ -49,7 +49,7 @@ def score_safety(data,weights=None):
     combine(dict.fromkeys(DEFAULT_WEIGHTS,50),weights)
     regions=unique(data["regions"],"region_id")
     districts=unique(data["districts"],"sigungu_code")
-    dongs=unique(data["dongs"],"region_code")
+    dongs=unique(data["dongs"],"region_short_code")
     validate_regions(data["dongs"], require_all=True)
     if len(regions)!=25 or len(districts)!=25 or len(dongs)!=427:raise ValueError("고정 비교집단 25권역·25구·427동을 유지해야 합니다.")
     def mean(r):
@@ -78,9 +78,9 @@ def score_safety(data,weights=None):
                 "score":scores[kind][key],"weight":weights[kind],"weighted_points":scores[kind][key]*weights[kind],
                 "source_period":period,"measurement_scope":scope,"measurement_area_id":key,"comparison_count":25}
     for code,d in sorted(dongs.items()):
-        if not re.fullmatch(r"11\d{8}",code) or not d["region_name"]:raise ValueError("행정동 코드/이름 오류")
+        if not re.fullmatch(r"\d{6}",code) or not d["region_name"]:raise ValueError("행정동 코드/이름 오류")
         rid=d["jurisdiction_id"];gu=d["sigungu_code"]
-        if rid not in regions or gu not in districts or code[:5]!=gu:raise ValueError("행정동 연결 오류")
+        if rid not in regions or gu not in districts:raise ValueError("행정동 연결 오류")
         reg=regions[rid]
         cc=component("crime",rid,counts[rid],rp[rid],"2025","pooled_police_jurisdiction")
         pc=component("police",rid,police[rid],rp[rid],data["source_periods"]["police"],"pooled_police_jurisdiction")
@@ -91,7 +91,7 @@ def score_safety(data,weights=None):
             "sigungu_code":gu,"sigungu_name":districts[gu]["sigungu_name"],"crime_score":cc["score"],
             "cctv_score":cv["score"],"police_score":pc["score"],"score":s,"dong_count":0})
         profiles[key]["dong_count"]+=1
-        records.append({"region_code":code,"region_name":d["region_name"],"sigungu_code":gu,
+        records.append({"region_short_code":code,"region_name":d["region_name"],"sigungu_code":gu,
           "jurisdiction_id":rid,"profile_id":key,"score":s,"status":"calculated_draft",
           "components":{"crime":cc,"cctv":cv,"police":pc},"observed_dong_crime_count":None,
           "observed_dong_cctv_count":None,"observed_dong_police_count":None,

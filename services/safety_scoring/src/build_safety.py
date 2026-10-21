@@ -42,6 +42,6 @@ if __name__ == "__main__":
     else:
         data = build_payload(args.input)
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+        args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8", newline="\n")
     distribution = {str(g): sum(x["metadata"]["safety"]["grade"] == g for x in data["items"]) for g in range(1, 6)}
     print(json.dumps({"rows": len(data["items"]), "grade_distribution": distribution, "verification": "passed" if args.verify else "generated"}, ensure_ascii=False))

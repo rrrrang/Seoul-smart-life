@@ -1,5 +1,2 @@
-최소 묶음 재계산·대조 검증
-Python 격리 실행(-I), 바이트코드 생성 안 함(-B), 묶음 외부 작업 폴더에서 실행.
-명령: python -I -X utf8 -B src/build_safety.py --verify
-
+Checked 2026-10-21; command: python -B src/build_safety.py --verify
 {"rows": 427, "grade_distribution": {"1": 49, "2": 98, "3": 80, "4": 167, "5": 33}, "verification": "passed"}

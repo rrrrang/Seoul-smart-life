@@ -13,10 +13,12 @@ def load_region_master(path=None):
         rows = list(csv.DictReader(f))
     master = {}
     for row in rows:
-        code, gu = row["region_code"], row["sigungu_code"]
-        if not re.fullmatch(r"11\d{8}", code) or not re.fullmatch(r"11\d{3}", gu):
+        if "region_code" in row or "parent_region_code" in row:
+            raise ValueError("기준표는 region_short_code와 sigungu_code만 사용합니다.")
+        code, gu = row["region_short_code"], row["sigungu_code"]
+        if not re.fullmatch(r"\d{6}", code) or not re.fullmatch(r"11\d{3}", gu):
             raise ValueError("기준표 코드 형식 오류")
-        if code in master or code[:5] != gu or not row["region_name"]:
+        if code in master or not row["region_name"]:
             raise ValueError("기준표 중복·이름·자치구 오류")
         master[code] = row
     if len(master) != 427 or len({r["sigungu_code"] for r in rows}) != 25:
@@ -27,11 +29,13 @@ def validate_regions(rows, require_all=False, master=None):
     master = load_region_master() if master is None else master
     seen = set()
     for row in rows:
-        code = row.get("region_code")
+        if "region_code" in row or "parent_region_code" in row:
+            raise ValueError("이전 지역코드 필드를 함께 전달할 수 없습니다.")
+        code = row.get("region_short_code")
         if not isinstance(code, str) or code not in master:
-            raise ValueError("기준표에 없는 region_code: " + str(code))
+            raise ValueError("기준표에 없는 region_short_code: " + str(code))
         if code in seen:
-            raise ValueError("duplicate region_code: " + code)
+            raise ValueError("duplicate region_short_code: " + code)
         seen.add(code)
         for key in ("region_name", "sigungu_code"):
             if row.get(key) != master[code][key]:
@@ -60,7 +64,7 @@ def validate_evaluation(payload, require_all=False, delivery=False):
             raise ValueError("점수 유무와 status가 일치하지 않습니다.")
     if delivery:
         forbidden = {"model_version", "created_at", "crime_forecast",
-                     "crime_forecast_metadata", "crime_forecast_regions"}
+                     "crime_forecast_metadata", "crime_forecast_regions", "region_code", "parent_region_code"}
         def scan(obj):
             if isinstance(obj, dict):
                 if forbidden.intersection(obj):

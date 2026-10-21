@@ -9,9 +9,9 @@
   "items": [
     {
       "region": {
-        "region_code": "1111051500",
+        "region_short_code": "110515",
         "name_ko": "청운효자동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -107,9 +107,9 @@
     },
     {
       "region": {
-        "region_code": "1111053000",
+        "region_short_code": "110530",
         "name_ko": "사직동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -205,9 +205,9 @@
     },
     {
       "region": {
-        "region_code": "1111054000",
+        "region_short_code": "110540",
         "name_ko": "삼청동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -303,9 +303,9 @@
     },
     {
       "region": {
-        "region_code": "1111055000",
+        "region_short_code": "110550",
         "name_ko": "부암동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -401,9 +401,9 @@
     },
     {
       "region": {
-        "region_code": "1111056000",
+        "region_short_code": "110560",
         "name_ko": "평창동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -499,9 +499,9 @@
     },
     {
       "region": {
-        "region_code": "1111057000",
+        "region_short_code": "110570",
         "name_ko": "무악동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -597,9 +597,9 @@
     },
     {
       "region": {
-        "region_code": "1111058000",
+        "region_short_code": "110580",
         "name_ko": "교남동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -695,9 +695,9 @@
     },
     {
       "region": {
-        "region_code": "1111060000",
+        "region_short_code": "110600",
         "name_ko": "가회동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -793,9 +793,9 @@
     },
     {
       "region": {
-        "region_code": "1111061500",
+        "region_short_code": "110615",
         "name_ko": "종로1.2.3.4가동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -892,9 +892,9 @@
     },
     {
       "region": {
-        "region_code": "1111063000",
+        "region_short_code": "110630",
         "name_ko": "종로5.6가동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -990,9 +990,9 @@
     },
     {
       "region": {
-        "region_code": "1111064000",
+        "region_short_code": "110640",
         "name_ko": "이화동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1088,9 +1088,9 @@
     },
     {
       "region": {
-        "region_code": "1111065000",
+        "region_short_code": "110650",
         "name_ko": "혜화동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1187,9 +1187,9 @@
     },
     {
       "region": {
-        "region_code": "1111067000",
+        "region_short_code": "110670",
         "name_ko": "창신제1동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1285,9 +1285,9 @@
     },
     {
       "region": {
-        "region_code": "1111068000",
+        "region_short_code": "110680",
         "name_ko": "창신제2동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1383,9 +1383,9 @@
     },
     {
       "region": {
-        "region_code": "1111069000",
+        "region_short_code": "110690",
         "name_ko": "창신제3동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1481,9 +1481,9 @@
     },
     {
       "region": {
-        "region_code": "1111070000",
+        "region_short_code": "110700",
         "name_ko": "숭인제1동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1579,9 +1579,9 @@
     },
     {
       "region": {
-        "region_code": "1111071000",
+        "region_short_code": "110710",
         "name_ko": "숭인제2동",
-        "parent_region_code": "11110",
+        "sigungu_code": "11110",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1677,9 +1677,9 @@
     },
     {
       "region": {
-        "region_code": "1114052000",
+        "region_short_code": "140520",
         "name_ko": "소공동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1776,9 +1776,9 @@
     },
     {
       "region": {
-        "region_code": "1114054000",
+        "region_short_code": "140540",
         "name_ko": "회현동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1874,9 +1874,9 @@
     },
     {
       "region": {
-        "region_code": "1114055000",
+        "region_short_code": "140550",
         "name_ko": "명동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -1974,9 +1974,9 @@
     },
     {
       "region": {
-        "region_code": "1114057000",
+        "region_short_code": "140570",
         "name_ko": "필동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2073,9 +2073,9 @@
     },
     {
       "region": {
-        "region_code": "1114058000",
+        "region_short_code": "140580",
         "name_ko": "장충동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2171,9 +2171,9 @@
     },
     {
       "region": {
-        "region_code": "1114059000",
+        "region_short_code": "140590",
         "name_ko": "광희동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2269,9 +2269,9 @@
     },
     {
       "region": {
-        "region_code": "1114060500",
+        "region_short_code": "140605",
         "name_ko": "을지로동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2367,9 +2367,9 @@
     },
     {
       "region": {
-        "region_code": "1114061500",
+        "region_short_code": "140615",
         "name_ko": "신당동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2465,9 +2465,9 @@
     },
     {
       "region": {
-        "region_code": "1114062500",
+        "region_short_code": "140625",
         "name_ko": "다산동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2563,9 +2563,9 @@
     },
     {
       "region": {
-        "region_code": "1114063500",
+        "region_short_code": "140635",
         "name_ko": "약수동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2661,9 +2661,9 @@
     },
     {
       "region": {
-        "region_code": "1114064500",
+        "region_short_code": "140645",
         "name_ko": "청구동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2759,9 +2759,9 @@
     },
     {
       "region": {
-        "region_code": "1114065000",
+        "region_short_code": "140650",
         "name_ko": "신당제5동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2857,9 +2857,9 @@
     },
     {
       "region": {
-        "region_code": "1114066500",
+        "region_short_code": "140665",
         "name_ko": "동화동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -2955,9 +2955,9 @@
     },
     {
       "region": {
-        "region_code": "1114067000",
+        "region_short_code": "140670",
         "name_ko": "황학동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3053,9 +3053,9 @@
     },
     {
       "region": {
-        "region_code": "1114068000",
+        "region_short_code": "140680",
         "name_ko": "중림동",
-        "parent_region_code": "11140",
+        "sigungu_code": "11140",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3151,9 +3151,9 @@
     },
     {
       "region": {
-        "region_code": "1117051000",
+        "region_short_code": "170510",
         "name_ko": "후암동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3241,9 +3241,9 @@
     },
     {
       "region": {
-        "region_code": "1117052000",
+        "region_short_code": "170520",
         "name_ko": "용산2가동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3331,9 +3331,9 @@
     },
     {
       "region": {
-        "region_code": "1117053000",
+        "region_short_code": "170530",
         "name_ko": "남영동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3421,9 +3421,9 @@
     },
     {
       "region": {
-        "region_code": "1117055500",
+        "region_short_code": "170555",
         "name_ko": "청파동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3511,9 +3511,9 @@
     },
     {
       "region": {
-        "region_code": "1117056000",
+        "region_short_code": "170560",
         "name_ko": "원효로제1동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3601,9 +3601,9 @@
     },
     {
       "region": {
-        "region_code": "1117057000",
+        "region_short_code": "170570",
         "name_ko": "원효로제2동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3691,9 +3691,9 @@
     },
     {
       "region": {
-        "region_code": "1117058000",
+        "region_short_code": "170580",
         "name_ko": "효창동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3781,9 +3781,9 @@
     },
     {
       "region": {
-        "region_code": "1117059000",
+        "region_short_code": "170590",
         "name_ko": "용문동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3871,9 +3871,9 @@
     },
     {
       "region": {
-        "region_code": "1117062500",
+        "region_short_code": "170625",
         "name_ko": "한강로동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -3961,9 +3961,9 @@
     },
     {
       "region": {
-        "region_code": "1117063000",
+        "region_short_code": "170630",
         "name_ko": "이촌제1동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4051,9 +4051,9 @@
     },
     {
       "region": {
-        "region_code": "1117064000",
+        "region_short_code": "170640",
         "name_ko": "이촌제2동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4141,9 +4141,9 @@
     },
     {
       "region": {
-        "region_code": "1117065000",
+        "region_short_code": "170650",
         "name_ko": "이태원제1동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4231,9 +4231,9 @@
     },
     {
       "region": {
-        "region_code": "1117066000",
+        "region_short_code": "170660",
         "name_ko": "이태원제2동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4321,9 +4321,9 @@
     },
     {
       "region": {
-        "region_code": "1117068500",
+        "region_short_code": "170685",
         "name_ko": "한남동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4411,9 +4411,9 @@
     },
     {
       "region": {
-        "region_code": "1117069000",
+        "region_short_code": "170690",
         "name_ko": "서빙고동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4501,9 +4501,9 @@
     },
     {
       "region": {
-        "region_code": "1117070000",
+        "region_short_code": "170700",
         "name_ko": "보광동",
-        "parent_region_code": "11170",
+        "sigungu_code": "11170",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4591,9 +4591,9 @@
     },
     {
       "region": {
-        "region_code": "1120052000",
+        "region_short_code": "200520",
         "name_ko": "왕십리제2동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4681,9 +4681,9 @@
     },
     {
       "region": {
-        "region_code": "1120053500",
+        "region_short_code": "200535",
         "name_ko": "왕십리도선동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4771,9 +4771,9 @@
     },
     {
       "region": {
-        "region_code": "1120054000",
+        "region_short_code": "200540",
         "name_ko": "마장동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4861,9 +4861,9 @@
     },
     {
       "region": {
-        "region_code": "1120055000",
+        "region_short_code": "200550",
         "name_ko": "사근동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -4951,9 +4951,9 @@
     },
     {
       "region": {
-        "region_code": "1120056000",
+        "region_short_code": "200560",
         "name_ko": "행당제1동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5041,9 +5041,9 @@
     },
     {
       "region": {
-        "region_code": "1120057000",
+        "region_short_code": "200570",
         "name_ko": "행당제2동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5131,9 +5131,9 @@
     },
     {
       "region": {
-        "region_code": "1120058000",
+        "region_short_code": "200580",
         "name_ko": "응봉동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5221,9 +5221,9 @@
     },
     {
       "region": {
-        "region_code": "1120059000",
+        "region_short_code": "200590",
         "name_ko": "금호1가동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5311,9 +5311,9 @@
     },
     {
       "region": {
-        "region_code": "1120061500",
+        "region_short_code": "200615",
         "name_ko": "금호2.3가동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5401,9 +5401,9 @@
     },
     {
       "region": {
-        "region_code": "1120062000",
+        "region_short_code": "200620",
         "name_ko": "금호4가동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5491,9 +5491,9 @@
     },
     {
       "region": {
-        "region_code": "1120064500",
+        "region_short_code": "200645",
         "name_ko": "옥수동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5581,9 +5581,9 @@
     },
     {
       "region": {
-        "region_code": "1120065000",
+        "region_short_code": "200650",
         "name_ko": "성수1가제1동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5671,9 +5671,9 @@
     },
     {
       "region": {
-        "region_code": "1120066000",
+        "region_short_code": "200660",
         "name_ko": "성수1가제2동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5761,9 +5761,9 @@
     },
     {
       "region": {
-        "region_code": "1120067000",
+        "region_short_code": "200670",
         "name_ko": "성수2가제1동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5851,9 +5851,9 @@
     },
     {
       "region": {
-        "region_code": "1120069000",
+        "region_short_code": "200690",
         "name_ko": "성수2가제3동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -5941,9 +5941,9 @@
     },
     {
       "region": {
-        "region_code": "1120072000",
+        "region_short_code": "200720",
         "name_ko": "송정동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6031,9 +6031,9 @@
     },
     {
       "region": {
-        "region_code": "1120079000",
+        "region_short_code": "200790",
         "name_ko": "용답동",
-        "parent_region_code": "11200",
+        "sigungu_code": "11200",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6121,9 +6121,9 @@
     },
     {
       "region": {
-        "region_code": "1121571000",
+        "region_short_code": "215710",
         "name_ko": "화양동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6211,9 +6211,9 @@
     },
     {
       "region": {
-        "region_code": "1121573000",
+        "region_short_code": "215730",
         "name_ko": "군자동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6301,9 +6301,9 @@
     },
     {
       "region": {
-        "region_code": "1121574000",
+        "region_short_code": "215740",
         "name_ko": "중곡제1동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6391,9 +6391,9 @@
     },
     {
       "region": {
-        "region_code": "1121575000",
+        "region_short_code": "215750",
         "name_ko": "중곡제2동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6481,9 +6481,9 @@
     },
     {
       "region": {
-        "region_code": "1121576000",
+        "region_short_code": "215760",
         "name_ko": "중곡제3동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6571,9 +6571,9 @@
     },
     {
       "region": {
-        "region_code": "1121577000",
+        "region_short_code": "215770",
         "name_ko": "중곡제4동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6661,9 +6661,9 @@
     },
     {
       "region": {
-        "region_code": "1121578000",
+        "region_short_code": "215780",
         "name_ko": "능동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6751,9 +6751,9 @@
     },
     {
       "region": {
-        "region_code": "1121581000",
+        "region_short_code": "215810",
         "name_ko": "광장동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6841,9 +6841,9 @@
     },
     {
       "region": {
-        "region_code": "1121582000",
+        "region_short_code": "215820",
         "name_ko": "자양제1동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -6931,9 +6931,9 @@
     },
     {
       "region": {
-        "region_code": "1121583000",
+        "region_short_code": "215830",
         "name_ko": "자양제2동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7021,9 +7021,9 @@
     },
     {
       "region": {
-        "region_code": "1121584000",
+        "region_short_code": "215840",
         "name_ko": "자양제3동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7111,9 +7111,9 @@
     },
     {
       "region": {
-        "region_code": "1121584700",
+        "region_short_code": "215847",
         "name_ko": "자양제4동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7201,9 +7201,9 @@
     },
     {
       "region": {
-        "region_code": "1121585000",
+        "region_short_code": "215850",
         "name_ko": "구의제1동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7291,9 +7291,9 @@
     },
     {
       "region": {
-        "region_code": "1121586000",
+        "region_short_code": "215860",
         "name_ko": "구의제2동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7381,9 +7381,9 @@
     },
     {
       "region": {
-        "region_code": "1121587000",
+        "region_short_code": "215870",
         "name_ko": "구의제3동",
-        "parent_region_code": "11215",
+        "sigungu_code": "11215",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7471,9 +7471,9 @@
     },
     {
       "region": {
-        "region_code": "1123051500",
+        "region_short_code": "230515",
         "name_ko": "신설동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7561,9 +7561,9 @@
     },
     {
       "region": {
-        "region_code": "1123053300",
+        "region_short_code": "230533",
         "name_ko": "용두동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7651,9 +7651,9 @@
     },
     {
       "region": {
-        "region_code": "1123054500",
+        "region_short_code": "230545",
         "name_ko": "제기동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7741,9 +7741,9 @@
     },
     {
       "region": {
-        "region_code": "1123056000",
+        "region_short_code": "230560",
         "name_ko": "전농제1동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7831,9 +7831,9 @@
     },
     {
       "region": {
-        "region_code": "1123057000",
+        "region_short_code": "230570",
         "name_ko": "전농제2동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -7921,9 +7921,9 @@
     },
     {
       "region": {
-        "region_code": "1123060000",
+        "region_short_code": "230600",
         "name_ko": "답십리제1동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8011,9 +8011,9 @@
     },
     {
       "region": {
-        "region_code": "1123061000",
+        "region_short_code": "230610",
         "name_ko": "답십리제2동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8101,9 +8101,9 @@
     },
     {
       "region": {
-        "region_code": "1123065000",
+        "region_short_code": "230650",
         "name_ko": "장안제1동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8191,9 +8191,9 @@
     },
     {
       "region": {
-        "region_code": "1123066000",
+        "region_short_code": "230660",
         "name_ko": "장안제2동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8281,9 +8281,9 @@
     },
     {
       "region": {
-        "region_code": "1123070500",
+        "region_short_code": "230705",
         "name_ko": "청량리동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8371,9 +8371,9 @@
     },
     {
       "region": {
-        "region_code": "1123071000",
+        "region_short_code": "230710",
         "name_ko": "회기동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8461,9 +8461,9 @@
     },
     {
       "region": {
-        "region_code": "1123072000",
+        "region_short_code": "230720",
         "name_ko": "휘경제1동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8551,9 +8551,9 @@
     },
     {
       "region": {
-        "region_code": "1123073000",
+        "region_short_code": "230730",
         "name_ko": "휘경제2동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8641,9 +8641,9 @@
     },
     {
       "region": {
-        "region_code": "1123074000",
+        "region_short_code": "230740",
         "name_ko": "이문제1동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8731,9 +8731,9 @@
     },
     {
       "region": {
-        "region_code": "1123075000",
+        "region_short_code": "230750",
         "name_ko": "이문제2동",
-        "parent_region_code": "11230",
+        "sigungu_code": "11230",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8821,9 +8821,9 @@
     },
     {
       "region": {
-        "region_code": "1126052000",
+        "region_short_code": "260520",
         "name_ko": "면목제2동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -8911,9 +8911,9 @@
     },
     {
       "region": {
-        "region_code": "1126054000",
+        "region_short_code": "260540",
         "name_ko": "면목제4동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9001,9 +9001,9 @@
     },
     {
       "region": {
-        "region_code": "1126055000",
+        "region_short_code": "260550",
         "name_ko": "면목제5동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9091,9 +9091,9 @@
     },
     {
       "region": {
-        "region_code": "1126056500",
+        "region_short_code": "260565",
         "name_ko": "면목본동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9181,9 +9181,9 @@
     },
     {
       "region": {
-        "region_code": "1126057000",
+        "region_short_code": "260570",
         "name_ko": "면목제7동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9271,9 +9271,9 @@
     },
     {
       "region": {
-        "region_code": "1126057500",
+        "region_short_code": "260575",
         "name_ko": "면목제3.8동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9361,9 +9361,9 @@
     },
     {
       "region": {
-        "region_code": "1126058000",
+        "region_short_code": "260580",
         "name_ko": "상봉제1동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9451,9 +9451,9 @@
     },
     {
       "region": {
-        "region_code": "1126059000",
+        "region_short_code": "260590",
         "name_ko": "상봉제2동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9541,9 +9541,9 @@
     },
     {
       "region": {
-        "region_code": "1126060000",
+        "region_short_code": "260600",
         "name_ko": "중화제1동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9631,9 +9631,9 @@
     },
     {
       "region": {
-        "region_code": "1126061000",
+        "region_short_code": "260610",
         "name_ko": "중화제2동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9721,9 +9721,9 @@
     },
     {
       "region": {
-        "region_code": "1126062000",
+        "region_short_code": "260620",
         "name_ko": "묵제1동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9811,9 +9811,9 @@
     },
     {
       "region": {
-        "region_code": "1126063000",
+        "region_short_code": "260630",
         "name_ko": "묵제2동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9901,9 +9901,9 @@
     },
     {
       "region": {
-        "region_code": "1126065500",
+        "region_short_code": "260655",
         "name_ko": "망우본동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -9991,9 +9991,9 @@
     },
     {
       "region": {
-        "region_code": "1126066000",
+        "region_short_code": "260660",
         "name_ko": "망우제3동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10081,9 +10081,9 @@
     },
     {
       "region": {
-        "region_code": "1126068000",
+        "region_short_code": "260680",
         "name_ko": "신내1동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10171,9 +10171,9 @@
     },
     {
       "region": {
-        "region_code": "1126069000",
+        "region_short_code": "260690",
         "name_ko": "신내2동",
-        "parent_region_code": "11260",
+        "sigungu_code": "11260",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10261,9 +10261,9 @@
     },
     {
       "region": {
-        "region_code": "1129052500",
+        "region_short_code": "290525",
         "name_ko": "성북동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10353,9 +10353,9 @@
     },
     {
       "region": {
-        "region_code": "1129055500",
+        "region_short_code": "290555",
         "name_ko": "삼선동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10445,9 +10445,9 @@
     },
     {
       "region": {
-        "region_code": "1129057500",
+        "region_short_code": "290575",
         "name_ko": "동선동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10537,9 +10537,9 @@
     },
     {
       "region": {
-        "region_code": "1129058000",
+        "region_short_code": "290580",
         "name_ko": "돈암제1동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10629,9 +10629,9 @@
     },
     {
       "region": {
-        "region_code": "1129059000",
+        "region_short_code": "290590",
         "name_ko": "돈암제2동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10721,9 +10721,9 @@
     },
     {
       "region": {
-        "region_code": "1129060000",
+        "region_short_code": "290600",
         "name_ko": "안암동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10813,9 +10813,9 @@
     },
     {
       "region": {
-        "region_code": "1129061000",
+        "region_short_code": "290610",
         "name_ko": "보문동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10905,9 +10905,9 @@
     },
     {
       "region": {
-        "region_code": "1129062000",
+        "region_short_code": "290620",
         "name_ko": "정릉제1동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -10998,9 +10998,9 @@
     },
     {
       "region": {
-        "region_code": "1129063000",
+        "region_short_code": "290630",
         "name_ko": "정릉제2동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11090,9 +11090,9 @@
     },
     {
       "region": {
-        "region_code": "1129064000",
+        "region_short_code": "290640",
         "name_ko": "정릉제3동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11182,9 +11182,9 @@
     },
     {
       "region": {
-        "region_code": "1129065000",
+        "region_short_code": "290650",
         "name_ko": "정릉제4동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11274,9 +11274,9 @@
     },
     {
       "region": {
-        "region_code": "1129066000",
+        "region_short_code": "290660",
         "name_ko": "길음제1동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11366,9 +11366,9 @@
     },
     {
       "region": {
-        "region_code": "1129068500",
+        "region_short_code": "290685",
         "name_ko": "길음제2동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11458,9 +11458,9 @@
     },
     {
       "region": {
-        "region_code": "1129070500",
+        "region_short_code": "290705",
         "name_ko": "종암동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11551,9 +11551,9 @@
     },
     {
       "region": {
-        "region_code": "1129071500",
+        "region_short_code": "290715",
         "name_ko": "월곡제1동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11643,9 +11643,9 @@
     },
     {
       "region": {
-        "region_code": "1129072500",
+        "region_short_code": "290725",
         "name_ko": "월곡제2동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11735,9 +11735,9 @@
     },
     {
       "region": {
-        "region_code": "1129076000",
+        "region_short_code": "290760",
         "name_ko": "장위제1동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11827,9 +11827,9 @@
     },
     {
       "region": {
-        "region_code": "1129077000",
+        "region_short_code": "290770",
         "name_ko": "장위제2동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -11919,9 +11919,9 @@
     },
     {
       "region": {
-        "region_code": "1129078000",
+        "region_short_code": "290780",
         "name_ko": "장위제3동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12011,9 +12011,9 @@
     },
     {
       "region": {
-        "region_code": "1129081000",
+        "region_short_code": "290810",
         "name_ko": "석관동",
-        "parent_region_code": "11290",
+        "sigungu_code": "11290",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12103,9 +12103,9 @@
     },
     {
       "region": {
-        "region_code": "1130553400",
+        "region_short_code": "305534",
         "name_ko": "삼양동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12193,9 +12193,9 @@
     },
     {
       "region": {
-        "region_code": "1130553500",
+        "region_short_code": "305535",
         "name_ko": "미아동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12283,9 +12283,9 @@
     },
     {
       "region": {
-        "region_code": "1130554500",
+        "region_short_code": "305545",
         "name_ko": "송중동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12373,9 +12373,9 @@
     },
     {
       "region": {
-        "region_code": "1130555500",
+        "region_short_code": "305555",
         "name_ko": "송천동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12463,9 +12463,9 @@
     },
     {
       "region": {
-        "region_code": "1130557500",
+        "region_short_code": "305575",
         "name_ko": "삼각산동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12553,9 +12553,9 @@
     },
     {
       "region": {
-        "region_code": "1130559500",
+        "region_short_code": "305595",
         "name_ko": "번1동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12643,9 +12643,9 @@
     },
     {
       "region": {
-        "region_code": "1130560300",
+        "region_short_code": "305603",
         "name_ko": "번2동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12733,9 +12733,9 @@
     },
     {
       "region": {
-        "region_code": "1130560800",
+        "region_short_code": "305608",
         "name_ko": "번3동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12823,9 +12823,9 @@
     },
     {
       "region": {
-        "region_code": "1130561500",
+        "region_short_code": "305615",
         "name_ko": "수유1동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -12913,9 +12913,9 @@
     },
     {
       "region": {
-        "region_code": "1130562500",
+        "region_short_code": "305625",
         "name_ko": "수유2동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13003,9 +13003,9 @@
     },
     {
       "region": {
-        "region_code": "1130563500",
+        "region_short_code": "305635",
         "name_ko": "수유3동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13093,9 +13093,9 @@
     },
     {
       "region": {
-        "region_code": "1130564500",
+        "region_short_code": "305645",
         "name_ko": "우이동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13183,9 +13183,9 @@
     },
     {
       "region": {
-        "region_code": "1130566000",
+        "region_short_code": "305660",
         "name_ko": "인수동",
-        "parent_region_code": "11305",
+        "sigungu_code": "11305",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13273,9 +13273,9 @@
     },
     {
       "region": {
-        "region_code": "1132051100",
+        "region_short_code": "320511",
         "name_ko": "창제1동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13363,9 +13363,9 @@
     },
     {
       "region": {
-        "region_code": "1132051200",
+        "region_short_code": "320512",
         "name_ko": "창제2동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13453,9 +13453,9 @@
     },
     {
       "region": {
-        "region_code": "1132051300",
+        "region_short_code": "320513",
         "name_ko": "창제3동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13543,9 +13543,9 @@
     },
     {
       "region": {
-        "region_code": "1132051400",
+        "region_short_code": "320514",
         "name_ko": "창제4동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13633,9 +13633,9 @@
     },
     {
       "region": {
-        "region_code": "1132051500",
+        "region_short_code": "320515",
         "name_ko": "창제5동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13723,9 +13723,9 @@
     },
     {
       "region": {
-        "region_code": "1132052100",
+        "region_short_code": "320521",
         "name_ko": "도봉제1동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13813,9 +13813,9 @@
     },
     {
       "region": {
-        "region_code": "1132052200",
+        "region_short_code": "320522",
         "name_ko": "도봉제2동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13903,9 +13903,9 @@
     },
     {
       "region": {
-        "region_code": "1132066000",
+        "region_short_code": "320660",
         "name_ko": "쌍문제1동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -13993,9 +13993,9 @@
     },
     {
       "region": {
-        "region_code": "1132067000",
+        "region_short_code": "320670",
         "name_ko": "쌍문제2동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14083,9 +14083,9 @@
     },
     {
       "region": {
-        "region_code": "1132068000",
+        "region_short_code": "320680",
         "name_ko": "쌍문제3동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14173,9 +14173,9 @@
     },
     {
       "region": {
-        "region_code": "1132068100",
+        "region_short_code": "320681",
         "name_ko": "쌍문제4동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14263,9 +14263,9 @@
     },
     {
       "region": {
-        "region_code": "1132069000",
+        "region_short_code": "320690",
         "name_ko": "방학제1동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14353,9 +14353,9 @@
     },
     {
       "region": {
-        "region_code": "1132070000",
+        "region_short_code": "320700",
         "name_ko": "방학제2동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14443,9 +14443,9 @@
     },
     {
       "region": {
-        "region_code": "1132071000",
+        "region_short_code": "320710",
         "name_ko": "방학제3동",
-        "parent_region_code": "11320",
+        "sigungu_code": "11320",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14533,9 +14533,9 @@
     },
     {
       "region": {
-        "region_code": "1135056000",
+        "region_short_code": "350560",
         "name_ko": "월계1동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14623,9 +14623,9 @@
     },
     {
       "region": {
-        "region_code": "1135057000",
+        "region_short_code": "350570",
         "name_ko": "월계2동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14713,9 +14713,9 @@
     },
     {
       "region": {
-        "region_code": "1135058000",
+        "region_short_code": "350580",
         "name_ko": "월계3동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14803,9 +14803,9 @@
     },
     {
       "region": {
-        "region_code": "1135059500",
+        "region_short_code": "350595",
         "name_ko": "공릉1동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14893,9 +14893,9 @@
     },
     {
       "region": {
-        "region_code": "1135060000",
+        "region_short_code": "350600",
         "name_ko": "공릉2동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -14983,9 +14983,9 @@
     },
     {
       "region": {
-        "region_code": "1135061100",
+        "region_short_code": "350611",
         "name_ko": "하계1동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15073,9 +15073,9 @@
     },
     {
       "region": {
-        "region_code": "1135061200",
+        "region_short_code": "350612",
         "name_ko": "하계2동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15163,9 +15163,9 @@
     },
     {
       "region": {
-        "region_code": "1135061900",
+        "region_short_code": "350619",
         "name_ko": "중계본동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15253,9 +15253,9 @@
     },
     {
       "region": {
-        "region_code": "1135062100",
+        "region_short_code": "350621",
         "name_ko": "중계1동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15343,9 +15343,9 @@
     },
     {
       "region": {
-        "region_code": "1135062400",
+        "region_short_code": "350624",
         "name_ko": "중계4동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15433,9 +15433,9 @@
     },
     {
       "region": {
-        "region_code": "1135062500",
+        "region_short_code": "350625",
         "name_ko": "중계2.3동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15523,9 +15523,9 @@
     },
     {
       "region": {
-        "region_code": "1135063000",
+        "region_short_code": "350630",
         "name_ko": "상계1동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15613,9 +15613,9 @@
     },
     {
       "region": {
-        "region_code": "1135064000",
+        "region_short_code": "350640",
         "name_ko": "상계2동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15703,9 +15703,9 @@
     },
     {
       "region": {
-        "region_code": "1135066500",
+        "region_short_code": "350665",
         "name_ko": "상계3.4동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15793,9 +15793,9 @@
     },
     {
       "region": {
-        "region_code": "1135067000",
+        "region_short_code": "350670",
         "name_ko": "상계5동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15883,9 +15883,9 @@
     },
     {
       "region": {
-        "region_code": "1135069500",
+        "region_short_code": "350695",
         "name_ko": "상계6.7동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -15973,9 +15973,9 @@
     },
     {
       "region": {
-        "region_code": "1135070000",
+        "region_short_code": "350700",
         "name_ko": "상계8동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16063,9 +16063,9 @@
     },
     {
       "region": {
-        "region_code": "1135071000",
+        "region_short_code": "350710",
         "name_ko": "상계9동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16153,9 +16153,9 @@
     },
     {
       "region": {
-        "region_code": "1135072000",
+        "region_short_code": "350720",
         "name_ko": "상계10동",
-        "parent_region_code": "11350",
+        "sigungu_code": "11350",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16243,9 +16243,9 @@
     },
     {
       "region": {
-        "region_code": "1138051000",
+        "region_short_code": "380510",
         "name_ko": "녹번동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16333,9 +16333,9 @@
     },
     {
       "region": {
-        "region_code": "1138052000",
+        "region_short_code": "380520",
         "name_ko": "불광제1동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16423,9 +16423,9 @@
     },
     {
       "region": {
-        "region_code": "1138053000",
+        "region_short_code": "380530",
         "name_ko": "불광제2동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16513,9 +16513,9 @@
     },
     {
       "region": {
-        "region_code": "1138055100",
+        "region_short_code": "380551",
         "name_ko": "갈현제1동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16603,9 +16603,9 @@
     },
     {
       "region": {
-        "region_code": "1138055200",
+        "region_short_code": "380552",
         "name_ko": "갈현제2동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16693,9 +16693,9 @@
     },
     {
       "region": {
-        "region_code": "1138056000",
+        "region_short_code": "380560",
         "name_ko": "구산동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16783,9 +16783,9 @@
     },
     {
       "region": {
-        "region_code": "1138057000",
+        "region_short_code": "380570",
         "name_ko": "대조동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16873,9 +16873,9 @@
     },
     {
       "region": {
-        "region_code": "1138058000",
+        "region_short_code": "380580",
         "name_ko": "응암제1동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -16963,9 +16963,9 @@
     },
     {
       "region": {
-        "region_code": "1138059000",
+        "region_short_code": "380590",
         "name_ko": "응암제2동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17053,9 +17053,9 @@
     },
     {
       "region": {
-        "region_code": "1138060000",
+        "region_short_code": "380600",
         "name_ko": "응암제3동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17143,9 +17143,9 @@
     },
     {
       "region": {
-        "region_code": "1138062500",
+        "region_short_code": "380625",
         "name_ko": "역촌동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17233,9 +17233,9 @@
     },
     {
       "region": {
-        "region_code": "1138063100",
+        "region_short_code": "380631",
         "name_ko": "신사제1동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17323,9 +17323,9 @@
     },
     {
       "region": {
-        "region_code": "1138063200",
+        "region_short_code": "380632",
         "name_ko": "신사제2동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17413,9 +17413,9 @@
     },
     {
       "region": {
-        "region_code": "1138064000",
+        "region_short_code": "380640",
         "name_ko": "증산동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17503,9 +17503,9 @@
     },
     {
       "region": {
-        "region_code": "1138065000",
+        "region_short_code": "380650",
         "name_ko": "수색동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17593,9 +17593,9 @@
     },
     {
       "region": {
-        "region_code": "1138069000",
+        "region_short_code": "380690",
         "name_ko": "진관동",
-        "parent_region_code": "11380",
+        "sigungu_code": "11380",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17683,9 +17683,9 @@
     },
     {
       "region": {
-        "region_code": "1141052000",
+        "region_short_code": "410520",
         "name_ko": "천연동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17773,9 +17773,9 @@
     },
     {
       "region": {
-        "region_code": "1141055500",
+        "region_short_code": "410555",
         "name_ko": "북아현동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17863,9 +17863,9 @@
     },
     {
       "region": {
-        "region_code": "1141056500",
+        "region_short_code": "410565",
         "name_ko": "충현동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -17953,9 +17953,9 @@
     },
     {
       "region": {
-        "region_code": "1141058500",
+        "region_short_code": "410585",
         "name_ko": "신촌동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18043,9 +18043,9 @@
     },
     {
       "region": {
-        "region_code": "1141061500",
+        "region_short_code": "410615",
         "name_ko": "연희동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18133,9 +18133,9 @@
     },
     {
       "region": {
-        "region_code": "1141062000",
+        "region_short_code": "410620",
         "name_ko": "홍제제1동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18223,9 +18223,9 @@
     },
     {
       "region": {
-        "region_code": "1141064000",
+        "region_short_code": "410640",
         "name_ko": "홍제제3동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18313,9 +18313,9 @@
     },
     {
       "region": {
-        "region_code": "1141065500",
+        "region_short_code": "410655",
         "name_ko": "홍제제2동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18403,9 +18403,9 @@
     },
     {
       "region": {
-        "region_code": "1141066000",
+        "region_short_code": "410660",
         "name_ko": "홍은제1동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18493,9 +18493,9 @@
     },
     {
       "region": {
-        "region_code": "1141068500",
+        "region_short_code": "410685",
         "name_ko": "홍은제2동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18583,9 +18583,9 @@
     },
     {
       "region": {
-        "region_code": "1141069000",
+        "region_short_code": "410690",
         "name_ko": "남가좌제1동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18673,9 +18673,9 @@
     },
     {
       "region": {
-        "region_code": "1141070000",
+        "region_short_code": "410700",
         "name_ko": "남가좌제2동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18763,9 +18763,9 @@
     },
     {
       "region": {
-        "region_code": "1141071000",
+        "region_short_code": "410710",
         "name_ko": "북가좌제1동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18853,9 +18853,9 @@
     },
     {
       "region": {
-        "region_code": "1141072000",
+        "region_short_code": "410720",
         "name_ko": "북가좌제2동",
-        "parent_region_code": "11410",
+        "sigungu_code": "11410",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -18943,9 +18943,9 @@
     },
     {
       "region": {
-        "region_code": "1144055500",
+        "region_short_code": "440555",
         "name_ko": "아현동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19033,9 +19033,9 @@
     },
     {
       "region": {
-        "region_code": "1144056500",
+        "region_short_code": "440565",
         "name_ko": "공덕동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19123,9 +19123,9 @@
     },
     {
       "region": {
-        "region_code": "1144058500",
+        "region_short_code": "440585",
         "name_ko": "도화동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19213,9 +19213,9 @@
     },
     {
       "region": {
-        "region_code": "1144059000",
+        "region_short_code": "440590",
         "name_ko": "용강동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19303,9 +19303,9 @@
     },
     {
       "region": {
-        "region_code": "1144060000",
+        "region_short_code": "440600",
         "name_ko": "대흥동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19393,9 +19393,9 @@
     },
     {
       "region": {
-        "region_code": "1144061000",
+        "region_short_code": "440610",
         "name_ko": "염리동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19483,9 +19483,9 @@
     },
     {
       "region": {
-        "region_code": "1144063000",
+        "region_short_code": "440630",
         "name_ko": "신수동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19573,9 +19573,9 @@
     },
     {
       "region": {
-        "region_code": "1144065500",
+        "region_short_code": "440655",
         "name_ko": "서강동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19663,9 +19663,9 @@
     },
     {
       "region": {
-        "region_code": "1144066000",
+        "region_short_code": "440660",
         "name_ko": "서교동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19753,9 +19753,9 @@
     },
     {
       "region": {
-        "region_code": "1144068000",
+        "region_short_code": "440680",
         "name_ko": "합정동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19843,9 +19843,9 @@
     },
     {
       "region": {
-        "region_code": "1144069000",
+        "region_short_code": "440690",
         "name_ko": "망원제1동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -19933,9 +19933,9 @@
     },
     {
       "region": {
-        "region_code": "1144070000",
+        "region_short_code": "440700",
         "name_ko": "망원제2동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20023,9 +20023,9 @@
     },
     {
       "region": {
-        "region_code": "1144071000",
+        "region_short_code": "440710",
         "name_ko": "연남동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20113,9 +20113,9 @@
     },
     {
       "region": {
-        "region_code": "1144072000",
+        "region_short_code": "440720",
         "name_ko": "성산제1동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20203,9 +20203,9 @@
     },
     {
       "region": {
-        "region_code": "1144073000",
+        "region_short_code": "440730",
         "name_ko": "성산제2동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20293,9 +20293,9 @@
     },
     {
       "region": {
-        "region_code": "1144074000",
+        "region_short_code": "440740",
         "name_ko": "상암동",
-        "parent_region_code": "11440",
+        "sigungu_code": "11440",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20383,9 +20383,9 @@
     },
     {
       "region": {
-        "region_code": "1147051000",
+        "region_short_code": "470510",
         "name_ko": "목1동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20473,9 +20473,9 @@
     },
     {
       "region": {
-        "region_code": "1147052000",
+        "region_short_code": "470520",
         "name_ko": "목2동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20563,9 +20563,9 @@
     },
     {
       "region": {
-        "region_code": "1147053000",
+        "region_short_code": "470530",
         "name_ko": "목3동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20653,9 +20653,9 @@
     },
     {
       "region": {
-        "region_code": "1147054000",
+        "region_short_code": "470540",
         "name_ko": "목4동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20743,9 +20743,9 @@
     },
     {
       "region": {
-        "region_code": "1147055000",
+        "region_short_code": "470550",
         "name_ko": "목5동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20833,9 +20833,9 @@
     },
     {
       "region": {
-        "region_code": "1147056000",
+        "region_short_code": "470560",
         "name_ko": "신월1동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -20923,9 +20923,9 @@
     },
     {
       "region": {
-        "region_code": "1147057000",
+        "region_short_code": "470570",
         "name_ko": "신월2동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21013,9 +21013,9 @@
     },
     {
       "region": {
-        "region_code": "1147058000",
+        "region_short_code": "470580",
         "name_ko": "신월3동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21103,9 +21103,9 @@
     },
     {
       "region": {
-        "region_code": "1147059000",
+        "region_short_code": "470590",
         "name_ko": "신월4동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21193,9 +21193,9 @@
     },
     {
       "region": {
-        "region_code": "1147060000",
+        "region_short_code": "470600",
         "name_ko": "신월5동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21283,9 +21283,9 @@
     },
     {
       "region": {
-        "region_code": "1147061000",
+        "region_short_code": "470610",
         "name_ko": "신월6동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21373,9 +21373,9 @@
     },
     {
       "region": {
-        "region_code": "1147061100",
+        "region_short_code": "470611",
         "name_ko": "신월7동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21463,9 +21463,9 @@
     },
     {
       "region": {
-        "region_code": "1147062000",
+        "region_short_code": "470620",
         "name_ko": "신정1동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21553,9 +21553,9 @@
     },
     {
       "region": {
-        "region_code": "1147063000",
+        "region_short_code": "470630",
         "name_ko": "신정2동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21643,9 +21643,9 @@
     },
     {
       "region": {
-        "region_code": "1147064000",
+        "region_short_code": "470640",
         "name_ko": "신정3동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21733,9 +21733,9 @@
     },
     {
       "region": {
-        "region_code": "1147065000",
+        "region_short_code": "470650",
         "name_ko": "신정4동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21823,9 +21823,9 @@
     },
     {
       "region": {
-        "region_code": "1147067000",
+        "region_short_code": "470670",
         "name_ko": "신정6동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -21913,9 +21913,9 @@
     },
     {
       "region": {
-        "region_code": "1147068000",
+        "region_short_code": "470680",
         "name_ko": "신정7동",
-        "parent_region_code": "11470",
+        "sigungu_code": "11470",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22003,9 +22003,9 @@
     },
     {
       "region": {
-        "region_code": "1150051000",
+        "region_short_code": "500510",
         "name_ko": "염창동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22093,9 +22093,9 @@
     },
     {
       "region": {
-        "region_code": "1150052000",
+        "region_short_code": "500520",
         "name_ko": "등촌제1동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22183,9 +22183,9 @@
     },
     {
       "region": {
-        "region_code": "1150053000",
+        "region_short_code": "500530",
         "name_ko": "등촌제2동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22273,9 +22273,9 @@
     },
     {
       "region": {
-        "region_code": "1150053500",
+        "region_short_code": "500535",
         "name_ko": "등촌제3동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22363,9 +22363,9 @@
     },
     {
       "region": {
-        "region_code": "1150054000",
+        "region_short_code": "500540",
         "name_ko": "화곡제1동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22453,9 +22453,9 @@
     },
     {
       "region": {
-        "region_code": "1150055000",
+        "region_short_code": "500550",
         "name_ko": "화곡제2동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22543,9 +22543,9 @@
     },
     {
       "region": {
-        "region_code": "1150056000",
+        "region_short_code": "500560",
         "name_ko": "화곡제3동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22633,9 +22633,9 @@
     },
     {
       "region": {
-        "region_code": "1150057000",
+        "region_short_code": "500570",
         "name_ko": "화곡제4동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22723,9 +22723,9 @@
     },
     {
       "region": {
-        "region_code": "1150059000",
+        "region_short_code": "500590",
         "name_ko": "화곡본동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22813,9 +22813,9 @@
     },
     {
       "region": {
-        "region_code": "1150059100",
+        "region_short_code": "500591",
         "name_ko": "화곡제6동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22903,9 +22903,9 @@
     },
     {
       "region": {
-        "region_code": "1150059300",
+        "region_short_code": "500593",
         "name_ko": "화곡제8동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -22993,9 +22993,9 @@
     },
     {
       "region": {
-        "region_code": "1150060300",
+        "region_short_code": "500603",
         "name_ko": "가양제1동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23083,9 +23083,9 @@
     },
     {
       "region": {
-        "region_code": "1150060400",
+        "region_short_code": "500604",
         "name_ko": "가양제2동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23173,9 +23173,9 @@
     },
     {
       "region": {
-        "region_code": "1150060500",
+        "region_short_code": "500605",
         "name_ko": "가양제3동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23263,9 +23263,9 @@
     },
     {
       "region": {
-        "region_code": "1150061100",
+        "region_short_code": "500611",
         "name_ko": "발산제1동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23353,9 +23353,9 @@
     },
     {
       "region": {
-        "region_code": "1150061500",
+        "region_short_code": "500615",
         "name_ko": "우장산동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23443,9 +23443,9 @@
     },
     {
       "region": {
-        "region_code": "1150062000",
+        "region_short_code": "500620",
         "name_ko": "공항동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23533,9 +23533,9 @@
     },
     {
       "region": {
-        "region_code": "1150063000",
+        "region_short_code": "500630",
         "name_ko": "방화제1동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23623,9 +23623,9 @@
     },
     {
       "region": {
-        "region_code": "1150064000",
+        "region_short_code": "500640",
         "name_ko": "방화제2동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23713,9 +23713,9 @@
     },
     {
       "region": {
-        "region_code": "1150064100",
+        "region_short_code": "500641",
         "name_ko": "방화제3동",
-        "parent_region_code": "11500",
+        "sigungu_code": "11500",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23803,9 +23803,9 @@
     },
     {
       "region": {
-        "region_code": "1153051000",
+        "region_short_code": "530510",
         "name_ko": "신도림동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23893,9 +23893,9 @@
     },
     {
       "region": {
-        "region_code": "1153052000",
+        "region_short_code": "530520",
         "name_ko": "구로제1동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -23983,9 +23983,9 @@
     },
     {
       "region": {
-        "region_code": "1153053000",
+        "region_short_code": "530530",
         "name_ko": "구로제2동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24073,9 +24073,9 @@
     },
     {
       "region": {
-        "region_code": "1153054000",
+        "region_short_code": "530540",
         "name_ko": "구로제3동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24163,9 +24163,9 @@
     },
     {
       "region": {
-        "region_code": "1153055000",
+        "region_short_code": "530550",
         "name_ko": "구로제4동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24253,9 +24253,9 @@
     },
     {
       "region": {
-        "region_code": "1153056000",
+        "region_short_code": "530560",
         "name_ko": "구로제5동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24343,9 +24343,9 @@
     },
     {
       "region": {
-        "region_code": "1153059500",
+        "region_short_code": "530595",
         "name_ko": "가리봉동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24433,9 +24433,9 @@
     },
     {
       "region": {
-        "region_code": "1153072000",
+        "region_short_code": "530720",
         "name_ko": "고척제1동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24523,9 +24523,9 @@
     },
     {
       "region": {
-        "region_code": "1153073000",
+        "region_short_code": "530730",
         "name_ko": "고척제2동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24613,9 +24613,9 @@
     },
     {
       "region": {
-        "region_code": "1153074000",
+        "region_short_code": "530740",
         "name_ko": "개봉제1동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24703,9 +24703,9 @@
     },
     {
       "region": {
-        "region_code": "1153075000",
+        "region_short_code": "530750",
         "name_ko": "개봉제2동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24793,9 +24793,9 @@
     },
     {
       "region": {
-        "region_code": "1153076000",
+        "region_short_code": "530760",
         "name_ko": "개봉제3동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24883,9 +24883,9 @@
     },
     {
       "region": {
-        "region_code": "1153077000",
+        "region_short_code": "530770",
         "name_ko": "오류제1동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -24973,9 +24973,9 @@
     },
     {
       "region": {
-        "region_code": "1153078000",
+        "region_short_code": "530780",
         "name_ko": "오류제2동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25063,9 +25063,9 @@
     },
     {
       "region": {
-        "region_code": "1153079000",
+        "region_short_code": "530790",
         "name_ko": "수궁동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25153,9 +25153,9 @@
     },
     {
       "region": {
-        "region_code": "1153080000",
+        "region_short_code": "530800",
         "name_ko": "항동",
-        "parent_region_code": "11530",
+        "sigungu_code": "11530",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25243,9 +25243,9 @@
     },
     {
       "region": {
-        "region_code": "1154551000",
+        "region_short_code": "545510",
         "name_ko": "가산동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25333,9 +25333,9 @@
     },
     {
       "region": {
-        "region_code": "1154561000",
+        "region_short_code": "545610",
         "name_ko": "독산제1동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25423,9 +25423,9 @@
     },
     {
       "region": {
-        "region_code": "1154562000",
+        "region_short_code": "545620",
         "name_ko": "독산제2동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25513,9 +25513,9 @@
     },
     {
       "region": {
-        "region_code": "1154563000",
+        "region_short_code": "545630",
         "name_ko": "독산제3동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25603,9 +25603,9 @@
     },
     {
       "region": {
-        "region_code": "1154564000",
+        "region_short_code": "545640",
         "name_ko": "독산제4동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25693,9 +25693,9 @@
     },
     {
       "region": {
-        "region_code": "1154567000",
+        "region_short_code": "545670",
         "name_ko": "시흥제1동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25783,9 +25783,9 @@
     },
     {
       "region": {
-        "region_code": "1154568000",
+        "region_short_code": "545680",
         "name_ko": "시흥제2동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25873,9 +25873,9 @@
     },
     {
       "region": {
-        "region_code": "1154569000",
+        "region_short_code": "545690",
         "name_ko": "시흥제3동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -25963,9 +25963,9 @@
     },
     {
       "region": {
-        "region_code": "1154570000",
+        "region_short_code": "545700",
         "name_ko": "시흥제4동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26053,9 +26053,9 @@
     },
     {
       "region": {
-        "region_code": "1154571000",
+        "region_short_code": "545710",
         "name_ko": "시흥제5동",
-        "parent_region_code": "11545",
+        "sigungu_code": "11545",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26143,9 +26143,9 @@
     },
     {
       "region": {
-        "region_code": "1156051500",
+        "region_short_code": "560515",
         "name_ko": "영등포본동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26233,9 +26233,9 @@
     },
     {
       "region": {
-        "region_code": "1156053500",
+        "region_short_code": "560535",
         "name_ko": "영등포동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26323,9 +26323,9 @@
     },
     {
       "region": {
-        "region_code": "1156054000",
+        "region_short_code": "560540",
         "name_ko": "여의동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26413,9 +26413,9 @@
     },
     {
       "region": {
-        "region_code": "1156055000",
+        "region_short_code": "560550",
         "name_ko": "당산제1동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26503,9 +26503,9 @@
     },
     {
       "region": {
-        "region_code": "1156056000",
+        "region_short_code": "560560",
         "name_ko": "당산제2동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26593,9 +26593,9 @@
     },
     {
       "region": {
-        "region_code": "1156058500",
+        "region_short_code": "560585",
         "name_ko": "도림동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26683,9 +26683,9 @@
     },
     {
       "region": {
-        "region_code": "1156060500",
+        "region_short_code": "560605",
         "name_ko": "문래동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26773,9 +26773,9 @@
     },
     {
       "region": {
-        "region_code": "1156061000",
+        "region_short_code": "560610",
         "name_ko": "양평제1동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26863,9 +26863,9 @@
     },
     {
       "region": {
-        "region_code": "1156062000",
+        "region_short_code": "560620",
         "name_ko": "양평제2동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -26953,9 +26953,9 @@
     },
     {
       "region": {
-        "region_code": "1156063000",
+        "region_short_code": "560630",
         "name_ko": "신길제1동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27043,9 +27043,9 @@
     },
     {
       "region": {
-        "region_code": "1156065000",
+        "region_short_code": "560650",
         "name_ko": "신길제3동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27133,9 +27133,9 @@
     },
     {
       "region": {
-        "region_code": "1156066000",
+        "region_short_code": "560660",
         "name_ko": "신길제4동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27223,9 +27223,9 @@
     },
     {
       "region": {
-        "region_code": "1156067000",
+        "region_short_code": "560670",
         "name_ko": "신길제5동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27313,9 +27313,9 @@
     },
     {
       "region": {
-        "region_code": "1156068000",
+        "region_short_code": "560680",
         "name_ko": "신길제6동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27403,9 +27403,9 @@
     },
     {
       "region": {
-        "region_code": "1156069000",
+        "region_short_code": "560690",
         "name_ko": "신길제7동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27493,9 +27493,9 @@
     },
     {
       "region": {
-        "region_code": "1156070000",
+        "region_short_code": "560700",
         "name_ko": "대림제1동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27583,9 +27583,9 @@
     },
     {
       "region": {
-        "region_code": "1156071000",
+        "region_short_code": "560710",
         "name_ko": "대림제2동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27673,9 +27673,9 @@
     },
     {
       "region": {
-        "region_code": "1156072000",
+        "region_short_code": "560720",
         "name_ko": "대림제3동",
-        "parent_region_code": "11560",
+        "sigungu_code": "11560",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27763,9 +27763,9 @@
     },
     {
       "region": {
-        "region_code": "1159051000",
+        "region_short_code": "590510",
         "name_ko": "노량진제1동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27853,9 +27853,9 @@
     },
     {
       "region": {
-        "region_code": "1159052000",
+        "region_short_code": "590520",
         "name_ko": "노량진제2동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -27943,9 +27943,9 @@
     },
     {
       "region": {
-        "region_code": "1159053000",
+        "region_short_code": "590530",
         "name_ko": "상도제1동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28033,9 +28033,9 @@
     },
     {
       "region": {
-        "region_code": "1159054000",
+        "region_short_code": "590540",
         "name_ko": "상도제2동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28123,9 +28123,9 @@
     },
     {
       "region": {
-        "region_code": "1159055000",
+        "region_short_code": "590550",
         "name_ko": "상도제3동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28213,9 +28213,9 @@
     },
     {
       "region": {
-        "region_code": "1159056000",
+        "region_short_code": "590560",
         "name_ko": "상도제4동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28303,9 +28303,9 @@
     },
     {
       "region": {
-        "region_code": "1159060500",
+        "region_short_code": "590605",
         "name_ko": "흑석동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28393,9 +28393,9 @@
     },
     {
       "region": {
-        "region_code": "1159062000",
+        "region_short_code": "590620",
         "name_ko": "사당제1동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28483,9 +28483,9 @@
     },
     {
       "region": {
-        "region_code": "1159063000",
+        "region_short_code": "590630",
         "name_ko": "사당제2동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28573,9 +28573,9 @@
     },
     {
       "region": {
-        "region_code": "1159064000",
+        "region_short_code": "590640",
         "name_ko": "사당제3동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28663,9 +28663,9 @@
     },
     {
       "region": {
-        "region_code": "1159065000",
+        "region_short_code": "590650",
         "name_ko": "사당제4동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28753,9 +28753,9 @@
     },
     {
       "region": {
-        "region_code": "1159065100",
+        "region_short_code": "590651",
         "name_ko": "사당제5동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28843,9 +28843,9 @@
     },
     {
       "region": {
-        "region_code": "1159066000",
+        "region_short_code": "590660",
         "name_ko": "대방동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -28933,9 +28933,9 @@
     },
     {
       "region": {
-        "region_code": "1159067000",
+        "region_short_code": "590670",
         "name_ko": "신대방제1동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29023,9 +29023,9 @@
     },
     {
       "region": {
-        "region_code": "1159068000",
+        "region_short_code": "590680",
         "name_ko": "신대방제2동",
-        "parent_region_code": "11590",
+        "sigungu_code": "11590",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29113,9 +29113,9 @@
     },
     {
       "region": {
-        "region_code": "1162052500",
+        "region_short_code": "620525",
         "name_ko": "보라매동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29203,9 +29203,9 @@
     },
     {
       "region": {
-        "region_code": "1162054500",
+        "region_short_code": "620545",
         "name_ko": "청림동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29293,9 +29293,9 @@
     },
     {
       "region": {
-        "region_code": "1162056500",
+        "region_short_code": "620565",
         "name_ko": "성현동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29383,9 +29383,9 @@
     },
     {
       "region": {
-        "region_code": "1162057500",
+        "region_short_code": "620575",
         "name_ko": "행운동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29473,9 +29473,9 @@
     },
     {
       "region": {
-        "region_code": "1162058500",
+        "region_short_code": "620585",
         "name_ko": "낙성대동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29563,9 +29563,9 @@
     },
     {
       "region": {
-        "region_code": "1162059500",
+        "region_short_code": "620595",
         "name_ko": "청룡동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29653,9 +29653,9 @@
     },
     {
       "region": {
-        "region_code": "1162060500",
+        "region_short_code": "620605",
         "name_ko": "은천동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29743,9 +29743,9 @@
     },
     {
       "region": {
-        "region_code": "1162061500",
+        "region_short_code": "620615",
         "name_ko": "중앙동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29833,9 +29833,9 @@
     },
     {
       "region": {
-        "region_code": "1162062500",
+        "region_short_code": "620625",
         "name_ko": "인헌동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -29923,9 +29923,9 @@
     },
     {
       "region": {
-        "region_code": "1162063000",
+        "region_short_code": "620630",
         "name_ko": "남현동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30013,9 +30013,9 @@
     },
     {
       "region": {
-        "region_code": "1162064500",
+        "region_short_code": "620645",
         "name_ko": "서원동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30103,9 +30103,9 @@
     },
     {
       "region": {
-        "region_code": "1162065500",
+        "region_short_code": "620655",
         "name_ko": "신원동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30193,9 +30193,9 @@
     },
     {
       "region": {
-        "region_code": "1162066500",
+        "region_short_code": "620665",
         "name_ko": "서림동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30283,9 +30283,9 @@
     },
     {
       "region": {
-        "region_code": "1162068500",
+        "region_short_code": "620685",
         "name_ko": "신사동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30373,9 +30373,9 @@
     },
     {
       "region": {
-        "region_code": "1162069500",
+        "region_short_code": "620695",
         "name_ko": "신림동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30463,9 +30463,9 @@
     },
     {
       "region": {
-        "region_code": "1162071500",
+        "region_short_code": "620715",
         "name_ko": "난향동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30553,9 +30553,9 @@
     },
     {
       "region": {
-        "region_code": "1162072500",
+        "region_short_code": "620725",
         "name_ko": "조원동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30643,9 +30643,9 @@
     },
     {
       "region": {
-        "region_code": "1162073500",
+        "region_short_code": "620735",
         "name_ko": "대학동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30733,9 +30733,9 @@
     },
     {
       "region": {
-        "region_code": "1162074500",
+        "region_short_code": "620745",
         "name_ko": "삼성동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30823,9 +30823,9 @@
     },
     {
       "region": {
-        "region_code": "1162076500",
+        "region_short_code": "620765",
         "name_ko": "미성동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -30913,9 +30913,9 @@
     },
     {
       "region": {
-        "region_code": "1162077500",
+        "region_short_code": "620775",
         "name_ko": "난곡동",
-        "parent_region_code": "11620",
+        "sigungu_code": "11620",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31003,9 +31003,9 @@
     },
     {
       "region": {
-        "region_code": "1165051000",
+        "region_short_code": "650510",
         "name_ko": "서초1동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31100,9 +31100,9 @@
     },
     {
       "region": {
-        "region_code": "1165052000",
+        "region_short_code": "650520",
         "name_ko": "서초2동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31197,9 +31197,9 @@
     },
     {
       "region": {
-        "region_code": "1165053000",
+        "region_short_code": "650530",
         "name_ko": "서초3동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31295,9 +31295,9 @@
     },
     {
       "region": {
-        "region_code": "1165053100",
+        "region_short_code": "650531",
         "name_ko": "서초4동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31392,9 +31392,9 @@
     },
     {
       "region": {
-        "region_code": "1165054000",
+        "region_short_code": "650540",
         "name_ko": "잠원동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31489,9 +31489,9 @@
     },
     {
       "region": {
-        "region_code": "1165055000",
+        "region_short_code": "650550",
         "name_ko": "반포본동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31587,9 +31587,9 @@
     },
     {
       "region": {
-        "region_code": "1165056000",
+        "region_short_code": "650560",
         "name_ko": "반포1동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31685,9 +31685,9 @@
     },
     {
       "region": {
-        "region_code": "1165057000",
+        "region_short_code": "650570",
         "name_ko": "반포2동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31783,9 +31783,9 @@
     },
     {
       "region": {
-        "region_code": "1165058000",
+        "region_short_code": "650580",
         "name_ko": "반포3동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31880,9 +31880,9 @@
     },
     {
       "region": {
-        "region_code": "1165058100",
+        "region_short_code": "650581",
         "name_ko": "반포4동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -31978,9 +31978,9 @@
     },
     {
       "region": {
-        "region_code": "1165059000",
+        "region_short_code": "650590",
         "name_ko": "방배본동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32076,9 +32076,9 @@
     },
     {
       "region": {
-        "region_code": "1165060000",
+        "region_short_code": "650600",
         "name_ko": "방배1동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32174,9 +32174,9 @@
     },
     {
       "region": {
-        "region_code": "1165061000",
+        "region_short_code": "650610",
         "name_ko": "방배2동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32272,9 +32272,9 @@
     },
     {
       "region": {
-        "region_code": "1165062000",
+        "region_short_code": "650620",
         "name_ko": "방배3동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32370,9 +32370,9 @@
     },
     {
       "region": {
-        "region_code": "1165062100",
+        "region_short_code": "650621",
         "name_ko": "방배4동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32468,9 +32468,9 @@
     },
     {
       "region": {
-        "region_code": "1165065100",
+        "region_short_code": "650651",
         "name_ko": "양재1동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32565,9 +32565,9 @@
     },
     {
       "region": {
-        "region_code": "1165065200",
+        "region_short_code": "650652",
         "name_ko": "양재2동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32662,9 +32662,9 @@
     },
     {
       "region": {
-        "region_code": "1165066000",
+        "region_short_code": "650660",
         "name_ko": "내곡동",
-        "parent_region_code": "11650",
+        "sigungu_code": "11650",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32759,9 +32759,9 @@
     },
     {
       "region": {
-        "region_code": "1168051000",
+        "region_short_code": "680510",
         "name_ko": "신사동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32851,9 +32851,9 @@
     },
     {
       "region": {
-        "region_code": "1168052100",
+        "region_short_code": "680521",
         "name_ko": "논현1동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -32943,9 +32943,9 @@
     },
     {
       "region": {
-        "region_code": "1168053100",
+        "region_short_code": "680531",
         "name_ko": "논현2동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33035,9 +33035,9 @@
     },
     {
       "region": {
-        "region_code": "1168054500",
+        "region_short_code": "680545",
         "name_ko": "압구정동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33127,9 +33127,9 @@
     },
     {
       "region": {
-        "region_code": "1168056500",
+        "region_short_code": "680565",
         "name_ko": "청담동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33219,9 +33219,9 @@
     },
     {
       "region": {
-        "region_code": "1168058000",
+        "region_short_code": "680580",
         "name_ko": "삼성1동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33311,9 +33311,9 @@
     },
     {
       "region": {
-        "region_code": "1168059000",
+        "region_short_code": "680590",
         "name_ko": "삼성2동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33403,9 +33403,9 @@
     },
     {
       "region": {
-        "region_code": "1168060000",
+        "region_short_code": "680600",
         "name_ko": "대치1동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33496,9 +33496,9 @@
     },
     {
       "region": {
-        "region_code": "1168061000",
+        "region_short_code": "680610",
         "name_ko": "대치2동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33589,9 +33589,9 @@
     },
     {
       "region": {
-        "region_code": "1168063000",
+        "region_short_code": "680630",
         "name_ko": "대치4동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33682,9 +33682,9 @@
     },
     {
       "region": {
-        "region_code": "1168064000",
+        "region_short_code": "680640",
         "name_ko": "역삼1동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33775,9 +33775,9 @@
     },
     {
       "region": {
-        "region_code": "1168065000",
+        "region_short_code": "680650",
         "name_ko": "역삼2동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33868,9 +33868,9 @@
     },
     {
       "region": {
-        "region_code": "1168065500",
+        "region_short_code": "680655",
         "name_ko": "도곡1동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -33960,9 +33960,9 @@
     },
     {
       "region": {
-        "region_code": "1168065600",
+        "region_short_code": "680656",
         "name_ko": "도곡2동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34052,9 +34052,9 @@
     },
     {
       "region": {
-        "region_code": "1168066000",
+        "region_short_code": "680660",
         "name_ko": "개포1동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34144,9 +34144,9 @@
     },
     {
       "region": {
-        "region_code": "1168067000",
+        "region_short_code": "680670",
         "name_ko": "개포2동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34236,9 +34236,9 @@
     },
     {
       "region": {
-        "region_code": "1168067500",
+        "region_short_code": "680675",
         "name_ko": "개포3동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34329,9 +34329,9 @@
     },
     {
       "region": {
-        "region_code": "1168069000",
+        "region_short_code": "680690",
         "name_ko": "개포4동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34421,9 +34421,9 @@
     },
     {
       "region": {
-        "region_code": "1168070000",
+        "region_short_code": "680700",
         "name_ko": "세곡동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34513,9 +34513,9 @@
     },
     {
       "region": {
-        "region_code": "1168072000",
+        "region_short_code": "680720",
         "name_ko": "일원본동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34605,9 +34605,9 @@
     },
     {
       "region": {
-        "region_code": "1168073000",
+        "region_short_code": "680730",
         "name_ko": "일원1동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34697,9 +34697,9 @@
     },
     {
       "region": {
-        "region_code": "1168075000",
+        "region_short_code": "680750",
         "name_ko": "수서동",
-        "parent_region_code": "11680",
+        "sigungu_code": "11680",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34789,9 +34789,9 @@
     },
     {
       "region": {
-        "region_code": "1171051000",
+        "region_short_code": "710510",
         "name_ko": "풍납1동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34879,9 +34879,9 @@
     },
     {
       "region": {
-        "region_code": "1171052000",
+        "region_short_code": "710520",
         "name_ko": "풍납2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -34969,9 +34969,9 @@
     },
     {
       "region": {
-        "region_code": "1171053100",
+        "region_short_code": "710531",
         "name_ko": "거여1동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35059,9 +35059,9 @@
     },
     {
       "region": {
-        "region_code": "1171053200",
+        "region_short_code": "710532",
         "name_ko": "거여2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35149,9 +35149,9 @@
     },
     {
       "region": {
-        "region_code": "1171054000",
+        "region_short_code": "710540",
         "name_ko": "마천1동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35239,9 +35239,9 @@
     },
     {
       "region": {
-        "region_code": "1171055000",
+        "region_short_code": "710550",
         "name_ko": "마천2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35329,9 +35329,9 @@
     },
     {
       "region": {
-        "region_code": "1171056100",
+        "region_short_code": "710561",
         "name_ko": "방이1동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35419,9 +35419,9 @@
     },
     {
       "region": {
-        "region_code": "1171056200",
+        "region_short_code": "710562",
         "name_ko": "방이2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35509,9 +35509,9 @@
     },
     {
       "region": {
-        "region_code": "1171056600",
+        "region_short_code": "710566",
         "name_ko": "오륜동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35599,9 +35599,9 @@
     },
     {
       "region": {
-        "region_code": "1171057000",
+        "region_short_code": "710570",
         "name_ko": "오금동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35689,9 +35689,9 @@
     },
     {
       "region": {
-        "region_code": "1171058000",
+        "region_short_code": "710580",
         "name_ko": "송파1동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35779,9 +35779,9 @@
     },
     {
       "region": {
-        "region_code": "1171059000",
+        "region_short_code": "710590",
         "name_ko": "송파2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35869,9 +35869,9 @@
     },
     {
       "region": {
-        "region_code": "1171060000",
+        "region_short_code": "710600",
         "name_ko": "석촌동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -35959,9 +35959,9 @@
     },
     {
       "region": {
-        "region_code": "1171061000",
+        "region_short_code": "710610",
         "name_ko": "삼전동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36049,9 +36049,9 @@
     },
     {
       "region": {
-        "region_code": "1171062000",
+        "region_short_code": "710620",
         "name_ko": "가락본동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36139,9 +36139,9 @@
     },
     {
       "region": {
-        "region_code": "1171063100",
+        "region_short_code": "710631",
         "name_ko": "가락1동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36229,9 +36229,9 @@
     },
     {
       "region": {
-        "region_code": "1171063200",
+        "region_short_code": "710632",
         "name_ko": "가락2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36319,9 +36319,9 @@
     },
     {
       "region": {
-        "region_code": "1171064100",
+        "region_short_code": "710641",
         "name_ko": "문정1동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36409,9 +36409,9 @@
     },
     {
       "region": {
-        "region_code": "1171064200",
+        "region_short_code": "710642",
         "name_ko": "문정2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36499,9 +36499,9 @@
     },
     {
       "region": {
-        "region_code": "1171064600",
+        "region_short_code": "710646",
         "name_ko": "장지동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36589,9 +36589,9 @@
     },
     {
       "region": {
-        "region_code": "1171064700",
+        "region_short_code": "710647",
         "name_ko": "위례동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36679,9 +36679,9 @@
     },
     {
       "region": {
-        "region_code": "1171065000",
+        "region_short_code": "710650",
         "name_ko": "잠실본동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36769,9 +36769,9 @@
     },
     {
       "region": {
-        "region_code": "1171067000",
+        "region_short_code": "710670",
         "name_ko": "잠실2동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36859,9 +36859,9 @@
     },
     {
       "region": {
-        "region_code": "1171068000",
+        "region_short_code": "710680",
         "name_ko": "잠실3동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -36949,9 +36949,9 @@
     },
     {
       "region": {
-        "region_code": "1171069000",
+        "region_short_code": "710690",
         "name_ko": "잠실4동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37039,9 +37039,9 @@
     },
     {
       "region": {
-        "region_code": "1171071000",
+        "region_short_code": "710710",
         "name_ko": "잠실6동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37129,9 +37129,9 @@
     },
     {
       "region": {
-        "region_code": "1171072000",
+        "region_short_code": "710720",
         "name_ko": "잠실7동",
-        "parent_region_code": "11710",
+        "sigungu_code": "11710",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37219,9 +37219,9 @@
     },
     {
       "region": {
-        "region_code": "1174051500",
+        "region_short_code": "740515",
         "name_ko": "강일동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37309,9 +37309,9 @@
     },
     {
       "region": {
-        "region_code": "1174052500",
+        "region_short_code": "740525",
         "name_ko": "상일제1동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37399,9 +37399,9 @@
     },
     {
       "region": {
-        "region_code": "1174052600",
+        "region_short_code": "740526",
         "name_ko": "상일제2동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37489,9 +37489,9 @@
     },
     {
       "region": {
-        "region_code": "1174053000",
+        "region_short_code": "740530",
         "name_ko": "명일제1동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37579,9 +37579,9 @@
     },
     {
       "region": {
-        "region_code": "1174054000",
+        "region_short_code": "740540",
         "name_ko": "명일제2동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37669,9 +37669,9 @@
     },
     {
       "region": {
-        "region_code": "1174055000",
+        "region_short_code": "740550",
         "name_ko": "고덕제1동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37759,9 +37759,9 @@
     },
     {
       "region": {
-        "region_code": "1174056000",
+        "region_short_code": "740560",
         "name_ko": "고덕제2동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37849,9 +37849,9 @@
     },
     {
       "region": {
-        "region_code": "1174057000",
+        "region_short_code": "740570",
         "name_ko": "암사제1동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -37939,9 +37939,9 @@
     },
     {
       "region": {
-        "region_code": "1174058000",
+        "region_short_code": "740580",
         "name_ko": "암사제2동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38029,9 +38029,9 @@
     },
     {
       "region": {
-        "region_code": "1174059000",
+        "region_short_code": "740590",
         "name_ko": "암사제3동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38119,9 +38119,9 @@
     },
     {
       "region": {
-        "region_code": "1174060000",
+        "region_short_code": "740600",
         "name_ko": "천호제1동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38209,9 +38209,9 @@
     },
     {
       "region": {
-        "region_code": "1174061000",
+        "region_short_code": "740610",
         "name_ko": "천호제2동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38299,9 +38299,9 @@
     },
     {
       "region": {
-        "region_code": "1174062000",
+        "region_short_code": "740620",
         "name_ko": "천호제3동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38389,9 +38389,9 @@
     },
     {
       "region": {
-        "region_code": "1174064000",
+        "region_short_code": "740640",
         "name_ko": "성내제1동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38479,9 +38479,9 @@
     },
     {
       "region": {
-        "region_code": "1174065000",
+        "region_short_code": "740650",
         "name_ko": "성내제2동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38569,9 +38569,9 @@
     },
     {
       "region": {
-        "region_code": "1174066000",
+        "region_short_code": "740660",
         "name_ko": "성내제3동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38659,9 +38659,9 @@
     },
     {
       "region": {
-        "region_code": "1174068500",
+        "region_short_code": "740685",
         "name_ko": "길동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38749,9 +38749,9 @@
     },
     {
       "region": {
-        "region_code": "1174069000",
+        "region_short_code": "740690",
         "name_ko": "둔촌제1동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {
@@ -38839,9 +38839,9 @@
     },
     {
       "region": {
-        "region_code": "1174070000",
+        "region_short_code": "740700",
         "name_ko": "둔촌제2동",
-        "parent_region_code": "11740",
+        "sigungu_code": "11740",
         "spatial_unit": "dong"
       },
       "scores": {

@@ -1,13 +1,13 @@
 {
-  "package": "essential_9_files_plus_validation",
+  "package": "statistical_safety_short_region_code",
+  "checked_date": "2026-10-21",
   "core_file_count": 9,
   "validation_file_count": 7,
-  "total_file_count": 16,
-  "checked_date": "2026-10-19",
+  "test_file_count": 1,
+  "total_file_count": 17,
   "current_checks": {
     "recomputed_equals_saved": true,
-    "core_code_data_json_unchanged": true,
-    "isolated_python_standard_library_only": true,
+    "standard_library_only": true,
     "run_from_outside_package": true,
     "linked_dongs": 427,
     "profiles": 26,
@@ -18,15 +18,28 @@
       "4": 167,
       "5": 33
     },
-    "forecast_artifact_count": 0
+    "forecast_artifact_count": 0,
+    "six_digit_project_codes_and_five_digit_district_codes": true,
+    "other_result_content_exactly_preserved": true,
+    "input_statistics_exactly_preserved": true,
+    "authoritative_main_master_unchanged": true
   },
-  "historical_tests": {
-    "test_count": 20,
+  "code_contract": {
+    "dong_key": "region_short_code",
+    "dong_digits": 6,
+    "district_key": "sigungu_code",
+    "district_digits": 5,
+    "code_values_are_strings": true
+  },
+  "mapping_source": "data/processed/서울_지역 엑셀용.csv (repository main reference)",
+  "mapping_source_sha256": "622addc8086aea23d8be8333f007a41667c4de31e23fd3a8019c775c7a55e808",
+  "non_geography_payload_sha256": "4091b7959d33f02f9f64cc049b8e9f916bb78981aeee2845814387acb26ea73c",
+  "tests": {
+    "test_count": 14,
     "tests_passed": true,
-    "log": "05_테스트_실행로그.txt",
-    "test_source_in_current_package": false,
-    "scope": "이전 전체 묶음의 테스트 통과 기록 보존. 이번 최소 묶음에서는 재계산·대조를 새로 실행."
+    "test_source_in_current_package": true,
+    "source": "tests/test_safety_contract.py",
+    "log": "05_테스트_실행로그.txt"
   },
-  "delivery_json_sha256": "c0df28a13f8addcafbdbc00dd522833071eed8446e611dc6b3dc6b69cfaaa0c1",
-  "git_upload_performed": false
+  "delivery_json_sha256": "ff38996ec574742a7d6c9e47a8b63ea8b886b7a37cbe08ea7f25952a4c870556"
 }

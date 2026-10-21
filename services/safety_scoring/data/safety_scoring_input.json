@@ -1188,7 +1188,6 @@
   ],
   "dongs": [
     {
-      "region_code": "1111051500",
       "region_name": "청운효자동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1219,10 +1218,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110515"
     },
     {
-      "region_code": "1111053000",
       "region_name": "사직동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1253,10 +1252,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110530"
     },
     {
-      "region_code": "1111054000",
       "region_name": "삼청동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1287,10 +1286,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110540"
     },
     {
-      "region_code": "1111055000",
       "region_name": "부암동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1321,10 +1320,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110550"
     },
     {
-      "region_code": "1111056000",
       "region_name": "평창동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1355,10 +1354,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110560"
     },
     {
-      "region_code": "1111057000",
       "region_name": "무악동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1389,10 +1388,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110570"
     },
     {
-      "region_code": "1111058000",
       "region_name": "교남동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1423,10 +1422,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110580"
     },
     {
-      "region_code": "1111060000",
       "region_name": "가회동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1457,10 +1456,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110600"
     },
     {
-      "region_code": "1111061500",
       "region_name": "종로1.2.3.4가동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1492,10 +1491,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110615"
     },
     {
-      "region_code": "1111063000",
       "region_name": "종로5.6가동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1526,10 +1525,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110630"
     },
     {
-      "region_code": "1111064000",
       "region_name": "이화동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1560,10 +1559,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110640"
     },
     {
-      "region_code": "1111065000",
       "region_name": "혜화동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1595,10 +1594,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110650"
     },
     {
-      "region_code": "1111067000",
       "region_name": "창신제1동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1629,10 +1628,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110670"
     },
     {
-      "region_code": "1111068000",
       "region_name": "창신제2동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1663,10 +1662,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110680"
     },
     {
-      "region_code": "1111069000",
       "region_name": "창신제3동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1697,10 +1696,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110690"
     },
     {
-      "region_code": "1111070000",
       "region_name": "숭인제1동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1731,10 +1730,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110700"
     },
     {
-      "region_code": "1111071000",
       "region_name": "숭인제2동",
       "sigungu_code": "11110",
       "jurisdiction_id": "POL2025_09",
@@ -1765,10 +1764,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "110710"
     },
     {
-      "region_code": "1114052000",
       "region_name": "소공동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -1800,10 +1799,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140520"
     },
     {
-      "region_code": "1114054000",
       "region_name": "회현동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -1834,10 +1833,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140540"
     },
     {
-      "region_code": "1114055000",
       "region_name": "명동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -1870,10 +1869,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140550"
     },
     {
-      "region_code": "1114057000",
       "region_name": "필동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -1905,10 +1904,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140570"
     },
     {
-      "region_code": "1114058000",
       "region_name": "장충동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -1939,10 +1938,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140580"
     },
     {
-      "region_code": "1114059000",
       "region_name": "광희동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -1973,10 +1972,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140590"
     },
     {
-      "region_code": "1114060500",
       "region_name": "을지로동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2007,10 +2006,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140605"
     },
     {
-      "region_code": "1114061500",
       "region_name": "신당동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2041,10 +2040,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140615"
     },
     {
-      "region_code": "1114062500",
       "region_name": "다산동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2075,10 +2074,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140625"
     },
     {
-      "region_code": "1114063500",
       "region_name": "약수동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2109,10 +2108,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140635"
     },
     {
-      "region_code": "1114064500",
       "region_name": "청구동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2143,10 +2142,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140645"
     },
     {
-      "region_code": "1114065000",
       "region_name": "신당제5동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2177,10 +2176,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140650"
     },
     {
-      "region_code": "1114066500",
       "region_name": "동화동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2211,10 +2210,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140665"
     },
     {
-      "region_code": "1114067000",
       "region_name": "황학동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2245,10 +2244,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140670"
     },
     {
-      "region_code": "1114068000",
       "region_name": "중림동",
       "sigungu_code": "11140",
       "jurisdiction_id": "POL2025_09",
@@ -2279,10 +2278,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "140680"
     },
     {
-      "region_code": "1117051000",
       "region_name": "후암동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2305,10 +2304,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170510"
     },
     {
-      "region_code": "1117052000",
       "region_name": "용산2가동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2331,10 +2330,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170520"
     },
     {
-      "region_code": "1117053000",
       "region_name": "남영동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2357,10 +2356,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170530"
     },
     {
-      "region_code": "1117055500",
       "region_name": "청파동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2383,10 +2382,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170555"
     },
     {
-      "region_code": "1117056000",
       "region_name": "원효로제1동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2409,10 +2408,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170560"
     },
     {
-      "region_code": "1117057000",
       "region_name": "원효로제2동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2435,10 +2434,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170570"
     },
     {
-      "region_code": "1117058000",
       "region_name": "효창동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2461,10 +2460,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170580"
     },
     {
-      "region_code": "1117059000",
       "region_name": "용문동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2487,10 +2486,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170590"
     },
     {
-      "region_code": "1117062500",
       "region_name": "한강로동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2513,10 +2512,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170625"
     },
     {
-      "region_code": "1117063000",
       "region_name": "이촌제1동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2539,10 +2538,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170630"
     },
     {
-      "region_code": "1117064000",
       "region_name": "이촌제2동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2565,10 +2564,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170640"
     },
     {
-      "region_code": "1117065000",
       "region_name": "이태원제1동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2591,10 +2590,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170650"
     },
     {
-      "region_code": "1117066000",
       "region_name": "이태원제2동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2617,10 +2616,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170660"
     },
     {
-      "region_code": "1117068500",
       "region_name": "한남동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2643,10 +2642,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170685"
     },
     {
-      "region_code": "1117069000",
       "region_name": "서빙고동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2669,10 +2668,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170690"
     },
     {
-      "region_code": "1117070000",
       "region_name": "보광동",
       "sigungu_code": "11170",
       "jurisdiction_id": "POL2025_23",
@@ -2695,10 +2694,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "170700"
     },
     {
-      "region_code": "1120052000",
       "region_name": "왕십리제2동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2721,10 +2720,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200520"
     },
     {
-      "region_code": "1120053500",
       "region_name": "왕십리도선동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2747,10 +2746,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200535"
     },
     {
-      "region_code": "1120054000",
       "region_name": "마장동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2773,10 +2772,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200540"
     },
     {
-      "region_code": "1120055000",
       "region_name": "사근동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2799,10 +2798,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200550"
     },
     {
-      "region_code": "1120056000",
       "region_name": "행당제1동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2825,10 +2824,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200560"
     },
     {
-      "region_code": "1120057000",
       "region_name": "행당제2동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2851,10 +2850,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200570"
     },
     {
-      "region_code": "1120058000",
       "region_name": "응봉동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2877,10 +2876,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200580"
     },
     {
-      "region_code": "1120059000",
       "region_name": "금호1가동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2903,10 +2902,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200590"
     },
     {
-      "region_code": "1120061500",
       "region_name": "금호2.3가동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2929,10 +2928,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200615"
     },
     {
-      "region_code": "1120062000",
       "region_name": "금호4가동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2955,10 +2954,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200620"
     },
     {
-      "region_code": "1120064500",
       "region_name": "옥수동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -2981,10 +2980,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200645"
     },
     {
-      "region_code": "1120065000",
       "region_name": "성수1가제1동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -3007,10 +3006,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200650"
     },
     {
-      "region_code": "1120066000",
       "region_name": "성수1가제2동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -3033,10 +3032,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200660"
     },
     {
-      "region_code": "1120067000",
       "region_name": "성수2가제1동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -3059,10 +3058,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200670"
     },
     {
-      "region_code": "1120069000",
       "region_name": "성수2가제3동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -3085,10 +3084,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200690"
     },
     {
-      "region_code": "1120072000",
       "region_name": "송정동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -3111,10 +3110,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200720"
     },
     {
-      "region_code": "1120079000",
       "region_name": "용답동",
       "sigungu_code": "11200",
       "jurisdiction_id": "POL2025_18",
@@ -3137,10 +3136,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "200790"
     },
     {
-      "region_code": "1121571000",
       "region_name": "화양동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3163,10 +3162,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215710"
     },
     {
-      "region_code": "1121573000",
       "region_name": "군자동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3189,10 +3188,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215730"
     },
     {
-      "region_code": "1121574000",
       "region_name": "중곡제1동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3215,10 +3214,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215740"
     },
     {
-      "region_code": "1121575000",
       "region_name": "중곡제2동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3241,10 +3240,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215750"
     },
     {
-      "region_code": "1121576000",
       "region_name": "중곡제3동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3267,10 +3266,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215760"
     },
     {
-      "region_code": "1121577000",
       "region_name": "중곡제4동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3293,10 +3292,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215770"
     },
     {
-      "region_code": "1121578000",
       "region_name": "능동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3319,10 +3318,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215780"
     },
     {
-      "region_code": "1121581000",
       "region_name": "광장동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3345,10 +3344,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215810"
     },
     {
-      "region_code": "1121582000",
       "region_name": "자양제1동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3371,10 +3370,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215820"
     },
     {
-      "region_code": "1121583000",
       "region_name": "자양제2동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3397,10 +3396,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215830"
     },
     {
-      "region_code": "1121584000",
       "region_name": "자양제3동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3423,10 +3422,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215840"
     },
     {
-      "region_code": "1121584700",
       "region_name": "자양제4동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3449,10 +3448,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215847"
     },
     {
-      "region_code": "1121585000",
       "region_name": "구의제1동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3475,10 +3474,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215850"
     },
     {
-      "region_code": "1121586000",
       "region_name": "구의제2동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3501,10 +3500,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215860"
     },
     {
-      "region_code": "1121587000",
       "region_name": "구의제3동",
       "sigungu_code": "11215",
       "jurisdiction_id": "POL2025_06",
@@ -3527,10 +3526,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "215870"
     },
     {
-      "region_code": "1123051500",
       "region_name": "신설동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3553,10 +3552,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230515"
     },
     {
-      "region_code": "1123053300",
       "region_name": "용두동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3579,10 +3578,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230533"
     },
     {
-      "region_code": "1123054500",
       "region_name": "제기동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3605,10 +3604,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230545"
     },
     {
-      "region_code": "1123056000",
       "region_name": "전농제1동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3631,10 +3630,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230560"
     },
     {
-      "region_code": "1123057000",
       "region_name": "전농제2동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3657,10 +3656,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230570"
     },
     {
-      "region_code": "1123060000",
       "region_name": "답십리제1동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3683,10 +3682,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230600"
     },
     {
-      "region_code": "1123061000",
       "region_name": "답십리제2동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3709,10 +3708,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230610"
     },
     {
-      "region_code": "1123065000",
       "region_name": "장안제1동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3735,10 +3734,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230650"
     },
     {
-      "region_code": "1123066000",
       "region_name": "장안제2동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3761,10 +3760,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230660"
     },
     {
-      "region_code": "1123070500",
       "region_name": "청량리동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3787,10 +3786,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230705"
     },
     {
-      "region_code": "1123071000",
       "region_name": "회기동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3813,10 +3812,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230710"
     },
     {
-      "region_code": "1123072000",
       "region_name": "휘경제1동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3839,10 +3838,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230720"
     },
     {
-      "region_code": "1123073000",
       "region_name": "휘경제2동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3865,10 +3864,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230730"
     },
     {
-      "region_code": "1123074000",
       "region_name": "이문제1동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3891,10 +3890,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230740"
     },
     {
-      "region_code": "1123075000",
       "region_name": "이문제2동",
       "sigungu_code": "11230",
       "jurisdiction_id": "POL2025_12",
@@ -3917,10 +3916,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "230750"
     },
     {
-      "region_code": "1126052000",
       "region_name": "면목제2동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -3943,10 +3942,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260520"
     },
     {
-      "region_code": "1126054000",
       "region_name": "면목제4동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -3969,10 +3968,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260540"
     },
     {
-      "region_code": "1126055000",
       "region_name": "면목제5동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -3995,10 +3994,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260550"
     },
     {
-      "region_code": "1126056500",
       "region_name": "면목본동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4021,10 +4020,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260565"
     },
     {
-      "region_code": "1126057000",
       "region_name": "면목제7동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4047,10 +4046,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260570"
     },
     {
-      "region_code": "1126057500",
       "region_name": "면목제3.8동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4073,10 +4072,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260575"
     },
     {
-      "region_code": "1126058000",
       "region_name": "상봉제1동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4099,10 +4098,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260580"
     },
     {
-      "region_code": "1126059000",
       "region_name": "상봉제2동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4125,10 +4124,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260590"
     },
     {
-      "region_code": "1126060000",
       "region_name": "중화제1동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4151,10 +4150,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260600"
     },
     {
-      "region_code": "1126061000",
       "region_name": "중화제2동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4177,10 +4176,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260610"
     },
     {
-      "region_code": "1126062000",
       "region_name": "묵제1동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4203,10 +4202,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260620"
     },
     {
-      "region_code": "1126063000",
       "region_name": "묵제2동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4229,10 +4228,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260630"
     },
     {
-      "region_code": "1126065500",
       "region_name": "망우본동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4255,10 +4254,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260655"
     },
     {
-      "region_code": "1126066000",
       "region_name": "망우제3동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4281,10 +4280,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260660"
     },
     {
-      "region_code": "1126068000",
       "region_name": "신내1동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4307,10 +4306,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260680"
     },
     {
-      "region_code": "1126069000",
       "region_name": "신내2동",
       "sigungu_code": "11260",
       "jurisdiction_id": "POL2025_25",
@@ -4333,10 +4332,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "260690"
     },
     {
-      "region_code": "1129052500",
       "region_name": "성북동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4361,10 +4360,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290525"
     },
     {
-      "region_code": "1129055500",
       "region_name": "삼선동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4389,10 +4388,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290555"
     },
     {
-      "region_code": "1129057500",
       "region_name": "동선동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4417,10 +4416,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290575"
     },
     {
-      "region_code": "1129058000",
       "region_name": "돈암제1동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4445,10 +4444,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290580"
     },
     {
-      "region_code": "1129059000",
       "region_name": "돈암제2동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4473,10 +4472,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290590"
     },
     {
-      "region_code": "1129060000",
       "region_name": "안암동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4501,10 +4500,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290600"
     },
     {
-      "region_code": "1129061000",
       "region_name": "보문동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4529,10 +4528,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290610"
     },
     {
-      "region_code": "1129062000",
       "region_name": "정릉제1동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4558,10 +4557,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290620"
     },
     {
-      "region_code": "1129063000",
       "region_name": "정릉제2동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4586,10 +4585,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290630"
     },
     {
-      "region_code": "1129064000",
       "region_name": "정릉제3동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4614,10 +4613,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290640"
     },
     {
-      "region_code": "1129065000",
       "region_name": "정릉제4동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4642,10 +4641,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290650"
     },
     {
-      "region_code": "1129066000",
       "region_name": "길음제1동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4670,10 +4669,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290660"
     },
     {
-      "region_code": "1129068500",
       "region_name": "길음제2동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4698,10 +4697,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290685"
     },
     {
-      "region_code": "1129070500",
       "region_name": "종암동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4727,10 +4726,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290705"
     },
     {
-      "region_code": "1129071500",
       "region_name": "월곡제1동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4755,10 +4754,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290715"
     },
     {
-      "region_code": "1129072500",
       "region_name": "월곡제2동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4783,10 +4782,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290725"
     },
     {
-      "region_code": "1129076000",
       "region_name": "장위제1동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4811,10 +4810,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290760"
     },
     {
-      "region_code": "1129077000",
       "region_name": "장위제2동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4839,10 +4838,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290770"
     },
     {
-      "region_code": "1129078000",
       "region_name": "장위제3동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4867,10 +4866,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290780"
     },
     {
-      "region_code": "1129081000",
       "region_name": "석관동",
       "sigungu_code": "11290",
       "jurisdiction_id": "POL2025_19",
@@ -4895,10 +4894,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "290810"
     },
     {
-      "region_code": "1130553400",
       "region_name": "삼양동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -4921,10 +4920,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305534"
     },
     {
-      "region_code": "1130553500",
       "region_name": "미아동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -4947,10 +4946,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305535"
     },
     {
-      "region_code": "1130554500",
       "region_name": "송중동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -4973,10 +4972,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305545"
     },
     {
-      "region_code": "1130555500",
       "region_name": "송천동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -4999,10 +4998,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305555"
     },
     {
-      "region_code": "1130557500",
       "region_name": "삼각산동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5025,10 +5024,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305575"
     },
     {
-      "region_code": "1130559500",
       "region_name": "번1동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5051,10 +5050,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305595"
     },
     {
-      "region_code": "1130560300",
       "region_name": "번2동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5077,10 +5076,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305603"
     },
     {
-      "region_code": "1130560800",
       "region_name": "번3동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5103,10 +5102,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305608"
     },
     {
-      "region_code": "1130561500",
       "region_name": "수유1동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5129,10 +5128,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305615"
     },
     {
-      "region_code": "1130562500",
       "region_name": "수유2동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5155,10 +5154,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305625"
     },
     {
-      "region_code": "1130563500",
       "region_name": "수유3동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5181,10 +5180,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305635"
     },
     {
-      "region_code": "1130564500",
       "region_name": "우이동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5207,10 +5206,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305645"
     },
     {
-      "region_code": "1130566000",
       "region_name": "인수동",
       "sigungu_code": "11305",
       "jurisdiction_id": "POL2025_03",
@@ -5233,10 +5232,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "305660"
     },
     {
-      "region_code": "1132051100",
       "region_name": "창제1동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5259,10 +5258,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320511"
     },
     {
-      "region_code": "1132051200",
       "region_name": "창제2동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5285,10 +5284,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320512"
     },
     {
-      "region_code": "1132051300",
       "region_name": "창제3동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5311,10 +5310,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320513"
     },
     {
-      "region_code": "1132051400",
       "region_name": "창제4동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5337,10 +5336,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320514"
     },
     {
-      "region_code": "1132051500",
       "region_name": "창제5동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5363,10 +5362,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320515"
     },
     {
-      "region_code": "1132052100",
       "region_name": "도봉제1동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5389,10 +5388,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320521"
     },
     {
-      "region_code": "1132052200",
       "region_name": "도봉제2동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5415,10 +5414,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320522"
     },
     {
-      "region_code": "1132066000",
       "region_name": "쌍문제1동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5441,10 +5440,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320660"
     },
     {
-      "region_code": "1132067000",
       "region_name": "쌍문제2동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5467,10 +5466,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320670"
     },
     {
-      "region_code": "1132068000",
       "region_name": "쌍문제3동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5493,10 +5492,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320680"
     },
     {
-      "region_code": "1132068100",
       "region_name": "쌍문제4동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5519,10 +5518,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320681"
     },
     {
-      "region_code": "1132069000",
       "region_name": "방학제1동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5545,10 +5544,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320690"
     },
     {
-      "region_code": "1132070000",
       "region_name": "방학제2동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5571,10 +5570,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320700"
     },
     {
-      "region_code": "1132071000",
       "region_name": "방학제3동",
       "sigungu_code": "11320",
       "jurisdiction_id": "POL2025_11",
@@ -5597,10 +5596,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "320710"
     },
     {
-      "region_code": "1135056000",
       "region_name": "월계1동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5623,10 +5622,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350560"
     },
     {
-      "region_code": "1135057000",
       "region_name": "월계2동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5649,10 +5648,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350570"
     },
     {
-      "region_code": "1135058000",
       "region_name": "월계3동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5675,10 +5674,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350580"
     },
     {
-      "region_code": "1135059500",
       "region_name": "공릉1동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5701,10 +5700,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350595"
     },
     {
-      "region_code": "1135060000",
       "region_name": "공릉2동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5727,10 +5726,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350600"
     },
     {
-      "region_code": "1135061100",
       "region_name": "하계1동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5753,10 +5752,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350611"
     },
     {
-      "region_code": "1135061200",
       "region_name": "하계2동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5779,10 +5778,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350612"
     },
     {
-      "region_code": "1135061900",
       "region_name": "중계본동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5805,10 +5804,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350619"
     },
     {
-      "region_code": "1135062100",
       "region_name": "중계1동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5831,10 +5830,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350621"
     },
     {
-      "region_code": "1135062400",
       "region_name": "중계4동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5857,10 +5856,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350624"
     },
     {
-      "region_code": "1135062500",
       "region_name": "중계2.3동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5883,10 +5882,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350625"
     },
     {
-      "region_code": "1135063000",
       "region_name": "상계1동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5909,10 +5908,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350630"
     },
     {
-      "region_code": "1135064000",
       "region_name": "상계2동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5935,10 +5934,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350640"
     },
     {
-      "region_code": "1135066500",
       "region_name": "상계3.4동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5961,10 +5960,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350665"
     },
     {
-      "region_code": "1135067000",
       "region_name": "상계5동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -5987,10 +5986,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350670"
     },
     {
-      "region_code": "1135069500",
       "region_name": "상계6.7동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -6013,10 +6012,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350695"
     },
     {
-      "region_code": "1135070000",
       "region_name": "상계8동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -6039,10 +6038,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350700"
     },
     {
-      "region_code": "1135071000",
       "region_name": "상계9동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -6065,10 +6064,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350710"
     },
     {
-      "region_code": "1135072000",
       "region_name": "상계10동",
       "sigungu_code": "11350",
       "jurisdiction_id": "POL2025_10",
@@ -6091,10 +6090,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "350720"
     },
     {
-      "region_code": "1138051000",
       "region_name": "녹번동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6117,10 +6116,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380510"
     },
     {
-      "region_code": "1138052000",
       "region_name": "불광제1동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_24",
@@ -6143,10 +6142,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380520"
     },
     {
-      "region_code": "1138053000",
       "region_name": "불광제2동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_24",
@@ -6169,10 +6168,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380530"
     },
     {
-      "region_code": "1138055100",
       "region_name": "갈현제1동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_24",
@@ -6195,10 +6194,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380551"
     },
     {
-      "region_code": "1138055200",
       "region_name": "갈현제2동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_24",
@@ -6221,10 +6220,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380552"
     },
     {
-      "region_code": "1138056000",
       "region_name": "구산동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_24",
@@ -6247,10 +6246,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380560"
     },
     {
-      "region_code": "1138057000",
       "region_name": "대조동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_24",
@@ -6273,10 +6272,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380570"
     },
     {
-      "region_code": "1138058000",
       "region_name": "응암제1동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6299,10 +6298,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380580"
     },
     {
-      "region_code": "1138059000",
       "region_name": "응암제2동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6325,10 +6324,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380590"
     },
     {
-      "region_code": "1138060000",
       "region_name": "응암제3동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6351,10 +6350,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380600"
     },
     {
-      "region_code": "1138062500",
       "region_name": "역촌동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6377,10 +6376,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380625"
     },
     {
-      "region_code": "1138063100",
       "region_name": "신사제1동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6403,10 +6402,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380631"
     },
     {
-      "region_code": "1138063200",
       "region_name": "신사제2동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6429,10 +6428,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380632"
     },
     {
-      "region_code": "1138064000",
       "region_name": "증산동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6455,10 +6454,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380640"
     },
     {
-      "region_code": "1138065000",
       "region_name": "수색동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_17",
@@ -6481,10 +6480,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380650"
     },
     {
-      "region_code": "1138069000",
       "region_name": "진관동",
       "sigungu_code": "11380",
       "jurisdiction_id": "POL2025_24",
@@ -6507,10 +6506,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "380690"
     },
     {
-      "region_code": "1141052000",
       "region_name": "천연동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6533,10 +6532,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410520"
     },
     {
-      "region_code": "1141055500",
       "region_name": "북아현동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6559,10 +6558,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410555"
     },
     {
-      "region_code": "1141056500",
       "region_name": "충현동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6585,10 +6584,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410565"
     },
     {
-      "region_code": "1141058500",
       "region_name": "신촌동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6611,10 +6610,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410585"
     },
     {
-      "region_code": "1141061500",
       "region_name": "연희동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6637,10 +6636,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410615"
     },
     {
-      "region_code": "1141062000",
       "region_name": "홍제제1동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6663,10 +6662,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410620"
     },
     {
-      "region_code": "1141064000",
       "region_name": "홍제제3동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6689,10 +6688,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410640"
     },
     {
-      "region_code": "1141065500",
       "region_name": "홍제제2동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6715,10 +6714,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410655"
     },
     {
-      "region_code": "1141066000",
       "region_name": "홍은제1동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6741,10 +6740,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410660"
     },
     {
-      "region_code": "1141068500",
       "region_name": "홍은제2동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6767,10 +6766,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410685"
     },
     {
-      "region_code": "1141069000",
       "region_name": "남가좌제1동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6793,10 +6792,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410690"
     },
     {
-      "region_code": "1141070000",
       "region_name": "남가좌제2동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6819,10 +6818,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410700"
     },
     {
-      "region_code": "1141071000",
       "region_name": "북가좌제1동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6845,10 +6844,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410710"
     },
     {
-      "region_code": "1141072000",
       "region_name": "북가좌제2동",
       "sigungu_code": "11410",
       "jurisdiction_id": "POL2025_16",
@@ -6871,10 +6870,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "410720"
     },
     {
-      "region_code": "1144055500",
       "region_name": "아현동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -6897,10 +6896,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440555"
     },
     {
-      "region_code": "1144056500",
       "region_name": "공덕동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -6923,10 +6922,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440565"
     },
     {
-      "region_code": "1144058500",
       "region_name": "도화동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -6949,10 +6948,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440585"
     },
     {
-      "region_code": "1144059000",
       "region_name": "용강동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -6975,10 +6974,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440590"
     },
     {
-      "region_code": "1144060000",
       "region_name": "대흥동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7001,10 +7000,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440600"
     },
     {
-      "region_code": "1144061000",
       "region_name": "염리동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7027,10 +7026,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440610"
     },
     {
-      "region_code": "1144063000",
       "region_name": "신수동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7053,10 +7052,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440630"
     },
     {
-      "region_code": "1144065500",
       "region_name": "서강동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7079,10 +7078,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440655"
     },
     {
-      "region_code": "1144066000",
       "region_name": "서교동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7105,10 +7104,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440660"
     },
     {
-      "region_code": "1144068000",
       "region_name": "합정동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7131,10 +7130,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440680"
     },
     {
-      "region_code": "1144069000",
       "region_name": "망원제1동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7157,10 +7156,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440690"
     },
     {
-      "region_code": "1144070000",
       "region_name": "망원제2동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7183,10 +7182,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440700"
     },
     {
-      "region_code": "1144071000",
       "region_name": "연남동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7209,10 +7208,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440710"
     },
     {
-      "region_code": "1144072000",
       "region_name": "성산제1동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7235,10 +7234,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440720"
     },
     {
-      "region_code": "1144073000",
       "region_name": "성산제2동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7261,10 +7260,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440730"
     },
     {
-      "region_code": "1144074000",
       "region_name": "상암동",
       "sigungu_code": "11440",
       "jurisdiction_id": "POL2025_14",
@@ -7287,10 +7286,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "440740"
     },
     {
-      "region_code": "1147051000",
       "region_name": "목1동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7313,10 +7312,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470510"
     },
     {
-      "region_code": "1147052000",
       "region_name": "목2동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7339,10 +7338,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470520"
     },
     {
-      "region_code": "1147053000",
       "region_name": "목3동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7365,10 +7364,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470530"
     },
     {
-      "region_code": "1147054000",
       "region_name": "목4동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7391,10 +7390,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470540"
     },
     {
-      "region_code": "1147055000",
       "region_name": "목5동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7417,10 +7416,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470550"
     },
     {
-      "region_code": "1147056000",
       "region_name": "신월1동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7443,10 +7442,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470560"
     },
     {
-      "region_code": "1147057000",
       "region_name": "신월2동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7469,10 +7468,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470570"
     },
     {
-      "region_code": "1147058000",
       "region_name": "신월3동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7495,10 +7494,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470580"
     },
     {
-      "region_code": "1147059000",
       "region_name": "신월4동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7521,10 +7520,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470590"
     },
     {
-      "region_code": "1147060000",
       "region_name": "신월5동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7547,10 +7546,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470600"
     },
     {
-      "region_code": "1147061000",
       "region_name": "신월6동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7573,10 +7572,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470610"
     },
     {
-      "region_code": "1147061100",
       "region_name": "신월7동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7599,10 +7598,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470611"
     },
     {
-      "region_code": "1147062000",
       "region_name": "신정1동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7625,10 +7624,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470620"
     },
     {
-      "region_code": "1147063000",
       "region_name": "신정2동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7651,10 +7650,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470630"
     },
     {
-      "region_code": "1147064000",
       "region_name": "신정3동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7677,10 +7676,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470640"
     },
     {
-      "region_code": "1147065000",
       "region_name": "신정4동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7703,10 +7702,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470650"
     },
     {
-      "region_code": "1147067000",
       "region_name": "신정6동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7729,10 +7728,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470670"
     },
     {
-      "region_code": "1147068000",
       "region_name": "신정7동",
       "sigungu_code": "11470",
       "jurisdiction_id": "POL2025_21",
@@ -7755,10 +7754,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "470680"
     },
     {
-      "region_code": "1150051000",
       "region_name": "염창동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7781,10 +7780,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500510"
     },
     {
-      "region_code": "1150052000",
       "region_name": "등촌제1동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7807,10 +7806,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500520"
     },
     {
-      "region_code": "1150053000",
       "region_name": "등촌제2동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7833,10 +7832,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500530"
     },
     {
-      "region_code": "1150053500",
       "region_name": "등촌제3동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7859,10 +7858,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500535"
     },
     {
-      "region_code": "1150054000",
       "region_name": "화곡제1동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7885,10 +7884,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500540"
     },
     {
-      "region_code": "1150055000",
       "region_name": "화곡제2동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7911,10 +7910,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500550"
     },
     {
-      "region_code": "1150056000",
       "region_name": "화곡제3동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7937,10 +7936,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500560"
     },
     {
-      "region_code": "1150057000",
       "region_name": "화곡제4동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7963,10 +7962,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500570"
     },
     {
-      "region_code": "1150059000",
       "region_name": "화곡본동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -7989,10 +7988,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500590"
     },
     {
-      "region_code": "1150059100",
       "region_name": "화곡제6동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8015,10 +8014,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500591"
     },
     {
-      "region_code": "1150059300",
       "region_name": "화곡제8동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8041,10 +8040,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500593"
     },
     {
-      "region_code": "1150060300",
       "region_name": "가양제1동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8067,10 +8066,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500603"
     },
     {
-      "region_code": "1150060400",
       "region_name": "가양제2동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8093,10 +8092,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500604"
     },
     {
-      "region_code": "1150060500",
       "region_name": "가양제3동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8119,10 +8118,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500605"
     },
     {
-      "region_code": "1150061100",
       "region_name": "발산제1동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8145,10 +8144,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500611"
     },
     {
-      "region_code": "1150061500",
       "region_name": "우장산동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8171,10 +8170,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500615"
     },
     {
-      "region_code": "1150062000",
       "region_name": "공항동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8197,10 +8196,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500620"
     },
     {
-      "region_code": "1150063000",
       "region_name": "방화제1동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8223,10 +8222,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500630"
     },
     {
-      "region_code": "1150064000",
       "region_name": "방화제2동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8249,10 +8248,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500640"
     },
     {
-      "region_code": "1150064100",
       "region_name": "방화제3동",
       "sigungu_code": "11500",
       "jurisdiction_id": "POL2025_04",
@@ -8275,10 +8274,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "500641"
     },
     {
-      "region_code": "1153051000",
       "region_name": "신도림동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8301,10 +8300,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530510"
     },
     {
-      "region_code": "1153052000",
       "region_name": "구로제1동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8327,10 +8326,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530520"
     },
     {
-      "region_code": "1153053000",
       "region_name": "구로제2동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8353,10 +8352,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530530"
     },
     {
-      "region_code": "1153054000",
       "region_name": "구로제3동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8379,10 +8378,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530540"
     },
     {
-      "region_code": "1153055000",
       "region_name": "구로제4동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8405,10 +8404,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530550"
     },
     {
-      "region_code": "1153056000",
       "region_name": "구로제5동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8431,10 +8430,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530560"
     },
     {
-      "region_code": "1153059500",
       "region_name": "가리봉동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8457,10 +8456,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530595"
     },
     {
-      "region_code": "1153072000",
       "region_name": "고척제1동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8483,10 +8482,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530720"
     },
     {
-      "region_code": "1153073000",
       "region_name": "고척제2동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8509,10 +8508,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530730"
     },
     {
-      "region_code": "1153074000",
       "region_name": "개봉제1동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8535,10 +8534,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530740"
     },
     {
-      "region_code": "1153075000",
       "region_name": "개봉제2동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8561,10 +8560,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530750"
     },
     {
-      "region_code": "1153076000",
       "region_name": "개봉제3동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8587,10 +8586,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530760"
     },
     {
-      "region_code": "1153077000",
       "region_name": "오류제1동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8613,10 +8612,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530770"
     },
     {
-      "region_code": "1153078000",
       "region_name": "오류제2동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8639,10 +8638,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530780"
     },
     {
-      "region_code": "1153079000",
       "region_name": "수궁동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8665,10 +8664,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530790"
     },
     {
-      "region_code": "1153080000",
       "region_name": "항동",
       "sigungu_code": "11530",
       "jurisdiction_id": "POL2025_07",
@@ -8691,10 +8690,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "530800"
     },
     {
-      "region_code": "1154551000",
       "region_name": "가산동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8717,10 +8716,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545510"
     },
     {
-      "region_code": "1154561000",
       "region_name": "독산제1동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8743,10 +8742,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545610"
     },
     {
-      "region_code": "1154562000",
       "region_name": "독산제2동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8769,10 +8768,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545620"
     },
     {
-      "region_code": "1154563000",
       "region_name": "독산제3동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8795,10 +8794,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545630"
     },
     {
-      "region_code": "1154564000",
       "region_name": "독산제4동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8821,10 +8820,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545640"
     },
     {
-      "region_code": "1154567000",
       "region_name": "시흥제1동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8847,10 +8846,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545670"
     },
     {
-      "region_code": "1154568000",
       "region_name": "시흥제2동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8873,10 +8872,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545680"
     },
     {
-      "region_code": "1154569000",
       "region_name": "시흥제3동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8899,10 +8898,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545690"
     },
     {
-      "region_code": "1154570000",
       "region_name": "시흥제4동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8925,10 +8924,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545700"
     },
     {
-      "region_code": "1154571000",
       "region_name": "시흥제5동",
       "sigungu_code": "11545",
       "jurisdiction_id": "POL2025_08",
@@ -8951,10 +8950,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "545710"
     },
     {
-      "region_code": "1156051500",
       "region_name": "영등포본동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -8977,10 +8976,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560515"
     },
     {
-      "region_code": "1156053500",
       "region_name": "영등포동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9003,10 +9002,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560535"
     },
     {
-      "region_code": "1156054000",
       "region_name": "여의동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9029,10 +9028,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560540"
     },
     {
-      "region_code": "1156055000",
       "region_name": "당산제1동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9055,10 +9054,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560550"
     },
     {
-      "region_code": "1156056000",
       "region_name": "당산제2동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9081,10 +9080,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560560"
     },
     {
-      "region_code": "1156058500",
       "region_name": "도림동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9107,10 +9106,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560585"
     },
     {
-      "region_code": "1156060500",
       "region_name": "문래동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9133,10 +9132,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560605"
     },
     {
-      "region_code": "1156061000",
       "region_name": "양평제1동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9159,10 +9158,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560610"
     },
     {
-      "region_code": "1156062000",
       "region_name": "양평제2동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9185,10 +9184,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560620"
     },
     {
-      "region_code": "1156063000",
       "region_name": "신길제1동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9211,10 +9210,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560630"
     },
     {
-      "region_code": "1156065000",
       "region_name": "신길제3동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9237,10 +9236,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560650"
     },
     {
-      "region_code": "1156066000",
       "region_name": "신길제4동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9263,10 +9262,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560660"
     },
     {
-      "region_code": "1156067000",
       "region_name": "신길제5동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9289,10 +9288,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560670"
     },
     {
-      "region_code": "1156068000",
       "region_name": "신길제6동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9315,10 +9314,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560680"
     },
     {
-      "region_code": "1156069000",
       "region_name": "신길제7동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9341,10 +9340,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560690"
     },
     {
-      "region_code": "1156070000",
       "region_name": "대림제1동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9367,10 +9366,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560700"
     },
     {
-      "region_code": "1156071000",
       "region_name": "대림제2동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9393,10 +9392,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560710"
     },
     {
-      "region_code": "1156072000",
       "region_name": "대림제3동",
       "sigungu_code": "11560",
       "jurisdiction_id": "POL2025_22",
@@ -9419,10 +9418,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "560720"
     },
     {
-      "region_code": "1159051000",
       "region_name": "노량진제1동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9445,10 +9444,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590510"
     },
     {
-      "region_code": "1159052000",
       "region_name": "노량진제2동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9471,10 +9470,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590520"
     },
     {
-      "region_code": "1159053000",
       "region_name": "상도제1동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9497,10 +9496,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590530"
     },
     {
-      "region_code": "1159054000",
       "region_name": "상도제2동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9523,10 +9522,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590540"
     },
     {
-      "region_code": "1159055000",
       "region_name": "상도제3동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9549,10 +9548,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590550"
     },
     {
-      "region_code": "1159056000",
       "region_name": "상도제4동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9575,10 +9574,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590560"
     },
     {
-      "region_code": "1159060500",
       "region_name": "흑석동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9601,10 +9600,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590605"
     },
     {
-      "region_code": "1159062000",
       "region_name": "사당제1동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9627,10 +9626,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590620"
     },
     {
-      "region_code": "1159063000",
       "region_name": "사당제2동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9653,10 +9652,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590630"
     },
     {
-      "region_code": "1159064000",
       "region_name": "사당제3동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9679,10 +9678,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590640"
     },
     {
-      "region_code": "1159065000",
       "region_name": "사당제4동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9705,10 +9704,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590650"
     },
     {
-      "region_code": "1159065100",
       "region_name": "사당제5동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9731,10 +9730,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590651"
     },
     {
-      "region_code": "1159066000",
       "region_name": "대방동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9757,10 +9756,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590660"
     },
     {
-      "region_code": "1159067000",
       "region_name": "신대방제1동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9783,10 +9782,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590670"
     },
     {
-      "region_code": "1159068000",
       "region_name": "신대방제2동",
       "sigungu_code": "11590",
       "jurisdiction_id": "POL2025_13",
@@ -9809,10 +9808,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "590680"
     },
     {
-      "region_code": "1162052500",
       "region_name": "보라매동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -9835,10 +9834,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620525"
     },
     {
-      "region_code": "1162054500",
       "region_name": "청림동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -9861,10 +9860,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620545"
     },
     {
-      "region_code": "1162056500",
       "region_name": "성현동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -9887,10 +9886,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620565"
     },
     {
-      "region_code": "1162057500",
       "region_name": "행운동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -9913,10 +9912,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620575"
     },
     {
-      "region_code": "1162058500",
       "region_name": "낙성대동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -9939,10 +9938,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620585"
     },
     {
-      "region_code": "1162059500",
       "region_name": "청룡동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -9965,10 +9964,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620595"
     },
     {
-      "region_code": "1162060500",
       "region_name": "은천동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -9991,10 +9990,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620605"
     },
     {
-      "region_code": "1162061500",
       "region_name": "중앙동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10017,10 +10016,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620615"
     },
     {
-      "region_code": "1162062500",
       "region_name": "인헌동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10043,10 +10042,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620625"
     },
     {
-      "region_code": "1162063000",
       "region_name": "남현동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10069,10 +10068,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620630"
     },
     {
-      "region_code": "1162064500",
       "region_name": "서원동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10095,10 +10094,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620645"
     },
     {
-      "region_code": "1162065500",
       "region_name": "신원동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10121,10 +10120,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620655"
     },
     {
-      "region_code": "1162066500",
       "region_name": "서림동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10147,10 +10146,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620665"
     },
     {
-      "region_code": "1162068500",
       "region_name": "신사동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10173,10 +10172,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620685"
     },
     {
-      "region_code": "1162069500",
       "region_name": "신림동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10199,10 +10198,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620695"
     },
     {
-      "region_code": "1162071500",
       "region_name": "난향동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10225,10 +10224,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620715"
     },
     {
-      "region_code": "1162072500",
       "region_name": "조원동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10251,10 +10250,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620725"
     },
     {
-      "region_code": "1162073500",
       "region_name": "대학동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10277,10 +10276,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620735"
     },
     {
-      "region_code": "1162074500",
       "region_name": "삼성동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10303,10 +10302,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620745"
     },
     {
-      "region_code": "1162076500",
       "region_name": "미성동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10329,10 +10328,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620765"
     },
     {
-      "region_code": "1162077500",
       "region_name": "난곡동",
       "sigungu_code": "11620",
       "jurisdiction_id": "POL2025_05",
@@ -10355,10 +10354,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "620775"
     },
     {
-      "region_code": "1165051000",
       "region_name": "서초1동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10388,10 +10387,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650510"
     },
     {
-      "region_code": "1165052000",
       "region_name": "서초2동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10421,10 +10420,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650520"
     },
     {
-      "region_code": "1165053000",
       "region_name": "서초3동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10455,10 +10454,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650530"
     },
     {
-      "region_code": "1165053100",
       "region_name": "서초4동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10488,10 +10487,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650531"
     },
     {
-      "region_code": "1165054000",
       "region_name": "잠원동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10521,10 +10520,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650540"
     },
     {
-      "region_code": "1165055000",
       "region_name": "반포본동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10555,10 +10554,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650550"
     },
     {
-      "region_code": "1165056000",
       "region_name": "반포1동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10589,10 +10588,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650560"
     },
     {
-      "region_code": "1165057000",
       "region_name": "반포2동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10623,10 +10622,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650570"
     },
     {
-      "region_code": "1165058000",
       "region_name": "반포3동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10656,10 +10655,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650580"
     },
     {
-      "region_code": "1165058100",
       "region_name": "반포4동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10690,10 +10689,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650581"
     },
     {
-      "region_code": "1165059000",
       "region_name": "방배본동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10724,10 +10723,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650590"
     },
     {
-      "region_code": "1165060000",
       "region_name": "방배1동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10758,10 +10757,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650600"
     },
     {
-      "region_code": "1165061000",
       "region_name": "방배2동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10792,10 +10791,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650610"
     },
     {
-      "region_code": "1165062000",
       "region_name": "방배3동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10826,10 +10825,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650620"
     },
     {
-      "region_code": "1165062100",
       "region_name": "방배4동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10860,10 +10859,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650621"
     },
     {
-      "region_code": "1165065100",
       "region_name": "양재1동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10893,10 +10892,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650651"
     },
     {
-      "region_code": "1165065200",
       "region_name": "양재2동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10926,10 +10925,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650652"
     },
     {
-      "region_code": "1165066000",
       "region_name": "내곡동",
       "sigungu_code": "11650",
       "jurisdiction_id": "POL2025_15",
@@ -10959,10 +10958,10 @@
         "official_sources_crosschecked_for_three_legal_dongs",
         "2025_application_inferred_not_direct_dong_register",
         "official_appendix_text_discrepancy_retained"
-      ]
+      ],
+      "region_short_code": "650660"
     },
     {
-      "region_code": "1168051000",
       "region_name": "신사동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -10987,10 +10986,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680510"
     },
     {
-      "region_code": "1168052100",
       "region_name": "논현1동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11015,10 +11014,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680521"
     },
     {
-      "region_code": "1168053100",
       "region_name": "논현2동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11043,10 +11042,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680531"
     },
     {
-      "region_code": "1168054500",
       "region_name": "압구정동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11071,10 +11070,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680545"
     },
     {
-      "region_code": "1168056500",
       "region_name": "청담동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11099,10 +11098,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680565"
     },
     {
-      "region_code": "1168058000",
       "region_name": "삼성1동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11127,10 +11126,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680580"
     },
     {
-      "region_code": "1168059000",
       "region_name": "삼성2동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11155,10 +11154,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680590"
     },
     {
-      "region_code": "1168060000",
       "region_name": "대치1동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11184,10 +11183,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680600"
     },
     {
-      "region_code": "1168061000",
       "region_name": "대치2동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11213,10 +11212,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680610"
     },
     {
-      "region_code": "1168063000",
       "region_name": "대치4동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11242,10 +11241,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680630"
     },
     {
-      "region_code": "1168064000",
       "region_name": "역삼1동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11271,10 +11270,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680640"
     },
     {
-      "region_code": "1168065000",
       "region_name": "역삼2동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11300,10 +11299,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680650"
     },
     {
-      "region_code": "1168065500",
       "region_name": "도곡1동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11328,10 +11327,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680655"
     },
     {
-      "region_code": "1168065600",
       "region_name": "도곡2동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11356,10 +11355,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680656"
     },
     {
-      "region_code": "1168066000",
       "region_name": "개포1동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11384,10 +11383,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680660"
     },
     {
-      "region_code": "1168067000",
       "region_name": "개포2동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11412,10 +11411,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680670"
     },
     {
-      "region_code": "1168067500",
       "region_name": "개포3동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11441,10 +11440,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680675"
     },
     {
-      "region_code": "1168069000",
       "region_name": "개포4동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11469,10 +11468,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680690"
     },
     {
-      "region_code": "1168070000",
       "region_name": "세곡동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11497,10 +11496,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680700"
     },
     {
-      "region_code": "1168072000",
       "region_name": "일원본동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11525,10 +11524,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680720"
     },
     {
-      "region_code": "1168073000",
       "region_name": "일원1동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11553,10 +11552,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680730"
     },
     {
-      "region_code": "1168075000",
       "region_name": "수서동",
       "sigungu_code": "11680",
       "jurisdiction_id": "POL2025_01",
@@ -11581,10 +11580,10 @@
         "sex_category_definition_requires_consistency_review",
         "original_station_ambiguity_preserved",
         "multiple_stations_pooled"
-      ]
+      ],
+      "region_short_code": "680750"
     },
     {
-      "region_code": "1171051000",
       "region_name": "풍납1동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11607,10 +11606,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710510"
     },
     {
-      "region_code": "1171052000",
       "region_name": "풍납2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11633,10 +11632,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710520"
     },
     {
-      "region_code": "1171053100",
       "region_name": "거여1동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11659,10 +11658,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710531"
     },
     {
-      "region_code": "1171053200",
       "region_name": "거여2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11685,10 +11684,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710532"
     },
     {
-      "region_code": "1171054000",
       "region_name": "마천1동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11711,10 +11710,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710540"
     },
     {
-      "region_code": "1171055000",
       "region_name": "마천2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11737,10 +11736,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710550"
     },
     {
-      "region_code": "1171056100",
       "region_name": "방이1동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11763,10 +11762,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710561"
     },
     {
-      "region_code": "1171056200",
       "region_name": "방이2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11789,10 +11788,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710562"
     },
     {
-      "region_code": "1171056600",
       "region_name": "오륜동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11815,10 +11814,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710566"
     },
     {
-      "region_code": "1171057000",
       "region_name": "오금동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11841,10 +11840,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710570"
     },
     {
-      "region_code": "1171058000",
       "region_name": "송파1동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11867,10 +11866,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710580"
     },
     {
-      "region_code": "1171059000",
       "region_name": "송파2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11893,10 +11892,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710590"
     },
     {
-      "region_code": "1171060000",
       "region_name": "석촌동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11919,10 +11918,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710600"
     },
     {
-      "region_code": "1171061000",
       "region_name": "삼전동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11945,10 +11944,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710610"
     },
     {
-      "region_code": "1171062000",
       "region_name": "가락본동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11971,10 +11970,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710620"
     },
     {
-      "region_code": "1171063100",
       "region_name": "가락1동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -11997,10 +11996,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710631"
     },
     {
-      "region_code": "1171063200",
       "region_name": "가락2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12023,10 +12022,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710632"
     },
     {
-      "region_code": "1171064100",
       "region_name": "문정1동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12049,10 +12048,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710641"
     },
     {
-      "region_code": "1171064200",
       "region_name": "문정2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12075,10 +12074,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710642"
     },
     {
-      "region_code": "1171064600",
       "region_name": "장지동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12101,10 +12100,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710646"
     },
     {
-      "region_code": "1171064700",
       "region_name": "위례동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12127,10 +12126,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710647"
     },
     {
-      "region_code": "1171065000",
       "region_name": "잠실본동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12153,10 +12152,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710650"
     },
     {
-      "region_code": "1171067000",
       "region_name": "잠실2동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12179,10 +12178,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710670"
     },
     {
-      "region_code": "1171068000",
       "region_name": "잠실3동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12205,10 +12204,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710680"
     },
     {
-      "region_code": "1171069000",
       "region_name": "잠실4동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12231,10 +12230,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710690"
     },
     {
-      "region_code": "1171071000",
       "region_name": "잠실6동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12257,10 +12256,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710710"
     },
     {
-      "region_code": "1171072000",
       "region_name": "잠실7동",
       "sigungu_code": "11710",
       "jurisdiction_id": "POL2025_20",
@@ -12283,10 +12282,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "710720"
     },
     {
-      "region_code": "1174051500",
       "region_name": "강일동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12309,10 +12308,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740515"
     },
     {
-      "region_code": "1174052500",
       "region_name": "상일제1동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12335,10 +12334,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740525"
     },
     {
-      "region_code": "1174052600",
       "region_name": "상일제2동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12361,10 +12360,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740526"
     },
     {
-      "region_code": "1174053000",
       "region_name": "명일제1동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12387,10 +12386,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740530"
     },
     {
-      "region_code": "1174054000",
       "region_name": "명일제2동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12413,10 +12412,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740540"
     },
     {
-      "region_code": "1174055000",
       "region_name": "고덕제1동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12439,10 +12438,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740550"
     },
     {
-      "region_code": "1174056000",
       "region_name": "고덕제2동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12465,10 +12464,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740560"
     },
     {
-      "region_code": "1174057000",
       "region_name": "암사제1동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12491,10 +12490,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740570"
     },
     {
-      "region_code": "1174058000",
       "region_name": "암사제2동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12517,10 +12516,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740580"
     },
     {
-      "region_code": "1174059000",
       "region_name": "암사제3동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12543,10 +12542,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740590"
     },
     {
-      "region_code": "1174060000",
       "region_name": "천호제1동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12569,10 +12568,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740600"
     },
     {
-      "region_code": "1174061000",
       "region_name": "천호제2동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12595,10 +12594,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740610"
     },
     {
-      "region_code": "1174062000",
       "region_name": "천호제3동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12621,10 +12620,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740620"
     },
     {
-      "region_code": "1174064000",
       "region_name": "성내제1동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12647,10 +12646,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740640"
     },
     {
-      "region_code": "1174065000",
       "region_name": "성내제2동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12673,10 +12672,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740650"
     },
     {
-      "region_code": "1174066000",
       "region_name": "성내제3동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12699,10 +12698,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740660"
     },
     {
-      "region_code": "1174068500",
       "region_name": "길동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12725,10 +12724,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740685"
     },
     {
-      "region_code": "1174069000",
       "region_name": "둔촌제1동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12751,10 +12750,10 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740690"
     },
     {
-      "region_code": "1174070000",
       "region_name": "둔촌제2동",
       "sigungu_code": "11740",
       "jurisdiction_id": "POL2025_02",
@@ -12777,7 +12776,8 @@
         "year_end_jurisdiction_mapping_not_full_year_reverified",
         "registered_resident_denominator_not_personal_victim_probability",
         "sex_category_definition_requires_consistency_review"
-      ]
+      ],
+      "region_short_code": "740700"
     }
   ],
   "quality_flags": [
