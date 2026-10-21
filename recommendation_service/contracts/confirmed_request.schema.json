@@ -1,0 +1,136 @@
+{
+  "$defs": {
+    "CategoryScores": {
+      "additionalProperties": false,
+      "properties": {
+        "economy": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Economy"
+        },
+        "energy": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Energy"
+        },
+        "comfort": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Comfort"
+        },
+        "health": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Health"
+        },
+        "safety": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Safety"
+        }
+      },
+      "title": "CategoryScores",
+      "type": "object"
+    },
+    "Weights": {
+      "additionalProperties": false,
+      "properties": {
+        "economy": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Economy",
+          "type": "number"
+        },
+        "energy": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Energy",
+          "type": "number"
+        },
+        "comfort": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Comfort",
+          "type": "number"
+        },
+        "health": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Health",
+          "type": "number"
+        },
+        "safety": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Safety",
+          "type": "number"
+        }
+      },
+      "title": "Weights",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "weights": {
+      "$ref": "#/$defs/Weights"
+    },
+    "top_k": {
+      "default": 5,
+      "maximum": 5,
+      "minimum": 1,
+      "title": "Top K",
+      "type": "integer"
+    },
+    "min_scores": {
+      "$ref": "#/$defs/CategoryScores"
+    }
+  },
+  "title": "RecommendationRequest",
+  "type": "object"
+}

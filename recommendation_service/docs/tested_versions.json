@@ -1,0 +1,10 @@
+{
+  "python": "3.11.17",
+  "packages": {
+    "pydantic": "2.14.1",
+    "httpx": "0.28.1",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "pytest": "9.1.1"
+  }
+}

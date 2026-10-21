@@ -1,0 +1,108 @@
+{
+  "validation_date": "2026-10-21",
+  "source_commit": "4662241e49d3a1ded1fce368be5ae0f569b5dee8",
+  "result": "passed",
+  "unit_tests": {
+    "count": 19,
+    "passed": 19,
+    "failed": 0
+  },
+  "recalculation_from_packaged_inputs": {
+    "rows": 427,
+    "grade_distribution": {
+      "1": 49,
+      "2": 98,
+      "3": 80,
+      "4": 167,
+      "5": 33
+    },
+    "verification": "passed"
+  },
+  "portable_execution_from_different_working_directory": true,
+  "input_and_result_byte_equal_to_previous_package": true,
+  "master_membership_and_name_district_checks": {
+    "rows": 427,
+    "region_code_length": 6,
+    "sigungu_code_length": 5,
+    "unmatched": 0
+  },
+  "weights": {
+    "crime": 0.8,
+    "cctv": 0.1,
+    "police": 0.1
+  },
+  "source_periods": {
+    "crime": "2025",
+    "population": "2025-01/2025-12 month-end mean",
+    "cctv": "2026-06-30",
+    "police": "2025-12-31",
+    "jurisdiction_mapping": "2025-12-31"
+  },
+  "comparison": {
+    "crime_regions": 25,
+    "cctv_districts": 25,
+    "police_regions": 25,
+    "profiles": 26,
+    "linked_dongs": 427
+  },
+  "grade_distribution": {
+    "1": 49,
+    "2": 98,
+    "3": 80,
+    "4": 167,
+    "5": 33
+  },
+  "statistics_not_forecast": true,
+  "source_quality_flags_preserved": true,
+  "status_preserved": {
+    "calculated_draft": 427
+  },
+  "integration_scope": "Six-digit JSON contract; this package does not modify or deploy the existing backend/frontend.",
+  "source_limitations": "50 dong jurisdiction-year inferences, detailed sex-category consistency, and interpreted CCTV header date remain disclosed; no claim of directly observed dong crime or guaranteed personal safety.",
+  "file_hashes": {
+    "data/safety_scoring_input.json": {
+      "bytes": 436181,
+      "sha256": "107424a24b7cb824f8a188ca3ad4d9af7f9b215a03ea5db934b227fe2025b7c5"
+    },
+    "data/서울_지역_기준.csv": {
+      "bytes": 15616,
+      "sha256": "4c3a9a67465e3ddf289ffe7d171b6fa60bdd02cd3432fc37b8ebf63f8486d463"
+    },
+    "README.md": {
+      "bytes": 5798,
+      "sha256": "60c7bdeff649f1d64cfb0dbc75207e57285b60408fa882095f0c2f8c63304c7e"
+    },
+    "results/safety_scores.json": {
+      "bytes": 1442803,
+      "sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16"
+    },
+    "src/backend_contract.py": {
+      "bytes": 3678,
+      "sha256": "305a77b9a2c4bb3f80071831631dea4e357c24924e1f9e3282fa6955819f5dec"
+    },
+    "src/build_safety.py": {
+      "bytes": 2222,
+      "sha256": "575e54b8b967542dad4e535c00770b509b37eccd1bf7b558872d06b15ad16c7e"
+    },
+    "src/evaluation_contract.py": {
+      "bytes": 3900,
+      "sha256": "0e73b570b2aef4becdd6063c510a3696e1217af5a823c9acd9b530929c15e35e"
+    },
+    "src/safety_grading.py": {
+      "bytes": 3798,
+      "sha256": "f53c0a3f857528b2f1192b33d631dc37ce7fd5a3f2a41470d9740df335d30a92"
+    },
+    "src/safety_scoring.py": {
+      "bytes": 7755,
+      "sha256": "1d52994ee4b38bdb164b50ce7c080f51a80cd32faf4ff4876321acf932412ff2"
+    },
+    "tests/test_safety_contract.py": {
+      "bytes": 9495,
+      "sha256": "03f58bdc8ca93f9a6876e069b463e0656f61253bfd8aba4ce70ac558039c72a7"
+    },
+    "validation/02_427행정동_점수등급.csv": {
+      "bytes": 50003,
+      "sha256": "a8635f4e9e3997c9e7e19691816e60bf744e7c2d46464bde441665918c4ddc31"
+    }
+  }
+}

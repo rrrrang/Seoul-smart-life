@@ -1,0 +1,10 @@
+{
+  "weights": {
+    "economy": 20,
+    "energy": 20,
+    "comfort": 20,
+    "health": 20,
+    "safety": 20
+  },
+  "top_k": 5
+}

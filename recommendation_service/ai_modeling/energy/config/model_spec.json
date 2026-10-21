@@ -1,0 +1,91 @@
+{
+  "energy": {
+    "scope": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+    "unit": "행정동·분기",
+    "latest_evaluable_quarter": "2026Q2",
+    "targets": [
+      "electricity_MWh",
+      "gas_1000m3"
+    ],
+    "required_core_columns": [
+      "all_area_m2",
+      "all_weighted_age",
+      "nonresidential_mainuse_share_pct",
+      "households",
+      "single_share_pct",
+      "temperature_C",
+      "quarter_sin",
+      "quarter_cos"
+    ],
+    "transformations": {
+      "all_area_m2": "log1p",
+      "households": "log1p"
+    },
+    "excluded_as_predictors": [
+      "admin_code",
+      "district",
+      "source_group",
+      "목표기간 전기·가스",
+      "사용량 lag",
+      "타 연료 목표기간 사용량"
+    ],
+    "models": [
+      "RandomForestRegressor",
+      "HistGradientBoostingRegressor(loss=poisson)"
+    ],
+    "initial_parameters": {
+      "random_state": 42,
+      "random_forest": {
+        "n_estimators": 200,
+        "max_depth": 6,
+        "min_samples_leaf": 10
+      },
+      "hist_gradient_boosting": {
+        "max_iter": 200,
+        "max_depth": 3,
+        "min_samples_leaf": 10,
+        "l2_regularization": 1
+      }
+    },
+    "baselines": [
+      "학습자료 분기별 중앙값",
+      "StandardScaler + PoissonRegressor"
+    ],
+    "split": {
+      "initial_train": [
+        "2024Q1",
+        "2025Q2"
+      ],
+      "selection": [
+        "2025Q3"
+      ],
+      "calibration": [
+        "2025Q4"
+      ],
+      "test": [
+        "2026Q1",
+        "2026Q2"
+      ]
+    },
+    "refit_before_test_through": "2025Q3",
+    "no_refit_on_calibration_or_test_before_scoring": true,
+    "spatial_diagnostic": "train 내부 source_group 분리 3-fold; 시간시험과 별도 결과",
+    "fit_sample_weight": "1 / 해당분기·source_group 내 동 수",
+    "selection_metric": "선택검증의 source_group 평균 MAE",
+    "score_formula": "100 * expected / (expected + actual)",
+    "score_validity": "finite(expected)>0 AND finite(actual)>=0 AND 3개월 관측·8개 조건 완전",
+    "fuel_combine": "2025Q4 출처그룹 평균 항목점수로 CRITIC 재계산·고정. 두 연료 모두 필수",
+    "old_weights_reused": false,
+    "interval": {
+      "nominal_coverage": 0.9,
+      "method": "보정구간 log1p 실제-예측 절대오차의 0.90 분위수; 아래 0 제한",
+      "guaranteed_coverage": false,
+      "reason": "시간·공간 의존 및 재구성 데이터. 시험의 실제 포함률·폭을 보고"
+    },
+    "approval_gate": [
+      "시간시험에서 기준모형 대비 이득과 분기·구별 오차 확인",
+      "범위 밖·누락·기준 왜곡 점검",
+      "물리적 효율·주거 효율로 단정하지 않도록 범위 검토"
+    ]
+  }
+}

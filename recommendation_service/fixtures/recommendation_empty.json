@@ -1,0 +1,3923 @@
+{
+  "selected_domains": [
+    "energy"
+  ],
+  "unavailable_domains": [],
+  "normalized_weights": {
+    "economy": 0.0,
+    "energy": 1.0,
+    "comfort": 0.0,
+    "health": 0.0,
+    "safety": 0.0
+  },
+  "selected_max_points": 20,
+  "items": [],
+  "excluded": [
+    {
+      "region_code": "110515",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110615",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "110710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140605",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140615",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140625",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140635",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140645",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140665",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "140680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170555",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170625",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170685",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "170700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200535",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200615",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200645",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "200790",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215730",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215740",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215750",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215760",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215770",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215780",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215810",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215820",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215830",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215840",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215847",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215850",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215860",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "215870",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230515",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230533",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230545",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230705",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230730",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230740",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "230750",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260565",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260575",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260655",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "260690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290525",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290555",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290575",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290685",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290705",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290715",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290725",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290760",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290770",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290780",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "290810",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305534",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305535",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305545",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305555",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305575",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305595",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305603",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305608",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305615",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305625",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305635",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305645",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "305660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320511",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320512",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320513",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320514",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320515",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320521",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320522",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320681",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "320710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350595",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350611",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350612",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350619",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350621",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350624",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350625",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350665",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350695",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "350720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380551",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380552",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380625",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380631",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380632",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "380690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410555",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410565",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410585",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410615",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410655",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410685",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "410720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440555",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440565",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440585",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440655",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440730",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "440740",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470611",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "470680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500535",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500591",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500593",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500603",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500604",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500605",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500611",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500615",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "500641",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530595",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530730",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530740",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530750",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530760",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530770",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530780",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530790",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "530800",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "545710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560515",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560535",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560585",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560605",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "560720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590605",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590651",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "590680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620525",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620545",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620565",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620575",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620585",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620595",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620605",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620615",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620625",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620645",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620655",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620665",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620685",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620695",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620715",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620725",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620735",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620745",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620765",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "620775",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650531",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650581",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650621",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650651",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650652",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "650660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680521",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680531",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680545",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680565",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680630",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680655",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680656",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680675",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680730",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "680750",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710510",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710520",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710531",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710532",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710561",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710562",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710566",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710631",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710632",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710641",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710642",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710646",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710647",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710670",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710680",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710710",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "710720",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740515",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740525",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740526",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740530",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740540",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740550",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740560",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740570",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740580",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740590",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740600",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740610",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740620",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740640",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740650",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740660",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740685",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740690",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    },
+    {
+      "region_code": "740700",
+      "reason": "constraint_mismatch",
+      "domains": [
+        "energy"
+      ]
+    }
+  ],
+  "warnings": [
+    "COMFORT_PERIOD_DIFFERS_FROM_TARGET_MONTH",
+    "COMFORT_RAW_SOURCE_DOCS_NOT_DELIVERED",
+    "CONTEXT_ASSIGNED_COMFORT",
+    "CONTEXT_ASSIGNED_HEALTH_AIR",
+    "CONTEXT_ASSIGNED_SAFETY",
+    "ECONOMY_ESTIMATED",
+    "FIXED_SNAPSHOT_NOT_LIVE_DATA",
+    "PARTIAL_DOMAIN_RECOMMENDATION",
+    "PROVISIONAL_COMFORT",
+    "PROVISIONAL_ENERGY",
+    "PROVISIONAL_HEALTH"
+  ],
+  "target_month": "2026-10",
+  "snapshot_version": "snapshot-687b22575d77a2ae",
+  "file_hashes": {
+    "economy/model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
+    "economy/validation/release_checks.json": "4adec3c6344f5bb3e364f12fff560a4e5d51e9f125086a3c9c3bac9b919e5b17",
+    "economy/data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
+    "economy/results/economy_scores.json": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
+    "energy/reference/current_scores.csv": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+    "energy/MANIFEST.json": "7c04da21b7406fdeb8d94781d48daadf39d0e2acfa69966963eabfe2ba14ade0",
+    "energy/config/deployment_metadata.json": "9c5d55f71e00b375a5a3197c0f2988cd73a46d41e6f52d1b8890e6dde62b2343",
+    "energy/config/model_spec.json": "b02e50f6d3f7f77503be2f15270090d4f252e525a8833a67a62d836f95e129ae",
+    "energy/data/energy_quarter.csv": "e30447421eeb600d229f2b34217e9d188b24f92a27d3e4a3ec4619b3a280a28c",
+    "comfort/validation/import_receipt.json": "c20d9566e9153572e150d9a64c73b0d08c145f859d9b2beee7ede597fce00c00",
+    "comfort/results/comfort_scores.json": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+    "comfort/results/monthly_scores.csv": "4a0f40f83d3518280b471c6776d1e82f6e2ee4e8f2e16eb4fd03f4fc50f5cdd4",
+    "comfort/results/region_ranking_period_relative.csv": "7d9907f29db0e1e1465297d336c3d6d6ae52b9a7e041f0885d47fd425a7700bc",
+    "comfort/src/comfort_score.py": "c89fc387438406e124f5098c4ac8aa72dfedcefda89ba8127c40fb01016ef0dc",
+    "health/reference/current_scores.csv": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+    "health/MANIFEST.json": "717fbb14971c0f98cbc208f85eaf643a48b95556ac1cc2b8d897872ecbb2bbc5",
+    "health/config/deployment_metadata.json": "ae1ff8c17df1546746f4322c321094d6c53e21f7e8a41dbbe864cf580f7c9214",
+    "health/config/model_spec.json": "759daf1eb3651b9bad1b42773a583a69b94774e63b47407e2f6d07a6e85079c4",
+    "health/data/health_snapshot.csv": "6d8d91bf2c32e04b1fbbd8d2c0083ccfe00a51bc528f4c6f348e8290d5cb4f99",
+    "safety/results/safety_scores.json": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+    "safety/validation/release_validation.json": "8d4ae1b72c49ef16ddef49d8536a47f509f712989e6790a78670df5f29294d76"
+  },
+  "domain_metadata": {
+    "economy": {
+      "status": "estimated",
+      "target_month": "2026-10",
+      "as_of": "2026-10-21",
+      "data_snapshot_as_of": "2026-10-21",
+      "source_periods": {
+        "commute": "2026-09",
+        "employment": "2026-08",
+        "licensing": "2026-09"
+      },
+      "selected_methods": {
+        "commute": "median3",
+        "employment": "last_known",
+        "licensing": "xgb_depth3_shrink50"
+      },
+      "weights": {
+        "commute": 0.3333333333333333,
+        "employment": 0.3333333333333333,
+        "licensing": 0.3333333333333333
+      },
+      "interpretation": "경제활동의 면적 대비 집중도 추정. 주민 소득·집값·상승하락 예측이 아님.",
+      "validation_scope": "2026-06/08 reconstructed-data retrospective recheck, not prospective validation",
+      "direction_prediction_available": false,
+      "grade_rules": {
+        "method": "fixed_score_intervals",
+        "best_grade": 1,
+        "worst_grade": 5,
+        "score_rounding_before_grading": false,
+        "missing_score_grade": null,
+        "bands": [
+          {
+            "grade": 1,
+            "label": "1등급",
+            "min_score": 80,
+            "max_score": 100,
+            "min_inclusive": true,
+            "max_inclusive": true
+          },
+          {
+            "grade": 2,
+            "label": "2등급",
+            "min_score": 60,
+            "max_score": 80,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 3,
+            "label": "3등급",
+            "min_score": 40,
+            "max_score": 60,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 4,
+            "label": "4등급",
+            "min_score": 20,
+            "max_score": 40,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 5,
+            "label": "5등급",
+            "min_score": 0,
+            "max_score": 20,
+            "min_inclusive": true,
+            "max_inclusive": false
+          }
+        ],
+        "interpretation": "현재월 경제활동 집중도 추정점수의 고정 구간 등급. 1등급이 가장 높으며 주민 소득이나 집값 상승을 뜻하지 않음."
+      }
+    },
+    "energy": {
+      "deployment": {
+        "domain": "energy",
+        "package_version": "independent-domain-v1-region-schema",
+        "forecast_quarter": "2026Q4",
+        "production_approved": false,
+        "training_performed": false,
+        "energy_latest_actual": "2026Q2",
+        "energy_validation_reasons": {
+          "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+          "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+        },
+        "additional_refit": {
+          "origins": 3,
+          "minimum_passed": true,
+          "score_MAE": 2.745160698909986,
+          "annual_score_MAE": 2.632071151018524
+        }
+      },
+      "model_spec": {
+        "scope": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+        "unit": "행정동·분기",
+        "latest_evaluable_quarter": "2026Q2",
+        "targets": [
+          "electricity_MWh",
+          "gas_1000m3"
+        ],
+        "required_core_columns": [
+          "all_area_m2",
+          "all_weighted_age",
+          "nonresidential_mainuse_share_pct",
+          "households",
+          "single_share_pct",
+          "temperature_C",
+          "quarter_sin",
+          "quarter_cos"
+        ],
+        "transformations": {
+          "all_area_m2": "log1p",
+          "households": "log1p"
+        },
+        "excluded_as_predictors": [
+          "admin_code",
+          "district",
+          "source_group",
+          "목표기간 전기·가스",
+          "사용량 lag",
+          "타 연료 목표기간 사용량"
+        ],
+        "models": [
+          "RandomForestRegressor",
+          "HistGradientBoostingRegressor(loss=poisson)"
+        ],
+        "initial_parameters": {
+          "random_state": 42,
+          "random_forest": {
+            "n_estimators": 200,
+            "max_depth": 6,
+            "min_samples_leaf": 10
+          },
+          "hist_gradient_boosting": {
+            "max_iter": 200,
+            "max_depth": 3,
+            "min_samples_leaf": 10,
+            "l2_regularization": 1
+          }
+        },
+        "baselines": [
+          "학습자료 분기별 중앙값",
+          "StandardScaler + PoissonRegressor"
+        ],
+        "split": {
+          "initial_train": [
+            "2024Q1",
+            "2025Q2"
+          ],
+          "selection": [
+            "2025Q3"
+          ],
+          "calibration": [
+            "2025Q4"
+          ],
+          "test": [
+            "2026Q1",
+            "2026Q2"
+          ]
+        },
+        "refit_before_test_through": "2025Q3",
+        "no_refit_on_calibration_or_test_before_scoring": true,
+        "spatial_diagnostic": "train 내부 source_group 분리 3-fold; 시간시험과 별도 결과",
+        "fit_sample_weight": "1 / 해당분기·source_group 내 동 수",
+        "selection_metric": "선택검증의 source_group 평균 MAE",
+        "score_formula": "100 * expected / (expected + actual)",
+        "score_validity": "finite(expected)>0 AND finite(actual)>=0 AND 3개월 관측·8개 조건 완전",
+        "fuel_combine": "2025Q4 출처그룹 평균 항목점수로 CRITIC 재계산·고정. 두 연료 모두 필수",
+        "old_weights_reused": false,
+        "interval": {
+          "nominal_coverage": 0.9,
+          "method": "보정구간 log1p 실제-예측 절대오차의 0.90 분위수; 아래 0 제한",
+          "guaranteed_coverage": false,
+          "reason": "시간·공간 의존 및 재구성 데이터. 시험의 실제 포함률·폭을 보고"
+        },
+        "approval_gate": [
+          "시간시험에서 기준모형 대비 이득과 분기·구별 오차 확인",
+          "범위 밖·누락·기준 왜곡 점검",
+          "물리적 효율·주거 효율로 단정하지 않도록 범위 검토"
+        ]
+      },
+      "artifact_kind": "reference_snapshot",
+      "is_forecast": false,
+      "note": "배포된 검증용 현재점수 스냅샷을 재사용하며 모델을 새로 추론하지 않음"
+    },
+    "comfort": {
+      "artifact_kind": "result_snapshot",
+      "score_mode": "monthly_sigungu_relative",
+      "evaluation_month": "2026-09",
+      "input_coverage": "2024-01~2026-09",
+      "import_receipt": {
+        "repository": "https://github.com/rrrrang/Seoul-smart-life",
+        "commit": "f0948c1be6bb945eeddfb47c8b50412f7d8f38e1",
+        "files_sha256": {
+          "results/comfort_scores.json": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+          "results/monthly_scores.csv": "4a0f40f83d3518280b471c6776d1e82f6e2ee4e8f2e16eb4fd03f4fc50f5cdd4",
+          "results/region_ranking_period_relative.csv": "7d9907f29db0e1e1465297d336c3d6d6ae52b9a7e041f0885d47fd425a7700bc",
+          "src/comfort_score.py": "c89fc387438406e124f5098c4ac8aa72dfedcefda89ba8127c40fb01016ef0dc"
+        },
+        "note": "Local import receipt, not an upstream approval or signature."
+      },
+      "production_approved": false,
+      "upstream_approval_supplied": false,
+      "raw_source_documents_supplied": false,
+      "active_indicators": [
+        "temperature",
+        "pm25",
+        "pm10",
+        "noise"
+      ],
+      "excluded_indicators": [
+        "humidity",
+        "park_area",
+        "ozone"
+      ],
+      "note": "기온·대기·소음의 월별 자치구 상대 참고점수. 원자료 출처 문서와 운영 승인 미제공."
+    },
+    "health": {
+      "deployment": {
+        "domain": "health",
+        "package_version": "independent-domain-v1-region-schema",
+        "forecast_quarter": "2026Q4",
+        "production_approved": false,
+        "training_performed": false,
+        "health_as_of": "2026-09-30",
+        "health_required_columns": [
+          "행정동코드",
+          "자치구",
+          "행정동명",
+          "의료자료기준",
+          "인구기준",
+          "행정동주소DB기준",
+          "기준자료_연결확인",
+          "총인구",
+          "고령인구비율_pct",
+          "의과병원수",
+          "일반의원수",
+          "약국수",
+          "의과의사수",
+          "일반입원병상수",
+          "공공보건기관수",
+          "의과의사수_원본빈값수",
+          "일반입원병상수_원본빈값수",
+          "공식지정응급기관수",
+          "기타응급실운영병원_명단기관수",
+          "응급실병상기록_기관수",
+          "운영시간미확인_기관수"
+        ],
+        "health_numeric_columns": [
+          "총인구",
+          "고령인구비율_pct",
+          "의과병원수",
+          "일반의원수",
+          "약국수",
+          "의과의사수",
+          "일반입원병상수",
+          "공공보건기관수",
+          "의과의사수_원본빈값수",
+          "일반입원병상수_원본빈값수",
+          "공식지정응급기관수",
+          "기타응급실운영병원_명단기관수",
+          "응급실병상기록_기관수",
+          "운영시간미확인_기관수"
+        ],
+        "medical_forecast_trained": false
+      },
+      "model_spec": {
+        "as_of": "2026-09-30",
+        "score_kind": "월별 노출·의료 대응의 상대 참고지수",
+        "component_dates": {
+          "observed_air": "2026Q3",
+          "medical_facilities": "2026-06",
+          "population_vulnerability": "2026Q2",
+          "emergency_roster": "2026-09-10"
+        },
+        "exposure": {
+          "pollutants": [
+            "pm10",
+            "pm2.5",
+            "o3"
+          ],
+          "quarter_aggregation": "3개 월값이 모두 있을 때 월별 값의 산술평균",
+          "reference": "2024Q1~2025Q4 자치구별 분기값; 각 물질 5·95 분위수 경계 고정",
+          "direction": "cost",
+          "weights": "역사 기준 완전행의 CRITIC; 상관 중복 점검",
+          "absolute_air_grade_supported": false,
+          "source_units_confirmed": false,
+          "within_district_spatial_resolution": false
+        },
+        "response": {
+          "base_supply_count": 6,
+          "base_supply_denominator": "총인구 1만 명당",
+          "emergency_indicator": "any_designated_or_roster_or_er_bed_record",
+          "emergency_score": {
+            "observed_present": 100,
+            "not_in_complete_source_lists": 0,
+            "unknown": null
+          },
+          "emergency_double_count": false,
+          "indicator_count": 7,
+          "weights": "347동 기준 7개 항목 엔트로피를 새로 계산; 기존 6개 비율을 그대로 복사하지 않음",
+          "sensitivity_methods": [
+            "동일 7항목",
+            "CRITIC 7항목"
+          ],
+          "old_weights_reused": false,
+          "operating_hours_unknown_as_closed": false
+        },
+        "vulnerability": {
+          "column": "고령인구비율_pct",
+          "required_for_composite_grade": true,
+          "direct_penalty": false,
+          "disease_target": false,
+          "role": "수요·취약성 설명. 연령별 실제 이용량 없이 적정 필요량·질병·상호작용 계수를 만들지 않음",
+          "full_vulnerability_adjusted_score_ready": false
+        },
+        "climate": {
+          "station_mapping_confirmed": false,
+          "heatwave_days_from_monthly_means": false,
+          "enabled_in_dong_score": false,
+          "role": "관측소 월 통계 설명; 동별 기후 위해 점수는 비활성"
+        },
+        "prototype_axes": [
+          "exposure_safety",
+          "medical_response"
+        ],
+        "prototype_axis_weights": {
+          "exposure_safety": 0.5,
+          "medical_response": 0.5
+        },
+        "weights_status": "시범 비교용 동일 축 비중; 논문 고정값·최적 중요도·인과효과가 아님",
+        "axis_weight_sensitivity": [
+          [
+            0.25,
+            0.75
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.75,
+            0.25
+          ]
+        ],
+        "prototype_score_formula": "0.5 * exposure_safety + 0.5 * medical_response",
+        "unavailable_component_renormalization": false,
+        "missing_age_composite_grade": null,
+        "full_plan_health_score_ready": false,
+        "air_forecast": {
+          "unit": "자치구·월",
+          "targets": [
+            "pm10",
+            "pm2.5",
+            "o3"
+          ],
+          "input": [
+            "target_lag1",
+            "target_lag2",
+            "target_lag3",
+            "target_lag12",
+            "past3_mean",
+            "month_sin",
+            "month_cos"
+          ],
+          "models": [
+            "RandomForestRegressor",
+            "HistGradientBoostingRegressor(loss=poisson)"
+          ],
+          "baselines": [
+            "전월동일",
+            "전년동월동일"
+          ],
+          "selection_metric": "선택검증의 자치구 평균 MAE",
+          "split": {
+            "initial_train": [
+              "2025-01",
+              "2025-06"
+            ],
+            "selection": [
+              "2025-07",
+              "2025-09"
+            ],
+            "calibration": [
+              "2025-10",
+              "2025-12"
+            ],
+            "test": [
+              "2026-01",
+              "2026-06"
+            ],
+            "monitoring_only": [
+              "2026-07",
+              "2026-09"
+            ]
+          },
+          "deployment_training_end": "2026-06",
+          "deployment_calibration": [
+            "2026-07",
+            "2026-09"
+          ],
+          "deployment_predict_month": "2026-10",
+          "raw_october_rows_used": false,
+          "current_health_score_blended_with_future_prediction": false
+        }
+      },
+      "artifact_kind": "reference_snapshot",
+      "is_forecast": false,
+      "note": "배포된 검증용 현재점수 스냅샷을 재사용하며 모델을 새로 추론하지 않음"
+    },
+    "safety": {
+      "snapshot_id": "crime2025_cctv20260630_police20251231",
+      "weights": {
+        "crime": 0.8,
+        "cctv": 0.1,
+        "police": 0.1
+      },
+      "source_periods": {
+        "crime": "2025",
+        "population": "2025-01/2025-12 month-end mean",
+        "cctv": "2026-06-30",
+        "police": "2025-12-31",
+        "jurisdiction_mapping": "2025-12-31"
+      },
+      "comparison": {
+        "crime_regions": 25,
+        "cctv_districts": 25,
+        "police_regions": 25,
+        "profiles": 26,
+        "linked_dongs": 427
+      },
+      "interpretation": "관할권역·자치구 상대점수를 행정동에 연결. 동 자체 실측점수나 피해확률이 아님.",
+      "profiles": [
+        {
+          "profile_id": "POL2025_19__11290",
+          "jurisdiction_id": "POL2025_19",
+          "jurisdiction_name": "성북·종암 관할권역",
+          "sigungu_code": "11290",
+          "sigungu_name": "성북구",
+          "crime_score": 100.0,
+          "cctv_score": 50.0,
+          "police_score": 54.166666666666664,
+          "score": 90.41666666666667,
+          "dong_count": 20,
+          "profile_rank": 1,
+          "grade": 1,
+          "grade_label": "1등급"
+        },
+        {
+          "profile_id": "POL2025_11__11320",
+          "jurisdiction_id": "POL2025_11",
+          "jurisdiction_name": "도봉 관할권역",
+          "sigungu_code": "11320",
+          "sigungu_name": "도봉구",
+          "crime_score": 91.66666666666667,
+          "cctv_score": 12.5,
+          "police_score": 62.5,
+          "score": 80.83333333333334,
+          "dong_count": 14,
+          "profile_rank": 2,
+          "grade": 1,
+          "grade_label": "1등급"
+        },
+        {
+          "profile_id": "POL2025_13__11590",
+          "jurisdiction_id": "POL2025_13",
+          "jurisdiction_name": "동작 관할권역",
+          "sigungu_code": "11590",
+          "sigungu_name": "동작구",
+          "crime_score": 95.83333333333333,
+          "cctv_score": 20.833333333333332,
+          "police_score": 20.833333333333332,
+          "score": 80.83333333333334,
+          "dong_count": 15,
+          "profile_rank": 2,
+          "grade": 1,
+          "grade_label": "1등급"
+        },
+        {
+          "profile_id": "POL2025_17__11380",
+          "jurisdiction_id": "POL2025_17",
+          "jurisdiction_name": "서부 관할권역",
+          "sigungu_code": "11380",
+          "sigungu_name": "은평구",
+          "crime_score": 87.5,
+          "cctv_score": 41.666666666666664,
+          "police_score": 33.333333333333336,
+          "score": 77.5,
+          "dong_count": 9,
+          "profile_rank": 4,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_16__11410",
+          "jurisdiction_id": "POL2025_16",
+          "jurisdiction_name": "서대문 관할권역",
+          "sigungu_code": "11410",
+          "sigungu_name": "서대문구",
+          "crime_score": 79.16666666666667,
+          "cctv_score": 37.5,
+          "police_score": 66.66666666666667,
+          "score": 73.75000000000001,
+          "dong_count": 14,
+          "profile_rank": 5,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_18__11200",
+          "jurisdiction_id": "POL2025_18",
+          "jurisdiction_name": "성동 관할권역",
+          "sigungu_code": "11200",
+          "sigungu_name": "성동구",
+          "crime_score": 66.66666666666667,
+          "cctv_score": 75.0,
+          "police_score": 91.66666666666667,
+          "score": 70.00000000000001,
+          "dong_count": 17,
+          "profile_rank": 6,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_10__11350",
+          "jurisdiction_id": "POL2025_10",
+          "jurisdiction_name": "노원 관할권역",
+          "sigungu_code": "11350",
+          "sigungu_name": "노원구",
+          "crime_score": 83.33333333333333,
+          "cctv_score": 4.166666666666667,
+          "police_score": 0.0,
+          "score": 67.08333333333334,
+          "dong_count": 19,
+          "profile_rank": 7,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_02__11740",
+          "jurisdiction_id": "POL2025_02",
+          "jurisdiction_name": "강동 관할권역",
+          "sigungu_code": "11740",
+          "sigungu_name": "강동구",
+          "crime_score": 75.0,
+          "cctv_score": 29.166666666666668,
+          "police_score": 8.333333333333334,
+          "score": 63.75,
+          "dong_count": 19,
+          "profile_rank": 8,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_04__11500",
+          "jurisdiction_id": "POL2025_04",
+          "jurisdiction_name": "강서 관할권역",
+          "sigungu_code": "11500",
+          "sigungu_name": "강서구",
+          "crime_score": 70.83333333333333,
+          "cctv_score": 8.333333333333334,
+          "police_score": 29.166666666666668,
+          "score": 60.416666666666664,
+          "dong_count": 20,
+          "profile_rank": 9,
+          "grade": 2,
+          "grade_label": "2등급"
+        },
+        {
+          "profile_id": "POL2025_08__11545",
+          "jurisdiction_id": "POL2025_08",
+          "jurisdiction_name": "금천 관할권역",
+          "sigungu_code": "11545",
+          "sigungu_name": "금천구",
+          "crime_score": 54.166666666666664,
+          "cctv_score": 83.33333333333333,
+          "police_score": 50.0,
+          "score": 56.66666666666667,
+          "dong_count": 10,
+          "profile_rank": 10,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_24__11380",
+          "jurisdiction_id": "POL2025_24",
+          "jurisdiction_name": "은평 관할권역",
+          "sigungu_code": "11380",
+          "sigungu_name": "은평구",
+          "crime_score": 62.5,
+          "cctv_score": 41.666666666666664,
+          "police_score": 12.5,
+          "score": 55.416666666666664,
+          "dong_count": 7,
+          "profile_rank": 11,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_03__11305",
+          "jurisdiction_id": "POL2025_03",
+          "jurisdiction_name": "강북 관할권역",
+          "sigungu_code": "11305",
+          "sigungu_name": "강북구",
+          "crime_score": 45.833333333333336,
+          "cctv_score": 87.5,
+          "police_score": 83.33333333333333,
+          "score": 53.75000000000001,
+          "dong_count": 13,
+          "profile_rank": 12,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_25__11260",
+          "jurisdiction_id": "POL2025_25",
+          "jurisdiction_name": "중랑 관할권역",
+          "sigungu_code": "11260",
+          "sigungu_name": "중랑구",
+          "crime_score": 50.0,
+          "cctv_score": 79.16666666666667,
+          "police_score": 41.666666666666664,
+          "score": 52.083333333333336,
+          "dong_count": 16,
+          "profile_rank": 13,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_21__11470",
+          "jurisdiction_id": "POL2025_21",
+          "jurisdiction_name": "양천 관할권역",
+          "sigungu_code": "11470",
+          "sigungu_name": "양천구",
+          "crime_score": 58.333333333333336,
+          "cctv_score": 16.666666666666668,
+          "police_score": 16.666666666666668,
+          "score": 50.00000000000001,
+          "dong_count": 18,
+          "profile_rank": 14,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_07__11530",
+          "jurisdiction_id": "POL2025_07",
+          "jurisdiction_name": "구로 관할권역",
+          "sigungu_code": "11530",
+          "sigungu_name": "구로구",
+          "crime_score": 37.5,
+          "cctv_score": 62.5,
+          "police_score": 37.5,
+          "score": 40.0,
+          "dong_count": 16,
+          "profile_rank": 15,
+          "grade": 3,
+          "grade_label": "3등급"
+        },
+        {
+          "profile_id": "POL2025_12__11230",
+          "jurisdiction_id": "POL2025_12",
+          "jurisdiction_name": "동대문 관할권역",
+          "sigungu_code": "11230",
+          "sigungu_name": "동대문구",
+          "crime_score": 29.166666666666668,
+          "cctv_score": 45.833333333333336,
+          "police_score": 87.5,
+          "score": 36.66666666666667,
+          "dong_count": 15,
+          "profile_rank": 16,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_05__11620",
+          "jurisdiction_id": "POL2025_05",
+          "jurisdiction_name": "관악 관할권역",
+          "sigungu_code": "11620",
+          "sigungu_name": "관악구",
+          "crime_score": 33.333333333333336,
+          "cctv_score": 66.66666666666667,
+          "police_score": 25.0,
+          "score": 35.83333333333334,
+          "dong_count": 21,
+          "profile_rank": 17,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_20__11710",
+          "jurisdiction_id": "POL2025_20",
+          "jurisdiction_name": "송파 관할권역",
+          "sigungu_code": "11710",
+          "sigungu_name": "송파구",
+          "crime_score": 41.666666666666664,
+          "cctv_score": 0.0,
+          "police_score": 4.166666666666667,
+          "score": 33.75,
+          "dong_count": 27,
+          "profile_rank": 18,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_06__11215",
+          "jurisdiction_id": "POL2025_06",
+          "jurisdiction_name": "광진 관할권역",
+          "sigungu_code": "11215",
+          "sigungu_name": "광진구",
+          "crime_score": 25.0,
+          "cctv_score": 54.166666666666664,
+          "police_score": 79.16666666666667,
+          "score": 33.333333333333336,
+          "dong_count": 15,
+          "profile_rank": 19,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_15__11650",
+          "jurisdiction_id": "POL2025_15",
+          "jurisdiction_name": "방배·서초 관할권역",
+          "sigungu_code": "11650",
+          "sigungu_name": "서초구",
+          "crime_score": 20.833333333333332,
+          "cctv_score": 25.0,
+          "police_score": 70.83333333333333,
+          "score": 26.25,
+          "dong_count": 18,
+          "profile_rank": 20,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_01__11680",
+          "jurisdiction_id": "POL2025_01",
+          "jurisdiction_name": "강남·수서 관할권역",
+          "sigungu_code": "11680",
+          "sigungu_name": "강남구",
+          "crime_score": 16.666666666666668,
+          "cctv_score": 58.333333333333336,
+          "police_score": 58.333333333333336,
+          "score": 25.000000000000004,
+          "dong_count": 22,
+          "profile_rank": 21,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_23__11170",
+          "jurisdiction_id": "POL2025_23",
+          "jurisdiction_name": "용산 관할권역",
+          "sigungu_code": "11170",
+          "sigungu_name": "용산구",
+          "crime_score": 4.166666666666667,
+          "cctv_score": 95.83333333333333,
+          "police_score": 95.83333333333333,
+          "score": 22.5,
+          "dong_count": 16,
+          "profile_rank": 22,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_22__11560",
+          "jurisdiction_id": "POL2025_22",
+          "jurisdiction_name": "영등포 관할권역",
+          "sigungu_code": "11560",
+          "sigungu_name": "영등포구",
+          "crime_score": 8.333333333333334,
+          "cctv_score": 70.83333333333333,
+          "police_score": 75.0,
+          "score": 21.25,
+          "dong_count": 18,
+          "profile_rank": 23,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_09__11140",
+          "jurisdiction_id": "POL2025_09",
+          "jurisdiction_name": "남대문·종로·중부·혜화 관할권역",
+          "sigungu_code": "11140",
+          "sigungu_name": "중구",
+          "crime_score": 0.0,
+          "cctv_score": 100.0,
+          "police_score": 100.0,
+          "score": 20.0,
+          "dong_count": 15,
+          "profile_rank": 24,
+          "grade": 4,
+          "grade_label": "4등급"
+        },
+        {
+          "profile_id": "POL2025_09__11110",
+          "jurisdiction_id": "POL2025_09",
+          "jurisdiction_name": "남대문·종로·중부·혜화 관할권역",
+          "sigungu_code": "11110",
+          "sigungu_name": "종로구",
+          "crime_score": 0.0,
+          "cctv_score": 91.66666666666667,
+          "police_score": 100.0,
+          "score": 19.166666666666668,
+          "dong_count": 17,
+          "profile_rank": 25,
+          "grade": 5,
+          "grade_label": "5등급"
+        },
+        {
+          "profile_id": "POL2025_14__11440",
+          "jurisdiction_id": "POL2025_14",
+          "jurisdiction_name": "마포 관할권역",
+          "sigungu_code": "11440",
+          "sigungu_name": "마포구",
+          "crime_score": 12.5,
+          "cctv_score": 33.333333333333336,
+          "police_score": 45.833333333333336,
+          "score": 17.916666666666668,
+          "dong_count": 16,
+          "profile_rank": 26,
+          "grade": 5,
+          "grade_label": "5등급"
+        }
+      ],
+      "grade_rules": {
+        "method": "fixed_score_intervals",
+        "best_grade": 1,
+        "worst_grade": 5,
+        "score_rounding_before_grading": false,
+        "missing_score_grade": null,
+        "bands": [
+          {
+            "grade": 1,
+            "label": "1등급",
+            "min_score": 80,
+            "max_score": 100,
+            "min_inclusive": true,
+            "max_inclusive": true
+          },
+          {
+            "grade": 2,
+            "label": "2등급",
+            "min_score": 60,
+            "max_score": 80,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 3,
+            "label": "3등급",
+            "min_score": 40,
+            "max_score": 60,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 4,
+            "label": "4등급",
+            "min_score": 20,
+            "max_score": 40,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 5,
+            "label": "5등급",
+            "min_score": 0,
+            "max_score": 20,
+            "min_inclusive": true,
+            "max_inclusive": false
+          }
+        ],
+        "interpretation": "기존 상대 치안점수의 고정 구간 등급. 등급별 인원·동 수를 같게 나누는 방식이 아니며 절대적 안전이나 피해확률을 뜻하지 않음."
+      }
+    }
+  },
+  "is_mock": false
+}

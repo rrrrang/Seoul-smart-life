@@ -1,0 +1,2563 @@
+{
+  "generation_status": "fallback",
+  "selected_domains": [
+    "economy",
+    "energy",
+    "comfort",
+    "health",
+    "safety"
+  ],
+  "selected_max_points": 100,
+  "unavailable_domains": [],
+  "snapshot_version": "snapshot-687b22575d77a2ae",
+  "target_month": "2026-10",
+  "items": [
+    {
+      "region_code": "290600",
+      "region_name": "안암동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": 59.78029234603526,
+        "energy": 47.40856243872032,
+        "comfort": 73.3,
+        "health": 55.45778118511964,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 52.675817711477016,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 56.880508798322246,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 69.78455052830653,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "grade": 3,
+            "grade_label": "3등급",
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        },
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "나쁨",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "290600",
+              "quarter": "2026Q2",
+              "sigungu_name": "성북구",
+              "region_name": "안암동",
+              "months": "3",
+              "electricity_MWh": "43317.373",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "2608.7658345244217",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "1690026.5442",
+              "residential_area_m2": "421159.1342",
+              "all_weighted_age": "26.713845",
+              "residential_weighted_age": "27.25411",
+              "nonresidential_mainuse_share_pct": "75.07973258494812",
+              "apartment_residential_share_pct": "31.316802",
+              "approval_missing_pct": "9.43506115317414",
+              "households": "10546.0",
+              "single_share_pct": "73.2694860610658",
+              "log_all_area": "14.340255385109636",
+              "log_households": "9.263596738276616",
+              "electricity_kWh_per_household": "4107.469467096529",
+              "gas_m3_per_household": "247.3701720580715",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1129060000:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        },
+        "comfort": {
+          "source_file": "comfort/results/comfort_scores.json",
+          "file_sha256": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+          "artifact_kind": "result_snapshot",
+          "status": "sigungu_relative_reference_not_approved",
+          "original_spatial_units": [
+            "sigungu"
+          ],
+          "source_periods": {
+            "evaluation_month": "2026-09",
+            "input_coverage": "2024-01~2026-09"
+          },
+          "reference_years": [
+            2024,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님.",
+          "details": {
+            "original_record": {
+              "행정구코드": "11290",
+              "행정구명": "성북구",
+              "평가분야": "생활쾌적도",
+              "평가기준월": "2026-09",
+              "사용자료_기준기간": "2024-01~2026-09",
+              "점수": 73.3,
+              "계산상태": "완료",
+              "계산불가사유": []
+            },
+            "row_context": {
+              "sigungu_code": "11290",
+              "sigungu_name": "성북구",
+              "year_month": "2026-09-01",
+              "comfort_score": "73.34",
+              "score_abs": "85.11",
+              "score_rel": "73.34",
+              "grade_abs": "쾌적",
+              "n_indicators": "4",
+              "has_imputed": "False",
+              "temp_imputed": "False",
+              "abs_temperature": "87.33",
+              "abs_pm25": "85.0",
+              "abs_pm10": "82.5",
+              "abs_noise": "84.73",
+              "abs_ozone": "74.24",
+              "rel_temperature": "79.17",
+              "rel_pm25": "81.25",
+              "rel_pm10": "20.83",
+              "rel_noise": "91.67",
+              "rel_ozone": "95.83",
+              "temp_avg_c": "21.9",
+              "pm25": "9.0",
+              "pm10": "21.0",
+              "noise_avg_db": "45.1089",
+              "o3": "0.0313",
+              "pm10_imputed": "False",
+              "pm25_imputed": "False",
+              "noise_max_db": "48.2047",
+              "noise_min_db": "43.0851",
+              "noise_days": "25",
+              "noise_count": "12816",
+              "temp_max_c": "27.1",
+              "temp_min_c": "17.6"
+            },
+            "is_dong_observation": false,
+            "score_mode": "monthly_sigungu_relative",
+            "sigungu_code": "11290",
+            "absolute_grade_is_separate": true,
+            "raw_source_documents_supplied": false,
+            "source_commit": "f0948c1be6bb945eeddfb47c8b50412f7d8f38e1"
+          }
+        },
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "성북구",
+              "region_code": "290600",
+              "region_name": "안암동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "18161.0",
+              "elderly_population_pct": "13.198612411210837",
+              "medical_institution_count": "15",
+              "clinic_count": "5",
+              "pharmacy_count": "12",
+              "physician_count": "544.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "889.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "43.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "8.259457078354716",
+              "clinics_per_10000": "2.753152359451572",
+              "pharmacies_per_10000": "6.607565662683773",
+              "physicians_per_10000": "299.5429767083311",
+              "inpatient_beds_per_10000": "489.5104895104895",
+              "emergency_beds_per_10000": "23.67711029128352",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "2",
+              "hospitals_per_10000": "1.1012609437806289",
+              "designated_emergency_institution_count": "1",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "1",
+              "emergency_roster_present": "1",
+              "institutions_with_emergency_bed_records": "1",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "1",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "공식 지정 응급의료기관 소재; 응급실 병상 기록 기관 소재",
+              "emergency_presence_score": "100.0",
+              "sigungu_code": "11290",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "13.198612411210837",
+              "confirmed_elderly_population": "2397",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        },
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 1,
+      "personalized_score_100": 72.456662,
+      "contributions": {
+        "economy": 8.540042,
+        "energy": 6.772652,
+        "comfort": 10.471429,
+        "health": 7.92254,
+        "safety": 38.75
+      },
+      "domain_points_20": {
+        "economy": 11.956058,
+        "energy": 9.481712,
+        "comfort": 14.66,
+        "health": 11.091556,
+        "safety": 18.083333
+      },
+      "selected_total_points": 65.272661,
+      "five_domain_total_points": 65.272661,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 38.75
+        },
+        {
+          "domain": "comfort",
+          "score": 73.3,
+          "contribution": 10.471429
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "energy",
+          "score": 47.40856243872032,
+          "contribution": 6.772652
+        },
+        {
+          "domain": "health",
+          "score": 55.45778118511964,
+          "contribution": 7.92254
+        }
+      ],
+      "advantages": "제공된 점수에서 상대적 강점은 치안 90.4/100점, 쾌적 73.3/100점입니다.",
+      "disadvantages": "제공된 점수에서 상대적으로 낮은 영역은 에너지 47.4/100점, 건강 55.5/100점입니다.",
+      "limitations": [
+        "강점·약점은 선택한 영역 내 점수의 상대 비교이며 실제 거주 만족도나 인과효과를 뜻하지 않습니다.",
+        "경제: 경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님. 기준기간: commute=2026-09, employment=2026-08, licensing=2026-09. 상태: estimated.",
+        "경제 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "에너지: 주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님 기준기간: energy=2026Q2. 상태: pilot_not_approved.",
+        "에너지 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "쾌적: 자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님. 기준기간: evaluation_month=2026-09, input_coverage=2024-01~2026-09. 상태: sigungu_relative_reference_not_approved.",
+        "쾌적 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "건강: 의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님. 기준기간: observed_air=2026Q3, medical_facilities=2026-06, population_vulnerability=2026Q2, emergency_roster=2026-09-10. 상태: relative_reference_not_approved.",
+        "건강 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "치안: 관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님. 기준기간: crime=2025, population=2025-01/2025-12 month-end mean, cctv=2026-06-30, police=2025-12-31, jurisdiction_mapping=2025-12-31. 상태: calculated_draft.",
+        "치안 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "이 지역의 검색 문서 근거는 선택되지 않았으며, 제공된 점수 메타데이터 범위로 설명했습니다."
+      ],
+      "citations": []
+    },
+    {
+      "region_code": "290575",
+      "region_name": "동선동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": 71.11711638262068,
+        "energy": 43.034076813191824,
+        "comfort": 73.3,
+        "health": 41.731189204786425,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 58.063790922553295,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 55.287558225308764,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 100.0,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "grade": 2,
+            "grade_label": "2등급",
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        },
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "아주나쁨",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "290575",
+              "quarter": "2026Q2",
+              "sigungu_name": "성북구",
+              "region_name": "동선동",
+              "months": "3",
+              "electricity_MWh": "21909.79033333333",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "1765.6087022793488",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "974322.835",
+              "residential_area_m2": "413140.719",
+              "all_weighted_age": "26.811384",
+              "residential_weighted_age": "23.906681",
+              "nonresidential_mainuse_share_pct": "57.59714294287272",
+              "apartment_residential_share_pct": "23.584739",
+              "approval_missing_pct": "9.890681936491411",
+              "households": "9909.0",
+              "single_share_pct": "70.93551316984559",
+              "log_all_area": "13.789499006831742",
+              "log_households": "9.201299627324032",
+              "electricity_kWh_per_household": "2211.100043731288",
+              "gas_m3_per_household": "178.18232942570884",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1129057500:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        },
+        "comfort": {
+          "source_file": "comfort/results/comfort_scores.json",
+          "file_sha256": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+          "artifact_kind": "result_snapshot",
+          "status": "sigungu_relative_reference_not_approved",
+          "original_spatial_units": [
+            "sigungu"
+          ],
+          "source_periods": {
+            "evaluation_month": "2026-09",
+            "input_coverage": "2024-01~2026-09"
+          },
+          "reference_years": [
+            2024,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님.",
+          "details": {
+            "original_record": {
+              "행정구코드": "11290",
+              "행정구명": "성북구",
+              "평가분야": "생활쾌적도",
+              "평가기준월": "2026-09",
+              "사용자료_기준기간": "2024-01~2026-09",
+              "점수": 73.3,
+              "계산상태": "완료",
+              "계산불가사유": []
+            },
+            "row_context": {
+              "sigungu_code": "11290",
+              "sigungu_name": "성북구",
+              "year_month": "2026-09-01",
+              "comfort_score": "73.34",
+              "score_abs": "85.11",
+              "score_rel": "73.34",
+              "grade_abs": "쾌적",
+              "n_indicators": "4",
+              "has_imputed": "False",
+              "temp_imputed": "False",
+              "abs_temperature": "87.33",
+              "abs_pm25": "85.0",
+              "abs_pm10": "82.5",
+              "abs_noise": "84.73",
+              "abs_ozone": "74.24",
+              "rel_temperature": "79.17",
+              "rel_pm25": "81.25",
+              "rel_pm10": "20.83",
+              "rel_noise": "91.67",
+              "rel_ozone": "95.83",
+              "temp_avg_c": "21.9",
+              "pm25": "9.0",
+              "pm10": "21.0",
+              "noise_avg_db": "45.1089",
+              "o3": "0.0313",
+              "pm10_imputed": "False",
+              "pm25_imputed": "False",
+              "noise_max_db": "48.2047",
+              "noise_min_db": "43.0851",
+              "noise_days": "25",
+              "noise_count": "12816",
+              "temp_max_c": "27.1",
+              "temp_min_c": "17.6"
+            },
+            "is_dong_observation": false,
+            "score_mode": "monthly_sigungu_relative",
+            "sigungu_code": "11290",
+            "absolute_grade_is_separate": true,
+            "raw_source_documents_supplied": false,
+            "source_commit": "f0948c1be6bb945eeddfb47c8b50412f7d8f38e1"
+          }
+        },
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "성북구",
+              "region_code": "290575",
+              "region_name": "동선동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "16124.0",
+              "elderly_population_pct": "14.791614983874968",
+              "medical_institution_count": "66",
+              "clinic_count": "37",
+              "pharmacy_count": "18",
+              "physician_count": "63.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "114.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "0.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "40.93277102455966",
+              "clinics_per_10000": "22.94715951376829",
+              "pharmacies_per_10000": "11.16348300669809",
+              "physicians_per_10000": "39.07219052344331",
+              "inpatient_beds_per_10000": "70.70205904242124",
+              "emergency_beds_per_10000": "0.0",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "1",
+              "hospitals_per_10000": "0.6201935003721161",
+              "designated_emergency_institution_count": "0",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "0",
+              "emergency_roster_present": "0",
+              "institutions_with_emergency_bed_records": "0",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "0",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "해당 동 소재 자원은 현재 목록에서 확인되지 않음",
+              "emergency_presence_score": "0.0",
+              "sigungu_code": "11290",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "14.791614983874968",
+              "confirmed_elderly_population": "2385",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        },
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 2,
+      "personalized_score_100": 71.49034,
+      "contributions": {
+        "economy": 10.159588,
+        "energy": 6.147725,
+        "comfort": 10.471429,
+        "health": 5.961598,
+        "safety": 38.75
+      },
+      "domain_points_20": {
+        "economy": 14.223423,
+        "energy": 8.606815,
+        "comfort": 14.66,
+        "health": 8.346238,
+        "safety": 18.083333
+      },
+      "selected_total_points": 63.91981,
+      "five_domain_total_points": 63.91981,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 38.75
+        },
+        {
+          "domain": "comfort",
+          "score": 73.3,
+          "contribution": 10.471429
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 41.731189204786425,
+          "contribution": 5.961598
+        },
+        {
+          "domain": "energy",
+          "score": 43.034076813191824,
+          "contribution": 6.147725
+        }
+      ],
+      "advantages": "제공된 점수에서 상대적 강점은 치안 90.4/100점, 쾌적 73.3/100점입니다.",
+      "disadvantages": "제공된 점수에서 상대적으로 낮은 영역은 건강 41.7/100점, 에너지 43.0/100점입니다.",
+      "limitations": [
+        "강점·약점은 선택한 영역 내 점수의 상대 비교이며 실제 거주 만족도나 인과효과를 뜻하지 않습니다.",
+        "경제: 경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님. 기준기간: commute=2026-09, employment=2026-08, licensing=2026-09. 상태: estimated.",
+        "경제 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "에너지: 주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님 기준기간: energy=2026Q2. 상태: pilot_not_approved.",
+        "에너지 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "쾌적: 자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님. 기준기간: evaluation_month=2026-09, input_coverage=2024-01~2026-09. 상태: sigungu_relative_reference_not_approved.",
+        "쾌적 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "건강: 의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님. 기준기간: observed_air=2026Q3, medical_facilities=2026-06, population_vulnerability=2026Q2, emergency_roster=2026-09-10. 상태: relative_reference_not_approved.",
+        "건강 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "치안: 관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님. 기준기간: crime=2025, population=2025-01/2025-12 month-end mean, cctv=2026-06-30, police=2025-12-31, jurisdiction_mapping=2025-12-31. 상태: calculated_draft.",
+        "치안 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "이 지역의 검색 문서 근거는 선택되지 않았으며, 제공된 점수 메타데이터 범위로 설명했습니다."
+      ],
+      "citations": []
+    },
+    {
+      "region_code": "290610",
+      "region_name": "보문동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": 58.81030720950682,
+        "energy": 52.35807533613051,
+        "comfort": 73.3,
+        "health": 42.79340636997032,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 55.26709667462458,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 50.61116452252299,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 70.5526604313729,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "grade": 3,
+            "grade_label": "3등급",
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        },
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "기본",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "290610",
+              "quarter": "2026Q2",
+              "sigungu_name": "성북구",
+              "region_name": "보문동",
+              "months": "3",
+              "electricity_MWh": "9955.593",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "1051.576960822622",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "769692.5338",
+              "residential_area_m2": "503268.4238",
+              "all_weighted_age": "23.382151",
+              "residential_weighted_age": "19.930416",
+              "nonresidential_mainuse_share_pct": "34.614355512149054",
+              "apartment_residential_share_pct": "53.374618",
+              "approval_missing_pct": "7.6980014803849",
+              "households": "8068.0",
+              "single_share_pct": "48.28953891918691",
+              "log_all_area": "13.553747706551691",
+              "log_households": "8.995784837848506",
+              "electricity_kWh_per_household": "1233.960461080813",
+              "gas_m3_per_household": "130.3392365917975",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1129061000:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        },
+        "comfort": {
+          "source_file": "comfort/results/comfort_scores.json",
+          "file_sha256": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+          "artifact_kind": "result_snapshot",
+          "status": "sigungu_relative_reference_not_approved",
+          "original_spatial_units": [
+            "sigungu"
+          ],
+          "source_periods": {
+            "evaluation_month": "2026-09",
+            "input_coverage": "2024-01~2026-09"
+          },
+          "reference_years": [
+            2024,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님.",
+          "details": {
+            "original_record": {
+              "행정구코드": "11290",
+              "행정구명": "성북구",
+              "평가분야": "생활쾌적도",
+              "평가기준월": "2026-09",
+              "사용자료_기준기간": "2024-01~2026-09",
+              "점수": 73.3,
+              "계산상태": "완료",
+              "계산불가사유": []
+            },
+            "row_context": {
+              "sigungu_code": "11290",
+              "sigungu_name": "성북구",
+              "year_month": "2026-09-01",
+              "comfort_score": "73.34",
+              "score_abs": "85.11",
+              "score_rel": "73.34",
+              "grade_abs": "쾌적",
+              "n_indicators": "4",
+              "has_imputed": "False",
+              "temp_imputed": "False",
+              "abs_temperature": "87.33",
+              "abs_pm25": "85.0",
+              "abs_pm10": "82.5",
+              "abs_noise": "84.73",
+              "abs_ozone": "74.24",
+              "rel_temperature": "79.17",
+              "rel_pm25": "81.25",
+              "rel_pm10": "20.83",
+              "rel_noise": "91.67",
+              "rel_ozone": "95.83",
+              "temp_avg_c": "21.9",
+              "pm25": "9.0",
+              "pm10": "21.0",
+              "noise_avg_db": "45.1089",
+              "o3": "0.0313",
+              "pm10_imputed": "False",
+              "pm25_imputed": "False",
+              "noise_max_db": "48.2047",
+              "noise_min_db": "43.0851",
+              "noise_days": "25",
+              "noise_count": "12816",
+              "temp_max_c": "27.1",
+              "temp_min_c": "17.6"
+            },
+            "is_dong_observation": false,
+            "score_mode": "monthly_sigungu_relative",
+            "sigungu_code": "11290",
+            "absolute_grade_is_separate": true,
+            "raw_source_documents_supplied": false,
+            "source_commit": "f0948c1be6bb945eeddfb47c8b50412f7d8f38e1"
+          }
+        },
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "성북구",
+              "region_code": "290610",
+              "region_name": "보문동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "16263.0",
+              "elderly_population_pct": "18.428334255672386",
+              "medical_institution_count": "20",
+              "clinic_count": "7",
+              "pharmacy_count": "5",
+              "physician_count": "14.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "386.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "0.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "12.297854024472729",
+              "clinics_per_10000": "4.304248908565455",
+              "pharmacies_per_10000": "3.074463506118182",
+              "physicians_per_10000": "8.60849781713091",
+              "inpatient_beds_per_10000": "237.3485826723237",
+              "emergency_beds_per_10000": "0.0",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "2",
+              "hospitals_per_10000": "1.229785402447273",
+              "designated_emergency_institution_count": "0",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "0",
+              "emergency_roster_present": "0",
+              "institutions_with_emergency_bed_records": "0",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "0",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "해당 동 소재 자원은 현재 목록에서 확인되지 않음",
+              "emergency_presence_score": "0.0",
+              "sigungu_code": "11290",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "18.428334255672382",
+              "confirmed_elderly_population": "2997",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        },
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 3,
+      "personalized_score_100": 71.21597,
+      "contributions": {
+        "economy": 8.401472,
+        "energy": 7.479725,
+        "comfort": 10.471429,
+        "health": 6.113344,
+        "safety": 38.75
+      },
+      "domain_points_20": {
+        "economy": 11.762061,
+        "energy": 10.471615,
+        "comfort": 14.66,
+        "health": 8.558681,
+        "safety": 18.083333
+      },
+      "selected_total_points": 63.535691,
+      "five_domain_total_points": 63.535691,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 38.75
+        },
+        {
+          "domain": "comfort",
+          "score": 73.3,
+          "contribution": 10.471429
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 42.79340636997032,
+          "contribution": 6.113344
+        },
+        {
+          "domain": "energy",
+          "score": 52.35807533613051,
+          "contribution": 7.479725
+        }
+      ],
+      "advantages": "제공된 점수에서 상대적 강점은 치안 90.4/100점, 쾌적 73.3/100점입니다.",
+      "disadvantages": "제공된 점수에서 상대적으로 낮은 영역은 건강 42.8/100점, 에너지 52.4/100점입니다.",
+      "limitations": [
+        "강점·약점은 선택한 영역 내 점수의 상대 비교이며 실제 거주 만족도나 인과효과를 뜻하지 않습니다.",
+        "경제: 경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님. 기준기간: commute=2026-09, employment=2026-08, licensing=2026-09. 상태: estimated.",
+        "경제 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "에너지: 주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님 기준기간: energy=2026Q2. 상태: pilot_not_approved.",
+        "에너지 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "쾌적: 자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님. 기준기간: evaluation_month=2026-09, input_coverage=2024-01~2026-09. 상태: sigungu_relative_reference_not_approved.",
+        "쾌적 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "건강: 의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님. 기준기간: observed_air=2026Q3, medical_facilities=2026-06, population_vulnerability=2026Q2, emergency_roster=2026-09-10. 상태: relative_reference_not_approved.",
+        "건강 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "치안: 관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님. 기준기간: crime=2025, population=2025-01/2025-12 month-end mean, cctv=2026-06-30, police=2025-12-31, jurisdiction_mapping=2025-12-31. 상태: calculated_draft.",
+        "치안 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "이 지역의 검색 문서 근거는 선택되지 않았으며, 제공된 점수 메타데이터 범위로 설명했습니다."
+      ],
+      "citations": []
+    },
+    {
+      "region_code": "290555",
+      "region_name": "삼선동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": 65.286725320537,
+        "energy": 44.12410540068302,
+        "comfort": 73.3,
+        "health": 39.84348132449605,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 59.90702173975816,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 52.654816979824815,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 83.29833724202803,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "grade": 2,
+            "grade_label": "2등급",
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        },
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "아주나쁨",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "290555",
+              "quarter": "2026Q2",
+              "sigungu_name": "성북구",
+              "region_name": "삼선동",
+              "months": "3",
+              "electricity_MWh": "21257.02133333333",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "1981.8762955184231",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "1058938.605",
+              "residential_area_m2": "638079.015",
+              "all_weighted_age": "26.084375",
+              "residential_weighted_age": "24.205714",
+              "nonresidential_mainuse_share_pct": "39.74353074038697",
+              "apartment_residential_share_pct": "48.130339",
+              "approval_missing_pct": "17.993226079593565",
+              "households": "11481.0",
+              "single_share_pct": "53.697413117324274",
+              "log_all_area": "13.872778592740072",
+              "log_households": "9.348535870727584",
+              "electricity_kWh_per_household": "1851.4956304619225",
+              "gas_m3_per_household": "172.6222711887835",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1129055500:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        },
+        "comfort": {
+          "source_file": "comfort/results/comfort_scores.json",
+          "file_sha256": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+          "artifact_kind": "result_snapshot",
+          "status": "sigungu_relative_reference_not_approved",
+          "original_spatial_units": [
+            "sigungu"
+          ],
+          "source_periods": {
+            "evaluation_month": "2026-09",
+            "input_coverage": "2024-01~2026-09"
+          },
+          "reference_years": [
+            2024,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님.",
+          "details": {
+            "original_record": {
+              "행정구코드": "11290",
+              "행정구명": "성북구",
+              "평가분야": "생활쾌적도",
+              "평가기준월": "2026-09",
+              "사용자료_기준기간": "2024-01~2026-09",
+              "점수": 73.3,
+              "계산상태": "완료",
+              "계산불가사유": []
+            },
+            "row_context": {
+              "sigungu_code": "11290",
+              "sigungu_name": "성북구",
+              "year_month": "2026-09-01",
+              "comfort_score": "73.34",
+              "score_abs": "85.11",
+              "score_rel": "73.34",
+              "grade_abs": "쾌적",
+              "n_indicators": "4",
+              "has_imputed": "False",
+              "temp_imputed": "False",
+              "abs_temperature": "87.33",
+              "abs_pm25": "85.0",
+              "abs_pm10": "82.5",
+              "abs_noise": "84.73",
+              "abs_ozone": "74.24",
+              "rel_temperature": "79.17",
+              "rel_pm25": "81.25",
+              "rel_pm10": "20.83",
+              "rel_noise": "91.67",
+              "rel_ozone": "95.83",
+              "temp_avg_c": "21.9",
+              "pm25": "9.0",
+              "pm10": "21.0",
+              "noise_avg_db": "45.1089",
+              "o3": "0.0313",
+              "pm10_imputed": "False",
+              "pm25_imputed": "False",
+              "noise_max_db": "48.2047",
+              "noise_min_db": "43.0851",
+              "noise_days": "25",
+              "noise_count": "12816",
+              "temp_max_c": "27.1",
+              "temp_min_c": "17.6"
+            },
+            "is_dong_observation": false,
+            "score_mode": "monthly_sigungu_relative",
+            "sigungu_code": "11290",
+            "absolute_grade_is_separate": true,
+            "raw_source_documents_supplied": false,
+            "source_commit": "f0948c1be6bb945eeddfb47c8b50412f7d8f38e1"
+          }
+        },
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "성북구",
+              "region_code": "290555",
+              "region_name": "삼선동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "22340.0",
+              "elderly_population_pct": "20.322291853178157",
+              "medical_institution_count": "53",
+              "clinic_count": "30",
+              "pharmacy_count": "18",
+              "physician_count": "41.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "29.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "0.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "23.724261414503133",
+              "clinics_per_10000": "13.428827215756492",
+              "pharmacies_per_10000": "8.057296329453894",
+              "physicians_per_10000": "18.35273052820054",
+              "inpatient_beds_per_10000": "12.98119964189794",
+              "emergency_beds_per_10000": "0.0",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "0",
+              "public_health_facilities_per_10000": "0.0",
+              "hospital_count": "0",
+              "hospitals_per_10000": "0.0",
+              "designated_emergency_institution_count": "0",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "0",
+              "emergency_roster_present": "0",
+              "institutions_with_emergency_bed_records": "0",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "0",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "해당 동 소재 자원은 현재 목록에서 확인되지 않음",
+              "emergency_presence_score": "0.0",
+              "sigungu_code": "11290",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "20.32229185317816",
+              "confirmed_elderly_population": "4540",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        },
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "성북"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 4,
+      "personalized_score_100": 70.543473,
+      "contributions": {
+        "economy": 9.326675,
+        "energy": 6.303444,
+        "comfort": 10.471429,
+        "health": 5.691926,
+        "safety": 38.75
+      },
+      "domain_points_20": {
+        "economy": 13.057345,
+        "energy": 8.824821,
+        "comfort": 14.66,
+        "health": 7.968696,
+        "safety": 18.083333
+      },
+      "selected_total_points": 62.594196,
+      "five_domain_total_points": 62.594196,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 38.75
+        },
+        {
+          "domain": "comfort",
+          "score": 73.3,
+          "contribution": 10.471429
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 39.84348132449605,
+          "contribution": 5.691926
+        },
+        {
+          "domain": "energy",
+          "score": 44.12410540068302,
+          "contribution": 6.303444
+        }
+      ],
+      "advantages": "제공된 점수에서 상대적 강점은 치안 90.4/100점, 쾌적 73.3/100점입니다.",
+      "disadvantages": "제공된 점수에서 상대적으로 낮은 영역은 건강 39.8/100점, 에너지 44.1/100점입니다.",
+      "limitations": [
+        "강점·약점은 선택한 영역 내 점수의 상대 비교이며 실제 거주 만족도나 인과효과를 뜻하지 않습니다.",
+        "경제: 경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님. 기준기간: commute=2026-09, employment=2026-08, licensing=2026-09. 상태: estimated.",
+        "경제 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "에너지: 주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님 기준기간: energy=2026Q2. 상태: pilot_not_approved.",
+        "에너지 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "쾌적: 자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님. 기준기간: evaluation_month=2026-09, input_coverage=2024-01~2026-09. 상태: sigungu_relative_reference_not_approved.",
+        "쾌적 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "건강: 의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님. 기준기간: observed_air=2026Q3, medical_facilities=2026-06, population_vulnerability=2026Q2, emergency_roster=2026-09-10. 상태: relative_reference_not_approved.",
+        "건강 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "치안: 관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님. 기준기간: crime=2025, population=2025-01/2025-12 month-end mean, cctv=2026-06-30, police=2025-12-31, jurisdiction_mapping=2025-12-31. 상태: calculated_draft.",
+        "치안 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "이 지역의 검색 문서 근거는 선택되지 않았으며, 제공된 점수 메타데이터 범위로 설명했습니다."
+      ],
+      "citations": []
+    },
+    {
+      "region_code": "290725",
+      "region_name": "월곡제2동",
+      "sigungu_code": "11290",
+      "category_scores": {
+        "economy": 52.02428317443777,
+        "energy": 51.61411832708768,
+        "comfort": 73.3,
+        "health": 45.30282242168825,
+        "safety": 90.41666666666667
+      },
+      "domain_metadata": {
+        "economy": {
+          "source_file": "economy/results/economy_scores.json",
+          "file_sha256": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
+          "artifact_kind": "result_snapshot",
+          "status": "estimated",
+          "original_spatial_units": [
+            "administrative_dong"
+          ],
+          "source_periods": {
+            "commute": "2026-09",
+            "employment": "2026-08",
+            "licensing": "2026-09"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님.",
+          "details": {
+            "status": "estimated",
+            "target_month": "2026-10",
+            "as_of": "2026-10-21",
+            "data_snapshot_as_of": "2026-10-21",
+            "source_periods": {
+              "commute": "2026-09",
+              "employment": "2026-08",
+              "licensing": "2026-09"
+            },
+            "components": {
+              "commute": {
+                "score": 42.67393440044227,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "median3"
+              },
+              "employment": {
+                "score": 55.74986803879391,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-08",
+                "method": "last_known"
+              },
+              "licensing": {
+                "score": 57.64904708407714,
+                "weight": 0.3333333333333333,
+                "source_period": "2026-09",
+                "method": "xgb_depth3_shrink50"
+              }
+            },
+            "grade": 3,
+            "grade_label": "3등급",
+            "cold_start_fallback": false,
+            "measurement": "economic_activity_concentration_estimate",
+            "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
+          }
+        },
+        "energy": {
+          "source_file": "energy/reference/current_scores.csv",
+          "file_sha256": "bd2889c6d13df33facff5f6db578e1a1946ea15ef4f47241ede781461052d735",
+          "artifact_kind": "reference_snapshot",
+          "status": "pilot_not_approved",
+          "original_spatial_units": [
+            "source_group_assigned_to_administrative_dong"
+          ],
+          "source_periods": {
+            "energy": "2026Q2"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님",
+          "details": {
+            "period": "2026Q2",
+            "is_forecast": false,
+            "grade": "기본",
+            "deployment": {
+              "domain": "energy",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "energy_latest_actual": "2026Q2",
+              "energy_validation_reasons": {
+                "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+                "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+              },
+              "additional_refit": {
+                "origins": 3,
+                "minimum_passed": true,
+                "score_MAE": 2.745160698909986,
+                "annual_score_MAE": 2.632071151018524
+              }
+            },
+            "row_context": {
+              "region_code": "290725",
+              "quarter": "2026Q2",
+              "sigungu_name": "성북구",
+              "region_name": "월곡제2동",
+              "months": "3",
+              "electricity_MWh": "17654.830666666665",
+              "electricity_MWh_observed_months": "3",
+              "gas_1000m3": "1538.8521079520135",
+              "gas_1000m3_observed_months": "3",
+              "temperature_C": "19.53333333333333",
+              "all_area_m2": "1077805.426",
+              "residential_area_m2": "592825.984",
+              "all_weighted_age": "24.481609",
+              "residential_weighted_age": "25.111934",
+              "nonresidential_mainuse_share_pct": "44.99693825070797",
+              "apartment_residential_share_pct": "52.7793",
+              "approval_missing_pct": "1.907692307692308",
+              "households": "9640.0",
+              "single_share_pct": "51.2551867219917",
+              "log_all_area": "13.89043844660887",
+              "log_households": "9.17378011666438",
+              "electricity_kWh_per_household": "1831.4139695712308",
+              "gas_m3_per_household": "159.63196140581056",
+              "quarter_sin": "1.2246467991473532e-16",
+              "quarter_cos": "-1.0",
+              "row_id": "1129072500:2026Q2",
+              "phase": "test",
+              "electricity_MWh_eligible": "True",
+              "electricity_MWh_exclusion_reason": "",
+              "gas_1000m3_eligible": "True",
+              "gas_1000m3_exclusion_reason": ""
+            }
+          }
+        },
+        "comfort": {
+          "source_file": "comfort/results/comfort_scores.json",
+          "file_sha256": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+          "artifact_kind": "result_snapshot",
+          "status": "sigungu_relative_reference_not_approved",
+          "original_spatial_units": [
+            "sigungu"
+          ],
+          "source_periods": {
+            "evaluation_month": "2026-09",
+            "input_coverage": "2024-01~2026-09"
+          },
+          "reference_years": [
+            2024,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님.",
+          "details": {
+            "original_record": {
+              "행정구코드": "11290",
+              "행정구명": "성북구",
+              "평가분야": "생활쾌적도",
+              "평가기준월": "2026-09",
+              "사용자료_기준기간": "2024-01~2026-09",
+              "점수": 73.3,
+              "계산상태": "완료",
+              "계산불가사유": []
+            },
+            "row_context": {
+              "sigungu_code": "11290",
+              "sigungu_name": "성북구",
+              "year_month": "2026-09-01",
+              "comfort_score": "73.34",
+              "score_abs": "85.11",
+              "score_rel": "73.34",
+              "grade_abs": "쾌적",
+              "n_indicators": "4",
+              "has_imputed": "False",
+              "temp_imputed": "False",
+              "abs_temperature": "87.33",
+              "abs_pm25": "85.0",
+              "abs_pm10": "82.5",
+              "abs_noise": "84.73",
+              "abs_ozone": "74.24",
+              "rel_temperature": "79.17",
+              "rel_pm25": "81.25",
+              "rel_pm10": "20.83",
+              "rel_noise": "91.67",
+              "rel_ozone": "95.83",
+              "temp_avg_c": "21.9",
+              "pm25": "9.0",
+              "pm10": "21.0",
+              "noise_avg_db": "45.1089",
+              "o3": "0.0313",
+              "pm10_imputed": "False",
+              "pm25_imputed": "False",
+              "noise_max_db": "48.2047",
+              "noise_min_db": "43.0851",
+              "noise_days": "25",
+              "noise_count": "12816",
+              "temp_max_c": "27.1",
+              "temp_min_c": "17.6"
+            },
+            "is_dong_observation": false,
+            "score_mode": "monthly_sigungu_relative",
+            "sigungu_code": "11290",
+            "absolute_grade_is_separate": true,
+            "raw_source_documents_supplied": false,
+            "source_commit": "f0948c1be6bb945eeddfb47c8b50412f7d8f38e1"
+          }
+        },
+        "health": {
+          "source_file": "health/reference/current_scores.csv",
+          "file_sha256": "9520cce86cd35e466e36b4104e70637799dbaab94d64cb7e4488e05631f65d14",
+          "artifact_kind": "reference_snapshot",
+          "status": "relative_reference_not_approved",
+          "original_spatial_units": [
+            "administrative_dong",
+            "sigungu"
+          ],
+          "source_periods": {
+            "observed_air": "2026Q3",
+            "medical_facilities": "2026-06",
+            "population_vulnerability": "2026Q2",
+            "emergency_roster": "2026-09-10"
+          },
+          "reference_years": [
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님.",
+          "details": {
+            "period": "2026-09-30",
+            "is_forecast": false,
+            "grade": "아주좋음",
+            "deployment": {
+              "domain": "health",
+              "package_version": "independent-domain-v1-region-schema",
+              "forecast_quarter": "2026Q4",
+              "production_approved": false,
+              "training_performed": false,
+              "health_as_of": "2026-09-30",
+              "health_required_columns": [
+                "행정동코드",
+                "자치구",
+                "행정동명",
+                "의료자료기준",
+                "인구기준",
+                "행정동주소DB기준",
+                "기준자료_연결확인",
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "health_numeric_columns": [
+                "총인구",
+                "고령인구비율_pct",
+                "의과병원수",
+                "일반의원수",
+                "약국수",
+                "의과의사수",
+                "일반입원병상수",
+                "공공보건기관수",
+                "의과의사수_원본빈값수",
+                "일반입원병상수_원본빈값수",
+                "공식지정응급기관수",
+                "기타응급실운영병원_명단기관수",
+                "응급실병상기록_기관수",
+                "운영시간미확인_기관수"
+              ],
+              "medical_forecast_trained": false
+            },
+            "row_context": {
+              "sigungu_name": "성북구",
+              "region_code": "290725",
+              "region_name": "월곡제2동",
+              "geographic_unit": "행정동",
+              "medical_reference_period": "2026-06",
+              "population_reference_period": "2026Q2",
+              "address_db_reference_period": "2026-09",
+              "total_population": "19196.0",
+              "elderly_population_pct": "22.322358824755156",
+              "medical_institution_count": "33",
+              "clinic_count": "17",
+              "pharmacy_count": "13",
+              "physician_count": "32.0",
+              "physician_count_source_missing_count": "0",
+              "inpatient_bed_count": "21.0",
+              "inpatient_bed_count_source_missing_count": "0",
+              "emergency_bed_count": "0.0",
+              "emergency_bed_count_source_missing_count": "0",
+              "medical_institutions_per_10000": "17.191081475307353",
+              "clinics_per_10000": "8.856011669097729",
+              "pharmacies_per_10000": "6.772244217545322",
+              "physicians_per_10000": "16.670139612419256",
+              "inpatient_beds_per_10000": "10.939779120650137",
+              "emergency_beds_per_10000": "0.0",
+              "medical_supply_note": "행정동 미확정 6건 제외 목록의 공급량; 현실의 전체 공급과 다를 수 있음",
+              "medical_source_link_complete": "True",
+              "pharmacy_source_link_complete": "True",
+              "excluded_unmapped_medical_candidate_count": "0",
+              "excluded_unmapped_pharmacy_candidate_count": "0",
+              "public_health_facility_count": "1",
+              "public_health_facilities_per_10000": "0.5209418628881017",
+              "hospital_count": "0",
+              "hospitals_per_10000": "0.0",
+              "designated_emergency_institution_count": "0",
+              "other_emergency_roster_institution_count": "0",
+              "emergency_roster_institution_count": "0",
+              "emergency_roster_present": "0",
+              "institutions_with_emergency_bed_records": "0",
+              "explicit_24h_guidance_institution_count": "0",
+              "unknown_operating_hours_institution_count": "0",
+              "operating_guidance_note": "9월 추석 안내 맥락의 명시적 표기만 집계; 미확인은 미운영이 아님",
+              "emergency_roster_reference_date": "2026-09-10",
+              "emergency_facility_reference_period": "2026-06",
+              "reference_link_confirmed": "True",
+              "emergency_resource_note": "해당 동 소재 자원은 현재 목록에서 확인되지 않음",
+              "emergency_presence_score": "0.0",
+              "sigungu_code": "11290",
+              "medical_eligible": "True",
+              "age_eligible": "True",
+              "reference_eligible": "True",
+              "previous_elderly_population_pct": "22.32235882475516",
+              "confirmed_elderly_population": "4285",
+              "confirmed_elderly_age_band_count": "8",
+              "missing_elderly_age_band_count": "0",
+              "missing_elderly_age_bands": "",
+              "elderly_ratio_data_status": "전체연령확인",
+              "elderly_ratio_policy": "confirmed-elderly-age-bands-v2"
+            },
+            "source_units_confirmed": false
+          }
+        },
+        "safety": {
+          "source_file": "safety/results/safety_scores.json",
+          "file_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+          "artifact_kind": "result_snapshot",
+          "status": "calculated_draft",
+          "original_spatial_units": [
+            "pooled_police_jurisdiction",
+            "sigungu"
+          ],
+          "source_periods": {
+            "crime": "2025",
+            "population": "2025-01/2025-12 month-end mean",
+            "cctv": "2026-06-30",
+            "police": "2025-12-31",
+            "jurisdiction_mapping": "2025-12-31"
+          },
+          "reference_years": [
+            2025,
+            2026
+          ],
+          "production_approved": false,
+          "interpretation": "관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님.",
+          "details": {
+            "jurisdiction_id": "POL2025_19",
+            "profile_id": "POL2025_19__11290",
+            "status": "calculated_draft",
+            "components": {
+              "crime": {
+                "count": 1989,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 47.055771182933746,
+                "score": 100.0,
+                "weight": 0.8,
+                "weighted_points": 80.0,
+                "source_period": "2025",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              },
+              "cctv": {
+                "count": 3883,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 91.86403192726583,
+                "score": 50.0,
+                "weight": 0.1,
+                "weighted_points": 5.0,
+                "source_period": "2026-06-30",
+                "measurement_scope": "sigungu",
+                "measurement_area_id": "11290",
+                "comparison_count": 25
+              },
+              "police": {
+                "count": 10,
+                "population_mean_2025": 422689.9166666667,
+                "rate_per_10000_residents": 0.23658004616859601,
+                "score": 54.166666666666664,
+                "weight": 0.1,
+                "weighted_points": 5.416666666666667,
+                "source_period": "2025-12-31",
+                "measurement_scope": "pooled_police_jurisdiction",
+                "measurement_area_id": "POL2025_19",
+                "comparison_count": 25
+              }
+            },
+            "observed_dong_crime_count": null,
+            "observed_dong_cctv_count": null,
+            "observed_dong_police_count": null,
+            "mapping_status": "draft_calculated",
+            "jurisdiction_review": {
+              "original_flag": false,
+              "station_candidates": [
+                "종암"
+              ],
+              "reason": null,
+              "blocking_source_gap": false,
+              "whole_region_withheld": false,
+              "prior_blocking_source_gap": false,
+              "station_candidates_remain_multiple": false,
+              "verification_ids": [],
+              "direct_2025_dong_register_confirmed": null,
+              "current_note": "기존 관할표 기준 유지."
+            },
+            "quality_flags": [
+              "year_end_jurisdiction_mapping_not_full_year_reverified",
+              "registered_resident_denominator_not_personal_victim_probability",
+              "sex_category_definition_requires_consistency_review",
+              "original_station_ambiguity_preserved",
+              "multiple_stations_pooled",
+              "design_weights_not_learned",
+              "mixed_source_periods_explicit",
+              "cctv_source_header_invalid_day_filename_and_received_date_used",
+              "not_427_independent_observations"
+            ],
+            "profile_rank": 1,
+            "grade": 1,
+            "grade_label": "1등급"
+          }
+        }
+      },
+      "rank": 5,
+      "personalized_score_100": 70.498746,
+      "contributions": {
+        "economy": 7.43204,
+        "energy": 7.373445,
+        "comfort": 10.471429,
+        "health": 6.471832,
+        "safety": 38.75
+      },
+      "domain_points_20": {
+        "economy": 10.404857,
+        "energy": 10.322824,
+        "comfort": 14.66,
+        "health": 9.060564,
+        "safety": 18.083333
+      },
+      "selected_total_points": 62.531578,
+      "five_domain_total_points": 62.531578,
+      "strengths": [
+        {
+          "domain": "safety",
+          "score": 90.41666666666667,
+          "contribution": 38.75
+        },
+        {
+          "domain": "comfort",
+          "score": 73.3,
+          "contribution": 10.471429
+        }
+      ],
+      "weaknesses": [
+        {
+          "domain": "health",
+          "score": 45.30282242168825,
+          "contribution": 6.471832
+        },
+        {
+          "domain": "energy",
+          "score": 51.61411832708768,
+          "contribution": 7.373445
+        }
+      ],
+      "advantages": "제공된 점수에서 상대적 강점은 치안 90.4/100점, 쾌적 73.3/100점입니다.",
+      "disadvantages": "제공된 점수에서 상대적으로 낮은 영역은 건강 45.3/100점, 에너지 51.6/100점입니다.",
+      "limitations": [
+        "강점·약점은 선택한 영역 내 점수의 상대 비교이며 실제 거주 만족도나 인과효과를 뜻하지 않습니다.",
+        "경제: 경제활동 집중도 추정. 주민 소득·집값·실제 현재월 관측값이 아님. 기준기간: commute=2026-09, employment=2026-08, licensing=2026-09. 상태: estimated.",
+        "경제 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "에너지: 주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님 기준기간: energy=2026Q2. 상태: pilot_not_approved.",
+        "에너지 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "쾌적: 자치구 월별 상대 쾌적 참고점수. 같은 구의 행정동에 연결한 값이며 동별 실제 관측값·절대 환경등급이 아님. 기준기간: evaluation_month=2026-09, input_coverage=2024-01~2026-09. 상태: sigungu_relative_reference_not_approved.",
+        "쾌적 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "건강: 의료자원과 자치구 대기환경의 상대 참고지수. 질병확률·실제 도보시간이 아님. 기준기간: observed_air=2026Q3, medical_facilities=2026-06, population_vulnerability=2026Q2, emergency_roster=2026-09-10. 상태: relative_reference_not_approved.",
+        "건강 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "치안: 관할권역·자치구 기반 치안 참고점수. 행정동 실제 범죄율·피해확률이 아님. 기준기간: crime=2025, population=2025-01/2025-12 month-end mean, cctv=2026-06-30, police=2025-12-31, jurisdiction_mapping=2025-12-31. 상태: calculated_draft.",
+        "치안 점수는 정식 운영 승인 전 또는 미확인 제공본입니다.",
+        "이 지역의 검색 문서 근거는 선택되지 않았으며, 제공된 점수 메타데이터 범위로 설명했습니다."
+      ],
+      "citations": []
+    }
+  ],
+  "warnings": [
+    "COMFORT_PERIOD_DIFFERS_FROM_TARGET_MONTH",
+    "COMFORT_RAW_SOURCE_DOCS_NOT_DELIVERED",
+    "CONTEXT_ASSIGNED_COMFORT",
+    "CONTEXT_ASSIGNED_HEALTH_AIR",
+    "CONTEXT_ASSIGNED_SAFETY",
+    "ECONOMY_ESTIMATED",
+    "FIXED_SNAPSHOT_NOT_LIVE_DATA",
+    "PROVISIONAL_COMFORT",
+    "PROVISIONAL_ENERGY",
+    "PROVISIONAL_HEALTH",
+    "LLM_AUTHENTICATION",
+    "NO_DOCUMENT_EVIDENCE"
+  ],
+  "diagnostics": [
+    {
+      "error": "OpenRouter error: authentication",
+      "code": "authentication",
+      "status_code": 401
+    }
+  ],
+  "is_mock": false
+}

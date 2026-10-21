@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/rrrrang/Seoul-smart-life",
+  "commit": "f0948c1be6bb945eeddfb47c8b50412f7d8f38e1",
+  "files_sha256": {
+    "results/comfort_scores.json": "719d0295d5a2ae41e82080806a4a40d45e1ea9b5e45dd802936963e8c07bec1a",
+    "results/monthly_scores.csv": "4a0f40f83d3518280b471c6776d1e82f6e2ee4e8f2e16eb4fd03f4fc50f5cdd4",
+    "results/region_ranking_period_relative.csv": "7d9907f29db0e1e1465297d336c3d6d6ae52b9a7e041f0885d47fd425a7700bc",
+    "src/comfort_score.py": "c89fc387438406e124f5098c4ac8aa72dfedcefda89ba8127c40fb01016ef0dc"
+  },
+  "note": "Local import receipt, not an upstream approval or signature."
+}

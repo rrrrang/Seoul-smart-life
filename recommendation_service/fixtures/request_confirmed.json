@@ -1,0 +1,17 @@
+{
+  "weights": {
+    "economy": 1.0,
+    "energy": 1.0,
+    "comfort": 1.0,
+    "health": 1.0,
+    "safety": 3.0
+  },
+  "top_k": 5,
+  "min_scores": {
+    "economy": null,
+    "energy": null,
+    "comfort": null,
+    "health": null,
+    "safety": null
+  }
+}

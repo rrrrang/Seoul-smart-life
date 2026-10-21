@@ -1,0 +1,178 @@
+{
+  "$defs": {
+    "CategoryScores": {
+      "additionalProperties": false,
+      "properties": {
+        "economy": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Economy"
+        },
+        "energy": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Energy"
+        },
+        "comfort": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Comfort"
+        },
+        "health": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Health"
+        },
+        "safety": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Safety"
+        }
+      },
+      "title": "CategoryScores",
+      "type": "object"
+    },
+    "ExplicitWeights": {
+      "additionalProperties": false,
+      "description": "LLM numeric weights must specify every domain; never invent omitted values.",
+      "properties": {
+        "economy": {
+          "minimum": 0,
+          "title": "Economy",
+          "type": "number"
+        },
+        "energy": {
+          "minimum": 0,
+          "title": "Energy",
+          "type": "number"
+        },
+        "comfort": {
+          "minimum": 0,
+          "title": "Comfort",
+          "type": "number"
+        },
+        "health": {
+          "minimum": 0,
+          "title": "Health",
+          "type": "number"
+        },
+        "safety": {
+          "minimum": 0,
+          "title": "Safety",
+          "type": "number"
+        }
+      },
+      "required": [
+        "economy",
+        "energy",
+        "comfort",
+        "health",
+        "safety"
+      ],
+      "title": "ExplicitWeights",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "weights": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ExplicitWeights"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "priority_domains": {
+      "items": {
+        "enum": [
+          "economy",
+          "energy",
+          "comfort",
+          "health",
+          "safety"
+        ],
+        "type": "string"
+      },
+      "title": "Priority Domains",
+      "type": "array"
+    },
+    "min_scores": {
+      "$ref": "#/$defs/CategoryScores"
+    },
+    "unsupported_conditions": {
+      "items": {
+        "maxLength": 300,
+        "minLength": 1,
+        "type": "string"
+      },
+      "title": "Unsupported Conditions",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "maxLength": 300,
+        "minLength": 1,
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "weights",
+    "priority_domains",
+    "min_scores",
+    "unsupported_conditions",
+    "limitations"
+  ],
+  "title": "PreferenceDraft",
+  "type": "object"
+}

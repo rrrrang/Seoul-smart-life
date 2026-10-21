@@ -1,0 +1,41 @@
+{
+  "status": "needs_confirmation",
+  "preferences": {
+    "weights": {
+      "economy": 1.0,
+      "energy": 1.0,
+      "comfort": 1.0,
+      "health": 1.0,
+      "safety": 3.0
+    },
+    "top_k": 5,
+    "min_scores": {
+      "economy": null,
+      "energy": null,
+      "comfort": null,
+      "health": null,
+      "safety": null
+    },
+    "priority_domains": [
+      "safety"
+    ],
+    "unsupported_conditions": [
+      "월세 조건"
+    ],
+    "limitations": [],
+    "needs_confirmation": true,
+    "extraction_status": "llm",
+    "weight_source": "priority"
+  },
+  "effective_request": null,
+  "unavailable_requested_domains": [],
+  "recommendation": null,
+  "evidence": {
+    "status": "no_evidence",
+    "chunks": []
+  },
+  "explanation": null,
+  "warnings": [
+    "UNSUPPORTED_CONDITIONS_REQUIRE_CONFIRMATION"
+  ]
+}

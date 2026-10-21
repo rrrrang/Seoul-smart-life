@@ -1,0 +1,142 @@
+{
+  "health": {
+    "as_of": "2026-09-30",
+    "score_kind": "월별 노출·의료 대응의 상대 참고지수",
+    "component_dates": {
+      "observed_air": "2026Q3",
+      "medical_facilities": "2026-06",
+      "population_vulnerability": "2026Q2",
+      "emergency_roster": "2026-09-10"
+    },
+    "exposure": {
+      "pollutants": [
+        "pm10",
+        "pm2.5",
+        "o3"
+      ],
+      "quarter_aggregation": "3개 월값이 모두 있을 때 월별 값의 산술평균",
+      "reference": "2024Q1~2025Q4 자치구별 분기값; 각 물질 5·95 분위수 경계 고정",
+      "direction": "cost",
+      "weights": "역사 기준 완전행의 CRITIC; 상관 중복 점검",
+      "absolute_air_grade_supported": false,
+      "source_units_confirmed": false,
+      "within_district_spatial_resolution": false
+    },
+    "response": {
+      "base_supply_count": 6,
+      "base_supply_denominator": "총인구 1만 명당",
+      "emergency_indicator": "any_designated_or_roster_or_er_bed_record",
+      "emergency_score": {
+        "observed_present": 100,
+        "not_in_complete_source_lists": 0,
+        "unknown": null
+      },
+      "emergency_double_count": false,
+      "indicator_count": 7,
+      "weights": "347동 기준 7개 항목 엔트로피를 새로 계산; 기존 6개 비율을 그대로 복사하지 않음",
+      "sensitivity_methods": [
+        "동일 7항목",
+        "CRITIC 7항목"
+      ],
+      "old_weights_reused": false,
+      "operating_hours_unknown_as_closed": false
+    },
+    "vulnerability": {
+      "column": "고령인구비율_pct",
+      "required_for_composite_grade": true,
+      "direct_penalty": false,
+      "disease_target": false,
+      "role": "수요·취약성 설명. 연령별 실제 이용량 없이 적정 필요량·질병·상호작용 계수를 만들지 않음",
+      "full_vulnerability_adjusted_score_ready": false
+    },
+    "climate": {
+      "station_mapping_confirmed": false,
+      "heatwave_days_from_monthly_means": false,
+      "enabled_in_dong_score": false,
+      "role": "관측소 월 통계 설명; 동별 기후 위해 점수는 비활성"
+    },
+    "prototype_axes": [
+      "exposure_safety",
+      "medical_response"
+    ],
+    "prototype_axis_weights": {
+      "exposure_safety": 0.5,
+      "medical_response": 0.5
+    },
+    "weights_status": "시범 비교용 동일 축 비중; 논문 고정값·최적 중요도·인과효과가 아님",
+    "axis_weight_sensitivity": [
+      [
+        0.25,
+        0.75
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.75,
+        0.25
+      ]
+    ],
+    "prototype_score_formula": "0.5 * exposure_safety + 0.5 * medical_response",
+    "unavailable_component_renormalization": false,
+    "missing_age_composite_grade": null,
+    "full_plan_health_score_ready": false,
+    "air_forecast": {
+      "unit": "자치구·월",
+      "targets": [
+        "pm10",
+        "pm2.5",
+        "o3"
+      ],
+      "input": [
+        "target_lag1",
+        "target_lag2",
+        "target_lag3",
+        "target_lag12",
+        "past3_mean",
+        "month_sin",
+        "month_cos"
+      ],
+      "models": [
+        "RandomForestRegressor",
+        "HistGradientBoostingRegressor(loss=poisson)"
+      ],
+      "baselines": [
+        "전월동일",
+        "전년동월동일"
+      ],
+      "selection_metric": "선택검증의 자치구 평균 MAE",
+      "split": {
+        "initial_train": [
+          "2025-01",
+          "2025-06"
+        ],
+        "selection": [
+          "2025-07",
+          "2025-09"
+        ],
+        "calibration": [
+          "2025-10",
+          "2025-12"
+        ],
+        "test": [
+          "2026-01",
+          "2026-06"
+        ],
+        "monitoring_only": [
+          "2026-07",
+          "2026-09"
+        ]
+      },
+      "deployment_training_end": "2026-06",
+      "deployment_calibration": [
+        "2026-07",
+        "2026-09"
+      ],
+      "deployment_predict_month": "2026-10",
+      "raw_october_rows_used": false,
+      "current_health_score_blended_with_future_prediction": false
+    }
+  }
+}

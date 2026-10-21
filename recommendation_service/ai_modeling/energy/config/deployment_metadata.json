@@ -1,0 +1,18 @@
+{
+  "domain": "energy",
+  "package_version": "independent-domain-v1-region-schema",
+  "forecast_quarter": "2026Q4",
+  "production_approved": false,
+  "training_performed": false,
+  "energy_latest_actual": "2026Q2",
+  "energy_validation_reasons": {
+    "1": "배포 고정모델 검증 보류: 직전 점수 유지보다 평균 점수 오차가 작지 않음",
+    "2": "배포 고정모델 검증 보류: 서로 다른 시험 출발시점 부족(1회/최소 2회) / 별도 시점별 재학습 3회: 최소 조건 충족(평균 점수 오차 2.75점, 전년 사용량 방식 2.63점). 별도 실험이므로 배포모델의 검증 통과로 합산하지 않음"
+  },
+  "additional_refit": {
+    "origins": 3,
+    "minimum_passed": true,
+    "score_MAE": 2.745160698909986,
+    "annual_score_MAE": 2.632071151018524
+  }
+}

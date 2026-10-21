@@ -1,0 +1,830 @@
+{
+  "$defs": {
+    "CategoryScores": {
+      "additionalProperties": false,
+      "properties": {
+        "economy": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Economy"
+        },
+        "energy": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Energy"
+        },
+        "comfort": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Comfort"
+        },
+        "health": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Health"
+        },
+        "safety": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Safety"
+        }
+      },
+      "title": "CategoryScores",
+      "type": "object"
+    },
+    "DomainInsight": {
+      "additionalProperties": false,
+      "properties": {
+        "domain": {
+          "enum": [
+            "economy",
+            "energy",
+            "comfort",
+            "health",
+            "safety"
+          ],
+          "title": "Domain",
+          "type": "string"
+        },
+        "score": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Score",
+          "type": "number"
+        },
+        "contribution": {
+          "minimum": 0,
+          "title": "Contribution",
+          "type": "number"
+        }
+      },
+      "required": [
+        "domain",
+        "score",
+        "contribution"
+      ],
+      "title": "DomainInsight",
+      "type": "object"
+    },
+    "EvidenceChunk": {
+      "additionalProperties": false,
+      "properties": {
+        "chunk_id": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Chunk Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 8000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "source": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Source",
+          "type": "string"
+        },
+        "document_title": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Document Title",
+          "type": "string"
+        },
+        "reference_year": {
+          "maximum": 2100,
+          "minimum": 1900,
+          "title": "Reference Year",
+          "type": "integer"
+        },
+        "region_code": {
+          "anyOf": [
+            {
+              "maxLength": 300,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Region Code"
+        }
+      },
+      "required": [
+        "chunk_id",
+        "text",
+        "source",
+        "document_title",
+        "reference_year"
+      ],
+      "title": "EvidenceChunk",
+      "type": "object"
+    },
+    "ExcludedRegion": {
+      "additionalProperties": false,
+      "properties": {
+        "region_code": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Region Code",
+          "type": "string"
+        },
+        "reason": {
+          "enum": [
+            "missing_scores",
+            "constraint_mismatch"
+          ],
+          "title": "Reason",
+          "type": "string"
+        },
+        "domains": {
+          "items": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ],
+            "type": "string"
+          },
+          "title": "Domains",
+          "type": "array"
+        }
+      },
+      "required": [
+        "region_code",
+        "reason",
+        "domains"
+      ],
+      "title": "ExcludedRegion",
+      "type": "object"
+    },
+    "SnapshotEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "source_file": {
+          "title": "Source File",
+          "type": "string"
+        },
+        "file_sha256": {
+          "title": "File Sha256",
+          "type": "string"
+        },
+        "artifact_kind": {
+          "enum": [
+            "result_snapshot",
+            "reference_snapshot"
+          ],
+          "title": "Artifact Kind",
+          "type": "string"
+        },
+        "status": {
+          "title": "Status",
+          "type": "string"
+        },
+        "original_spatial_units": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Original Spatial Units",
+          "type": "array"
+        },
+        "source_periods": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Source Periods",
+          "type": "object"
+        },
+        "reference_years": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Reference Years",
+          "type": "array"
+        },
+        "production_approved": {
+          "default": false,
+          "title": "Production Approved",
+          "type": "boolean"
+        },
+        "interpretation": {
+          "title": "Interpretation",
+          "type": "string"
+        },
+        "details": {
+          "additionalProperties": true,
+          "title": "Details",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_file",
+        "file_sha256",
+        "artifact_kind",
+        "status",
+        "original_spatial_units",
+        "source_periods",
+        "reference_years",
+        "interpretation",
+        "details"
+      ],
+      "title": "SnapshotEvidence",
+      "type": "object"
+    },
+    "SnapshotExplanationResult": {
+      "additionalProperties": false,
+      "properties": {
+        "generation_status": {
+          "enum": [
+            "llm",
+            "fallback",
+            "empty"
+          ],
+          "title": "Generation Status",
+          "type": "string"
+        },
+        "selected_domains": {
+          "items": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ],
+            "type": "string"
+          },
+          "title": "Selected Domains",
+          "type": "array"
+        },
+        "selected_max_points": {
+          "title": "Selected Max Points",
+          "type": "integer"
+        },
+        "unavailable_domains": {
+          "items": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ],
+            "type": "string"
+          },
+          "title": "Unavailable Domains",
+          "type": "array"
+        },
+        "snapshot_version": {
+          "title": "Snapshot Version",
+          "type": "string"
+        },
+        "target_month": {
+          "title": "Target Month",
+          "type": "string"
+        },
+        "items": {
+          "items": {
+            "$ref": "#/$defs/SnapshotRegionExplanation"
+          },
+          "title": "Items",
+          "type": "array"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        },
+        "diagnostics": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Diagnostics",
+          "type": "array"
+        },
+        "is_mock": {
+          "default": false,
+          "title": "Is Mock",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "generation_status",
+        "selected_domains",
+        "selected_max_points",
+        "unavailable_domains",
+        "snapshot_version",
+        "target_month",
+        "items"
+      ],
+      "title": "SnapshotExplanationResult",
+      "type": "object"
+    },
+    "SnapshotRecommendation": {
+      "additionalProperties": false,
+      "properties": {
+        "selected_domains": {
+          "items": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ],
+            "type": "string"
+          },
+          "title": "Selected Domains",
+          "type": "array"
+        },
+        "unavailable_domains": {
+          "items": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ],
+            "type": "string"
+          },
+          "title": "Unavailable Domains",
+          "type": "array"
+        },
+        "normalized_weights": {
+          "$ref": "#/$defs/Weights"
+        },
+        "selected_max_points": {
+          "title": "Selected Max Points",
+          "type": "integer"
+        },
+        "items": {
+          "items": {
+            "$ref": "#/$defs/SnapshotRecommendationItem"
+          },
+          "title": "Items",
+          "type": "array"
+        },
+        "excluded": {
+          "items": {
+            "$ref": "#/$defs/ExcludedRegion"
+          },
+          "title": "Excluded",
+          "type": "array"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        },
+        "target_month": {
+          "title": "Target Month",
+          "type": "string"
+        },
+        "snapshot_version": {
+          "title": "Snapshot Version",
+          "type": "string"
+        },
+        "file_hashes": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "File Hashes",
+          "type": "object"
+        },
+        "domain_metadata": {
+          "additionalProperties": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "propertyNames": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ]
+          },
+          "title": "Domain Metadata",
+          "type": "object"
+        },
+        "is_mock": {
+          "default": false,
+          "title": "Is Mock",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "selected_domains",
+        "unavailable_domains",
+        "normalized_weights",
+        "selected_max_points",
+        "items",
+        "excluded",
+        "warnings",
+        "target_month",
+        "snapshot_version",
+        "file_hashes",
+        "domain_metadata"
+      ],
+      "title": "SnapshotRecommendation",
+      "type": "object"
+    },
+    "SnapshotRecommendationItem": {
+      "additionalProperties": false,
+      "properties": {
+        "region_code": {
+          "title": "Region Code",
+          "type": "string"
+        },
+        "region_name": {
+          "title": "Region Name",
+          "type": "string"
+        },
+        "sigungu_code": {
+          "title": "Sigungu Code",
+          "type": "string"
+        },
+        "category_scores": {
+          "$ref": "#/$defs/CategoryScores"
+        },
+        "domain_metadata": {
+          "additionalProperties": {
+            "$ref": "#/$defs/SnapshotEvidence"
+          },
+          "propertyNames": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ]
+          },
+          "title": "Domain Metadata",
+          "type": "object"
+        },
+        "rank": {
+          "title": "Rank",
+          "type": "integer"
+        },
+        "personalized_score_100": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Personalized Score 100",
+          "type": "number"
+        },
+        "contributions": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "propertyNames": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ]
+          },
+          "title": "Contributions",
+          "type": "object"
+        },
+        "domain_points_20": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "propertyNames": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ]
+          },
+          "title": "Domain Points 20",
+          "type": "object"
+        },
+        "selected_total_points": {
+          "title": "Selected Total Points",
+          "type": "number"
+        },
+        "five_domain_total_points": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Five Domain Total Points"
+        },
+        "strengths": {
+          "items": {
+            "$ref": "#/$defs/DomainInsight"
+          },
+          "title": "Strengths",
+          "type": "array"
+        },
+        "weaknesses": {
+          "items": {
+            "$ref": "#/$defs/DomainInsight"
+          },
+          "title": "Weaknesses",
+          "type": "array"
+        }
+      },
+      "required": [
+        "region_code",
+        "region_name",
+        "sigungu_code",
+        "category_scores",
+        "domain_metadata",
+        "rank",
+        "personalized_score_100",
+        "contributions",
+        "domain_points_20",
+        "selected_total_points",
+        "five_domain_total_points",
+        "strengths",
+        "weaknesses"
+      ],
+      "title": "SnapshotRecommendationItem",
+      "type": "object"
+    },
+    "SnapshotRegionExplanation": {
+      "additionalProperties": false,
+      "properties": {
+        "region_code": {
+          "title": "Region Code",
+          "type": "string"
+        },
+        "region_name": {
+          "title": "Region Name",
+          "type": "string"
+        },
+        "sigungu_code": {
+          "title": "Sigungu Code",
+          "type": "string"
+        },
+        "category_scores": {
+          "$ref": "#/$defs/CategoryScores"
+        },
+        "domain_metadata": {
+          "additionalProperties": {
+            "$ref": "#/$defs/SnapshotEvidence"
+          },
+          "propertyNames": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ]
+          },
+          "title": "Domain Metadata",
+          "type": "object"
+        },
+        "rank": {
+          "title": "Rank",
+          "type": "integer"
+        },
+        "personalized_score_100": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Personalized Score 100",
+          "type": "number"
+        },
+        "contributions": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "propertyNames": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ]
+          },
+          "title": "Contributions",
+          "type": "object"
+        },
+        "domain_points_20": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "propertyNames": {
+            "enum": [
+              "economy",
+              "energy",
+              "comfort",
+              "health",
+              "safety"
+            ]
+          },
+          "title": "Domain Points 20",
+          "type": "object"
+        },
+        "selected_total_points": {
+          "title": "Selected Total Points",
+          "type": "number"
+        },
+        "five_domain_total_points": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Five Domain Total Points"
+        },
+        "strengths": {
+          "items": {
+            "$ref": "#/$defs/DomainInsight"
+          },
+          "title": "Strengths",
+          "type": "array"
+        },
+        "weaknesses": {
+          "items": {
+            "$ref": "#/$defs/DomainInsight"
+          },
+          "title": "Weaknesses",
+          "type": "array"
+        },
+        "advantages": {
+          "title": "Advantages",
+          "type": "string"
+        },
+        "disadvantages": {
+          "title": "Disadvantages",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/EvidenceChunk"
+          },
+          "title": "Citations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "region_code",
+        "region_name",
+        "sigungu_code",
+        "category_scores",
+        "domain_metadata",
+        "rank",
+        "personalized_score_100",
+        "contributions",
+        "domain_points_20",
+        "selected_total_points",
+        "five_domain_total_points",
+        "strengths",
+        "weaknesses",
+        "advantages",
+        "disadvantages",
+        "limitations",
+        "citations"
+      ],
+      "title": "SnapshotRegionExplanation",
+      "type": "object"
+    },
+    "Weights": {
+      "additionalProperties": false,
+      "properties": {
+        "economy": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Economy",
+          "type": "number"
+        },
+        "energy": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Energy",
+          "type": "number"
+        },
+        "comfort": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Comfort",
+          "type": "number"
+        },
+        "health": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Health",
+          "type": "number"
+        },
+        "safety": {
+          "default": 1,
+          "minimum": 0,
+          "title": "Safety",
+          "type": "number"
+        }
+      },
+      "title": "Weights",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "recommendation": {
+      "$ref": "#/$defs/SnapshotRecommendation"
+    },
+    "explanation": {
+      "$ref": "#/$defs/SnapshotExplanationResult"
+    }
+  },
+  "required": [
+    "recommendation",
+    "explanation"
+  ],
+  "title": "WeightsRecommendationResponse",
+  "type": "object"
+}

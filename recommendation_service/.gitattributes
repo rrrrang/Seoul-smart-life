@@ -1,0 +1,3 @@
+# Preserve original artifact bytes and accept existing CRLF line endings.
+* -text whitespace=cr-at-eol
+ai_modeling/** -whitespace
