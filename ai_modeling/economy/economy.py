@@ -6,6 +6,7 @@ classifier. Never present its estimate as an observed current-month statistic.
 from __future__ import annotations
 
 import argparse
+from copy import deepcopy
 from datetime import date, datetime, timedelta, timezone
 import hashlib
 import json
@@ -30,8 +31,36 @@ FEATURES = [
 DOMAINS = ["economy", "energy", "comfort", "health", "safety"]
 
 
+GRADE_RULES = {
+    "method": "fixed_score_intervals",
+    "best_grade": 1,
+    "worst_grade": 5,
+    "score_rounding_before_grading": False,
+    "missing_score_grade": None,
+    "bands": [
+        {"grade": grade, "label": f"{grade}등급", "min_score": lower,
+         "max_score": upper, "min_inclusive": True, "max_inclusive": grade == 1}
+        for grade, lower, upper in ((1, 80, 100), (2, 60, 80), (3, 40, 60), (4, 20, 40), (5, 0, 20))
+    ],
+    "interpretation": "현재월 경제활동 집중도 추정점수의 고정 구간 등급. 1등급이 가장 높으며 주민 소득이나 집값 상승을 뜻하지 않음.",
+}
+
+
 class DataContractError(ValueError):
     """Invalid data, unavailable source vintage, or unsupported target month."""
+
+
+def grade_from_score(score):
+    """Grade the unrounded score; missing is not zero or grade 5."""
+    if score is None:
+        return None
+    if (isinstance(score, bool) or not isinstance(score, (int, float))
+            or not np.isfinite(score) or not 0 <= score <= 100):
+        raise DataContractError("score must be a finite number in [0, 100] or null")
+    for band in GRADE_RULES["bands"]:
+        if score >= band["min_score"]:
+            return band["grade"]
+    raise AssertionError("Unreachable score")
 
 
 def shift(month: str, count: int) -> str:
@@ -226,6 +255,7 @@ def estimate(as_of: str, target_month: str, root: Path = ROOT) -> dict:
     for row in regions.sort_values("region_code").itertuples():
         component_scores = {axis: float(values[axis].loc[row.region_code]) for axis in AXES}
         score = sum(config["weights"][axis] * component_scores[axis] for axis in AXES)
+        grade = grade_from_score(score)
         records.append({
             "region": {"region_code": row.region_code, "name_ko": row.region_name,
                        "sigungu_code": row.sigungu_code, "spatial_unit": "dong"},
@@ -237,6 +267,7 @@ def estimate(as_of: str, target_month: str, root: Path = ROOT) -> dict:
                 "components": {axis: {"score": component_scores[axis], "weight": config["weights"][axis],
                                       "source_period": config["source_months"][axis],
                                       "method": config["selected_methods"][axis]} for axis in AXES},
+                "grade": grade, "grade_label": f"{grade}등급" if grade is not None else None,
                 "cold_start_fallback": any(bool(features[axis].loc[row.region_code, "cold_start"]) for axis in AXES),
                 "measurement": "economic_activity_concentration_estimate",
                 "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정",
@@ -251,6 +282,7 @@ def estimate(as_of: str, target_month: str, root: Path = ROOT) -> dict:
                 "interpretation": "경제활동의 면적 대비 집중도 추정. 주민 소득·집값·상승하락 예측이 아님.",
                 "validation_scope": "2026-06/08 reconstructed-data retrospective recheck, not prospective validation",
                 "direction_prediction_available": False,
+                "grade_rules": deepcopy(GRADE_RULES),
             }}}
 
 

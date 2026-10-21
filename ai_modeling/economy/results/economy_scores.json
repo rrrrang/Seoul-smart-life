@@ -52,6 +52,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -103,6 +105,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -154,6 +158,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -205,6 +211,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -256,6 +264,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -307,6 +317,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -358,6 +370,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -409,6 +423,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -460,6 +476,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -511,6 +529,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -562,6 +582,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -613,6 +635,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -664,6 +688,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -715,6 +741,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -766,6 +794,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -817,6 +847,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -868,6 +900,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -919,6 +953,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -970,6 +1006,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1021,6 +1059,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1072,6 +1112,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1123,6 +1165,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1174,6 +1218,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1225,6 +1271,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1276,6 +1324,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1327,6 +1377,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1378,6 +1430,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1429,6 +1483,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1480,6 +1536,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1531,6 +1589,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1582,6 +1642,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1633,6 +1695,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1684,6 +1748,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1735,6 +1801,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1786,6 +1854,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1837,6 +1907,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1888,6 +1960,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1939,6 +2013,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -1990,6 +2066,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2041,6 +2119,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2092,6 +2172,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2143,6 +2225,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2194,6 +2278,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2245,6 +2331,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2296,6 +2384,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2347,6 +2437,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2398,6 +2490,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2449,6 +2543,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2500,6 +2596,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2551,6 +2649,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2602,6 +2702,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2653,6 +2755,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2704,6 +2808,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2755,6 +2861,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2806,6 +2914,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2857,6 +2967,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2908,6 +3020,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -2959,6 +3073,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3010,6 +3126,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3061,6 +3179,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3112,6 +3232,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3163,6 +3285,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3214,6 +3338,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3265,6 +3391,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3316,6 +3444,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3367,6 +3497,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3418,6 +3550,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3469,6 +3603,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3520,6 +3656,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3571,6 +3709,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3622,6 +3762,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3673,6 +3815,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3724,6 +3868,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3775,6 +3921,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3826,6 +3974,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3877,6 +4027,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3928,6 +4080,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -3979,6 +4133,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4030,6 +4186,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4081,6 +4239,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4132,6 +4292,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4183,6 +4345,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4234,6 +4398,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4285,6 +4451,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4336,6 +4504,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4387,6 +4557,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4438,6 +4610,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4489,6 +4663,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4540,6 +4716,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4591,6 +4769,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4642,6 +4822,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4693,6 +4875,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4744,6 +4928,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4795,6 +4981,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4846,6 +5034,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4897,6 +5087,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4948,6 +5140,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -4999,6 +5193,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5050,6 +5246,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5101,6 +5299,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5152,6 +5352,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5203,6 +5405,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5254,6 +5458,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5305,6 +5511,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5356,6 +5564,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5407,6 +5617,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5458,6 +5670,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5509,6 +5723,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5560,6 +5776,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5611,6 +5829,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5662,6 +5882,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5713,6 +5935,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5764,6 +5988,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5815,6 +6041,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5866,6 +6094,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5917,6 +6147,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -5968,6 +6200,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6019,6 +6253,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6070,6 +6306,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6121,6 +6359,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6172,6 +6412,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6223,6 +6465,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6274,6 +6518,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6325,6 +6571,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6376,6 +6624,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6427,6 +6677,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6478,6 +6730,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6529,6 +6783,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6580,6 +6836,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6631,6 +6889,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6682,6 +6942,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6733,6 +6995,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6784,6 +7048,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6835,6 +7101,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6886,6 +7154,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6937,6 +7207,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -6988,6 +7260,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7039,6 +7313,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7090,6 +7366,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7141,6 +7419,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7192,6 +7472,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7243,6 +7525,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7294,6 +7578,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7345,6 +7631,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7396,6 +7684,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7447,6 +7737,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7498,6 +7790,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7549,6 +7843,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7600,6 +7896,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7651,6 +7949,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7702,6 +8002,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7753,6 +8055,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7804,6 +8108,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7855,6 +8161,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7906,6 +8214,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -7957,6 +8267,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8008,6 +8320,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8059,6 +8373,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8110,6 +8426,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8161,6 +8479,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8212,6 +8532,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8263,6 +8585,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8314,6 +8638,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8365,6 +8691,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8416,6 +8744,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8467,6 +8797,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8518,6 +8850,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8569,6 +8903,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8620,6 +8956,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8671,6 +9009,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8722,6 +9062,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8773,6 +9115,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8824,6 +9168,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8875,6 +9221,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8926,6 +9274,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -8977,6 +9327,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9028,6 +9380,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9079,6 +9433,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9130,6 +9486,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9181,6 +9539,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9232,6 +9592,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9283,6 +9645,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9334,6 +9698,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9385,6 +9751,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9436,6 +9804,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9487,6 +9857,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9538,6 +9910,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9589,6 +9963,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9640,6 +10016,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9691,6 +10069,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9742,6 +10122,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9793,6 +10175,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9844,6 +10228,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9895,6 +10281,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9946,6 +10334,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -9997,6 +10387,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10048,6 +10440,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10099,6 +10493,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10150,6 +10546,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10201,6 +10599,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10252,6 +10652,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10303,6 +10705,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10354,6 +10758,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10405,6 +10811,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10456,6 +10864,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10507,6 +10917,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10558,6 +10970,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10609,6 +11023,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10660,6 +11076,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10711,6 +11129,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10762,6 +11182,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10813,6 +11235,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10864,6 +11288,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10915,6 +11341,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -10966,6 +11394,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11017,6 +11447,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11068,6 +11500,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11119,6 +11553,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11170,6 +11606,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11221,6 +11659,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11272,6 +11712,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11323,6 +11765,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11374,6 +11818,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11425,6 +11871,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11476,6 +11924,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11527,6 +11977,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11578,6 +12030,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11629,6 +12083,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11680,6 +12136,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11731,6 +12189,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11782,6 +12242,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11833,6 +12295,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11884,6 +12348,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11935,6 +12401,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -11986,6 +12454,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12037,6 +12507,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12088,6 +12560,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12139,6 +12613,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12190,6 +12666,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12241,6 +12719,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12292,6 +12772,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12343,6 +12825,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12394,6 +12878,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12445,6 +12931,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12496,6 +12984,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12547,6 +13037,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12598,6 +13090,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12649,6 +13143,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12700,6 +13196,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12751,6 +13249,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12802,6 +13302,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12853,6 +13355,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12904,6 +13408,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -12955,6 +13461,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13006,6 +13514,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13057,6 +13567,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13108,6 +13620,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13159,6 +13673,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13210,6 +13726,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13261,6 +13779,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13312,6 +13832,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13363,6 +13885,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13414,6 +13938,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13465,6 +13991,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13516,6 +14044,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13567,6 +14097,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13618,6 +14150,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13669,6 +14203,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13720,6 +14256,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13771,6 +14309,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13822,6 +14362,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13873,6 +14415,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13924,6 +14468,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -13975,6 +14521,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14026,6 +14574,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14077,6 +14627,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14128,6 +14680,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14179,6 +14733,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14230,6 +14786,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14281,6 +14839,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14332,6 +14892,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14383,6 +14945,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14434,6 +14998,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14485,6 +15051,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14536,6 +15104,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14587,6 +15157,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14638,6 +15210,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14689,6 +15263,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14740,6 +15316,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14791,6 +15369,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14842,6 +15422,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14893,6 +15475,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14944,6 +15528,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -14995,6 +15581,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15046,6 +15634,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15097,6 +15687,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15148,6 +15740,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15199,6 +15793,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15250,6 +15846,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15301,6 +15899,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15352,6 +15952,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15403,6 +16005,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15454,6 +16058,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15505,6 +16111,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15556,6 +16164,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15607,6 +16217,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15658,6 +16270,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15709,6 +16323,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15760,6 +16376,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15811,6 +16429,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15862,6 +16482,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15913,6 +16535,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -15964,6 +16588,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16015,6 +16641,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16066,6 +16694,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16117,6 +16747,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16168,6 +16800,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16219,6 +16853,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16270,6 +16906,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16321,6 +16959,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16372,6 +17012,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16423,6 +17065,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16474,6 +17118,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16525,6 +17171,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16576,6 +17224,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16627,6 +17277,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16678,6 +17330,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16729,6 +17383,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16780,6 +17436,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16831,6 +17489,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16882,6 +17542,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16933,6 +17595,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -16984,6 +17648,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17035,6 +17701,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17086,6 +17754,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17137,6 +17807,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17188,6 +17860,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17239,6 +17913,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17290,6 +17966,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17341,6 +18019,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17392,6 +18072,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17443,6 +18125,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17494,6 +18178,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17545,6 +18231,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17596,6 +18284,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17647,6 +18337,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17698,6 +18390,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17749,6 +18443,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17800,6 +18496,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17851,6 +18549,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17902,6 +18602,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -17953,6 +18655,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18004,6 +18708,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18055,6 +18761,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18106,6 +18814,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18157,6 +18867,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18208,6 +18920,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18259,6 +18973,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18310,6 +19026,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18361,6 +19079,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18412,6 +19132,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18463,6 +19185,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18514,6 +19238,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18565,6 +19291,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18616,6 +19344,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18667,6 +19397,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18718,6 +19450,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18769,6 +19503,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18820,6 +19556,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18871,6 +19609,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18922,6 +19662,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -18973,6 +19715,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19024,6 +19768,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19075,6 +19821,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19126,6 +19874,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19177,6 +19927,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19228,6 +19980,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19279,6 +20033,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19330,6 +20086,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19381,6 +20139,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19432,6 +20192,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19483,6 +20245,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19534,6 +20298,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19585,6 +20351,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19636,6 +20404,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19687,6 +20457,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19738,6 +20510,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19789,6 +20563,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19840,6 +20616,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19891,6 +20669,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19942,6 +20722,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -19993,6 +20775,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20044,6 +20828,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20095,6 +20881,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20146,6 +20934,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20197,6 +20987,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20248,6 +21040,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20299,6 +21093,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20350,6 +21146,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20401,6 +21199,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20452,6 +21252,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20503,6 +21305,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20554,6 +21358,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20605,6 +21411,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20656,6 +21464,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20707,6 +21517,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20758,6 +21570,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20809,6 +21623,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20860,6 +21676,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20911,6 +21729,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -20962,6 +21782,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21013,6 +21835,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21064,6 +21888,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21115,6 +21941,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21166,6 +21994,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21217,6 +22047,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21268,6 +22100,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21319,6 +22153,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 5,
+          "grade_label": "5등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21370,6 +22206,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21421,6 +22259,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21472,6 +22312,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21523,6 +22365,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 1,
+          "grade_label": "1등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21574,6 +22418,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21625,6 +22471,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21676,6 +22524,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 2,
+          "grade_label": "2등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21727,6 +22577,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 4,
+          "grade_label": "4등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21778,6 +22630,8 @@
               "method": "xgb_depth3_shrink50"
             }
           },
+          "grade": 3,
+          "grade_label": "3등급",
           "cold_start_fallback": false,
           "measurement": "economic_activity_concentration_estimate",
           "interpretation": "출근활동·공개 법인사업장 고용·5개 업종 영업기반의 면적 대비 집중도 추정"
@@ -21809,7 +22663,57 @@
       },
       "interpretation": "경제활동의 면적 대비 집중도 추정. 주민 소득·집값·상승하락 예측이 아님.",
       "validation_scope": "2026-06/08 reconstructed-data retrospective recheck, not prospective validation",
-      "direction_prediction_available": false
+      "direction_prediction_available": false,
+      "grade_rules": {
+        "method": "fixed_score_intervals",
+        "best_grade": 1,
+        "worst_grade": 5,
+        "score_rounding_before_grading": false,
+        "missing_score_grade": null,
+        "bands": [
+          {
+            "grade": 1,
+            "label": "1등급",
+            "min_score": 80,
+            "max_score": 100,
+            "min_inclusive": true,
+            "max_inclusive": true
+          },
+          {
+            "grade": 2,
+            "label": "2등급",
+            "min_score": 60,
+            "max_score": 80,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 3,
+            "label": "3등급",
+            "min_score": 40,
+            "max_score": 60,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 4,
+            "label": "4등급",
+            "min_score": 20,
+            "max_score": 40,
+            "min_inclusive": true,
+            "max_inclusive": false
+          },
+          {
+            "grade": 5,
+            "label": "5등급",
+            "min_score": 0,
+            "max_score": 20,
+            "min_inclusive": true,
+            "max_inclusive": false
+          }
+        ],
+        "interpretation": "현재월 경제활동 집중도 추정점수의 고정 구간 등급. 1등급이 가장 높으며 주민 소득이나 집값 상승을 뜻하지 않음."
+      }
     }
   }
 }

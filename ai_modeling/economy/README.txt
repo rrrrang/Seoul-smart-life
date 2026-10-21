@@ -33,12 +33,17 @@ JSON 계약
   domains / items / is_mock=false / metadata 구조.
   item.region.region_code는 6자리 문자열, sigungu_code는 5자리 문자열입니다.
   item.scores.economy만 값을 채우며 다른 영역은 null입니다.
+  item.metadata.economy.grade(정수 1~5), grade_label("3등급" 등)을 함께 제공합니다.
+  root.metadata.economy.grade_rules에 구간 정의가 있습니다. 치안과 동일한 20점 간격입니다.
+  반올림 전 점수로 80점 이상 1등급, 60점 이상 2등급, 40점 이상 3등급,
+  20점 이상 4등급, 20점 미만 5등급입니다. 1등급이 가장 높습니다.
+  점수·가중치·모델은 바꾸지 않고 등급만 추가합니다. 결측을 5등급으로 바꾸지 않습니다.
   metadata.economy.status='estimated', target_month, source_periods를 함께 보여주세요.
   메인 백엔드의 10자리 코드 목록과는 직접 조인하면 안 됩니다.
   6자리 프로젝트 코드로 맞춘 조회/병합 계층에서 연결해야 합니다.
 
 화면 표시 예
-  '경제활력도 26.3점 · 2026년 10월 추정'
+  '경제활력도 26.3점 · 4등급 · 2026년 10월 추정'
   '사용 자료: 출근 9월, 공개 법인사업장 고용 8월, 등록 영업기반 9월'
   '주민 소득이나 집값 예측을 뜻하지 않습니다.'
 

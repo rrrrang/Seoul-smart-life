@@ -2,7 +2,7 @@
   "status": "PASS",
   "release_scope": "executable current-month activity concentration estimate, not prospective accuracy certification",
   "region_count": 427,
-  "unit_tests_passed": 21,
+  "unit_tests_passed": 26,
   "independent_runtime_checks_passed": 32,
   "full_precision_reference_replay": {
     "reference": "repaired October 2026 fixed-model output",
@@ -41,16 +41,46 @@
   },
   "source_inputs_and_fitted_model_byte_preserved_from_package_build": true,
   "checked_files_sha256": {
-    "economy.py": "af823e252dacbfcd6c377980868a5b247276c3a83ab4209217a2fc055c913b6a",
+    "economy.py": "ec8b05f04ad9b5f2fffb5545a3b4b84ccbc51a554e4ef27952587c19d30bb17b",
     "model_config.json": "e1843d1bed74e7f8c8caf0af3e7ed5dbe749a617f10720746478191ebd249698",
-    "MODEL_DESIGN.txt": "29e6ecfa16746ea4e63131206c0efebf5fb4be8e785347a0ac082e6d11e7a2c4",
-    "README.txt": "475b7684259b39821bda8713437b43e7cb0badb79e7fc1a03bc2db1d0345cbc3",
+    "MODEL_DESIGN.txt": "ad73613d9aec2574d112434cfb289f99c65eccb52dc111946bad2995844bf5b1",
+    "README.txt": "4b0aada80984a8acf1d75e26bd6de2b75b73d82a0b3c709650e60b8a3cf8d7b1",
     "requirements.txt": "5ad41a0c5bf4a5548b1e189a578ba6fb2cac6ff886207a522501e2bdff065245",
     "data/monthly_inputs.csv": "ddcc16f7689ba3d502a7ec26452bbcdd73767f1cd3818f9a684e125f23c3f7d6",
     "data/regions.csv": "1b9112be893e6d2d64c4589c3f843ea674bb5197aa1c59cf921cea007feb0101",
     "models/licensing.joblib": "85e5fb5ec369c1dd77be6061248f408b0c592e863ce19e40b1da8e6ff9ba82bf",
-    "results/economy_scores.json": "fa03700b4c56b643390cd3b854bc3e18bbbbdee1487037701f041f15bf8ac91a",
-    "tests/test_economy.py": "8866d2271439a36621f23d52d262c261e93a19acdf63d87139915205c85286b0",
+    "results/economy_scores.json": "87ef40cf6602845d04af9db67b08d75a7c70f7d936baa96cf669e7ec3888f65d",
+    "tests/test_economy.py": "d1a8e9d3f47765a8b80e56cfc126f1463198d313bc5568439877d7c0f51b4c80",
     "validation/monthly_metrics.csv": "41132882110ad7544daa43c71395b7e290dae8a7b57c5ec3c31dd31de613686d"
+  },
+  "grading_update": {
+    "date": "2026-10-21",
+    "status": "PASS",
+    "method": "fixed_score_intervals",
+    "thresholds": [
+      80,
+      60,
+      40,
+      20
+    ],
+    "region_count": 427,
+    "grade_distribution": {
+      "1": 47,
+      "2": 92,
+      "3": 129,
+      "4": 104,
+      "5": 55
+    },
+    "all_scores_and_existing_metadata_unchanged": true,
+    "max_abs_score_difference": 0.0,
+    "safety_scores_byte_unchanged": true,
+    "model_inputs_and_fitted_model_byte_unchanged": true,
+    "tests": {
+      "economy": 26,
+      "safety": 19,
+      "integration": 11,
+      "total": 56
+    },
+    "retraining_needed": false
   }
 }

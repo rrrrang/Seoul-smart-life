@@ -45,6 +45,42 @@ class EconomyReleaseTests(unittest.TestCase):
             self.assertAlmostEqual(item['scores']['economy'],sum(
                 x['score']*x['weight'] for x in item['metadata']['economy']['components'].values()))
 
+    def test_grade_boundaries_without_rounding(self):
+        for score, expected in [(0, 5), (19.999999, 5), (20, 4), (39.999999, 4),
+                                (40, 3), (59.999999, 3), (60, 2), (79.999999, 2),
+                                (80, 1), (100, 1)]:
+            with self.subTest(score=score):
+                self.assertEqual(economy.grade_from_score(score), expected)
+
+    def test_grade_null_is_not_grade_five(self):
+        self.assertIsNone(economy.grade_from_score(None))
+        self.assertEqual(economy.grade_from_score(0), 5)
+
+    def test_grade_invalid_values_rejected(self):
+        for score in [True, False, '80', -1, 100.00001, np.nan, np.inf, -np.inf]:
+            with self.subTest(score=score), self.assertRaises(economy.DataContractError):
+                economy.grade_from_score(score)
+
+    def test_grade_distribution_and_serialized_replay(self):
+        from collections import Counter
+        saved=json.loads((ROOT/'results/economy_scores.json').read_text(encoding='utf-8'))
+        self.assertEqual(saved, self.actual)
+        self.assertEqual(Counter(x['metadata']['economy']['grade'] for x in self.actual['items']),
+                         {1:47, 2:92, 3:129, 4:104, 5:55})
+        for item in self.actual['items']:
+            detail=item['metadata']['economy']
+            self.assertIs(type(detail['grade']), int)
+            self.assertEqual(detail['grade'], economy.grade_from_score(item['scores']['economy']))
+            self.assertEqual(detail['grade_label'], f"{detail['grade']}등급")
+
+    def test_grade_rules_are_independent_response_metadata(self):
+        rules=self.actual['metadata']['economy']['grade_rules']
+        self.assertEqual(rules, economy.GRADE_RULES)
+        self.assertIsNot(rules, economy.GRADE_RULES)
+        self.assertIsNot(rules['bands'], economy.GRADE_RULES['bands'])
+        self.assertFalse(rules['score_rounding_before_grading'])
+        self.assertIsNone(rules['missing_score_grade'])
+
     def test_ten_digit_code_rejected(self):
         regions=self.regions.copy(); regions.loc[0,'region_code']='1111051500'
         self.assert_invalid_frames(regions=regions)

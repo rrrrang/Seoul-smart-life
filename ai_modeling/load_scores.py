@@ -40,6 +40,12 @@ def _read_domain(path: Path, domain: str) -> tuple[dict, dict]:
             raise ValueError(f"{domain}: 담당하지 않은 영역의 점수가 포함되었습니다.")
         if domain not in item.get("metadata", {}):
             raise ValueError(f"{domain}: 계산 근거가 누락되었습니다.")
+        detail = item["metadata"][domain]
+        expected_grade = next(g for threshold, g in ((80, 1), (60, 2), (40, 3), (20, 4), (0, 5))
+                              if value >= threshold)
+        if (type(detail.get("grade")) is not int or detail["grade"] != expected_grade
+                or detail.get("grade_label") != f"{expected_grade}등급"):
+            raise ValueError(f"{domain}: {code} 등급은 반올림 전 점수의 20점 구간과 일치해야 합니다.")
         rows[code] = item
     return payload, rows
 

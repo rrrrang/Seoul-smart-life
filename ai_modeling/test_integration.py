@@ -45,6 +45,20 @@ class IntegrationTests(unittest.TestCase):
             for domain in ("energy", "comfort", "health"):
                 self.assertIsNone(row["scores"][domain])
 
+    def test_grade_mismatch_fails(self):
+        self.edit_economy(lambda d: d['items'][0]['metadata']['economy'].update(grade=0))
+        with self.assertRaises(ValueError): self.load()
+
+    def test_grade_label_mismatch_fails(self):
+        self.edit_economy(lambda d: d['items'][0]['metadata']['economy'].update(grade_label='잘못된 등급'))
+        with self.assertRaises(ValueError): self.load()
+
+    def test_grade_missing_or_non_integer_fails(self):
+        for value in [None, True, 1.0, '1']:
+            with self.subTest(value=value):
+                self.edit_economy(lambda d: d['items'][0]['metadata']['economy'].update(grade=value))
+                with self.assertRaises(ValueError): self.load()
+
     def test_wrong_month_fails(self):
         with self.assertRaises(ValueError):
             load_scores(target_month="2026-11", base_dir=self.root)
