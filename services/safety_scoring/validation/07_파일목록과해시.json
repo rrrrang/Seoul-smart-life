@@ -1,82 +1,84 @@
-[
-  {
-    "path": "data/safety_scoring_input.json",
-    "bytes": 438743,
-    "sha256": "cf1fb2da08449a4f58e4622e1963a3d75211dd6e0855e720e569a5e505917ce5"
-  },
-  {
-    "path": "data/서울_지역_기준.csv",
-    "bytes": 15194,
-    "sha256": "323e63637d9032aba9f804976a0748d130da0fcbdae889f0f22af2536b534de7"
-  },
-  {
-    "path": "README.txt",
-    "bytes": 6284,
-    "sha256": "508fce0a3b3cd229381efa753ec16c336b87b15b7d78a7455225a2e07af0b660"
-  },
-  {
-    "path": "results/safety_scores.json",
-    "bytes": 1445364,
-    "sha256": "ff38996ec574742a7d6c9e47a8b63ea8b886b7a37cbe08ea7f25952a4c870556"
-  },
-  {
-    "path": "src/backend_contract.py",
-    "bytes": 3720,
-    "sha256": "308dd333f22e7e73d9171ae225d6e645304a62e9a87d0dbde9aab9d4946bddf6"
-  },
-  {
-    "path": "src/build_safety.py",
-    "bytes": 2222,
-    "sha256": "575e54b8b967542dad4e535c00770b509b37eccd1bf7b558872d06b15ad16c7e"
-  },
-  {
-    "path": "src/evaluation_contract.py",
-    "bytes": 3912,
-    "sha256": "005d8d9937cf070c2ade4b7526c08a4e5ed5aa5c1d83390392e9eb226f44d7c4"
-  },
-  {
-    "path": "src/safety_grading.py",
-    "bytes": 3798,
-    "sha256": "f53c0a3f857528b2f1192b33d631dc37ce7fd5a3f2a41470d9740df335d30a92"
-  },
-  {
-    "path": "src/safety_scoring.py",
-    "bytes": 7405,
-    "sha256": "5c1facb27989a13c822f785bb5a7fd0dcb3743301189f55d1083c11fc19ca0bf"
-  },
-  {
-    "path": "tests/test_safety_contract.py",
-    "bytes": 6876,
-    "sha256": "4b5f0942df964b77fe9f077130a8e7fd13ac2fad9f7c59dee831d015fc4eff4a"
-  },
-  {
-    "path": "validation/01_행정동_등급분포.csv",
-    "bytes": 285,
-    "sha256": "41ab446f0eabaec1e18fd555c28157aacc35c844ad7b15aa00b633efffd68104"
-  },
-  {
-    "path": "validation/02_427행정동_점수등급.csv",
-    "bytes": 49581,
-    "sha256": "611a70752ef11659a4e1529c907795f4193e29e4759fe087418dc1ab8878050a"
-  },
-  {
-    "path": "validation/03_1등급_5등급_산출근거.csv",
-    "bytes": 2781,
-    "sha256": "1ff5b6badef52ba7221fd1ad62c583f0155cdfe1220fed1d7874f2e68c14c2fc"
-  },
-  {
-    "path": "validation/04_결과재현_실행로그.txt",
-    "bytes": 178,
-    "sha256": "941cd0773ac7a7de7a1fd1a2b34d8cef2542b2c9605286f2a4bb13e4668e18eb"
-  },
-  {
-    "path": "validation/05_테스트_실행로그.txt",
-    "bytes": 2321,
-    "sha256": "08cc87aab391fb59849375af92d4111c075b5d703ee6e57b33e59682a1444368"
-  },
-  {
-    "path": "validation/06_패키지검증.json",
-    "bytes": 1489,
-    "sha256": "e9663783e781eba52ee5c6214407a200e81d468b15dd093299adddcb8012812a"
-  }
-]
+{
+  "files": [
+    {
+      "path": "data/safety_scoring_input.json",
+      "bytes": 436181,
+      "sha256": "107424a24b7cb824f8a188ca3ad4d9af7f9b215a03ea5db934b227fe2025b7c5"
+    },
+    {
+      "path": "data/서울_지역_기준.csv",
+      "bytes": 15616,
+      "sha256": "4c3a9a67465e3ddf289ffe7d171b6fa60bdd02cd3432fc37b8ebf63f8486d463"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 6602,
+      "sha256": "dc90a7fa4e7107d90fc788d3f2b0e8462d8e6760ba79e7e2a53b7d6bb8c07f6a"
+    },
+    {
+      "path": "results/safety_scores.json",
+      "bytes": 1442803,
+      "sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16"
+    },
+    {
+      "path": "src/backend_contract.py",
+      "bytes": 3678,
+      "sha256": "305a77b9a2c4bb3f80071831631dea4e357c24924e1f9e3282fa6955819f5dec"
+    },
+    {
+      "path": "src/build_safety.py",
+      "bytes": 2222,
+      "sha256": "575e54b8b967542dad4e535c00770b509b37eccd1bf7b558872d06b15ad16c7e"
+    },
+    {
+      "path": "src/evaluation_contract.py",
+      "bytes": 3900,
+      "sha256": "0e73b570b2aef4becdd6063c510a3696e1217af5a823c9acd9b530929c15e35e"
+    },
+    {
+      "path": "src/safety_grading.py",
+      "bytes": 3798,
+      "sha256": "f53c0a3f857528b2f1192b33d631dc37ce7fd5a3f2a41470d9740df335d30a92"
+    },
+    {
+      "path": "src/safety_scoring.py",
+      "bytes": 7393,
+      "sha256": "170783c2399956caad9ee6e78cf8c8db0e0c993f2e8cf3e91b676418f834de50"
+    },
+    {
+      "path": "tests/test_safety_contract.py",
+      "bytes": 6852,
+      "sha256": "f238a86c23fe5d8b0ee066bf8a57495fe5a1e484b60ad182fd82ffd47554642d"
+    },
+    {
+      "path": "validation/01_행정동_등급분포.csv",
+      "bytes": 285,
+      "sha256": "41ab446f0eabaec1e18fd555c28157aacc35c844ad7b15aa00b633efffd68104"
+    },
+    {
+      "path": "validation/02_427행정동_점수등급.csv",
+      "bytes": 50003,
+      "sha256": "a8635f4e9e3997c9e7e19691816e60bf744e7c2d46464bde441665918c4ddc31"
+    },
+    {
+      "path": "validation/03_1등급_5등급_산출근거.csv",
+      "bytes": 2781,
+      "sha256": "1ff5b6badef52ba7221fd1ad62c583f0155cdfe1220fed1d7874f2e68c14c2fc"
+    },
+    {
+      "path": "validation/04_결과재현_실행로그.txt",
+      "bytes": 110,
+      "sha256": "ce8a7c589f5a2755466732b625bb7207ab4de6a508782edb08e7545634f0708c"
+    },
+    {
+      "path": "validation/05_테스트_실행로그.txt",
+      "bytes": 2081,
+      "sha256": "3ac5cdd807d40d0c58c340e64a7832ae755de22ff2b1550fac374dfc283461dc"
+    },
+    {
+      "path": "validation/06_패키지검증.json",
+      "bytes": 1899,
+      "sha256": "b6c9bfa56ee9f273f30f66672a434bca397afdf067dd5d3ad0521cc0f0b77298"
+    }
+  ]
+}

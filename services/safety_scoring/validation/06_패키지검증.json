@@ -1,5 +1,5 @@
 {
-  "package": "statistical_safety_short_region_code",
+  "package": "statistical_safety_six_digit_region_code",
   "checked_date": "2026-10-21",
   "core_file_count": 9,
   "validation_file_count": 7,
@@ -25,7 +25,7 @@
     "authoritative_main_master_unchanged": true
   },
   "code_contract": {
-    "dong_key": "region_short_code",
+    "dong_key": "region_code",
     "dong_digits": 6,
     "district_key": "sigungu_code",
     "district_digits": 5,
@@ -41,5 +41,13 @@
     "source": "tests/test_safety_contract.py",
     "log": "05_테스트_실행로그.txt"
   },
-  "delivery_json_sha256": "ff38996ec574742a7d6c9e47a8b63ea8b886b7a37cbe08ea7f25952a4c870556"
+  "delivery_json_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16",
+  "field_rename_only": {
+    "from": "region_short_code",
+    "to": "region_code",
+    "code_values_unchanged": true,
+    "entire_payload_equal_except_key_name": true,
+    "before_json_sha256": "ff38996ec574742a7d6c9e47a8b63ea8b886b7a37cbe08ea7f25952a4c870556",
+    "after_json_sha256": "153d9ef7c36aaac4c200b601b4b97aac88cd36b2b584d745ff486e27caff8e16"
+  }
 }

@@ -1,4 +1,4 @@
-﻿region_short_code,region_name,sigungu_code,sigungu_name,safety_score,grade,grade_label,jurisdiction_id,profile_id,crime_source_period,cctv_source_period,police_source_period
+﻿region_code,region_name,sigungu_code,sigungu_name,safety_score,grade,grade_label,jurisdiction_id,profile_id,crime_source_period,cctv_source_period,police_source_period
 110515,청운효자동,11110,종로구,19.166666666666668,5,5등급,POL2025_09,POL2025_09__11110,2025,2026-06-30,2025-12-31
 110530,사직동,11110,종로구,19.166666666666668,5,5등급,POL2025_09,POL2025_09__11110,2025,2026-06-30,2025-12-31
 110540,삼청동,11110,종로구,19.166666666666668,5,5등급,POL2025_09,POL2025_09__11110,2025,2026-06-30,2025-12-31

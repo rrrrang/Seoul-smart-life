@@ -1,2 +1,1 @@
-Checked 2026-10-21; command: python -B src/build_safety.py --verify
 {"rows": 427, "grade_distribution": {"1": 49, "2": 98, "3": 80, "4": 167, "5": 33}, "verification": "passed"}

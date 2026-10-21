@@ -35,20 +35,20 @@ class SafetyContractTests(unittest.TestCase):
         for code,row in self.master.items():
             self.assertRegex(code,r'^\d{6}$')
             self.assertRegex(row['sigungu_code'],r'^\d{5}$')
-            self.assertEqual(set(row),{'region_short_code','region_name','sigungu_code','sigungu_name'})
+            self.assertEqual(set(row),{'region_code','region_name','sigungu_code','sigungu_name'})
 
     def test_input_and_output_have_exact_same_master_membership(self):
         validate_regions(self.raw['dongs'],require_all=True)
-        actual={i['region']['region_short_code']:i['region'] for i in self.saved['items']}
+        actual={i['region']['region_code']:i['region'] for i in self.saved['items']}
         self.assertEqual(set(actual),set(self.master))
         for code,region in actual.items():
-            self.assertEqual(region,{'region_short_code':code,'name_ko':self.master[code]['region_name'],
+            self.assertEqual(region,{'region_code':code,'name_ko':self.master[code]['region_name'],
                 'sigungu_code':self.master[code]['sigungu_code'],'spatial_unit':'dong'})
 
     def test_no_legacy_geography_fields_in_input_or_delivery(self):
         def visit(obj):
             if isinstance(obj,dict):
-                self.assertFalse({'region_code','parent_region_code'}.intersection(obj))
+                self.assertFalse({'region_short_code','parent_region_code'}.intersection(obj))
                 for value in obj.values(): visit(value)
             elif isinstance(obj,list):
                 for value in obj: visit(value)
@@ -56,11 +56,11 @@ class SafetyContractTests(unittest.TestCase):
 
     def test_unknown_and_numeric_codes_are_rejected(self):
         for invalid in ('999999','1111051500',110515):
-            row=deepcopy(self.raw['dongs'][0]);row['region_short_code']=invalid
+            row=deepcopy(self.raw['dongs'][0]);row['region_code']=invalid
             with self.subTest(invalid=invalid),self.assertRaises(ValueError):validate_regions([row])
 
     def test_legacy_fields_are_rejected_even_with_valid_short_code(self):
-        for key in ('region_code','parent_region_code'):
+        for key in ('region_short_code','parent_region_code'):
             row=deepcopy(self.raw['dongs'][0]);row[key]='unused'
             with self.subTest(key=key),self.assertRaises(ValueError):validate_regions([row])
 
@@ -92,11 +92,11 @@ class SafetyContractTests(unittest.TestCase):
         with (ROOT/'validation/02_427행정동_점수등급.csv').open(encoding='utf-8-sig',newline='') as stream:
             rows=list(csv.DictReader(stream))
         self.assertEqual(len(rows),427)
-        expected={i['region']['region_short_code']:i for i in self.saved['items']}
-        self.assertEqual({r['region_short_code'] for r in rows},set(expected))
+        expected={i['region']['region_code']:i for i in self.saved['items']}
+        self.assertEqual({r['region_code'] for r in rows},set(expected))
         for row in rows:
-            item=expected[row['region_short_code']]
-            self.assertNotIn('region_code',row)
+            item=expected[row['region_code']]
+            self.assertNotIn('region_short_code',row)
             self.assertEqual(row['sigungu_code'],item['region']['sigungu_code'])
             self.assertEqual(float(row['safety_score']),item['scores']['safety'])
             self.assertEqual(int(row['grade']),item['metadata']['safety']['grade'])

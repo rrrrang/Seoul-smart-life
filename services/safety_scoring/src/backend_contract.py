@@ -3,7 +3,7 @@ from copy import deepcopy
 import math
 from evaluation_contract import load_region_master, validate_evaluation
 DOMAINS = ["economy", "energy", "comfort", "health", "safety"]
-ROW_CORE = {"region_short_code", "region_name", "sigungu_code", "score"}
+ROW_CORE = {"region_code", "region_name", "sigungu_code", "score"}
 
 def convert(source, master):
     validate_evaluation(source, require_all=True, delivery=True)
@@ -11,12 +11,12 @@ def convert(source, master):
         raise ValueError("치안 결과만 변환할 수 있습니다.")
     items = []
     for row in source["results"]:
-        ref = master[row["region_short_code"]]
+        ref = master[row["region_code"]]
         scores = dict.fromkeys(DOMAINS, None)
         scores["safety"] = row["score"]
         items.append({
             "region": {
-                "region_short_code": ref["region_short_code"],
+                "region_code": ref["region_code"],
                 "name_ko": ref["region_name"],
                 "sigungu_code": ref["sigungu_code"],
                 "spatial_unit": "dong",
@@ -43,12 +43,12 @@ def validate_backend(payload, source, master):
     codes = set()
     for item in payload["items"]:
         region, scores = item["region"], item["scores"]
-        code = region["region_short_code"]
+        code = region["region_code"]
         if not isinstance(code, str) or len(code) != 6 or code not in master or code in codes:
             raise ValueError("행정동 코드·중복 오류: " + str(code))
         codes.add(code)
         expected = {
-            "region_short_code": code, "name_ko": master[code]["region_name"],
+            "region_code": code, "name_ko": master[code]["region_name"],
             "sigungu_code": master[code]["sigungu_code"], "spatial_unit": "dong",
         }
         if region != expected:
@@ -62,7 +62,7 @@ def validate_backend(payload, source, master):
                                   or not math.isfinite(score) or not 0 <= score <= 100):
             raise ValueError("치안점수 범위·자료형 오류")
         restored["results"].append({
-            "region_short_code": code, "region_name": region["name_ko"],
+            "region_code": code, "region_name": region["name_ko"],
             "sigungu_code": region["sigungu_code"], "score": score,
             **deepcopy(item["metadata"]["safety"]),
         })

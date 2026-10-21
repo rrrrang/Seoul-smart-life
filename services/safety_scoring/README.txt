@@ -39,9 +39,9 @@ validation 폴더
 다른 연도의 평가로 갱신할 때는 입력만 바꾸지 말고 코드의 기간 검증과 설명도 함께 검토하세요.
 
 백엔드 사용
-items[].region.region_short_code : 프로젝트 기준 6자리 행정동 코드 문자열.
+items[].region.region_code : 프로젝트 기준 6자리 행정동 코드 문자열.
 items[].region.sigungu_code : 5자리 자치구 코드 문자열.
-region_code(10자리)와 parent_region_code는 이 치안 패키지의 입력·결과에서 사용하지 않습니다.
+region_code는 6자리입니다. 이전 항목명 region_short_code와 parent_region_code는 전달하지 않습니다. 10자리 행정동 코드는 이 전달 형식에서 받지 않습니다.
 items[].scores.safety : 추천 가중합에 사용할 0~100점.
 items[].metadata.safety.grade / grade_label : 화면 표시용 1~5등급. 1등급이 최고.
 metadata.safety.grade_rules : 등급 구간.
@@ -71,16 +71,16 @@ CCTV: 1번 제공 CCTV_202610140957.csv 기반, 기존 입력의 기준일 2026-
 이 최소 묶음만으로 현재 점수와 등급을 재계산할 수 있습니다.
 
 지역코드 변경 (2026-10-21)
-main의 data/processed/서울_지역 엑셀용.csv에 있는 region_short_code 열을 명시적으로 조회하여 변환했습니다.
+main의 data/processed/서울_지역 엑셀용.csv에 있는 region_short_code(6자리) 값을 명시적으로 조회했습니다. 이 원천 열의 값은 그대로 두고 전달 항목명만 region_code로 사용합니다.
 코드를 잘라서 추정하지 않습니다. 427개 행정동·이름·소속 자치구를 그대로 유지합니다.
-예: 미아동 {"region_short_code": "305535", "sigungu_code": "11305"}.
+예: 미아동 {"region_code": "305535", "sigungu_code": "11305"}.
 입력·산출 CSV·최종 JSON은 동일한 6자리/5자리 규칙이며 경제 영역도 같은 규칙으로 연결할 예정입니다.
 구현 코드가 이전 필드 이름을 검사하는 것은 잘못된 입력을 거부하기 위한 것입니다.
 
 연결 시 확인할 사항
 이 변경은 치안 담당 폴더에만 적용했습니다. main의 지역 원본이나 팀원의 백엔드·프론트 코드는 수정하지 않았습니다.
 현재 main의 API·지도 연결이 10자리 region_code 또는 parent_region_code를 요구한다면
-담당자가 region_short_code(6자리)와 sigungu_code(5자리)를 읽도록 맞춘 후 연결해야 합니다.
+담당자가 region_code(6자리)와 sigungu_code(5자리)를 읽도록 맞춘 후 연결해야 합니다.
 이 JSON을 기존 10자리 조회 코드에 곧바로 덮어쓰면 연결되지 않을 수 있습니다.
 관할권역의 POL2025_... region_id/jurisdiction_id는 행정동 코드가 아니므로 유지합니다.
 
@@ -88,3 +88,5 @@ main의 data/processed/서울_지역 엑셀용.csv에 있는 region_short_code �
   python -B -m unittest discover -s tests -v
 지역코드·중복·미등록·이전 필드 거부, 427개 매핑, JSON 재생성,
 점수·등급·기간·근거의 변경 전후 보존, 순위·등급 경계·결측 처리를 확인합니다.
+
+2026-10-21 추가 변경: 전달 항목명 region_short_code → region_code. 6자리 코드 값·427개 행정동·점수·등급·가중치·기간은 동일합니다.

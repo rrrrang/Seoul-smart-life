@@ -49,7 +49,7 @@ def score_safety(data,weights=None):
     combine(dict.fromkeys(DEFAULT_WEIGHTS,50),weights)
     regions=unique(data["regions"],"region_id")
     districts=unique(data["districts"],"sigungu_code")
-    dongs=unique(data["dongs"],"region_short_code")
+    dongs=unique(data["dongs"],"region_code")
     validate_regions(data["dongs"], require_all=True)
     if len(regions)!=25 or len(districts)!=25 or len(dongs)!=427:raise ValueError("고정 비교집단 25권역·25구·427동을 유지해야 합니다.")
     def mean(r):
@@ -91,7 +91,7 @@ def score_safety(data,weights=None):
             "sigungu_code":gu,"sigungu_name":districts[gu]["sigungu_name"],"crime_score":cc["score"],
             "cctv_score":cv["score"],"police_score":pc["score"],"score":s,"dong_count":0})
         profiles[key]["dong_count"]+=1
-        records.append({"region_short_code":code,"region_name":d["region_name"],"sigungu_code":gu,
+        records.append({"region_code":code,"region_name":d["region_name"],"sigungu_code":gu,
           "jurisdiction_id":rid,"profile_id":key,"score":s,"status":"calculated_draft",
           "components":{"crime":cc,"cctv":cv,"police":pc},"observed_dong_crime_count":None,
           "observed_dong_cctv_count":None,"observed_dong_police_count":None,
