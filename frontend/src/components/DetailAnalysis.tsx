@@ -1,17 +1,18 @@
-/*
- * 지역 상세분석 화면: 평가 가중치, TOP 10 추천 순위, 지도 및 분석 패널을 표시합니다.
- * 안내: 실행 로직은 변경하지 않고 설명 주석만 추가한 버전입니다.
- */
-
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import SeoulMap from "./SeoulMap";
 import "../CSS/DetailAnalysis.css";
 
 import {
-  mockDongScores,
   getTop10Dongs,
+  calculateTotalScore,
+  type DongScore,
   type ScoreWeights,
 } from "../data/mockDongScores";
+
+import {
+  fetchAllDongScores,
+  fetchDistricts,
+} from "../services/regionApi";
 
 // AI 데이터 연동 전에는 점수를 표시하지 않음
 // [지도 데이터] 실제 점수 연동 전에는 자치구 점수를 비워 둡니다.
@@ -45,7 +46,6 @@ export default function DetailAnalysis({
 
   // 지도 초기화 버튼을 누른 횟수
   const [mapResetKey, setMapResetKey] = useState(0);
-  
   // 서울 전체 지도 표시 여부
   const [showAllSeoul, setShowAllSeoul] = useState(false);
 
@@ -60,26 +60,68 @@ export default function DetailAnalysis({
     0
   );
 
-  // 슬라이더 가중치를 평가 항목별 데이터로 변환
+// 슬라이더 가중치를 평가 항목별 데이터로 변환
 const scoreWeights: ScoreWeights = {
   economy: weights[0],
   energy: weights[1],
   comfort: weights[2],
   health: weights[3],
   safety: weights[4],
-};
 
-// [실시간 순위] 가중치 또는 선택 자치구가 바뀌면 추천 TOP 10을 재계산합니다.
-// 가중치나 자치구가 바뀔 때 TOP 10 다시 계산
+};
+// 백엔드 가데이터를 한 번 읽어 5개 평가 점수의 공통 원본으로 사용합니다.
+const [dongScores, setDongScores] = useState<DongScore[]>([]);
+const [dataError, setDataError] = useState("");
+const [loadingScores, setLoadingScores] = useState(true);
+const [selectedDongCode, setSelectedDongCode] = useState("");
+
+useEffect(() => {
+  let cancelled = false;
+  async function loadBackendScores() {
+    try {
+      const [districts, result] = await Promise.all([
+        fetchDistricts(), fetchAllDongScores(),
+      ]);
+      const districtNames = new Map(districts.items.map(d => [d.region_code, d.name_ko]));
+      const converted: DongScore[] = result.items.map(({ region, scores }) => ({
+        dongCode: region.region_code,
+        dongName: region.name_ko,
+        district: districtNames.get(region.parent_region_code ?? "") ?? "",
+        scores,
+      }));
+      if (!cancelled) {
+        setDongScores(converted);
+        setDataError("");
+        console.log("백엔드 행정동 점수 연결:", converted.length, "개", "Mock:", result.is_mock);
+      }
+    } catch (error) {
+      if (!cancelled) setDataError(error instanceof Error ? error.message : "API 연결 실패");
+    } finally {
+      if (!cancelled) setLoadingScores(false);
+    }
+  }
+  loadBackendScores();
+  return () => { cancelled = true; };
+}, []);
+
+// 가중치 또는 지역 선택이 바뀔 때 같은 백엔드 점수로 TOP 10을 계산합니다.
 const top10Dongs = useMemo(() => {
   if (!selectedDistrict) return [];
+  return getTop10Dongs(dongScores, selectedDistrict, scoreWeights);
+}, [dongScores, selectedDistrict, ...weights]);
 
-  return getTop10Dongs(
-    mockDongScores,
-    selectedDistrict,
-    scoreWeights
-  );
-}, [selectedDistrict, ...weights]);
+const districtDongs = useMemo(() => dongScores
+  .filter(item => item.district === selectedDistrict)
+  .sort((a, b) => a.dongName.localeCompare(b.dongName, "ko")),
+  [dongScores, selectedDistrict]);
+
+useEffect(() => { setSelectedDongCode(""); }, [selectedDistrict]);
+const selectedDong = districtDongs.find(item => item.dongCode === selectedDongCode);
+const selectedScore = selectedDong ? calculateTotalScore(selectedDong.scores, scoreWeights) : null;
+const mapDongScores = useMemo(() => dongScores.flatMap(item => {
+  const score = calculateTotalScore(item.scores, scoreWeights);
+  return score === null ? [] : [{ dongCode: item.dongCode, score }];
+}), [dongScores, ...weights]);
 
   return (
     <div className="detail-analysis">
@@ -98,7 +140,7 @@ const top10Dongs = useMemo(() => {
           </div>
         </div>
         <span className="detail-progress-tag">
-          분석 데이터 연동 예정
+          {loadingScores ? "데이터 불러오는 중" : dataError ? "API 연결 오류" : "백엔드 가데이터 연결됨"}
         </span>
       </header>
 
@@ -183,11 +225,17 @@ const top10Dongs = useMemo(() => {
             </div>
           
             <div className="detail-ranking-list">
-              {top10Dongs.length > 0 ? (
+              {dataError ? (
+                <div className="detail-pending">API 연결 실패: {dataError}</div>
+              ) : top10Dongs.length > 0 ? (
                 top10Dongs.map((dong) => (
                   <div
                     className="detail-ranking-item"
                     key={dong.dongCode}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => setSelectedDongCode(dong.dongCode)}
+                    onKeyDown={event => { if (event.key === "Enter") setSelectedDongCode(dong.dongCode); }}
                   >
                     <span className="detail-ranking-number">
                       {dong.rank}
@@ -237,6 +285,7 @@ const top10Dongs = useMemo(() => {
             onDistrictClick={onDistrictClick}
             focusDistrict={showAllSeoul ? null : selectedDistrict}
             resetKey={mapResetKey}
+            dongScores={mapDongScores}
           />
 
           <p className="detail-map-note">
@@ -254,15 +303,18 @@ const top10Dongs = useMemo(() => {
           <div className="detail-selected-area">
             <span>선택 자치구</span>
             <h3>{selectedDistrict ?? "선택 대기"}</h3>
-            <p>
-              행정동 선택 및 개별 점수 표시는
-              다음 단계에서 연결됩니다.
-            </p>
+            <label htmlFor="detail-dong-select">행정동 선택</label>
+            <select id="detail-dong-select" value={selectedDongCode}
+              onChange={event => setSelectedDongCode(event.target.value)}
+              style={{ width: "100%", padding: "10px", marginTop: "8px", borderRadius: "8px" }}>
+              <option value="">행정동을 선택하세요</option>
+              {districtDongs.map(d => <option value={d.dongCode} key={d.dongCode}>{d.dongName}</option>)}
+            </select>
           </div>
 
           <div className="detail-overall-score">
-            <span>AI 종합점수</span>
-            <strong>분석 대기</strong>
+            <span>AI 종합점수 (테스트 데이터)</span>
+            <strong>{selectedScore === null ? "분석 대기" : `${selectedScore.toFixed(1)}점`}</strong>
           </div>
 
           {/* 분석 결과 탭 */}
@@ -299,7 +351,7 @@ const top10Dongs = useMemo(() => {
                     key={item.key}
                   >
                     <span>{item.label}</span>
-                    <strong>분석 대기</strong>
+                    <strong>{selectedDong ? `${selectedDong.scores[item.key].toFixed(1)}점` : "분석 대기"}</strong>
                   </div>
                 ))}
               </div>
