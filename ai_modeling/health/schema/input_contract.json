@@ -1,0 +1,61 @@
+{
+  "domain": "health",
+  "region_code": {
+    "type": "string",
+    "format": "6 ASCII digits",
+    "example": "110515"
+  },
+  "lookup": {
+    "method": "get_region_scores(region_code, mode)",
+    "mode": [
+      "current",
+      "forecast"
+    ]
+  },
+  "score_input": {
+    "method": "score_health(medical, air_quarter)",
+    "required_columns": [
+      "region_code",
+      "sigungu_name",
+      "region_name",
+      "medical_reference_period",
+      "population_reference_period",
+      "address_db_reference_period",
+      "reference_link_confirmed",
+      "total_population",
+      "elderly_population_pct",
+      "hospital_count",
+      "clinic_count",
+      "pharmacy_count",
+      "physician_count",
+      "inpatient_bed_count",
+      "public_health_facility_count",
+      "physician_count_source_missing_count",
+      "inpatient_bed_count_source_missing_count",
+      "designated_emergency_institution_count",
+      "other_emergency_roster_institution_count",
+      "institutions_with_emergency_bed_records",
+      "unknown_operating_hours_institution_count"
+    ],
+    "example_medical": "examples/health_input.csv",
+    "example_air": "examples/air_quarter_input.csv",
+    "dates": {
+      "medical_reference_period": "2026-06",
+      "population_reference_period": "2026Q2",
+      "address_db_reference_period": "2026-09",
+      "air_quarter": "2026Q3"
+    },
+    "air_units": "source units not officially confirmed; use prepared values; do not assert official AQI",
+    "age_policy": "confirmed 65+ bands only; partial metadata retained; all unknown remains missing",
+    "emergency": "100 if designated/roster/facility evidence positive, 0 only if all three complete and zero, otherwise missing",
+    "air_columns": [
+      "sigungu_code",
+      "quarter",
+      "pm10",
+      "pm2.5",
+      "o3"
+    ]
+  },
+  "supported_forecast": "2026Q4 only; air origin 2026-09",
+  "missing_policy": "Missing mandatory values produce a null score; never fill with zero."
+}

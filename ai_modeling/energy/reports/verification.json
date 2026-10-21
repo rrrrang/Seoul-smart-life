@@ -1,0 +1,10 @@
+{
+  "domain": "energy",
+  "tests": 8,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "isolated_domain_only": true,
+  "original_project_imported": false,
+  "production_approved": false
+}

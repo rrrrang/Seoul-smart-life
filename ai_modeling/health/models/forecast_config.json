@@ -1,0 +1,22 @@
+{
+  "health": {
+    "origin": "2026-09",
+    "forecast_quarter": "2026Q4",
+    "age_input_policy": "confirmed-elderly-age-bands-v2",
+    "air_input_policy": "geumcheon-202512-other24-median-v1",
+    "imputed_history_cells": 2,
+    "forecast_affected_dongs": 10,
+    "imputation_uncertainty_included": false,
+    "selected": {
+      "pm10": "previous_year",
+      "pm2.5": "previous_year",
+      "o3": "previous_month"
+    },
+    "environment_validation_passed": false,
+    "health_validation_passed": false,
+    "reason": "전체 건강의 과거 의료 정답 없음; 오존 범위 경고; 의료·인구 유지 가정",
+    "ozone_test_coverage_one_month": 0.62,
+    "production_approved": false,
+    "medical_forecast_trained": false
+  }
+}

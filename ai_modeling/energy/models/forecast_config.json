@@ -1,0 +1,28 @@
+{
+  "energy": {
+    "selected": {
+      "electricity_MWh": "previous_year",
+      "gas_1000m3": "random_forest"
+    },
+    "origin": "2026Q2",
+    "forecast_quarters": [
+      "2026Q3",
+      "2026Q4"
+    ],
+    "score_error_width": 6.361300355323409,
+    "gates": {
+      "1": {
+        "passed": false,
+        "origins": 2,
+        "reason": "시험 출발점 2개 이상·직전 효율 유지보다 점수 MAE 개선·등급 일치율 유지 조건 미충족"
+      },
+      "2": {
+        "passed": false,
+        "origins": 1,
+        "reason": "시험 출발점 2개 이상·직전 효율 유지보다 점수 MAE 개선·등급 일치율 유지 조건 미충족"
+      }
+    },
+    "production_approved": false,
+    "interval_kind": "source-group absolute score error q90 × sqrt(h); not a guaranteed prediction interval"
+  }
+}

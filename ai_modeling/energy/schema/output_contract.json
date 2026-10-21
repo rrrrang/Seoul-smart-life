@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "region_code": "6-digit string",
+    "region_name": "string",
+    "sigungu_name": "string",
+    "energy_score": "0..100 or null",
+    "energy_grade": "five-level string or null",
+    "energy_status": "reason/status",
+    "energy_period": "data period",
+    "is_forecast": "boolean",
+    "production_approved": false,
+    "energy_validation_passed": "null for current; false for forecast"
+  },
+  "dataframe_methods": [
+    "evaluate_latest()",
+    "forecast_latest()"
+  ],
+  "grades": [
+    "아주좋음",
+    "좋음",
+    "기본",
+    "나쁨",
+    "아주나쁨"
+  ]
+}

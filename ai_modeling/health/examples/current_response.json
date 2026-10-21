@@ -1,0 +1,20 @@
+{
+  "region_code": "110515",
+  "region_name": "청운효자동",
+  "sigungu_name": "종로구",
+  "health_score": 46.763432526062715,
+  "health_grade": "아주좋음",
+  "health_status": "상대참고_정식승인전",
+  "health_period": "2026-09-30",
+  "is_forecast": false,
+  "production_approved": false,
+  "health_validation_passed": null,
+  "environment_score": 73.19365108359818,
+  "medical_response": 20.333213968527243,
+  "elderly_population_pct": 21.41732283464567,
+  "address_link_confirmed": true,
+  "emergency_presence_score": 0.0,
+  "confirmed_elderly_age_band_count": 8,
+  "missing_elderly_age_band_count": 0,
+  "elderly_ratio_data_status": "전체연령확인"
+}

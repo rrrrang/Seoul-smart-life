@@ -1,0 +1,23 @@
+{
+  "region_code": "110515",
+  "region_name": "청운효자동",
+  "sigungu_name": "종로구",
+  "energy_score": 49.85118978498229,
+  "energy_grade": "기본",
+  "energy_status": "시범_정식승인전",
+  "energy_period": "2026Q2",
+  "is_forecast": false,
+  "production_approved": false,
+  "energy_validation_passed": null,
+  "source_group": "1111051500",
+  "electricity_MWh_actual": 12109.980666666666,
+  "electricity_MWh_expected": 19546.227915917887,
+  "electricity_MWh_lower": 12190.685523121741,
+  "electricity_MWh_upper": 31339.54913672039,
+  "electricity_MWh_score": 61.745321979812545,
+  "gas_1000m3_actual": 1134.5892902485004,
+  "gas_1000m3_expected": 905.1329582997697,
+  "gas_1000m3_lower": 478.9919785947544,
+  "gas_1000m3_upper": 1709.6055407861447,
+  "gas_1000m3_score": 44.3753044780474
+}

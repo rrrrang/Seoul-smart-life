@@ -1,0 +1,20 @@
+{
+  "version": "fixed-reference-five-level-v1",
+  "labels_low_to_high": [
+    "아주나쁨",
+    "나쁨",
+    "기본",
+    "좋음",
+    "아주좋음"
+  ],
+  "energy": {
+    "thresholds": [
+      45.78124409866823,
+      48.64658083844057,
+      52.68627348636567,
+      56.417294569402934
+    ],
+    "reference_rows": 427,
+    "reference": "2025Q4 427동"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "version": "plan-pilot-v1-2026-10-20",
+  "targets": [
+    "electricity_MWh",
+    "gas_1000m3"
+  ],
+  "weights": [
+    0.31524926825079064,
+    0.6847507317492094
+  ],
+  "weight_method": "CRITIC",
+  "reference": "2025Q4 출처그룹 평균 연료점수",
+  "grade_thresholds": [
+    47.814673436882195,
+    53.90909551189648
+  ],
+  "outlier_bounds": {
+    "all_area_m2": [
+      259010.164,
+      8133080.4368
+    ],
+    "all_weighted_age": [
+      8.94967792,
+      39.00315159999998
+    ],
+    "nonresidential_mainuse_share_pct": [
+      4.455802806122256,
+      96.68459839970839
+    ],
+    "households": [
+      1112.76,
+      24739.199999999997
+    ],
+    "single_share_pct": [
+      11.606959483670847,
+      81.19494255787701
+    ],
+    "temperature_C": [
+      2.1333333333333333,
+      27.133333333333336
+    ],
+    "quarter_sin": [
+      -1.0,
+      1.0
+    ],
+    "quarter_cos": [
+      -1.0,
+      1.0
+    ]
+  },
+  "production_approved": false,
+  "scope": "주거+상업 혼합 총량의 조건별 비교 PoC; 실제 주거 가구 소비효율 등급 아님"
+}

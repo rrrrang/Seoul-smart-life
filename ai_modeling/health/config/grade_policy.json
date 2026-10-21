@@ -1,0 +1,20 @@
+{
+  "version": "fixed-reference-five-level-v1",
+  "labels_low_to_high": [
+    "아주나쁨",
+    "나쁨",
+    "기본",
+    "좋음",
+    "아주좋음"
+  ],
+  "health": {
+    "thresholds": [
+      35.68505394126553,
+      37.37977839960466,
+      39.27297800892624,
+      43.98066898227183
+    ],
+    "reference_rows": 328,
+    "reference": "기존 건강 기준 328동"
+  }
+}

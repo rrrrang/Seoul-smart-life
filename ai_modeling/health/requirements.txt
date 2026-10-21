@@ -1,0 +1,7 @@
+# Verified with Python 3.10.21
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+joblib==1.6.0
+threadpoolctl==3.7.0
+scipy==1.15.3

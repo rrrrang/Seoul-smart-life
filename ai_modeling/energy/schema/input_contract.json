@@ -1,0 +1,71 @@
+{
+  "domain": "energy",
+  "region_code": {
+    "type": "string",
+    "format": "6 ASCII digits",
+    "example": "110515"
+  },
+  "lookup": {
+    "method": "get_region_scores(region_code, mode)",
+    "mode": [
+      "current",
+      "forecast"
+    ]
+  },
+  "score_input": {
+    "method": "score_energy",
+    "example": "examples/energy_input.csv",
+    "required_columns": [
+      "region_code",
+      "sigungu_name",
+      "region_name",
+      "source_group",
+      "quarter",
+      "months",
+      "electricity_MWh",
+      "gas_1000m3",
+      "electricity_MWh_observed_months",
+      "gas_1000m3_observed_months",
+      "all_area_m2",
+      "all_weighted_age",
+      "nonresidential_mainuse_share_pct",
+      "households",
+      "single_share_pct",
+      "temperature_C",
+      "quarter_sin",
+      "quarter_cos"
+    ],
+    "key": [
+      "region_code",
+      "quarter"
+    ],
+    "core_columns": [
+      "all_area_m2",
+      "all_weighted_age",
+      "nonresidential_mainuse_share_pct",
+      "households",
+      "single_share_pct",
+      "temperature_C",
+      "quarter_sin",
+      "quarter_cos"
+    ],
+    "units": {
+      "electricity_MWh": "MWh/quarter",
+      "gas_1000m3": "1000 m3/quarter",
+      "all_area_m2": "m2",
+      "all_weighted_age": "years",
+      "households": "households",
+      "nonresidential_mainuse_share_pct": "0..100 %",
+      "single_share_pct": "0..100 %",
+      "temperature_C": "Celsius"
+    },
+    "observation_columns": [
+      "months",
+      "electricity_MWh_observed_months",
+      "gas_1000m3_observed_months"
+    ],
+    "observation_rule": "all must equal 3; model-fit rows cannot receive efficiency comparison scores"
+  },
+  "supported_forecast": "2026Q4 only; energy origin 2026Q2",
+  "missing_policy": "Missing mandatory values produce a null score; never fill with zero."
+}
