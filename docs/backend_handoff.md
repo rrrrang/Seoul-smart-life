@@ -18,7 +18,6 @@
 | backend/app/recommendation_api.py | /api/recommendation 실데이터 API |
 | backend/app/main.py | 기존 API를 유지하며 새 라우터 연결 |
 | compose.recommendation.yml | 로컬 PostgreSQL16 구성 |
-| recommendation.env.example | 실제 비밀값 없는 설정 이름 안내 |
 | docs/db_integration_report.md | 설치·DB 초기화·점수 적재·활성화·종료·테스트 명령 |
 | docs/db_integration_red_team.md | 독립 검토·수정·미검증 항목 |
 
@@ -58,4 +57,4 @@ py -3.11 -m venv .venv-db
 
 실제 OpenRouter 신규 통신은 키가 없어 미검증입니다. RAG 실제 문서는 미제공이며 가짜 문서는 만들지 않았습니다. 프론트/지도 검증은 별도 작업 브랜치에서 수행한 기록으로 이번 PR의 구현 범위와 구분합니다.
 
-실제 .env, API 키, DB 비밀번호, 가상환경, node_modules, 캐시, 로컬 Docker 볼륨은 전달하지 않습니다. 실제 자격증명은 팀 서버의 환경변수/비밀 저장소로 주입하세요.
+환경설정 파일과 예제(.env.example 포함)는 모두 로컬에만 보관합니다. 실제 .env, API 키, DB 비밀번호, 가상환경, node_modules, 캐시, 로컬 Docker 볼륨은 전달하지 않습니다. 실제 자격증명은 팀 서버의 환경변수/비밀 저장소로 주입하세요.

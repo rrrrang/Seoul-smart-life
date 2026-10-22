@@ -25,7 +25,7 @@ $env:OPENROUTER_MODEL = 'nvidia/nemotron-3-ultra-550b-a55b:free'
 & '.\.venv\Scripts\python.exe' -m examples.recommend_snapshot_demo --target-month 2026-10 --domains economy energy comfort health safety --weights economy=20 energy=20 comfort=20 health=20 safety=20 --allow-provisional --allow-context-scores --live
 ```
 
-`--question`은 사용하지 않습니다. `.env.example`은 설정 이름 안내이며 .env 자동 로딩은 없습니다. 키는 백엔드 환경에만 주입하세요. 설명은 검증된 LLM 영역 선택을 사용해 Python이 사실 문장을 구성하며, LLM이 수치·순위를 계산하지 않습니다.
+`--question`은 사용하지 않습니다. 환경설정 파일과 예제 파일은 저장소에 포함하지 않습니다. 파일 단독 CLI는 .env를 자동으로 읽지 않습니다. 키는 백엔드 환경에만 주입하세요. 설명은 검증된 LLM 영역 선택을 사용해 Python이 사실 문장을 구성하며, LLM이 수치·순위를 계산하지 않습니다.
 
 ## 읽는 순서
 

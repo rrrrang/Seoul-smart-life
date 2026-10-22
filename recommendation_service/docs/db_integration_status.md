@@ -15,7 +15,7 @@
 
 ## 전달 범위
 
-순수 파일 추천은 `recommendation_service/`만으로 동작합니다. **새 DB/API/프론트 통합을 전달할 때는 이 폴더만으로 충분하지 않습니다.** 이번 백엔드 전달에는 저장소 루트의 `compose.recommendation.yml`, `recommendation.env.example`, `backend/`, `recommendation_service/`, 실행 문서가 필요합니다. 프론트는 담당자가 새 API 계약에 맞게 별도로 연결합니다. 실제 `.env.recommendation`, 프론트 `.env`, 가상환경, 캐시는 전달하지 않습니다.
+순수 파일 추천은 `recommendation_service/`만으로 동작합니다. **새 DB/API/프론트 통합을 전달할 때는 이 폴더만으로 충분하지 않습니다.** 이번 백엔드 전달에는 저장소 루트의 `compose.recommendation.yml`, `backend/`, `recommendation_service/`, 실행 문서가 필요합니다. 프론트는 담당자가 새 API 계약에 맞게 별도로 연결합니다. 환경설정 예제 파일과 실제 `.env.recommendation`, 프론트 `.env`, 가상환경, 캐시는 전달하지 않습니다.
 
 설정은 서버에서 `RECOMMENDATION_DATABASE_URL`, 선택적 `OPENROUTER_API_KEY`/`OPENROUTER_MODEL`로 주입합니다. `requirements-db.txt`는 DB 추가 의존성이고 FastAPI 실행 환경은 `backend/requirements.txt`로 설치합니다. 앱 시작/요청은 DDL이나 점수 적재를 실행하지 않습니다.
 

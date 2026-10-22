@@ -1,7 +1,11 @@
 .env
 .env.*
-!.env.example
 .venv*/
 __pycache__/
 .pytest_cache/
 local_results/
+
+# All environment files and templates stay local
+.env*
+*.env
+*.env.example

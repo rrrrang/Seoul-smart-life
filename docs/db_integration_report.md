@@ -47,7 +47,7 @@ py -3.11 -m venv .venv-db
 & .\.venv-db\Scripts\python.exe -m pip install -r backend/requirements.txt
 ```
 
-`recommendation.env.example`을 `.env.recommendation`으로 복사한 뒤 본인 로컬 비밀번호와 두 URL을 설정합니다. 기존 파일이 있으면 덮어쓰지 않습니다. 비밀번호는 충분히 긴 임의 영숫자/hex값으로 만들면 URL 인코딩 실수를 줄일 수 있습니다.
+로컬에 `.env.recommendation`을 직접 만든 뒤 본인 로컬 비밀번호와 두 URL을 설정합니다. 환경설정 파일과 예제 파일은 모두 Git에서 제외하며 공개 저장소에 올리지 않습니다. 기존 파일이 있으면 덮어쓰지 않습니다. 비밀번호는 충분히 긴 임의 영숫자/hex값으로 만들면 URL 인코딩 실수를 줄일 수 있습니다.
 
 ```dotenv
 RECOMMENDATION_DB_PASSWORD=YOUR_LOCAL_HEX_PASSWORD
