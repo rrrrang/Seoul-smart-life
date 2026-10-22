@@ -1,0 +1,64 @@
+/* 1. 공통 스타일 */
+
+/* 모든 요소에 border-box 적용 */
+* {
+  box-sizing: border-box;
+}
+
+/* 전체 페이지 기본 설정 */
+body {
+  margin: 0;
+  font-family: "Pretendard", Arial, sans-serif;
+  color: #171b33;
+}
+
+/* 버튼 기본 글꼴 */
+button {
+  font-family: inherit;
+}
+
+/* 2. 전체 페이지 레이아웃 */
+
+/* 사이드바 + 메인 영역 가로 배치 */
+/* 앱 전체 컨테이너 */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 헤더 + 메인 콘텐츠 세로 배치 */
+/* 메인 콘텐츠 영역 */
+.main-layout {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. 메인 콘텐츠 */
+
+.page-content {
+  flex: 1;
+  min-height: 0;
+  padding: 16px;
+  background: #f4f5f9;
+}
+
+/* 임시 안내 문구 */
+.content-placeholder {
+  margin: 0;
+  color: #9298aa;
+  font-size: 14px;
+}
+
+/* 4. 모바일 반응형 */
+
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+
+  .page-content {
+    padding: 14px;
+  }
+}
