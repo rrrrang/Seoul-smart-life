@@ -1,0 +1,32 @@
+{
+  "name": "seoul-recommendation",
+  "services": {
+    "recommendation-db": {
+      "image": "postgres:16",
+      "ports": [
+        "127.0.0.1:55432:5432"
+      ],
+      "environment": {
+        "POSTGRES_DB": "seoul_recommendation",
+        "POSTGRES_USER": "recommendation",
+        "POSTGRES_PASSWORD": "${RECOMMENDATION_DB_PASSWORD:?Set a local password in .env.recommendation}"
+      },
+      "volumes": [
+        "recommendation_pgdata:/var/lib/postgresql/data"
+      ],
+      "healthcheck": {
+        "test": [
+          "CMD-SHELL",
+          "pg_isready -U recommendation -d seoul_recommendation"
+        ],
+        "interval": "5s",
+        "timeout": "5s",
+        "retries": 12
+      },
+      "restart": "unless-stopped"
+    }
+  },
+  "volumes": {
+    "recommendation_pgdata": {}
+  }
+}

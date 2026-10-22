@@ -1,3 +1,28 @@
+# 추천 DB API 실행
+
+새 실데이터 경로는 `/api/recommendation`입니다. 아래 기존 `/api/*` 문서는 호환용 Mock 경로이며 새 화면에서는 사용하지 않습니다.
+
+저장소 루트에서:
+```powershell
+& .\.venv-db\Scripts\python.exe -m uvicorn backend.app.main:app --env-file .env.recommendation --host 127.0.0.1 --port 8000
+```
+`cd backend` 후 `uvicorn app.main:app`도 지원합니다(동일 환경변수 필요). 앱 시작은 DDL/적재를 실행하지 않습니다. DB 초기화/적재는 별도 CLI입니다.
+
+| 메서드 | 경로 | 용도 |
+|---|---|---|
+| GET | /api/recommendation/status | 활성 배포본/영역/DB 상태 |
+| GET | /api/recommendation/districts | 동별 점수의 구별 평균, 유효 개수 |
+| GET | /api/recommendation/regions | 6자리 행정동 명부 |
+| GET | /api/recommendation/scores | 100점 원점수/개인화 점수 |
+| GET | /api/recommendation/regions/{region_code} | 원천 기간/출처/공간 단위 |
+| POST | /api/recommendation/recommendations | weights, top_k(1~5), 선택 sigungu_code/release_id |
+| POST | /api/recommendation/compare | weights, region_codes(2~5), release_id |
+| POST | /api/recommendation/explanations | weights, 선택 region_codes, release_id |
+
+GET districts/scores의 weights는 다섯 키 JSON query입니다. 모든 응답의 snapshot_version을 다음 요청의 release_id로 전달하여 배포본을 고정합니다. 잘못된 입력422, 없는 지역/버전404, DB 장애/활성본 없음503입니다. DB 장애 시 Mock으로 대체하지 않습니다. LLM 키가 없거나 통신에 실패하면 서버에서 계산한 사실 기반 기본 설명을 반환합니다. OpenRouter 키는 서버 환경변수에만 둡니다.
+
+---
+
 # Seoul Smart Life 백엔드 시작용 코드
 
 서울 25개 자치구와 427개 행정동의 목록과 5개 점수를 돌려주는 FastAPI 서버예요.

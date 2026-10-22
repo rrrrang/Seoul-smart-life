@@ -10,3 +10,12 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+.venv-db/
+
+.test-tmp/
+
+# Generated assets in the separately maintained frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/

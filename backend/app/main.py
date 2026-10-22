@@ -3,20 +3,18 @@
 실행: uvicorn app.main:app --reload
 문서: http://127.0.0.1:8000/docs
 """
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import APIRouter, HTTPException
+from pathlib import Path
+import sys
 
-from app.mock_data import DOMAINS, DONGS, MOCK_DOMAINS, MOCK_SCORES, REGIONS, SAFETY_GRADES
+# Preserve the previous `cd backend; uvicorn app.main:app` launch path.
+_project_root = str(Path(__file__).resolve().parents[2])
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
 
-app = FastAPI(title="Seoul Smart Life API", version="0.1.0")
+from .mock_data import DOMAINS, DONGS, MOCK_DOMAINS, MOCK_SCORES, REGIONS, SAFETY_GRADES
 
-# 프론트(React, Vite 기본 주소)에서 이 서버를 부를 수 있게 허용
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+legacy_router = APIRouter(tags=["기존 Mock API"])
 
 # 지역 코드로 빨리 찾을 수 있게 사전으로 바꿔 둠 (자치구 25개 + 행정동 427개)
 # 자치구 코드: "11680" 같은 숫자 5자리 / 행정동 코드: "1111051500" 같은 숫자 10자리
@@ -43,7 +41,7 @@ def region_scores(region: dict) -> dict:
     }
 
 
-@app.get("/api/health")
+@legacy_router.get("/api/health")
 def health():
     """서버가 살아 있는지 확인."""
     return {"status": "ok"}
@@ -65,7 +63,7 @@ def regions_by_level(level: str, parent: str | None) -> list[dict]:
     return items
 
 
-@app.get("/api/regions")
+@legacy_router.get("/api/regions")
 def list_regions(level: str = "district", parent: str | None = None):
     """지역 목록.
 
@@ -77,7 +75,7 @@ def list_regions(level: str = "district", parent: str | None = None):
     return {"level": level, "count": len(items), "items": items, "is_mock": True}
 
 
-@app.get("/api/scores")
+@legacy_router.get("/api/scores")
 def list_scores(level: str = "district", parent: str | None = None):
     """여러 지역의 5개 점수를 한 번에 (순위·지도 색칠용).
 
@@ -96,13 +94,13 @@ def list_scores(level: str = "district", parent: str | None = None):
     }
 
 
-@app.get("/api/regions/{region_code}")
+@legacy_router.get("/api/regions/{region_code}")
 def get_region(region_code: str):
     """지역(자치구 또는 행정동) 하나의 정보."""
     return find_region(region_code)
 
 
-@app.get("/api/compare")
+@legacy_router.get("/api/compare")
 def compare_regions(codes: str):
     """여러 지역의 5개 점수를 한 번에 비교 (2~5개). 자치구·행정동 코드 모두 가능.
 
@@ -120,8 +118,18 @@ def compare_regions(codes: str):
     return {"domains": DOMAINS, "items": items, "is_mock": True, "mock_domains": MOCK_DOMAINS}
 
 
-@app.get("/api/regions/{region_code}/scores")
+@legacy_router.get("/api/regions/{region_code}/scores")
 def get_region_scores(region_code: str):
     """지역(자치구 또는 행정동) 하나의 5개 영역 점수 (치안만 진짜, 나머지는 가짜)."""
     region = find_region(region_code)
     return {**region_scores(region), "is_mock": True, "mock_domains": MOCK_DOMAINS}
+
+
+from .recommendation_api import build_app
+
+
+def create_app(repository=None, explanation_client=None):
+    return build_app(legacy_router, repository=repository, explanation_client=explanation_client)
+
+
+app = create_app()
