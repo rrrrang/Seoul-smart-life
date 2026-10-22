@@ -1,8 +1,10 @@
-> 상태: 파일 스냅샷 기반 추천 모듈입니다. PostgreSQL·FastAPI·프론트 연결은 아직 포함하지 않았습니다. 저장소의 기존 services/ 경로와 혼동하지 않도록 서버에서는 `from recommendation_service import ...`를 사용하세요.
+> 이번 전달의 시작 문서는 저장소 루트 docs/backend_handoff.md입니다. frontend/ 변경은 이번 PR에 포함하지 않습니다.
+
+> 상태(2026-10-22): 파일 단독 추천에 더해 로컬 PostgreSQL 어댑터와 API용 application을 구현했습니다. 통합 실행은 저장소 루트의 docs/db_integration_report.md, 현재 검증 범위는 docs/db_integration_status.md를 확인하세요. 이번 백엔드 전달은 별도 PR로 공유하며 프론트 변경은 제외합니다.
 
 # 서울 생활환경 추천: 백엔드 인수인계
 
-현재 기준: **슬라이더로 5대 영역 중요도 입력 → 행정동 TOP 5 → 추천 근거·주의할 점 표시**. 사용자 자연어 질문 UI는 사용하지 않습니다. 이 폴더 전체를 작업 루트로 사용하면 됩니다. FastAPI·DB·프론트 코드는 포함하지 않았습니다.
+현재 기준: **슬라이더로 5대 영역 중요도 입력 → 행정동 TOP 5 → 추천 근거·주의할 점 표시**. 사용자 자연어 질문 UI는 사용하지 않습니다. 파일 단독 실행은 이 폴더를 작업 루트로 사용합니다. DB 어댑터는 database/에, FastAPI와 프론트 코드는 저장소 루트 backend/와 frontend/에 있습니다.
 
 ## 빠른 실행
 
@@ -54,7 +56,7 @@ $env:OPENROUTER_MODEL = 'nvidia/nemotron-3-ultra-550b-a55b:free'
 
 쾌적은 2026-09 **25개 자치구의 월별 상대점수**를 sigungu_code로 427개 동에 연결했습니다. 같은 구 동들은 쾌적 점수가 같습니다. 동별 관측값·절대 환경등급·현재 실시간 상태가 아닙니다. 보간·추정 플래그와 원래 공간단위·기간을 보존했습니다. 원천 공공자료 설명서와 운영 승인은 아직 미제공입니다.
 
-모델 재학습 파일·가상환경·실제 키는 제외했습니다. Git 업로드는 하지 않았습니다. 이 폴더의 서비스 함수는 화면 전체를 지원하는 완성 API가 아닙니다. 전체 지도 조회·자치구 필터·자치구 집계·TOP10·관측 추이는 별도 계약/구현이 필요합니다.
+모델 재학습 파일·가상환경·실제 키는 제외했습니다. 새 DB 연동 변경은 별도 백엔드 전달 브랜치/PR로 공유합니다. 새 API는 전체 점수 조회·자치구 필터·동 점수 평균 집계·TOP5·지역 비교를 지원합니다. 관측 추이는 미제공입니다.
 
 
 ## 백엔드 전달 데이터 위치
@@ -64,3 +66,13 @@ $env:OPENROUTER_MODEL = 'nvidia/nemotron-3-ultra-550b-a55b:free'
 서버 연동은 저장소 루트에서 `from recommendation_service import load_snapshot_dataset, recommend_snapshots, generate_snapshot_explanation`로 시작합니다. 기존 최상위 services 모듈을 import하면 과거 구현을 읽을 수 있으므로 섞어 쓰지 마세요.
 
 DB 연결에 남은 작업은 `docs/db_integration_status.md`, 수정한 입력 검증과 검증 결과는 `docs/release_notes.md`를 참고하세요.
+
+## DB/API 연동 파일
+
+- database/: 명시적 초기화, 불변 점수 배포본 저장/복원/활성 전환
+- services/ai_recommendation/api_schemas.py: 5개 슬라이더 필수 및 코드/배포본 검증
+- services/ai_recommendation/application.py: 기존 계산 엔진 재사용, 화면 요약/비교/설명
+- data/region_identity.json: 프로젝트 코드와 기존 지도 경계 키의 검증된 대응
+- tests/db/: 실제 PostgreSQL 무결성/일관성/롤백/응용 테스트
+
+단독 import는 SQLAlchemy를 강제하지 않습니다. DB 응용은 `from recommendation_service.services.ai_recommendation.application import RecommendationApplication`로 명시적으로 가져옵니다.

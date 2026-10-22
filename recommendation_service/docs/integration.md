@@ -1,3 +1,5 @@
+> 현재 DB/API 통합은 저장소 루트 docs/db_integration_report.md 및 backend/README.md를 확인하세요. 아래 첫 예제는 파일 단독 추천용이며 새 실데이터 API의 DB 읽기 경로를 대체하지 않습니다.
+
 # 슬라이더 입력 연동
 
 FastAPI route는 백엔드 담당 범위다. 아래는 서비스 함수 사용 예시다. 아래 서버 예제는 recommendation_service가 있는 저장소 루트에서 실행한다. 라이브러리는 명시적으로 recommendation_service에서 import한다. CLI는 README처럼 recommendation_service 폴더 안에서 실행한다. 데이터 경로는 서버 설정의 절대 경로로 바꿔도 된다.
@@ -44,3 +46,31 @@ async def handle_recommendation(weights: dict[str, float], top_k: int = 5):
 ## 범위
 
 사용자 자연어 추출과 질문 UI는 사용하지 않는다. 기존 answer_snapshot_question은 호환용으로 남아 있으며 기본 화면 응답에는 question status가 없다. API 응답은 recommendation/explanation 묶음이다. FastAPI·DB·프론트 코드, 전체 지역/자치구 조회·TOP10·집계·관측 추이는 별도 구현이다. TOP5 결과만으로 전체 지도를 채우지 않는다.
+
+## DB 응용 함수 사용 예시
+
+저장소 루트에서 실행하고 서버 설정으로 DB URL을 주입합니다. 아래 코드는 테이블을 만들거나 자료를 적재하지 않습니다. 초기화/적재/활성 전환은 별도 CLI입니다.
+
+```python
+import os
+from recommendation_service.database.connection import create_db_engine
+from recommendation_service.database.repository import SnapshotRepository
+from recommendation_service.services.ai_recommendation.application import RecommendationApplication
+from recommendation_service.services.ai_recommendation.api_schemas import SliderRequest, CompareRequest, ExplainRequest
+
+engine = create_db_engine(os.environ["RECOMMENDATION_DATABASE_URL"])
+application = RecommendationApplication(SnapshotRepository(engine))
+weights = {"economy":20,"energy":15,"comfort":25,"health":20,"safety":20}
+result = application.recommend(SliderRequest(weights=weights, top_k=5))
+version = result["snapshot_version"]
+compared = application.compare(CompareRequest(
+    weights=weights, release_id=version, region_codes=["110515", "110530"]
+))
+# async 서버 핸들러 내부에서, 키 없이 기본 설명:
+# explained = await application.explain(ExplainRequest(
+#     weights=weights, release_id=version, region_codes=["110515"]
+# ), client=None)
+# 서버 종료 시: engine.dispose()
+```
+
+동기 DB/계산은 API의 threadpool에서 실행합니다. 비동기 설명 use case는 DB 선행 작업을 asyncio.to_thread로 옮깁니다. FastAPI appfactory가 엔진과 선택적 HTTPX 클라이언트의 수명주기를 관리하므로 요청마다 새 엔진을 만들지 마세요.
