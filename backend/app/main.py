@@ -126,10 +126,19 @@ def get_region_scores(region_code: str):
 
 
 from .recommendation_api import build_app
-
+from .seoul_environment import router as environment_router
 
 def create_app(repository=None, explanation_client=None):
-    return build_app(legacy_router, repository=repository, explanation_client=explanation_client)
+    application = build_app(
+        legacy_router,
+        repository=repository,
+        explanation_client=explanation_client,
+    )
+
+    # 서울시 미세먼지 API가 이미 등록되어 있다면 유지
+    application.include_router(environment_router)
+
+    return application
 
 
 app = create_app()
