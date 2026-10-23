@@ -1,0 +1,517 @@
+.detail-analysis {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.detail-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.detail-page-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.detail-page-header h1 {
+  margin: 0 0 6px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.detail-page-header p,
+.detail-muted {
+  margin: 0;
+  color: #7e86a3;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.detail-progress-tag {
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #eeedff;
+  color: #6159ca;
+  font-size: 11px;
+  white-space: nowrap;
+}
+/* 3열 레이아웃 */
+.detail-layout {
+  display: grid;
+
+  /* 왼쪽 너비 축소 / 가운데 지도 확대 / 오른쪽 유지 */
+  grid-template-columns:
+    minmax(200px, 0.75fr)
+    minmax(340px, 2.00fr)
+    minmax(285px, 1.45fr);
+  align-items: start;
+  gap: 16px;
+}
+/* 왼쪽 가중치와 추천 TOP 10 구성 */
+.detail-left-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+.detail-panel {
+  min-width: 0;
+  background: white;
+  border: 1px solid #e3e6ef;
+  border-radius: 14px;
+  padding: 20px;
+}
+.detail-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.detail-panel-heading h2 {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* 가중치와 지도를 복원하는 초기화 버튼 */
+.detail-reset-button {
+  border: 1px solid #dddff0;
+  background: #f8f8ff;
+  color: #5655a4;
+  border-radius: 7px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 8px;
+}
+/* 가중치 슬라이더 구성 */
+.detail-weight-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+.detail-weight-item {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.detail-weight-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 14px;
+}
+.detail-weight-label strong {
+  font-size: 14px;
+  color: #4f46e5;
+}
+.detail-weight-item input {
+  width: 100%;
+  accent-color: #6258d7;
+  cursor: pointer;
+}
+.detail-weight-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding-top: 18px;
+  border-top: 1px solid #eef0f5;
+  font-size: 14px;
+}
+.detail-help {
+  color: #9298aa;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+.detail-pending {
+  height: 280px;
+  padding: 28px 12px;
+  border-radius: 10px;
+  background: #f7f8fc;
+  color: #9298aa;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.detail-pending p {
+  margin: 7px 0 0;
+}
+/* 가운데 지도 패널 */
+.detail-map-panel .seoul-map-container {
+  height: 732px;
+  margin-top: 12px;
+}
+.detail-map-note {
+  margin: 14px 0 0;
+  color: #9298aa;
+  font-size: 11px;
+}
+.detail-selected-area {
+  padding: 20px;
+  background: #f7f8fc;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.detail-selected-area span {
+  font-size: 14px;
+  color: #9298aa;
+}
+.detail-selected-area h3 {
+  font-size: 20px;
+  margin: 12px 0;
+}
+.detail-selected-area p {
+  margin: 0;
+  color: #7e86a3;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* 행정동 드롭다운 전체 */
+.detail-select-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* select */
+#detail-dong-select {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 0 55px 0 14px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #ffffff;
+
+  font-size: 13px;
+  color: #1f2937;
+  box-sizing: border-box;
+
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+/* 오른쪽 화살표 영역 */
+.detail-select-icon {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f7f8fc;
+  border-left: 1px solid #e3e6ef;
+  border-radius: 0 9px 9px 0;
+  color: #64748b;
+
+  /* 클릭은 실제 select가 처리 */
+  pointer-events: none;
+}
+
+/* 키보드 포커스 */
+#detail-dong-select:focus-visible {
+  outline: 2px solid #6258d7;
+  outline-offset: 2px;
+}
+
+.detail-overall-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 18px 0;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #eef0f5;
+  /* font-size: 13px; */
+}
+.detail-overall-score span {
+  color: #4e515c;
+  font-size: 16px;
+  font-weight: 600;
+}
+.detail-overall-score strong {
+  color: #9298aa;
+  font-size: 15px;
+}
+.detail-tab-group {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: #f4f5f9;
+  padding: 6px;
+  border-radius: 10px;
+  gap: 3px;
+}
+.detail-tab-group button {
+  min-width: 0;
+  padding: 9px 3px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: #7e86a3;
+  font-size: 14px;
+  cursor: pointer;
+}
+.detail-tab-group button.active {
+  background: #fff;
+  color: #4f46e5;
+  font-weight: 700;
+  box-shadow: 0 1px 4px #10163815;
+}
+.detail-tab-content {
+  margin-top: 16px;
+  min-height: 205px;
+}
+.detail-score-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.detail-score-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 18px 0;
+  border-bottom: 1px solid #eef0f5;
+  font-size: 14px;
+  font-weight: 600;
+}
+.detail-score-row strong {
+  color: #9298aa;
+  font-size: 12px;
+}
+.detail-score-track {
+  flex:1; min-width:0;
+  height:9px;
+  background:#edf0f5;
+  border-radius:99px;
+  overflow:hidden;
+}
+.detail-score-fill {
+  height:100%;
+  border-radius:inherit;
+  background:#635bce;
+}
+.detail-score-row {
+  align-items:center;
+}
+.detail-score-row > span {
+  min-width:88px;
+}
+.detail-insight {
+  margin-top: 18px;
+  padding: 15px;
+  background: #f0f0ff;
+  border-radius: 10px;
+}
+.detail-insight h3 {
+  margin: 0 0 7px;
+  font-size: 12px;
+  color: #4338ca;
+}
+.detail-insight p {
+  margin: 0;
+  color: #565e7c;
+  font-size: 12px;
+  line-height: 1.6;
+}
+/* TOP 10 순위 항목 */
+.detail-ranking-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  height: 46px;
+  min-height: 46px;
+  box-sizing: border-box;
+
+  padding: 8px 10px;
+  margin: 0;
+
+  border: 1px solid #e3e6ef;
+  border-radius: 10px;
+  background: #ffffff;
+  font-size: 14px;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.detail-ranking-item:hover {
+  background: #f5f4ff;
+  border-color: #c7c3fa;
+}
+
+.detail-ranking-item:focus-visible {
+  outline: 2px solid #6258d7;
+  outline-offset: -2px;
+}
+/* 순위 번호 */
+.detail-ranking-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background: #eef0ff;
+  color: #4f46e5;
+  border-radius: 7px;
+  font-weight: 700;
+}
+/* 행정동 이름 */
+.detail-ranking-name {
+  flex: 1;
+  min-width: 0;
+  font-weight: 600;
+}
+/* 종합점수 */
+.detail-ranking-item strong {
+  color: #1e40af;
+  white-space: nowrap;
+}
+/* TOP 10 추천 박스 */
+.detail-ranking-panel {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+}
+/* 화면에는 5개 항목만 표시 */
+.detail-ranking-panel .detail-ranking-list {
+  height: 270px;
+  min-height: 270px;
+  flex: none;
+
+  overflow: hidden;
+  position: relative;
+}
+/* 자동으로 위로 이동하는 목록 */
+.detail-ranking-track {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  will-change: transform;
+}
+/* 한 칸씩 부드럽게 이동 */
+.detail-ranking-track.is-animated {
+  transition: transform 0.6s ease-in-out;
+}
+.detail-data-placeholder {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  font-size:12px;
+  color:#66718e;
+}
+.detail-data-placeholder h3 {
+  font-size:16px;
+  color:#252944;
+  margin:0;
+}
+.detail-data-placeholder p {
+  margin:0;
+  font-size: 13px;
+}
+.detail-empty-chart {
+  min-height: 194px;
+  border:1px dashed #cfd5e3;
+  background:#f8f9fd;
+  border-radius:10px;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  padding:14px;
+}
+.detail-tab-content .detail-data-placeholder small {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.detail-average-table {
+  overflow-x:auto;
+}
+.detail-average-table table {
+  border-collapse:collapse;
+  width:100%; 
+  font-size: 14px;
+  margin-top: 18px;
+}
+.detail-average-table td,
+.detail-average-table th {
+  padding: 10px 8px;
+  border-bottom:1px solid #e7eaf2;
+  text-align:right;
+  white-space:nowrap;
+}
+.detail-average-table th:first-child {
+  text-align:left;
+}
+
+/* ==========================================
+   AI 추천 근거 / 주의할 점
+========================================== */
+
+.detail-ai-insights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* 공통 카드 */
+.detail-ai-card {
+  min-width: 0;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+/* 카드 제목 */
+.detail-ai-card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* 카드 설명 */
+.detail-ai-card p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #586174;
+  overflow-wrap: anywhere;
+}
+
+/* 추천 근거 - 초록색 */
+.detail-ai-card.recommendation {
+  background: #dfffe9;
+}
+
+.detail-ai-card.recommendation h3 {
+  color: #15833d;
+}
+
+/* 주의할 점 - 주황색 */
+.detail-ai-card.caution {
+  background: #fce7d8;
+}
+
+.detail-ai-card.caution h3 {
+  color: #c65b13;
+}
+
+/* 움직임 감소 설정을 사용하는 경우 */
+@media (prefers-reduced-motion: reduce) {
+  .detail-ranking-track.is-animated {
+    transition-duration: 0.01ms;
+  }
+}
