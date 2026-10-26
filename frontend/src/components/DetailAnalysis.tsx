@@ -91,8 +91,6 @@ const aiExplanation = currentAI?.response?.explanation;
 const aiLoading = Boolean(selectedDongCode && weightSum > 0 && (!currentAI || currentAI.loading));
 const aiError = weightSum === 0 ? "가중치를 하나 이상 설정해 주세요." : currentAI?.error ?? "";
 const selectedExplanation = aiExplanation?.items[0];
-const explanationStatus = aiExplanation?.generation_status === "llm"
-  ? "AI 생성 설명" : "기본 설명 · AI 생성 실패 또는 미연결";
 const recommendationReason = selectedExplanation?.advantages ?? "현재 조건에 맞는 설명이 없습니다.";
 const cautionReason = selectedExplanation?.disadvantages ?? "현재 조건에 맞는 설명이 없습니다.";
 
@@ -572,7 +570,7 @@ const mapDongScores = useMemo(() => dongScores.flatMap(item => {
                     : aiError
                       ? `AI 분석 오류: ${aiError}`
                       : selectedExplanation
-                        ? `${explanationStatus}: ${recommendationReason}`
+                        ? `${recommendationReason}`
                         : recommendationReason}
               </p>
             </div>
