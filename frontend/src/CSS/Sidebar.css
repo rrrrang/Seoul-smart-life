@@ -1,0 +1,154 @@
+/* 1. 사이드바 전체 영역 */
+.sidebar {
+  width: 225px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border-right: 1px solid #e3e6ef;
+
+  display: flex;
+  flex-direction: column;
+
+  /* 콘텐츠 높이에 따라 늘어나도록 변경 */
+  height: auto;
+  min-height: 100vh;
+
+  box-sizing: border-box;
+}
+
+/* 로고 영역 */
+.sidebar-logo {
+  height: 75px; /* 로고 영역 높이 */
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+
+  padding: 0 19px;
+  border-bottom: 1px solid #e3e6ef; 
+
+  font-size: 15px; 
+  font-weight: 700; 
+  white-space: nowrap; /* 글자가 다음 줄로 넘어가지 않도록 설정 */
+}
+
+/* 집 모양 아이콘을 감싸는 원형 배경 */
+.logo-icon {
+  width: 33px; 
+  height: 33px; 
+
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+
+  flex-shrink: 0;
+  border-radius: 30%;
+  background: #4f46e5; 
+}
+
+/* 로고 텍스트 전체 */
+.logo-text {
+  display: flex;
+  flex-direction: column; 
+  gap: 5px;
+  min-width: 0;
+}
+
+/* Seoul Smart Life 제목 */
+.logo-text span {
+  color: #171b33;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* 제목 아래 설명 */
+.logo-text p {
+  margin: 0; 
+  color: #8b90a7;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 0.9;
+  overflow-wrap: anywhere;
+}
+
+/* 3. 사이드바 메뉴 영역 */
+.sidebar-nav {
+  padding: 16px 11px;
+}
+
+/* 환경 진단, 설정 등의 메뉴 그룹 */
+.menu-group {
+  margin-bottom: 20px; 
+}
+
+/* 개별 메뉴 버튼 */
+/* 사이드 메뉴 선택 상태 */
+.menu-item {
+  display: block; 
+  width: 100%; 
+
+  padding: 11px 10px;
+  border: none; 
+  border-radius: 9px; 
+
+  background: transparent; 
+  color: #565e7c; 
+
+  text-align: left; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+/* 메뉴에 마우스를 올렸을 때 */
+.menu-item:hover {
+  background: #f4f5fa; 
+}
+
+/* 현재 선택된 메뉴 */
+.menu-item.active {
+  background: #eef0fc; 
+  color: #171b33;
+  font-weight: 700;
+}
+
+/* 사이드바 하단 환경 지표 */
+.sidebar-exposure {
+  margin-top: auto;
+
+  padding: 18px 14px;
+  border-top: 1px solid #e5e7eb;
+
+  flex-shrink: 0;
+}
+
+/* 환경 지표 제목 */
+.sidebar-exposure h3 {
+  margin: 0 0 14px;
+  
+  font-size: 13px;
+  font-weight: 700;
+  color: #25304b;
+}
+
+/* 환경 지표 한 줄 */
+.sidebar-exposure-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 9px 0;
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* 측정값 */
+.sidebar-exposure-value {
+  font-weight: 600;
+  color: #6556d9;
+}
+.sidebar-exposure-status {
+  font-size:10px;
+  color:#8b90a7;
+  margin:4px 0 10px;
+}
+
+
